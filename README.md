@@ -4,7 +4,7 @@ NCCL - New Concept C Language
 please use <http://codepad.org/> to run/test these C programs!
 
 # Unit One
-## Lesson 1 What is a simplest c program
+## Lesson 1 What is a simplest c program?
 	int main(void)
 	{
 		return 0;
@@ -15,7 +15,8 @@ please use <http://codepad.org/> to run/test these C programs!
 ### void函数参数
 ### return返回值
 
-## Lesson 2 printf helloworld
+
+## Lesson 2 Let's say hello 
 	#include <stdio.h>
 
 	int main(void)
@@ -23,6 +24,12 @@ please use <http://codepad.org/> to run/test these C programs!
 		printf("hello, NCCL!\n");
 		return 0;
 	}
+
+### include头文件
+### printf打印函数
+### 字符串
+### \n转义字符
+
 
 ## Lesson 3 while loop
 	#include <stdio.h>
