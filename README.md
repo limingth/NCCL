@@ -258,7 +258,8 @@ Output:
 	- 函数指针数组
 	- <http://akaedu.github.com/book/ch23s08.html>
 
-## Let's have a break here! The next 3 lessons are projects you should do it by yourself.
+## Let's have a break here! 
+## The next 3 lessons are projects you should do it by yourself.
 
 ## Lesson 22 Guess what number in my hand (猜数游戏)
 	猜数游戏：电脑随机产生4位数，然后用户输入4位数，电脑告诉你是?A?B
