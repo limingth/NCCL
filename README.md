@@ -132,8 +132,8 @@ please use <http://codepad.org/> to run/test these C programs!
 	- 嵌套循环语句 for-for
 	- 二层逻辑嵌套  
 
+Output:
 
-* Output:
 	1*1=1	
 	1*2=2	2*2=4	
 	1*3=3	2*3=6	3*3=9	
