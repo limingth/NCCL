@@ -17,12 +17,12 @@ please use <http://codepad.org/> to run/test these C programs!
 	- 函数返回值 return 
 
 
-## Lesson 2 Let's say hello 
+## Lesson 2 Let's say hello to world
 	#include <stdio.h>
 
 	int main(void)
 	{
-		printf("hello, NCCL!\n");
+		printf("hello, world!\n");
 		return 0;
 	}
 
@@ -34,7 +34,7 @@ please use <http://codepad.org/> to run/test these C programs!
 	- 转义字符 \n
 
 
-## Lesson 3 while loop
+## Lesson 3 Count how many fingers do you have?
 	#include <stdio.h>
 
 	int main(void)
@@ -52,7 +52,31 @@ please use <http://codepad.org/> to run/test these C programs!
 		return 0;
 	}
 
-## Lesson 4 main function
+* 语法知识点
+	- 变量 (局部)
+	- 定义和声明
+	- 循环语句 while
+	- 比较表达式 <=
+	- 自增运算符 ++
+
+## Lesson 4 Judge a number odd or even
+	#include <stdio.h>
+
+	int main(void)
+	{
+		int num;
+
+		printf("please input a number: ");
+		scanf("%d", &num);
+
+		if (num % 2 == 0)
+			printf("number %d is even\n", num);
+		else	
+			printf("number %d is odd\n", num);
+
+		return 0;
+	}
+
 ## Lesson 5 main function
 ## Lesson 6 main function
 ## Lesson 7 main function
