@@ -228,7 +228,7 @@ Output:
 	- 位操作 &, |, ~, ^
 	- 优化算法效率 <http://hi.baidu.com/bobchennan/item/169952dc515045e4795daa10>
 	
-## Lesson 16 
+## Lesson 16 Bit-Field (位域操作)
 * 语法知识点
 	- 位域	
 	
