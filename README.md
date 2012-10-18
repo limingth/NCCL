@@ -217,8 +217,8 @@ Output:
 ## Lesson 14 Convert a number to a string (整型转字符串)
 * 语法知识点
 	- 进制表示 oct, dec, hex
-	- 三元表达式
-	- 字符串逆序
+	- 三元表达式 a > b ? a : b
+	- 字符串逆序 reverse()
 	- 字符串库函数 itoa 
 	
 ## Let's have a break here!
@@ -226,9 +226,10 @@ Output:
 ## Lesson 15 Count how many bit 1 in a number (统计一个数二进制表示中1的个数)
 * 语法知识点
 	- 位操作 &, |, ~, ^
-
+	- 优化算法效率 <http://hi.baidu.com/bobchennan/item/169952dc515045e4795daa10>
 	
 ## Lesson 16 main function
+
 ## Lesson 17 main function
 ## Lesson 18 main function
 ## Lesson 19 main function
