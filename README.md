@@ -9,11 +9,12 @@ please use <http://codepad.org/> to run/test these C programs!
 	{
 		return 0;
 	}
-	
-### int类型
-### main函数
-### void函数参数
-### return返回值
+
+* 语法知识点
+	- int类型
+	- main函数
+	- void函数参数
+	- return返回值
 
 
 ## Lesson 2 Let's say hello 
