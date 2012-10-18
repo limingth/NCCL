@@ -19,7 +19,7 @@ please use <http://codepad.org/> to run/test these C programs!
 		return 0;
 	}
 
-## Lesson 3 expressions
+## Lesson 3 while loop
 	#include <stdio.h>
 
 	int main(void)
