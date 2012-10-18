@@ -39,10 +39,11 @@ please use <http://codepad.org/> to run/test these C programs!
 
 	int main(void)
 	{
-		int counter = 0;
+		int counter;
 
 		printf("hello, NCCL!\n");
-
+		
+		counter =  0;
 		while (counter <= 10)
 		{
 			printf("counter = %d\n", counter);
@@ -90,7 +91,7 @@ please use <http://codepad.org/> to run/test these C programs!
 
 	int main(void)
 	{
-		int sum;
+		int sum = 0;
 
 		for (int i = 0; i <= 100; i++)
 		{
@@ -129,7 +130,7 @@ please use <http://codepad.org/> to run/test these C programs!
 
 * 语法知识点
 	- 嵌套循环语句 for-for
-	- 逻辑设计
+	- 二层逻辑嵌套
 
 * Output:
 	1*1=1	
@@ -144,25 +145,39 @@ please use <http://codepad.org/> to run/test these C programs!
 
 ## Lesson 7 Find a max prime number within 100
 	#include <stdio.h>
+	#include <math.h>
 
 	int main(void)
 	{
 		int sum;
+		int i, j;
+		int max = 0;
+		int tmp;
 
-		for (int i = 0; i <= 100; i++)
+		for (i = 1; i <= 100; i++)
 		{
-			sum += i;
+			tmp = (int)sqrt(i);
+
+			for (j = 2; j <= tmp; j++)
+			{
+				if (i % j == 0)
+					break;
+			}
+
+			if (j == tmp + 1)
+				max = i;
 		}
 
-		printf("sum = %d\n", sum);
+		printf("max = %d\n", max);
 
 		return 0;
 	}
 
 * 语法知识点
-	- 循环语句 for
-	- 自动变量 i
-	- 赋值运算符 +=
+	- 数学头文件 math.h
+	- 数学库函数 sqrt
+	- 强制类型转换 (int)
+	- 三层逻辑嵌套
 
 ## Lesson 8 main function
 ## Lesson 9 main function
