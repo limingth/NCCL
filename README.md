@@ -11,10 +11,10 @@ please use <http://codepad.org/> to run/test these C programs!
 	}
 
 * 语法知识点
-	- int类型
-	- main函数
-	- void函数参数
-	- return返回值
+	- 数据类型 int 
+	- 函数 main 
+	- 函数参数 void 
+	- 函数返回值 return 
 
 
 ## Lesson 2 Let's say hello 
@@ -26,10 +26,12 @@ please use <http://codepad.org/> to run/test these C programs!
 		return 0;
 	}
 
-### include头文件
-### printf打印函数
-### 字符串
-### \n转义字符
+* 语法知识点
+	- 预处理 include
+	- 头文件 stdio.h
+	- 标准库函数 printf
+	- 字符串
+	- 转义字符 \n
 
 
 ## Lesson 3 while loop
