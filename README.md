@@ -131,7 +131,7 @@ please use <http://codepad.org/> to run/test these C programs!
 	- 嵌套循环语句 for-for
 	- 逻辑设计
 
-	Output:
+* Output:
 
 	1*1=1	
 	1*2=2	2*2=4	
