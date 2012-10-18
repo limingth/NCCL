@@ -229,13 +229,39 @@ Output:
 	- 优化算法效率 <http://hi.baidu.com/bobchennan/item/169952dc515045e4795daa10>
 	
 ## Lesson 16 
-
+* 语法知识点
+	- 位域	
+	
 ## Lesson 17 
+* 语法知识点
+	- 指针
+
 ## Lesson 18 
+* 语法知识点
+	- 函数指针
+
 ## Lesson 19 
+* 语法知识点
+	- 指针数组
+
 ## Lesson 20 
+
 ## Lesson 21 
-## Lesson 22 
+
+## Lesson 22 Guess what number in my hand (猜数游戏)
+	猜数游戏：电脑随机产生4位数，然后用户输入4位数，电脑告诉你是?A?B
+	请你最后猜出电脑的4位数是多少？	
+	(A表示位置和数字都对，B表示位置不对，数字对)
+
+* 语法知识点
+	- 基本输入输出
+	- 字符串转整数
+	- 一维数组
+	- while/for/if/else/break
+	- 函数设计
+	- 二层循环
+	- 位操作
+
 ## Lesson 23 
 ## Lesson 24 
 
