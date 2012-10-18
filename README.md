@@ -228,92 +228,92 @@ Output:
 	- 位操作 &, |, ~, ^
 	- 优化算法效率 <http://hi.baidu.com/bobchennan/item/169952dc515045e4795daa10>
 	
-## Lesson 16 main function
+## Lesson 16 
 
-## Lesson 17 main function
-## Lesson 18 main function
-## Lesson 19 main function
-## Lesson 20 main function
-## Lesson 21 main function
-## Lesson 22 main function
-## Lesson 23 main function
-## Lesson 24 main function
+## Lesson 17 
+## Lesson 18 
+## Lesson 19 
+## Lesson 20 
+## Lesson 21 
+## Lesson 22 
+## Lesson 23 
+## Lesson 24 
 
 # Unit Two
-## Lesson 25 main function
-## Lesson 26 main function
-## Lesson 27 main function
-## Lesson 28 main function
-## Lesson 29 main function
-## Lesson 30 main function
-## Lesson 31 main function
-## Lesson 32 main function
-## Lesson 33 main function
-## Lesson 34 main function
-## Lesson 35 main function
-## Lesson 36 main function
-## Lesson 37 main function
-## Lesson 38 main function
-## Lesson 39 main function
-## Lesson 40 main function
-## Lesson 41 main function
-## Lesson 42 main function
-## Lesson 43 main function
-## Lesson 44 main function
-## Lesson 45 main function
-## Lesson 46 main function
-## Lesson 47 main function
-## Lesson 48 main function
+## Lesson 25 
+## Lesson 26 
+## Lesson 27 
+## Lesson 28 
+## Lesson 29 
+## Lesson 30 
+## Lesson 31 
+## Lesson 32 
+## Lesson 33 
+## Lesson 34 
+## Lesson 35 
+## Lesson 36 
+## Lesson 37 
+## Lesson 38 
+## Lesson 39 
+## Lesson 40 
+## Lesson 41 
+## Lesson 42 
+## Lesson 43 
+## Lesson 44 
+## Lesson 45 
+## Lesson 46 
+## Lesson 47 
+## Lesson 48 
 
 # Unit Three
-## Lesson 49 main function
-## Lesson 50 main function
-## Lesson 51 main function
-## Lesson 52 main function
-## Lesson 53 main function
-## Lesson 54 main function
-## Lesson 55 main function
-## Lesson 56 main function
-## Lesson 57 main function
-## Lesson 58 main function
-## Lesson 59 main function
-## Lesson 60 main function
-## Lesson 61 main function
-## Lesson 62 main function
-## Lesson 63 main function
-## Lesson 64 main function
-## Lesson 65 main function
-## Lesson 66 main function
-## Lesson 67 main function
-## Lesson 68 main function
-## Lesson 69 main function
-## Lesson 70 main function
-## Lesson 71 main function
-## Lesson 72 main function
+## Lesson 49 
+## Lesson 50 
+## Lesson 51 
+## Lesson 52 
+## Lesson 53 
+## Lesson 54 
+## Lesson 55 
+## Lesson 56 
+## Lesson 57 
+## Lesson 58 
+## Lesson 59 
+## Lesson 60 
+## Lesson 61 
+## Lesson 62 
+## Lesson 63 
+## Lesson 64 
+## Lesson 65 
+## Lesson 66 
+## Lesson 67 
+## Lesson 68 
+## Lesson 69 
+## Lesson 70 
+## Lesson 71 
+## Lesson 72 
 
 # Unit Four
-## Lesson 73 main function
-## Lesson 74 main function
-## Lesson 75 main function
-## Lesson 76 main function
-## Lesson 77 main function
-## Lesson 78 main function
-## Lesson 79 main function
-## Lesson 80 main function
-## Lesson 81 main function
-## Lesson 82 main function
-## Lesson 83 main function
-## Lesson 84 main function
-## Lesson 85 main function
-## Lesson 86 main function
-## Lesson 87 main function
-## Lesson 88 main function
-## Lesson 89 main function
-## Lesson 90 main function
-## Lesson 91 main function
-## Lesson 92 main function
-## Lesson 93 main function
-## Lesson 94 main function
-## Lesson 95 main function
-## Lesson 96 main function
+## Lesson 73 
+## Lesson 74 
+## Lesson 75 
+## Lesson 76 
+## Lesson 77 
+## Lesson 78 
+## Lesson 79 
+## Lesson 80 
+## Lesson 81 
+## Lesson 82 
+## Lesson 83 
+## Lesson 84 
+## Lesson 85 
+## Lesson 86 
+## Lesson 87 
+## Lesson 88 
+## Lesson 89 
+## Lesson 90 
+## Lesson 91 
+## Lesson 92 
+## Lesson 93 
+## Lesson 94 
+## Lesson 95 
+## Lesson 96 
 
