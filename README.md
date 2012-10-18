@@ -232,21 +232,31 @@ Output:
 * 语法知识点
 	- 位域	
 	
-## Lesson 17 
+## Lesson 17 My printf (我的printf实现)
 * 语法知识点
 	- 指针
+	- 栈帧
+	- printf(fmt, ...)
 
-## Lesson 18 
+## Lesson 18 Find how many words in an artitle (统计一个文本中的单词个数)
+* 语法知识点
+	- 指向指针的指针
+	- char * strtok_r(char * s, const char * delim, char **saveptr);
+	- 可重入和不可重入函数
+
+## Lesson 19 Shell command parser (命令解释器)
+* 语法知识点
+	- 指针数组
+	- main(argc, argv)
+
+## Lesson 20 Install IRQ handler (安装中断处理程序)
 * 语法知识点
 	- 函数指针
 
-## Lesson 19 
+## Lesson 21 RECTANGULAR and POLAR(直角坐标和极坐标互换)
 * 语法知识点
-	- 指针数组
-
-## Lesson 20 
-
-## Lesson 21 
+	- 函数指针数组
+	- <http://akaedu.github.com/book/ch23s08.html>
 
 ## Let's have a break here! The next 3 lessons are projects you should do it by yourself.
 
