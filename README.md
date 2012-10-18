@@ -202,7 +202,11 @@ Output:
 	- 字符数组类型 char buf[4]
 	- 存储格式 big/little endian	
 
-## Lesson 12 main function
+## Lesson 12 Is there a way out? (判断地图上某点是否有出路)
+* 语法知识点
+	- 二维数组 a[][]
+	- 随机函数 rand()
+	
 ## Lesson 13 main function
 ## Lesson 14 main function
 ## Lesson 15 main function
