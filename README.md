@@ -4,7 +4,7 @@ NCCL - New Concept C Language
 please use <http://codepad.org/> to run/test these C programs!
 
 # Unit One
-## Lesson 1 What is a simplest C program?
+## Lesson 1 What is a simplest C program?（最简单的C程序）
 	int main(void)
 	{
 		return 0;
@@ -17,7 +17,7 @@ please use <http://codepad.org/> to run/test these C programs!
 	- 函数返回值 return 
 
 
-## Lesson 2 Let's say hello to world
+## Lesson 2 Let's say hello to world（打印输出）
 	#include <stdio.h>
 
 	int main(void)
@@ -34,7 +34,7 @@ please use <http://codepad.org/> to run/test these C programs!
 	- 转义字符 \n
 
 
-## Lesson 3 Count how many fingers do you have?
+## Lesson 3 Count how many fingers do you have?（循环打印）
 	#include <stdio.h>
 
 	int main(void)
@@ -61,7 +61,7 @@ please use <http://codepad.org/> to run/test these C programs!
 	- 自增运算符 ++
 	- 格式化输出 %d
 
-## Lesson 4 Judge a number odd or even
+## Lesson 4 Judge a number odd or even（判断奇偶）
 	#include <stdio.h>
 
 	int main(void)
@@ -86,7 +86,7 @@ please use <http://codepad.org/> to run/test these C programs!
 	- 条件语句 if/else
 	- 关系运算符 ==
 
-## Lesson 5 Summarize all numbers from 1 to 100
+## Lesson 5 Summarize all numbers from 1 to 100（从1加到100求和）
 	#include <stdio.h>
 
 	int main(void)
@@ -108,7 +108,7 @@ please use <http://codepad.org/> to run/test these C programs!
 	- 自动变量 i
 	- 赋值运算符 +=
 
-## Lesson 6 Print 9*9 multiplication table
+## Lesson 6 Print 9*9 multiplication table（乘法表）
 	#include <stdio.h>
 
 	int main(void)
@@ -144,7 +144,7 @@ Output:
 	1*8=8	2*8=16	3*8=24	4*8=32	5*8=40	6*8=48	7*8=56	8*8=64	
 	1*9=9	2*9=18	3*9=27	4*9=36	5*9=45	6*9=54	7*9=63	8*9=72	9*9=81	
 
-## Lesson 7 Find a max prime number within 100
+## Lesson 7 Find a max prime number within 100 （求100以内的最大素数）
 	#include <stdio.h>
 	#include <math.h>
 
@@ -180,7 +180,13 @@ Output:
 	- 强制类型转换 (int)
 	- 三层逻辑嵌套
 
-## Lesson 8 main function
+## Lesson 8 Josephus ring （约瑟夫环）
+* 语法知识点
+	- 数学头文件 math.h
+	- 数学库函数 sqrt
+	- 强制类型转换 (int)
+	- 三层逻辑嵌套
+
 ## Lesson 9 main function
 ## Lesson 10 main function
 ## Lesson 11 main function
