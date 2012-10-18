@@ -58,6 +58,7 @@ please use <http://codepad.org/> to run/test these C programs!
 	- 循环语句 while
 	- 比较表达式 <=
 	- 自增运算符 ++
+	- 格式化输出 %d
 
 ## Lesson 4 Judge a number odd or even
 	#include <stdio.h>
@@ -76,6 +77,13 @@ please use <http://codepad.org/> to run/test these C programs!
 
 		return 0;
 	}
+
+* 语法知识点
+	- 标准输入函数 scanf
+	- 取地址符 &
+	- 取模运算符 %
+	- 条件语句 if/else
+	- 关系运算符 ==
 
 ## Lesson 5 main function
 ## Lesson 6 main function
