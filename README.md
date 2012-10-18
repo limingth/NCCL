@@ -1,11 +1,16 @@
-NCCL
-====
-
-New Concept C Language
+NCCL - New Concept C Language
+=============================
 
 # Unit One
 ## Lesson 1 main function
+	int main(void)
+	{
+		return 0;
+	}
+
 ## Lesson 2 main function
+
+
 ## Lesson 3 main function
 ## Lesson 4 main function
 ## Lesson 5 main function
