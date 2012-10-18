@@ -4,11 +4,16 @@ NCCL - New Concept C Language
 please use <http://codepad.org/> to run/test these C programs!
 
 # Unit One
-## Lesson 1 main function
+## Lesson 1 What is a simplest c program
 	int main(void)
 	{
 		return 0;
 	}
+	
+### int类型
+### main函数
+### void函数参数
+### return返回值
 
 ## Lesson 2 printf helloworld
 	#include <stdio.h>
