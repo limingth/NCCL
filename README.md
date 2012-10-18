@@ -4,7 +4,7 @@ NCCL - New Concept C Language
 please use <http://codepad.org/> to run/test these C programs!
 
 # Unit One
-## Lesson 1 What is a simplest c program?
+## Lesson 1 What is a simplest C program?
 	int main(void)
 	{
 		return 0;
@@ -86,7 +86,7 @@ please use <http://codepad.org/> to run/test these C programs!
 	- 条件语句 if/else
 	- 关系运算符 ==
 
-## Lesson 5 Summarize number from 1 to 100
+## Lesson 5 Summarize all numbers from 1 to 100
 	#include <stdio.h>
 
 	int main(void)
@@ -108,7 +108,7 @@ please use <http://codepad.org/> to run/test these C programs!
 	- 自动变量 i
 	- 赋值运算符 +=
 
-## Lesson 6 Print 9*9 multiple table
+## Lesson 6 Print 9*9 multiplication table
 	#include <stdio.h>
 
 	int main(void)
