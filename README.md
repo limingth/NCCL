@@ -29,7 +29,10 @@ please use <http://codepad.org/> to run/test these C programs!
 		printf("hello, NCCL!\n");
 
 		while (counter <= 10)
-			printf("count = %d\n", counter);
+		{
+			printf("counter = %d\n", counter);
+			counter++;
+		}
 
 		return 0;
 	}
