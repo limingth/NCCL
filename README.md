@@ -180,6 +180,8 @@ Output:
 	- 强制类型转换 (int)
 	- 三层逻辑嵌套
 
+## Let's have a break here!
+
 ## Lesson 8 Josephus ring (约瑟夫环)
 * 语法知识点
 	- 数组 array
@@ -202,14 +204,30 @@ Output:
 	- 字符数组类型 char buf[4]
 	- 存储格式 big/little endian	
 
-## Lesson 12 Is there a way out? (判断地图上某点是否有出路)
+## Lesson 12 Sorry, your car is restricted today (对不起，你的车今天限行)
+* 语法知识点
+	- 枚举 enum
+	- 分支语句 switch-case
+
+## Lesson 13 Is there a way out? (判断地图上某点是否有出路)
 * 语法知识点
 	- 二维数组 a[][]
 	- 随机函数 rand()
 	
-## Lesson 13 main function
-## Lesson 14 main function
-## Lesson 15 main function
+## Lesson 14 Convert a number to a string (整型转字符串)
+* 语法知识点
+	- 进制表示 oct, dec, hex
+	- 三元表达式
+	- 字符串逆序
+	- 字符串库函数 itoa 
+	
+## Let's have a break here!
+
+## Lesson 15 Count how many bit 1 in a number (统计一个数二进制表示中1的个数)
+* 语法知识点
+	- 位操作 &, |, ~, ^
+
+	
 ## Lesson 16 main function
 ## Lesson 17 main function
 ## Lesson 18 main function
