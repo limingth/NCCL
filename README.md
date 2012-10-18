@@ -8,8 +8,14 @@ NCCL - New Concept C Language
 		return 0;
 	}
 
-## Lesson 2 main function
+## Lesson 2 printf helloworld
+	#include <stdio.h>
 
+	int main(void)
+	{
+		printf("hello, world\n");
+		return 0;
+	}
 
 ## Lesson 3 main function
 ## Lesson 4 main function
