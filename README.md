@@ -53,7 +53,7 @@ please use <http://codepad.org/> to run/test these C programs!
 	}
 
 * 语法知识点
-	- 变量 (局部)
+	- 局部变量
 	- 定义和声明
 	- 循环语句 while
 	- 比较表达式 <=
@@ -85,7 +85,28 @@ please use <http://codepad.org/> to run/test these C programs!
 	- 条件语句 if/else
 	- 关系运算符 ==
 
-## Lesson 5 main function
+## Lesson 5 Summarize number from 1 to 100
+	#include <stdio.h>
+
+	int main(void)
+	{
+		int sum;
+
+		for (int i = 0; i <= 100; i++)
+		{
+			sum += i;
+		}
+
+		printf("sum = %d\n", sum);
+
+		return 0;
+	}
+
+* 语法知识点
+	- 循环语句 for
+	- 自动变量 i
+	- 赋值运算符 +=
+
 ## Lesson 6 main function
 ## Lesson 7 main function
 ## Lesson 8 main function
