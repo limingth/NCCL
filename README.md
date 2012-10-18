@@ -130,7 +130,8 @@ please use <http://codepad.org/> to run/test these C programs!
 
 * 语法知识点
 	- 嵌套循环语句 for-for
-	- 二层逻辑嵌套
+	- 二层逻辑嵌套  
+
 
 * Output:
 	1*1=1	
