@@ -107,8 +107,52 @@ please use <http://codepad.org/> to run/test these C programs!
 	- 自动变量 i
 	- 赋值运算符 +=
 
-## Lesson 6 main function
-## Lesson 7 main function
+## Lesson 6 Print 9*9 multiple table
+	#include <stdio.h>
+
+	int main(void)
+	{
+		int sum;
+		int i, j;
+
+		for (i = 1; i < 10; i++)
+		{	
+			for (j = 1; j <= i; j++)
+			{
+				printf("%d*%d=%d  ", j, i, i * j);
+			}
+			printf("\n");
+		}
+
+		return 0;
+	}
+
+* 语法知识点
+	- 循环语句 for
+	- 赋值运算符 +=
+
+## Lesson 7 Find a max prime number within 100
+	#include <stdio.h>
+
+	int main(void)
+	{
+		int sum;
+
+		for (int i = 0; i <= 100; i++)
+		{
+			sum += i;
+		}
+
+		printf("sum = %d\n", sum);
+
+		return 0;
+	}
+
+* 语法知识点
+	- 循环语句 for
+	- 自动变量 i
+	- 赋值运算符 +=
+
 ## Lesson 8 main function
 ## Lesson 9 main function
 ## Lesson 10 main function
