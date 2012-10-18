@@ -13,11 +13,25 @@ NCCL - New Concept C Language
 
 	int main(void)
 	{
-		printf("hello, world\n");
+		printf("hello, NCCL!\n");
 		return 0;
 	}
 
-## Lesson 3 main function
+## Lesson 3 expressions
+	#include <stdio.h>
+
+	int main(void)
+	{
+		int counter = 0;
+
+		printf("hello, NCCL!\n");
+
+		while (counter <= 10)
+			printf("count = %d\n", counter);
+
+		return 0;
+	}
+
 ## Lesson 4 main function
 ## Lesson 5 main function
 ## Lesson 6 main function
