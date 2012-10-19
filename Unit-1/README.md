@@ -10,6 +10,7 @@ please use <http://codepad.org/> to run/test these C programs!
 		return 0;
 	}
 
+	
 ## Lesson 2 [Let's say hello to world](Unit-1/Lesson-2.md) 打印输出
 	#include <stdio.h>
 
@@ -19,14 +20,7 @@ please use <http://codepad.org/> to run/test these C programs!
 		return 0;
 	}
 
-* 语法知识点
-	- 预处理 include
-	- 头文件 stdio.h
-	- 标准库函数 printf
-	- 字符串
-	- 转义字符 \n
-
-
+	
 ## Lesson 3 [Count how many fingers do you have?](Unit-1/Lesson-3.md) 循环打印
 	#include <stdio.h>
 
@@ -46,14 +40,7 @@ please use <http://codepad.org/> to run/test these C programs!
 		return 0;
 	}
 
-* 语法知识点
-	- 局部变量
-	- 定义和声明
-	- 循环语句 while
-	- 比较表达式 <=
-	- 自增运算符 ++
-	- 格式化输出 %d
-
+	
 ## Lesson 4 [Judge a number odd or even](Unit-1/Lesson-4.md) 判断奇偶
 	#include <stdio.h>
 
@@ -72,12 +59,6 @@ please use <http://codepad.org/> to run/test these C programs!
 		return 0;
 	}
 
-* 语法知识点
-	- 标准输入函数 scanf
-	- 取地址符 &
-	- 取模运算符 %
-	- 条件语句 if/else
-	- 关系运算符 ==
 
 ## Lesson 5 [Summarize all numbers from 1 to 100](Unit-1/Lesson-5.md) 从1加到100求和
 	#include <stdio.h>
@@ -96,10 +77,6 @@ please use <http://codepad.org/> to run/test these C programs!
 		return 0;
 	}
 
-* 语法知识点
-	- 循环语句 for
-	- 自动变量 i
-	- 赋值运算符 +=
 
 ## Lesson 6 [Print 9*9 multiplication table](Unit-1/Lesson-6.md) 乘法表
 	#include <stdio.h>
@@ -120,22 +97,7 @@ please use <http://codepad.org/> to run/test these C programs!
 
 		return 0;
 	}
-
-* 语法知识点
-	- 嵌套循环语句 for-for
-	- 二层逻辑嵌套  
-
-Output:
-
-	1*1=1	
-	1*2=2	2*2=4	
-	1*3=3	2*3=6	3*3=9	
-	1*4=4	2*4=8	3*4=12	4*4=16	
-	1*5=5	2*5=10	3*5=15	4*5=20	5*5=25	
-	1*6=6	2*6=12	3*6=18	4*6=24	5*6=30	6*6=36	
-	1*7=7	2*7=14	3*7=21	4*7=28	5*7=35	6*7=42	7*7=49	
-	1*8=8	2*8=16	3*8=24	4*8=32	5*8=40	6*8=48	7*8=56	8*8=64	
-	1*9=9	2*9=18	3*9=27	4*9=36	5*9=45	6*9=54	7*9=63	8*9=72	9*9=81	
+	
 
 ## Lesson 7 [Find a max prime number within 100](Unit-1/Lesson-7.md) 求100以内的最大素数
 	#include <stdio.h>
@@ -167,11 +129,6 @@ Output:
 		return 0;
 	}
 
-* 语法知识点
-	- 数学头文件 math.h
-	- 数学库函数 sqrt
-	- 强制类型转换 (int)
-	- 三层逻辑嵌套
 
 ## Let's have a break here!
 
