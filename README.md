@@ -64,7 +64,7 @@ Unit 4 ： 用C语言实现一个类C语言的编译器，把全部代码拆解�
 ### Lesson 24 Hyperlink analysis 超链接分析器
 
 # Unit Two
-### Lesson 25 Fibonacci数列
+### Lesson 25 Fibonacci Sequence 斐波那契数列
 ### Lesson 26 
 ### Lesson 27 
 ### Lesson 28 
