@@ -90,7 +90,7 @@ Unit 4 ： 用C语言实现一个类C语言的编译器，把全部代码拆解�
 ### Lesson 48 
 
 # Unit Three
-### Lesson 49 
+### Lesson 49 [Delete the comments in the C program](NCCL/blob/master/Unit-4/Lesson-49.md) C程序去注释问题
 ### Lesson 50 
 ### Lesson 51 
 ### Lesson 52 
