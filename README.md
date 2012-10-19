@@ -29,7 +29,7 @@ Unit 4 ： 用C语言实现一个类C语言的编译器，把全部代码拆解�
 
 ### Lesson 7 [Find a max prime number within 100](NCCL/blob/master/Unit-1/Lesson-7.md) 求100以内的最大素数
 
-### Lesson 8 Josephus ring 约瑟夫环
+### Lesson 8 Josephus 约瑟夫问题
 
 ### Lesson 9 Find how many 9 in number 1 to 100 1到100有多少个9
 
@@ -65,8 +65,8 @@ Unit 4 ： 用C语言实现一个类C语言的编译器，把全部代码拆解�
 
 # Unit Two
 ### Lesson 25 Fibonacci Sequence 斐波那契数列
-### Lesson 26 
-### Lesson 27 
+### Lesson 26 Is it a float number 浮点数判别
+### Lesson 27 Josephus ring 约瑟夫环循环链表
 ### Lesson 28 
 ### Lesson 29 
 ### Lesson 30 
@@ -93,8 +93,8 @@ Unit 4 ： 用C语言实现一个类C语言的编译器，把全部代码拆解�
 ### Lesson 49 [Delete the comments in the C program](NCCL/blob/master/Unit-3/Lesson-49.md) C程序去注释问题
 ### Lesson 50 Tower of Hanoi 汉诺塔问题 
 ### Lesson 51 Expression Value 表达式求值问题
-### Lesson 52 
-### Lesson 53 
+### Lesson 52 Maze 迷宫问题
+### Lesson 53 8-Queen 八皇后问题
 ### Lesson 54 
 ### Lesson 55 
 ### Lesson 56 
