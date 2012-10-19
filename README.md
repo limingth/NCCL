@@ -8,7 +8,7 @@ note: please use <http://codepad.org/> to run/test these C programs!
 
 Unit 1 ： 覆盖基本C语法结构--变量，表达式，语句，数组，结构体，指针等 (每个demo程序100行以内)
 
-Unit 2 ： 覆盖常用算法和数据结构--状态机，链表，队列，栈，二叉树，排序查找，压缩算法等 (100-500行)
+Unit 2 ： 覆盖常用算法和数据结构--递归，状态机，链表，队列，栈，二叉树，排序查找，压缩算法等 (100-500行)
 
 Unit 3 ： 覆盖经典计算机问题的解法--汉诺塔，迷宫，八皇后，表达式求值等 (500-2000行以内)
 
@@ -64,7 +64,7 @@ Unit 4 ： 用C语言实现一个类C语言的编译器，把全部代码拆解�
 ### Lesson 24 Hyperlink analysis 超链接分析器
 
 # Unit Two
-### Lesson 25 
+### Lesson 25 Fibonacci数列
 ### Lesson 26 
 ### Lesson 27 
 ### Lesson 28 
@@ -91,8 +91,8 @@ Unit 4 ： 用C语言实现一个类C语言的编译器，把全部代码拆解�
 
 # Unit Three
 ### Lesson 49 [Delete the comments in the C program](NCCL/blob/master/Unit-3/Lesson-49.md) C程序去注释问题
-### Lesson 50 
-### Lesson 51 
+### Lesson 50 Tower of Hanoi 汉诺塔问题 
+### Lesson 51 Expression Value 表达式求值问题
 ### Lesson 52 
 ### Lesson 53 
 ### Lesson 54 
