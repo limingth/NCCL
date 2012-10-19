@@ -4,7 +4,7 @@ NCCL - New Concept C Language
 please use <http://codepad.org/> to run/test these C programs!
 
 # Unit Three
-## Lesson 49 
+## Lesson 49 [Delete the comments in the C program](Unit-3/Lesson-49.md) C程序去注释问题
 ## Lesson 50 
 ## Lesson 51 
 ## Lesson 52 
