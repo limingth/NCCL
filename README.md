@@ -4,7 +4,7 @@ NCCL - New Concept C Language
 please use <http://codepad.org/> to run/test these C programs!
 
 # Unit One
-## Lesson 1 [What is a simplest C program?](blob/master/Unit-1/Lesson-1.md) (最简单的C程序)
+## Lesson 1 [What is a simplest C program?](NCCL/blob/master/Unit-1/Lesson-1.md) (最简单的C程序)
 	int main(void)
 	{
 		return 0;
