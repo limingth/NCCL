@@ -1,4 +1,4 @@
-## Lesson 12 Sorry, your car is restricted today ¶Ô²»Æğ£¬ÄãµÄ³µ½ñÌìÏŞĞĞ
-* Óï·¨ÖªÊ¶µã
-	- Ã¶¾Ù enum
-	- ·ÖÖ§Óï¾ä switch-case
+## Lesson 12 Sorry, your car is restricted today å¯¹ä¸èµ·ï¼Œä½ çš„è½¦ä»Šå¤©é™è¡Œ
+* è¯­æ³•çŸ¥è¯†ç‚¹
+	- æšä¸¾ enum
+	- åˆ†æ”¯è¯­å¥ switch-case

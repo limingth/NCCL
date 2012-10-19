@@ -1,11 +1,11 @@
-## Lesson 1 What is a simplest C program? (×î¼òµ¥µÄC³ÌĞò)
+## Lesson 1 What is a simplest C program? (æœ€ç®€å•çš„Cç¨‹åº)
 	int main(void)
 	{
 		return 0;
 	}
 
-* Óï·¨ÖªÊ¶µã
-	- Êı¾İÀàĞÍ int 
-	- º¯Êı main 
-	- º¯Êı²ÎÊı void 
-	- º¯Êı·µ»ØÖµ return 
+* è¯­æ³•çŸ¥è¯†ç‚¹
+	- æ•°æ®ç±»å‹ int 
+	- å‡½æ•° main 
+	- å‡½æ•°å‚æ•° void 
+	- å‡½æ•°è¿”å›å€¼ return 
