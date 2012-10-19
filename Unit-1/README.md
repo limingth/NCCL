@@ -10,13 +10,6 @@ please use <http://codepad.org/> to run/test these C programs!
 		return 0;
 	}
 
-* 语法知识点
-	- 数据类型 int 
-	- 函数 main 
-	- 函数参数 void 
-	- 函数返回值 return 
-
-
 ## Lesson 2 Let's say hello to world (打印输出)
 	#include <stdio.h>
 
