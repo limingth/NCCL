@@ -1,7 +1,18 @@
-NCCL - New Concept C Language
+NCCL - New Concept C Language  新概念C语言
 =============================
 
-please use <http://codepad.org/> to run/test these C programs!
+note: please use <http://codepad.org/> to run/test these C programs!
+
+计划学习《新概念第2册》的写法，一共分为 4个 Unit，每个 Unit 包含24个 Lesson，一共 96 个 Lesson。
+其中每个Lesson对应一段可编译执行的典型代码，解决一个有趣味的计算机问题。
+
+Unit 1 ： 覆盖基本C语法结构--变量，表达式，语句，数组，结构体，指针等 (每个demo程序100行以内)
+
+Unit 2 ： 覆盖常用算法和数据结构--状态机，链表，队列，栈，二叉树，排序查找，压缩算法等 (100-500行)
+
+Unit 3 ： 覆盖经典计算机问题的解法--汉诺塔，迷宫，八皇后等 (500-2000行以内)
+
+Unit 4 ： 用C语言实现一个类C语言的编译器，把全部代码拆解为各个独立的模块，最后整合在一起。 (合计1万行以内)
 
 ## [Unit One](NCCL/tree/master/Unit-1)
 ### Lesson 1 [What is a simplest C program?](NCCL/blob/master/Unit-1/Lesson-1.md) 最简单的C程序
