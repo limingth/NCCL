@@ -3,7 +3,7 @@ NCCL - New Concept C Language
 
 please use <http://codepad.org/> to run/test these C programs!
 
-## [Unit One](NCCL/tree/master/Unit-1)
+## [Unit One]NCCL/tree/master/Unit-1)
 ### Lesson 1 [What is a simplest C program?](NCCL/blob/master/Unit-1/Lesson-1.md) 最简单的C程序
 
 ### Lesson 2 [Let's say hello to world](NCCL/blob/master/Unit-1/Lesson-2.md) 打印输出
@@ -18,39 +18,39 @@ please use <http://codepad.org/> to run/test these C programs!
 
 ### Lesson 7 [Find a max prime number within 100](NCCL/blob/master/Unit-1/Lesson-7.md) 求100以内的最大素数
 
-### Lesson 8 Josephus ring (约瑟夫环)
+### Lesson 8 Josephus ring 约瑟夫环
 
-### Lesson 9 Find how many 9 in number 1 to 100 (1到100有多少个9)
+### Lesson 9 Find how many 9 in number 1 to 100 1到100有多少个9
 
-### Lesson 10 Calculate the distance between 2 point (求两个坐标点之间的距离)
+### Lesson 10 Calculate the distance between 2 point 求两个坐标点之间的距离
 
-### Lesson 11 Does your machine use little-endian? (判断机器存储是否小尾端)
+### Lesson 11 Does your machine use little-endian? 判断机器存储是否小尾端
 
-### Lesson 12 Sorry, your car is restricted today (对不起，你的车今天限行)
+### Lesson 12 Sorry, your car is restricted today 对不起，你的车今天限行
 
-### Lesson 13 Is there a way out? (判断地图上某点是否有出路)
+### Lesson 13 Is there a way out? 判断地图上某点是否有出路
 
-### Lesson 14 Convert a number to a string (整型转字符串)
+### Lesson 14 Convert a number to a string 整型转字符串
 
-### Lesson 15 Count how many bit 1 in a number (统计一个数二进制表示中1的个数)
+### Lesson 15 Count how many bit 1 in a number 统计一个数二进制表示中1的个数
 
-### Lesson 16 Bit-Field (位域操作)
+### Lesson 16 Bit-Field 位域操作
 
-### Lesson 17 My printf (我的printf实现)
+### Lesson 17 My printf 我的printf实现
 
-### Lesson 18 Find how many words in an artitle (统计一个文本中的单词个数)
+### Lesson 18 Find how many words in an artitle 统计一个文本中的单词个数
 
-### Lesson 19 Shell command parser (命令解释器)
+### Lesson 19 Shell command parser 命令解释器
 
-### Lesson 20 Install IRQ handler (安装中断处理程序)
+### Lesson 20 Install IRQ handler 安装中断处理程序
 
-### Lesson 21 RECTANGULAR and POLAR(直角坐标和极坐标互换)
+### Lesson 21 RECTANGULAR and POLAR直角坐标和极坐标互换
 
-### Lesson 22 Guess what number in my hand (猜数游戏)
+### Lesson 22 Guess what number in my hand 猜数游戏
 
-### Lesson 23 Five-Chess game (五子棋)
+### Lesson 23 Five-Chess game 五子棋
 
-### Lesson 24 Hyperlink analysis (超链接分析器)
+### Lesson 24 Hyperlink analysis 超链接分析器
 
 # Unit Two
 ### Lesson 25 
