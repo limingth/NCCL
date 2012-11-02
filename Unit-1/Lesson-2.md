@@ -52,4 +52,15 @@
 		printf("data segment end at %p\n", edata);
 	
 		return 0;
-	}
+	}	
+	
+	input: 無
+	output:
+	hello, everyone!
+	__executable_start= 0x8048000
+	_start = 0x8048450
+	main = 0x8048530
+	text segment end at 0x80486b8
+	
+	global at 0x804a01c
+	data segment end at 0x804a020
