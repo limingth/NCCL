@@ -11,9 +11,22 @@
 * 函数返回值 return 
 
 ### 扩展语法
+* 注释 comment
 * 更多数据类型 char, float 
 * 变量 variable
 * 局部变量 local
 * 全局变量 global
 
 ### 扩展练习
+
+	/* this is a simplest c program */
+
+	int global = 100;
+
+	int main(void)
+	{
+		int local = 100;
+
+		// we return these two varible' summary 
+		return local + global;
+	}
