@@ -1,13 +1,6 @@
-/*
- * gcc -c test.c
- * ld -e nomain test.o -o test
- *
- */
-
-
 char * str = "hello, everyone!\n";
 
-void nomain(void)
+int main(void)
 {
 	asm("movl $20, %%edx \n\t"
 		"movl %0, %%ecx \n\t"
@@ -20,5 +13,5 @@ void nomain(void)
 		"movl $1, %eax \n\t"
 		"int $0x80 \n\t");
 
-	return ;
+	return 0;
 }
