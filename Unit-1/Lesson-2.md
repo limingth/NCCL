@@ -20,6 +20,13 @@
 * 内置变量 
 * 代码段和数据段 text/data
 * 程序入口 _start
+* 变量 variable
+* 局部变量 local
+* 全局变量 global
+* 地址 address
+* 变量的地址
+* 函数的地址
+* 强制类型转换
 
 ### 范例代码
 	#include <stdio.h>
