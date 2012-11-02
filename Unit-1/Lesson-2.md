@@ -53,7 +53,8 @@
 	
 		return 0;
 	}	
-	
+
+###
 	input: 無
 	output:
 	hello, everyone!
