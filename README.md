@@ -15,7 +15,7 @@ Unit 3 ： 覆盖经典计算机问题的解法--汉诺塔，迷宫，八皇后�
 Unit 4 ： 用C语言实现一个类C语言的编译器，把全部代码拆解为各个独立的模块，最后整合在一起。 (合计1万行以内)
 
 ## Unit One
-* Lesson 1 What is a simplest C program? 最简单的C程序
+* __Lesson__ 1 What is a simplest C program? 最简单的C程序
 * Lesson 2 Let's say hello to world 打印输出
 * Lesson 3 Count how many fingers do you have? 循环打印
 * Lesson 4 Judge a number odd or even 判断奇偶
