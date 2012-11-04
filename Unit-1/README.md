@@ -128,8 +128,7 @@ Unit 1 是《新概念C语言》系列课程的第一部分，共有24个Lesson�
 ### 扩展
 *
 
-##
-	**Intermediate Lessons**
+# Intermediate Lessons
 
 ## Lesson 8 Convert a number to a string 整型转字符串
 ### 基本概念
@@ -198,13 +197,11 @@ Unit 1 是《新概念C语言》系列课程的第一部分，共有24个Lesson�
 
 # Homework Projects
 	
-## The next 3 lessons are projects you should do it by yourself.
+**The next 3 lessons are projects you should do it by yourself.**
 
 ## Lesson 22 Guess what number in my hand 猜数游戏
-### 基本概念
 
 ## Lesson 23 Five-Chess game 五子棋
-### 基本概念
 
 ## Lesson 24 Build a simple Search Engenine 简单搜索引擎
-### 基本概念
+
