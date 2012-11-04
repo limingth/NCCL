@@ -50,27 +50,36 @@ Unit 1 是《新概念C语言》系列课程的第一部分，共有24个Lesson�
 ### 基本概念讲解
 * 条件分支 Condition 
 	- 表达式求值  Expression Value
+* 编码风格 Coding Style
+	- 标识符命名规则 symbol's name 
 * 函数的传值和传址 Parameter's value and address
 	- 程序二进制接口规范 ABI (Application Binary Interface)
 
 ## Lesson 5 [Summarize all numbers from 1 to 100](Lesson-5.md) 从1加到100求和
 ### 基本概念讲解
 * for 循环 
+	- 两种循环用法比较
 * 自动变量 auto variable
-	- 函数栈 Function Stack
+	- C 语言的发展变迁 Old Style C/C89/C99/GNU C
+* 函数栈 Function Stack
+	- 栈帧 Stack Frame
 
 ## Lesson 6 [Print 9*9 multiplication table](Lesson-6.md) 乘法表
 ### 基本概念讲解
 * 循环嵌套
-* break 用法
-* goto 用法	
-
+	- 两重循环的典型用法
+* 数据结构和算法 DS & AL
+	- 数据驱动编程 Data-Driven
+	
+	
 ## Lesson 7 [Find a max prime number within 100](Lesson-7.md) 求100以内的最大素数
 ### 基本概念讲解
 * 循环中的条件分支 
-* 标识符命名规则 symbol's name 
+	- break 和 goto 用法	
 * 数学库函数 math library
-* 算法效率 (时间复杂度计算)
+	- 静态链接和动态链接 static & dynamic linkage
+* 算法效率 
+	- 时间复杂度分析 O(n) 
 
 # Intermediate Lessons
 
