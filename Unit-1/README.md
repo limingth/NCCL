@@ -17,8 +17,8 @@ Unit 1 是《新概念C语言》系列课程的第一部分，共有24个Lesson�
 4. Homework Projects (Lesson 22-24)  
     以任务为核心，通过趣味题，综合使用学习过的知识和技能，实现项目需求功能。
 
-
-	**Beginning Lessons**
+##
+	Beginning Lessons
 
 ## Lesson 1 [What is a simplest C program?](Unit-1/Lesson-1.md) 最简单的C程序
 ### 基本概念
