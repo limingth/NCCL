@@ -5,21 +5,21 @@ NCCL - New Concept C Language
 # Unit One
 Unit 1 是《新概念C语言》系列课程的第一部分，共有24个Lesson，包含以下4个阶段的学习内容：
 
-1. Beginning Lessons (Lesson 1-7)
+	1. Beginning Lessons (Lesson 1-7)
 
-以变量为核心，运用循环语句和条件分支，讲解C程序的基本结构。
+	以变量为核心，运用循环语句和条件分支，讲解C程序的基本结构。
 
-2. Intermediate Lessons (Lesson 8-14)
+	2. Intermediate Lessons (Lesson 8-14)
 
-以数组为核心，分析常用数据结构（字符串，结构体，联合），讲解C程序的函数设计。
-  
-3. Advanced Lessons (Lesson 15-21)
+	以数组为核心，分析常用数据结构（字符串，结构体，联合），讲解C程序的函数设计。
+	  
+	3. Advanced Lessons (Lesson 15-21)
 
-以指针为核心，结合数组，位操作和函数指针，讲解C程序的状态机编程思想。
+	以指针为核心，结合数组，位操作和函数指针，讲解C程序的状态机编程思想。
 
-4. Homework Lessons (Lesson 22-24)
+	4. Homework Lessons (Lesson 22-24)
 
-以任务为核心，通过趣味题，综合使用学习过的知识和技能，实现项目需求功能。
+	以任务为核心，通过趣味题，综合使用学习过的知识和技能，实现项目需求功能。
 
 
 **Beginning Lessons**
