@@ -39,7 +39,7 @@ Unit 1 是《新概念C语言》系列课程的第一部分，共有24个Lesson�
 
 ## Lesson 3 [Count how many fingers do you have?](Lesson-3.md) 循环打印
 ### 基本概念讲解
-* while 循环 
+* while 循环 和 do-while 用法
 	- 比较和跳转指令 Compare and Jump Instruction
 * 赋值语句 Assignment
 	- 变量的初始化 Variable Initialization
@@ -48,24 +48,29 @@ Unit 1 是《新概念C语言》系列课程的第一部分，共有24个Lesson�
 
 ## Lesson 4 [Judge a number odd or even](Lesson-4.md) 判断奇偶
 ### 基本概念讲解
-* 条件分支
-	- 表达式求值 
-* 函数的传值和传址
+* 条件分支 Condition 
+	- 表达式求值  Expression Value
+* 函数的传值和传址 Parameter's value and address
+	- 程序二进制接口规范 ABI (Application Binary Interface)
 
 ## Lesson 5 [Summarize all numbers from 1 to 100](Lesson-5.md) 从1加到100求和
 ### 基本概念讲解
 * for 循环 
-* 自动变量
-	- 函数栈空间
+* 自动变量 auto variable
+	- 函数栈 Function Stack
 
 ## Lesson 6 [Print 9*9 multiplication table](Lesson-6.md) 乘法表
 ### 基本概念讲解
 * 循环嵌套
+* break 用法
+* goto 用法	
 
 ## Lesson 7 [Find a max prime number within 100](Lesson-7.md) 求100以内的最大素数
 ### 基本概念讲解
-* 循环中的条件分支
-
+* 循环中的条件分支 
+* 标识符命名规则 symbol's name 
+* 数学库函数 math library
+* 算法效率 (时间复杂度计算)
 
 # Intermediate Lessons
 

@@ -1,4 +1,4 @@
-## Lesson 6 Print 9*9 multiplication table 乘法表
+﻿## Lesson 6 Print 9*9 multiplication table 乘法表
 	#include <stdio.h>
 
 	int main(void)
