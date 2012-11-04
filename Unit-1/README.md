@@ -7,22 +7,20 @@ please use <http://codepad.org/> to run/test these C programs!
 ## Lesson 1 [What is a simplest C program?](Unit-1/Lesson-1.md) 最简单的C程序
 ### 基本概念
 * C 程序 Language
+	- 库函数 Library
 * 编译器 Compiler
+	- 链接器 Linker
 * 操作系统 OS
+	- 加载器 Loader
 
-### 扩展概念
-* 库函数 Library
-* 链接器 Linker
-* 加载器 Loader
-
-### 语法知识点
+### 知识点
 * 数据类型 int 
 * 函数 main 
 * 函数参数 void 
 * 函数返回值 return
 
-### 扩展语法
-* 注释 comment /* */ //
+### 扩展
+* 注释 comment /* */, //
 * 更多数据类型 char, float 
 * 变量 variable
 * 局部变量 local
@@ -32,21 +30,19 @@ please use <http://codepad.org/> to run/test these C programs!
 
 ### 基本概念
 * 程序和进程
+	- 程序的执行流程 Execution Sequence
 * 程序的结构
+	- 链接脚本 Link Script
 * 虚拟地址空间
+* 系统调用 System Call
 
-### 扩展概念
-- 程序的执行流程 Execution Sequence
-- 链接脚本 Link Script
-- 系统调用 System Call
-
-### 语法知识点
+### 知识点
 * 预处理符 #
 * 头文件 .h
 * 字符串常量 const string
 * 转义字符 \n \r \t \b 
 
-### 扩展语法
+### 扩展
 * 取地址符 &
 * 格式化输出 %d %x %p %c %s %%
 * 可变长度参数 ...
@@ -54,22 +50,74 @@ please use <http://codepad.org/> to run/test these C programs!
 	
 ## Lesson 3 [Count how many fingers do you have?](Unit-1/Lesson-3.md) 循环打印
 ### 基本概念
+* 循环
+	- 比较指令
+	- 条件跳转指令
+* 赋值语句
+	- 变量的初始化
+* 位置无关代码
 
-### 扩展概念
+### 知识点
+* 循环语句 while
+* 关系运算符 <=, >=
+* 自增加运算符 ++
 
-### 语法知识点
-
-### 扩展语法
+### 扩展
+* 表达式值
 	
 ## Lesson 4 [Judge a number odd or even](Unit-1/Lesson-4.md) 判断奇偶
+### 基本概念
+* 条件分支
+* 函数的传值和传址
+
+### 知识点
+* 条件语句 if/else
+* 格式化输入 scanf
+* 关系运算符 ==
+
+### 扩展
+* 取模 %
+	
 
 ## Lesson 5 [Summarize all numbers from 1 to 100](Unit-1/Lesson-5.md) 从1加到100求和
+### 基本概念
+* 
 
+### 知识点
+* 
+
+### 扩展
+* 
+	
 ## Lesson 6 [Print 9*9 multiplication table](Unit-1/Lesson-6.md) 乘法表
+### 基本概念
+* 
+
+### 知识点
+* 
+
+### 扩展
+*
 
 ## Lesson 7 [Find a max prime number within 100](Unit-1/Lesson-7.md) 求100以内的最大素数
+### 基本概念
+* 
+
+### 知识点
+* 
+
+### 扩展
+*
 
 ## Lesson 8 Josephus ring 约瑟夫环
+### 基本概念
+* 
+
+### 知识点
+* 
+
+### 扩展
+*
 	
 ## Lesson 9 Find how many 9 in number 1 to 100 1到100有多少个9
 
