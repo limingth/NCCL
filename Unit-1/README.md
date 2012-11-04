@@ -22,7 +22,7 @@ please use <http://codepad.org/> to run/test these C programs!
 * 函数返回值 return
 
 ### 扩展语法
-* 注释 comment
+* 注释 comment /* */ //
 * 更多数据类型 char, float 
 * 变量 variable
 * 局部变量 local
@@ -36,9 +36,9 @@ please use <http://codepad.org/> to run/test these C programs!
 * 虚拟地址空间
 
 ### 扩展概念
-* 程序的执行流程 Execution
-* 链接脚本 Link Script
-* 系统调用 System Call
+- 程序的执行流程 Execution Sequence
+- 链接脚本 Link Script
+- 系统调用 System Call
 
 ### 语法知识点
 * 预处理符 #
@@ -50,7 +50,7 @@ please use <http://codepad.org/> to run/test these C programs!
 * 取地址符 &
 * 格式化输出 %d %x %p %c %s %%
 * 可变长度参数 ...
-* 链接器变量 extern 
+* 外部变量 extern 
 	
 ## Lesson 3 [Count how many fingers do you have?](Unit-1/Lesson-3.md) 循环打印
 ### 基本概念
