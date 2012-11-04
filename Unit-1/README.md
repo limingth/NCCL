@@ -137,8 +137,8 @@ Unit 1 是《新概念C语言》系列课程的第一部分，共有24个Lesson�
 	- static 用法
 * 预定义宏
 	- \_\_DATE\_\_ 
-	- __TIME__
-	- __func__
+	- \_\_TIME\_\_
+	- \_\_func\_\_
 
 
 ## Lesson 14 Is there a way out? 判断地图上某点是否有出路
