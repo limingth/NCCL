@@ -211,5 +211,5 @@ Unit 1 是《新概念C语言》系列课程的第一部分，共有24个Lesson�
 ## Lesson 23 Five-Chess game 五子棋
 ### 基本概念
 
-## Lesson 24 Search Engenine 搜索引擎
+## Lesson 24 Build a simple Search Engenine 简单搜索引擎
 ### 基本概念
