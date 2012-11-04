@@ -156,7 +156,7 @@ please use <http://codepad.org/> to run/test these C programs!
 	
 **Advanced Courses**
 
-## Lesson 15 Count how many bit 1 in a number 统计一个数二进制表示中1的个数
+## Lesson 15 Count how many bit 1 in a number 统计一个数bit 1的个数
 ### 基本概念
 * 位操作
 	
