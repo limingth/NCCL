@@ -18,7 +18,7 @@ Unit 1 是《新概念C语言》系列课程的第一部分，共有24个Lesson�
     以任务为核心，通过趣味题，综合使用学习过的知识和技能，实现项目需求功能。
 
 
-**Beginning Lessons**
+	**Beginning Lessons**
 
 ## Lesson 1 [What is a simplest C program?](Unit-1/Lesson-1.md) 最简单的C程序
 ### 基本概念
@@ -130,7 +130,7 @@ Unit 1 是《新概念C语言》系列课程的第一部分，共有24个Lesson�
 *
 
 
-**Intermediate Lessons**
+	**Intermediate Lessons**
 
 ## Lesson 8 Convert a number to a string 整型转字符串
 ### 基本概念
@@ -167,7 +167,7 @@ Unit 1 是《新概念C语言》系列课程的第一部分，共有24个Lesson�
 * 数组、循环和分支
 	
 	
-**Advanced Lessons**
+	**Advanced Lessons**
 
 ## Lesson 15 Count how many bit 1 in a number 统计一个数bit 1的个数
 ### 基本概念
@@ -198,7 +198,7 @@ Unit 1 是《新概念C语言》系列课程的第一部分，共有24个Lesson�
 * 多维数组 
 * FSM 有限状态机
 
-**Homework Projects**
+	**Homework Projects**
 ## The next 3 lessons are projects you should do it by yourself.
 
 ## Lesson 22 Guess what number in my hand 猜数游戏
