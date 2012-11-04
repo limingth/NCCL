@@ -108,10 +108,10 @@ Unit 1 是《新概念C语言》系列课程的第一部分，共有24个Lesson�
 * 数组和结构体
 * 类型声明 typedef 
 
+
 ## Lesson 11 Does your machine use little-endian? 判断机器存储是否小尾端
 ### 基本概念讲解
 * 联合 Union
-
 * 数据的存储表示
 	- 原码，反码和补码
 * 结构体空洞 Struct Hole
@@ -136,7 +136,7 @@ Unit 1 是《新概念C语言》系列课程的第一部分，共有24个Lesson�
 * 变量的生存期和作用域
 	- static 用法
 * 预定义宏
-	- __DATE__ 
+	- \_\_DATE\_\_ 
 	- __TIME__
 	- __func__
 
@@ -146,8 +146,8 @@ Unit 1 是《新概念C语言》系列课程的第一部分，共有24个Lesson�
 * 数组、循环和分支
 * 条件编译
 	
-# Advanced Lessons
 
+# Advanced Lessons
 
 ## Lesson 15 Count how many bit 1 in a number 统计一个数bit 1的个数
 ### 基本概念讲解
@@ -188,7 +188,7 @@ Unit 1 是《新概念C语言》系列课程的第一部分，共有24个Lesson�
 * 函数指针
 	- 回调函数 Call-Back Function
 * main 参数 argc, argv
-	- 
+	- 字符指针数组 vs 指针的指针
 * 进程的环境变量
 	- 进程栈空间布局
 
