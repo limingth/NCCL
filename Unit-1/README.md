@@ -28,19 +28,6 @@ Unit 1 是《新概念C语言》系列课程的第一部分，共有24个Lesson�
 * 操作系统 OS
 	- 加载器 Loader
 
-### 知识点
-* 数据类型 int 
-* 函数 main 
-* 函数参数 void 
-* 函数返回值 return
-
-### 扩展
-* 变量 variable
-	- 局部变量 local
-	- 全局变量 global
-* 注释 comment /* */, //
-* 更多数据类型 char, float 
-
 
 ## Lesson 2 [Let's say hello to world](Lesson-2.md) 打印输出
 ### 基本概念
@@ -50,18 +37,6 @@ Unit 1 是《新概念C语言》系列课程的第一部分，共有24个Lesson�
 	- 链接脚本 Link Script
 * 系统调用 System Call
 	- 虚拟地址空间
-
-### 知识点
-* 预处理符 #
-* 头文件 .h
-* 字符串常量 const string
-* 转义字符 \n \r \t \b 
-
-### 扩展
-* 取地址符 &
-* 格式化输出 %d %x %p %c %s %%
-* 可变长度参数 ...
-* 外部变量 extern 
 
 	
 ## Lesson 3 [Count how many fingers do you have?](Lesson-3.md) 循环打印
@@ -73,27 +48,13 @@ Unit 1 是《新概念C语言》系列课程的第一部分，共有24个Lesson�
 * 相对跳转
 	- 位置无关代码
 
-### 知识点
-* 循环语句 while
-* 关系运算符 <=, >=
-* 自增加运算符 ++
-
-### 扩展
-* 表达式值
 	
-
 ## Lesson 4 [Judge a number odd or even](Lesson-4.md) 判断奇偶
 ### 基本概念
 * 条件分支
 * 函数的传值和传址
 
-### 知识点
-* 条件语句 if/else
-* 格式化输入 scanf
-* 关系运算符 ==
 
-### 扩展
-* 取模 %
 
 
 ## Lesson 5 [Summarize all numbers from 1 to 100](Lesson-5.md) 从1加到100求和
@@ -101,32 +62,16 @@ Unit 1 是《新概念C语言》系列课程的第一部分，共有24个Lesson�
 * for 循环 
 * 自动变量
 
-### 知识点
-* 自增运算 +=
-* 
-
-### 扩展
-* 
 	
 ## Lesson 6 [Print 9*9 multiplication table](Lesson-6.md) 乘法表
 ### 基本概念
 * 循环嵌套
 
-### 知识点
-* 
-
-### 扩展
-*
 
 ## Lesson 7 [Find a max prime number within 100](Lesson-7.md) 求100以内的最大素数
 ### 基本概念
 * 循环中的条件分支
 
-### 知识点
-* 
-
-### 扩展
-*
 
 # Intermediate Lessons
 
@@ -138,11 +83,6 @@ Unit 1 是《新概念C语言》系列课程的第一部分，共有24个Lesson�
 ### 基本概念
 * 一维数组 
 
-### 知识点
-* 
-
-### 扩展
-*
 
 ## Lesson 10 Calculate the distance between 2 point 求两个坐标点之间的距离
 ### 基本概念

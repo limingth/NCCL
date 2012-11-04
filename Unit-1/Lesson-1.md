@@ -4,18 +4,11 @@
 		return 0;
 	}
 
-### 语法知识点
+### 知识点
 * 数据类型 int 
 * 函数 main 
 * 函数参数 void 
-* 函数返回值 return 
-
-### 扩展语法
-* 注释 comment
-* 更多数据类型 char, float 
-* 变量 variable
-* 局部变量 local
-* 全局变量 global
+* 函数返回值 return
 
 ### 扩展练习
 
@@ -30,3 +23,11 @@
 		// we return these two varible' summary 
 		return local + global;
 	}
+	
+### 知识点
+* 变量 variable
+	- 局部变量 local
+	- 全局变量 global
+* 注释 comment /* */, //
+* 更多数据类型 char, float 
+	

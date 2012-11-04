@@ -6,29 +6,14 @@
 		printf("hello, world!\n");
 		return 0;
 	}
+	
+### 知识点
+* 预处理符 #
+* 头文件 .h
+* 字符串常量 const string
+* 转义字符 \n \r \t \b 
 
-* 语法知识点
-	- 预处理 include
-	- 头文件 stdio.h
-	- 标准库函数 printf
-	- 字符串
-	- 转义字符 \n
-
-
-### 扩展语法
-* 链接脚本 link script
-* 内置变量 
-* 代码段和数据段 text/data
-* 程序入口 _start
-* 变量 variable
-* 局部变量 local
-* 全局变量 global
-* 地址 address
-* 变量的地址
-* 函数的地址
-* 强制类型转换
-
-### 范例代码
+### 扩展练习
 	#include <stdio.h>
 	
 	extern int __executable_start;
@@ -54,7 +39,7 @@
 		return 0;
 	}	
 
-###
+#### 输出结果
 	input: 無
 	output:
 	hello, everyone!
@@ -65,3 +50,9 @@
 	
 	global at 0x804a01c
 	data segment end at 0x804a020
+
+### 知识点	
+* 取地址符 &
+* 格式化输出 %d %x %p %c %s %%
+* 可变长度参数 ...
+* 外部变量 extern 
