@@ -26,15 +26,15 @@ please use <http://codepad.org/> to run/test these C programs!
 * 局部变量 local
 * 全局变量 global
 
-## Lesson 2 [Let's say hello to world](Unit-1/Lesson-2.md) 打印输出
 
+## Lesson 2 [Let's say hello to world](Unit-1/Lesson-2.md) 打印输出
 ### 基本概念
 * 程序和进程
 	- 程序的执行流程 Execution Sequence
 * 程序的结构
 	- 链接脚本 Link Script
-* 虚拟地址空间
 * 系统调用 System Call
+	- 虚拟地址空间
 
 ### 知识点
 * 预处理符 #
@@ -47,15 +47,16 @@ please use <http://codepad.org/> to run/test these C programs!
 * 格式化输出 %d %x %p %c %s %%
 * 可变长度参数 ...
 * 外部变量 extern 
+
 	
 ## Lesson 3 [Count how many fingers do you have?](Unit-1/Lesson-3.md) 循环打印
 ### 基本概念
 * 循环
-	- 比较指令
-	- 条件跳转指令
+	- 比较和跳转指令
 * 赋值语句
 	- 变量的初始化
-* 位置无关代码
+* 相对跳转
+	- 位置无关代码
 
 ### 知识点
 * 循环语句 while
@@ -65,6 +66,7 @@ please use <http://codepad.org/> to run/test these C programs!
 ### 扩展
 * 表达式值
 	
+
 ## Lesson 4 [Judge a number odd or even](Unit-1/Lesson-4.md) 判断奇偶
 ### 基本概念
 * 条件分支
@@ -77,7 +79,7 @@ please use <http://codepad.org/> to run/test these C programs!
 
 ### 扩展
 * 取模 %
-	
+
 
 ## Lesson 5 [Summarize all numbers from 1 to 100](Unit-1/Lesson-5.md) 从1加到100求和
 ### 基本概念
