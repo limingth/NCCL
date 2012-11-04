@@ -14,20 +14,20 @@ Unit 3 ： 覆盖经典计算机问题的解法--汉诺塔，迷宫，八皇后�
 
 Unit 4 ： 用C语言实现一个类C语言的编译器，把全部代码拆解为各个独立的模块，最后整合在一起。 (合计1万行以内)
 
-## [Unit One](NCCL/tree/master/Unit-1)
-### Lesson 1 [What is a simplest C program?](NCCL/blob/master/Unit-1/Lesson-1.md) 最简单的C程序
+## [Unit One](NCCL/blob/master/Unit-1/README.md)
+### Lesson 1 What is a simplest C program? 最简单的C程序
 
-### Lesson 2 [Let's say hello to world](NCCL/blob/master/Unit-1/Lesson-2.md) 打印输出
+### Lesson 2 Let's say hello to world 打印输出
 
-### Lesson 3 [Count how many fingers do you have?](NCCL/blob/master/Unit-1/Lesson-3.md) 循环打印
+### Lesson 3 Count how many fingers do you have? 循环打印
 
-### Lesson 4 [Judge a number odd or even](NCCL/blob/master/Unit-1/Lesson-4.md) 判断奇偶
+### Lesson 4 Judge a number odd or even 判断奇偶
 
-### Lesson 5 [Summarize all numbers from 1 to 100](NCCL/blob/master/Unit-1/Lesson-5.md) 从1加到100求和
+### Lesson 5 Summarize all numbers from 1 to 100 从1加到100求和
 
-### Lesson 6 [Print 9*9 multiplication table](NCCL/blob/master/Unit-1/Lesson-6.md) 乘法表
+### Lesson 6 Print 9*9 multiplication table 乘法表
 
-### Lesson 7 [Find a max prime number within 100](NCCL/blob/master/Unit-1/Lesson-7.md) 求100以内的最大素数
+### Lesson 7 Find a max prime number within 100 求100以内的最大素数
 
 ### Lesson 8 Josephus 约瑟夫问题
 
