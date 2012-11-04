@@ -140,25 +140,32 @@ Unit 1 是《新概念C语言》系列课程的第一部分，共有24个Lesson�
 ## Lesson 16 Bit-Field 位域操作
 ### 基本概念讲解
 * 位域
+* 结构体的位域操作
 	
 ## Lesson 17 How to strcpy 字符串拷贝
 ### 基本概念讲解
 * 指针
+* assert 宏
+
 
 ## Lesson 18 Find how many words in an artitle 统计一个文本中的单词个数
 ### 基本概念讲解
 * 指针数组
 * 状态机思想的简单应用
+	- state 
 
 ## Lesson 19 Shell command parser 命令解释器
 ### 基本概念讲解
 * 函数指针
-* 
+	
+* main 函数之参数 
+	- argc, argv
+* 进程的环境变量
+	- env
 
 ## Lesson 20 RECTANGULAR and POLAR直角坐标和极坐标互换
 ### 基本概念讲解
 * 函数指针数组
-
 * 复杂类型声明 typedef
 
 ## Lesson 21 Is this number a float? 浮点数判别
@@ -173,7 +180,7 @@ Unit 1 是《新概念C语言》系列课程的第一部分，共有24个Lesson�
 ## Lesson 22 Guess what number in my hand 猜数游戏
 ### 问题描述
 猜数游戏：电脑随机产生4位数，然后用户输入4位数，电脑告诉你是?A?B，请你最后猜出电脑的4位数是多少？	
-(A表示位置和数字都对，B表示位置不对，数字对)
+(4位数字互不重复，A表示位置和数字都对，B表示位置不对，数字对)
 
 ## Lesson 23 Five-Chess game 五子棋
 ### 问题描述
@@ -182,7 +189,7 @@ Unit 1 是《新概念C语言》系列课程的第一部分，共有24个Lesson�
 
 ## Lesson 24 Build a simple Search Engenine 简单搜索引擎
 ### 问题描述
-从网页文件中抓取正文文本 (例如 <p>akaedu is set up in 2004.</p> )，并搜索是否存在用户输入的关键字 akaedu，并返回相关段落正文。
+从网页文件中抓取正文文本 (例如 "<p>akaedu is set up in 2004.</p>" )，并搜索是否存在用户输入的关键字 akaedu，并返回相关段落正文。
 
 
 
