@@ -6,9 +6,9 @@ note: please use <http://codepad.org/> to run/test these C programs!
 计划学习《新概念第2册》的写法，一共分为 4个 Unit，每个 Unit 包含24个 Lesson，一共 96 个 Lesson。
 其中每个Lesson对应一段可编译执行的典型代码，解决一个有趣味的计算机问题。
 
-Unit 1 ： 覆盖基本C语法结构--变量，表达式，语句，数组，结构体，指针等 (每个demo程序100行以内)
+Unit 1 ： 覆盖基本C语法结构--变量，表达式，语句，数组，结构体，位操作，指针等 (每个demo程序100行以内)
 
-Unit 2 ： 覆盖常用算法和数据结构--递归，状态机，链表，队列，栈，二叉树，排序查找，压缩算法等 (100-500行)
+Unit 2 ： 覆盖常用算法和数据结构--递归，状态机，链表，队列，栈，二叉树，排序查找，压缩算法，库函数等 (100-500行)
 
 Unit 3 ： 覆盖经典计算机问题的解法--汉诺塔，迷宫，八皇后，表达式求值等 (500-2000行以内)
 
@@ -47,13 +47,13 @@ Unit 4 ： 用C语言实现一个类C语言的编译器，把全部代码拆解�
 
 ### Lesson 16 Bit-Field 位域操作
 
-### Lesson 17 My printf 我的printf实现
+### Lesson 17 Find how many words in an artitle 统计一个文本中的单词个数
 
-### Lesson 18 Find how many words in an artitle 统计一个文本中的单词个数
+### Lesson 18 Install IRQ handler 安装中断处理程序
 
 ### Lesson 19 Shell command parser 命令解释器
 
-### Lesson 20 Install IRQ handler 安装中断处理程序
+### Lesson 20 
 
 ### Lesson 21 RECTANGULAR and POLAR直角坐标和极坐标互换
 
@@ -67,7 +67,7 @@ Unit 4 ： 用C语言实现一个类C语言的编译器，把全部代码拆解�
 ### Lesson 25 Fibonacci Sequence 斐波那契数列
 ### Lesson 26 Is it a float number 浮点数判别
 ### Lesson 27 Josephus ring 约瑟夫环循环链表
-### Lesson 28 
+### Lesson 28 My printf 我的printf实现
 ### Lesson 29 
 ### Lesson 30 
 ### Lesson 31 
