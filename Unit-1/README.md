@@ -19,7 +19,7 @@ Unit 1 是《新概念C语言》系列课程的第一部分，共有24个Lesson�
 
 # Beginning Lessons
 
-## Lesson 1 [What is a simplest C program?](Unit-1/Lesson-1.md) 最简单的C程序
+## Lesson 1 [What is a simplest C program?](Lesson-1.md) 最简单的C程序
 ### 基本概念
 * C 程序 Language
 	- 库函数 Library
@@ -42,7 +42,7 @@ Unit 1 是《新概念C语言》系列课程的第一部分，共有24个Lesson�
 * 更多数据类型 char, float 
 
 
-## Lesson 2 [Let's say hello to world](Unit-1/Lesson-2.md) 打印输出
+## Lesson 2 [Let's say hello to world](Lesson-2.md) 打印输出
 ### 基本概念
 * 程序和进程
 	- 程序的执行流程 Execution Sequence
@@ -64,7 +64,7 @@ Unit 1 是《新概念C语言》系列课程的第一部分，共有24个Lesson�
 * 外部变量 extern 
 
 	
-## Lesson 3 [Count how many fingers do you have?](Unit-1/Lesson-3.md) 循环打印
+## Lesson 3 [Count how many fingers do you have?](Lesson-3.md) 循环打印
 ### 基本概念
 * 循环
 	- 比较和跳转指令
@@ -82,7 +82,7 @@ Unit 1 是《新概念C语言》系列课程的第一部分，共有24个Lesson�
 * 表达式值
 	
 
-## Lesson 4 [Judge a number odd or even](Unit-1/Lesson-4.md) 判断奇偶
+## Lesson 4 [Judge a number odd or even](Lesson-4.md) 判断奇偶
 ### 基本概念
 * 条件分支
 * 函数的传值和传址
@@ -96,7 +96,7 @@ Unit 1 是《新概念C语言》系列课程的第一部分，共有24个Lesson�
 * 取模 %
 
 
-## Lesson 5 [Summarize all numbers from 1 to 100](Unit-1/Lesson-5.md) 从1加到100求和
+## Lesson 5 [Summarize all numbers from 1 to 100](Lesson-5.md) 从1加到100求和
 ### 基本概念
 * for 循环 
 * 自动变量
@@ -108,7 +108,7 @@ Unit 1 是《新概念C语言》系列课程的第一部分，共有24个Lesson�
 ### 扩展
 * 
 	
-## Lesson 6 [Print 9*9 multiplication table](Unit-1/Lesson-6.md) 乘法表
+## Lesson 6 [Print 9*9 multiplication table](Lesson-6.md) 乘法表
 ### 基本概念
 * 循环嵌套
 
@@ -118,7 +118,7 @@ Unit 1 是《新概念C语言》系列课程的第一部分，共有24个Lesson�
 ### 扩展
 *
 
-## Lesson 7 [Find a max prime number within 100](Unit-1/Lesson-7.md) 求100以内的最大素数
+## Lesson 7 [Find a max prime number within 100](Lesson-7.md) 求100以内的最大素数
 ### 基本概念
 * 循环中的条件分支
 
