@@ -3,9 +3,7 @@ layout: post
 title: 新概念C语言
 ---
 
-NCCL - New Concept C Language
-=============================
-
+# NCCL - New Concept C Language
 
 # Unit One
 Unit 1 是《新概念C语言》系列课程的第一部分，共有24个Lesson，包含以下4个阶段的学习内容：
