@@ -1,7 +1,7 @@
-NCCL - New Concept C Language  新概念C语言
+新概念C语言
 =============================
 
-note: please use <http://codepad.org/> to run/test these C programs!
+* NCCL - New Concept C Language  
 
 计划学习《新概念第2册》的写法，一共分为 4个 Unit，每个 Unit 包含24个 Lesson，一共 96 个 Lesson。
 其中每个Lesson对应一段可编译执行的典型代码，解决一个有趣味的计算机问题。
@@ -41,10 +41,10 @@ Unit 4 ： 用C语言实现一个类C语言的编译器，把全部代码拆解�
 * Lesson 24    Build a simple Search Engenine 简单搜索引擎
 
 ## Unit Two
-* Lesson 25    Fibonacci Sequence 斐波那契数列
-* Lesson 26    Is it a float number 浮点数判别
-* Lesson 27    Josephus ring 约瑟夫环循环链表
-* Lesson 28    My printf 我的printf实现
+* Lesson 25    正在规划中
+* Lesson 26    
+* Lesson 27    
+* Lesson 28    
 * Lesson 29 
 * Lesson 30 
 * Lesson 31 
@@ -67,11 +67,11 @@ Unit 4 ： 用C语言实现一个类C语言的编译器，把全部代码拆解�
 * Lesson 48 
 
 ## Unit Three
-* Lesson 49    Delete the comments in the C program C程序去注释问题
-* Lesson 50    Tower of Hanoi 汉诺塔问题 
-* Lesson 51    Expression Value 表达式求值问题
-* Lesson 52    Maze 迷宫问题
-* Lesson 53    8-Queen 八皇后问题
+* Lesson 49   
+* Lesson 50   
+* Lesson 51   
+* Lesson 52   
+* Lesson 53  
 * Lesson 54 
 * Lesson 55 
 * Lesson 56 
@@ -118,3 +118,4 @@ Unit 4 ： 用C语言实现一个类C语言的编译器，把全部代码拆解�
 * Lesson 95 
 * Lesson 96 
 
+note: please use <http://codepad.org/> to run/test these C programs!
