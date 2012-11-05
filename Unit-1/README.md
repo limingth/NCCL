@@ -60,18 +60,20 @@ Unit 1 是《新概念C语言》系列课程的第一部分，共有24个Lesson�
 * for 循环 
 	- 两种循环用法比较
 * 自动变量 auto variable
-	- C 语言的发展变迁 Old Style C/C89/C99/GNU C
-* 函数栈 Function Stack
-	- 栈帧 Stack Frame
-
+	- C 语言的发展变迁 Old Style C/C89/C99/GNU C	
+* 预处理过程
+	- 条件编译
+	
+	
 ## Lesson 6 [Print 9*9 multiplication table](Lesson-6.md) 乘法表
 ### 基本概念讲解
 * 循环嵌套
 	- 两重循环的典型用法
 * 程序的调试
 	- 编译时和运行时错误
-* 预处理符 # 
-	- 打印调试技巧
+* 函数栈 Function Stack
+	- 栈帧 Stack Frame
+	
 		
 ## Lesson 7 [Find a max prime number within 100](Lesson-7.md) 求100以内的最大素数
 ### 基本概念讲解
@@ -79,6 +81,7 @@ Unit 1 是《新概念C语言》系列课程的第一部分，共有24个Lesson�
 	- break 和 goto 用法	
 * 数学库函数 math library
 	- 静态链接和动态链接 static & dynamic linkage
+* 强制类型转换
 * 算法效率 
 	- 算法的时间复杂度分析 O(n) 
 
@@ -92,11 +95,15 @@ Unit 1 是《新概念C语言》系列课程的第一部分，共有24个Lesson�
 	- 函数式宏定义 Function-like Macro
 * 递归 Recursive 
 	- 循环和递归 
+* 变量的生存期和作用域
+	- static 用法
 
 ## Lesson 9 Josephus ring 约瑟夫环
 ### 基本概念讲解
-* 一维数组 Array
-	- 动态内存分配
+* 一维数组 Array	
+	- 字符数组的初始化
+* 动态内存分配	
+	- heap & stack
 * 数据结构和算法 DS & AL
 	- 数据驱动编程 Data-Driven
 * 链表思想 
@@ -105,18 +112,25 @@ Unit 1 是《新概念C语言》系列课程的第一部分，共有24个Lesson�
 ## Lesson 10 Calculate the distance between 2 point 求两个坐标点之间的距离
 ### 基本概念讲解
 * 结构体 Struct
+	- 结构体初始化
 * 数组和结构体
+	- 数组名参数的传址调用
+	- 结构体参数的传值调用
 * 类型声明 typedef 
+	- 预处理和编译时
 
-
+	
 ## Lesson 11 Does your machine use little-endian? 判断机器存储是否小尾端
 ### 基本概念讲解
 * 联合 Union
-* 数据的存储表示
-	- 原码，反码和补码
+	- 存储分配
 * 结构体空洞 Struct Hole
 	- 对齐和填充 Alignment & Padding
-
+* 数据的存储表示
+	- 原码，反码和补码
+* 预处理符
+	- # 的用法
+	- ## 的用法
 
 ## Lesson 12 Find how many 9 in number 1 to 100 1到100有多少个9
 ### 基本概念讲解
@@ -131,10 +145,9 @@ Unit 1 是《新概念C语言》系列课程的第一部分，共有24个Lesson�
 ## Lesson 13 Sorry, your car is restricted today 对不起，你的车今天限行
 ### 基本概念讲解
 * 分支语句 Switch
+* 枚举 enum
 * 增量式开发 Incremental Development
 	Reuse
-* 变量的生存期和作用域
-	- static 用法
 * 预定义宏
 	- \_\_DATE\_\_ 
 	- \_\_TIME\_\_
@@ -143,8 +156,13 @@ Unit 1 是《新概念C语言》系列课程的第一部分，共有24个Lesson�
 
 ## Lesson 14 Is there a way out? 判断地图上某点是否有出路
 ### 基本概念讲解
-* 数组、循环和分支
-* 条件编译
+* 二维数组
+	- 循环和分支
+* 逻辑表达式
+	- 或 ||
+	- 与 &&	
+* 随机数生成
+	- 时间种子
 	
 
 # Advanced Lessons
@@ -154,7 +172,7 @@ Unit 1 是《新概念C语言》系列课程的第一部分，共有24个Lesson�
 * 位操作
 	- 移位 >>
 	- 与 &
-* 异或操作
+* 异或操作：
 	- 按位加法	
 * 算法效率
 	
@@ -179,8 +197,10 @@ Unit 1 是《新概念C语言》系列课程的第一部分，共有24个Lesson�
 ## Lesson 18 Find how many words in an artitle 统计一个文本中的单词个数
 ### 基本概念讲解
 * 指针数组
+* 动态内存分配
+	- malloc & free
 * 状态机思想的简单应用
-	- state 
+	- state machine
 
 
 ## Lesson 19 Shell command parser 命令解释器
@@ -193,16 +213,21 @@ Unit 1 是《新概念C语言》系列课程的第一部分，共有24个Lesson�
 	- 进程栈空间布局
 
 
-## Lesson 20 RECTANGULAR and POLAR直角坐标和极坐标互换
+## Lesson 20 Rectangular and Polar 直角坐标和极坐标互换
 ### 基本概念讲解
 * 函数指针数组
+* 枚举
 * 复杂类型声明 typedef
 
 
 ## Lesson 21 Is this number a float? 浮点数判别
 ### 基本概念讲解
 * 多维数组 
+	- 多维整型数组
+	- 多维函数指针数组
 * FSM 有限状态机
+	- 状态机编程模型
+	- 状态机的设计
 
 
 # Homework Projects
