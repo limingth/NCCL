@@ -1,4 +1,9 @@
-﻿NCCL - New Concept C Language
+﻿---
+layout: post
+title: 新概念C语言
+---
+
+NCCL - New Concept C Language
 =============================
 
 
