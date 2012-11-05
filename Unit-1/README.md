@@ -52,6 +52,7 @@ Unit 1 是《新概念C语言》系列课程的第一部分，共有24个Lesson�
 	- 表达式求值  Expression Value
 * 编码风格 Coding Style
 	- 标识符命名 symbol naming
+	- 代码缩进 (如果你知道自己在做什么，三层就足够了)
 * 函数的传值和传址 Parameter's value and address
 	- 程序二进制接口规范 ABI (Application Binary Interface)
 
@@ -102,12 +103,13 @@ Unit 1 是《新概念C语言》系列课程的第一部分，共有24个Lesson�
 ### 基本概念讲解
 * 一维数组 Array	
 	- 字符数组的初始化
-* 动态内存分配	
+* 动态内存分配 Memory Allocate	
 	- heap & stack
 * 数据结构和算法 DS & AL
 	- 数据驱动编程 Data-Driven
-* 链表思想 
-	- 算法优化
+	- 数据压倒一切，编程的核心是数据结构，而不是算法
+* 链表思想 Link List
+	- 算法优化 Optimization
 
 ## Lesson 10 Calculate the distance between 2 point 求两个坐标点之间的距离
 ### 基本概念讲解
@@ -117,7 +119,7 @@ Unit 1 是《新概念C语言》系列课程的第一部分，共有24个Lesson�
 	- 数组名参数的传址调用
 	- 结构体参数的传值调用
 * 类型声明 typedef 
-	- 预处理和编译时
+	- 预处理和编译时 Pre-compile & Compiling time
 
 	
 ## Lesson 11 Does your machine use little-endian? 判断机器存储是否小尾端
@@ -126,9 +128,9 @@ Unit 1 是《新概念C语言》系列课程的第一部分，共有24个Lesson�
 	- 存储分配
 * 结构体空洞 Struct Hole
 	- 对齐和填充 Alignment & Padding
-* 数据的存储表示
+* 数据的存储表示 Complements
 	- 原码，反码和补码
-* 预处理符
+* 预处理符 Pre-compile Symbol
 	- # 的用法
 	- ## 的用法
 
@@ -138,17 +140,20 @@ Unit 1 是《新概念C语言》系列课程的第一部分，共有24个Lesson�
 	- 函数的入口和出口
 * 分解和分层 stratify 
 	- 小即是美
-* 过程抽象和接口设计 
-	- 可复用的代码
+* 过程抽象和接口设计 Procedure Abstract
+	- 可复用的代码 Reuse
+	- 接口小巧、简洁和正交
 
 
 ## Lesson 13 Sorry, your car is restricted today 对不起，你的车今天限行
 ### 基本概念讲解
 * 分支语句 Switch
-* 枚举 enum
+* 枚举用法 enum
+	- 枚举类型的初始化
 * 增量式开发 Incremental Development
-	Reuse
-* 预定义宏
+	- 步步为营而不是一蹴而就
+* 预定义宏的用法
+	- \_\_LINE\_\_ 
 	- \_\_DATE\_\_ 
 	- \_\_TIME\_\_
 	- \_\_func\_\_
@@ -158,11 +163,11 @@ Unit 1 是《新概念C语言》系列课程的第一部分，共有24个Lesson�
 ### 基本概念讲解
 * 二维数组
 	- 循环和分支
-* 逻辑表达式
+* 逻辑表达式 Logical Expression
 	- 或 ||
 	- 与 &&	
-* 随机数生成
-	- 时间种子
+* 随机数生成 Random
+	- 时间种子 Time seed
 	
 
 # Advanced Lessons
@@ -180,7 +185,11 @@ Unit 1 是《新概念C语言》系列课程的第一部分，共有24个Lesson�
 ## Lesson 16 Bit-Field 位域操作
 ### 基本概念讲解
 * 位域
+	－通过位域实现位操作
 * 结构体的位域操作
+	- 嵌入式编程中的寄存器配置
+* GCC 和 C99 在结构体中的扩展用法
+	- 驱动内核模块编写
 
 	
 ## Lesson 17 How to strcpy 字符串拷贝
@@ -197,6 +206,7 @@ Unit 1 是《新概念C语言》系列课程的第一部分，共有24个Lesson�
 ## Lesson 18 Find how many words in an artitle 统计一个文本中的单词个数
 ### 基本概念讲解
 * 指针数组
+	- 和二维数组的比较
 * 动态内存分配
 	- malloc & free
 * 状态机思想的简单应用
@@ -216,8 +226,12 @@ Unit 1 是《新概念C语言》系列课程的第一部分，共有24个Lesson�
 ## Lesson 20 Rectangular and Polar 直角坐标和极坐标互换
 ### 基本概念讲解
 * 函数指针数组
-* 枚举
-* 复杂类型声明 typedef
+* 复杂类型声明
+	- typedef 背后编译器的处理过程
+* 驱动框架模型
+	- 函数指针结构体
+* 面向对象的编程
+	- 如何用C实现OOP
 
 
 ## Lesson 21 Is this number a float? 浮点数判别
@@ -228,6 +242,10 @@ Unit 1 是《新概念C语言》系列课程的第一部分，共有24个Lesson�
 * FSM 有限状态机
 	- 状态机编程模型
 	- 状态机的设计
+* 策略和机制分离
+	- 高内聚低耦合原则
+* Unix 编程艺术之表示原则
+	- 把知识叠入数据以求逻辑质朴而健壮。
 
 
 # Homework Projects
