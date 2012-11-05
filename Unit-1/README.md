@@ -248,7 +248,7 @@ Unit 1 是《新概念C语言》系列课程的第一部分，共有24个Lesson�
 
 ## Lesson 24 Build a simple Search Engenine 简单搜索引擎
 ### 问题描述
-从网页文件中抓取正文文本 (例如 "\<p\>hello, akaedu.\</p\>" )，并搜索是否存在用户输入的关键字 akaedu，并返回相关段落正文。
+简单搜索引擎：从网页文件中抓取正文文本 (例如 "\<p\>hello, akaedu.\<\/p\>" )，并搜索是否存在用户输入的关键字 akaedu，并返回相关段落正文。
 
 
 
