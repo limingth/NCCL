@@ -118,4 +118,15 @@ Unit 4 ： 用C语言实现一个类C语言的编译器，把全部代码拆解�
 * Lesson 95 
 * Lesson 96 
 
+### 语音播放：
+[YY语音](http://www.yy.com/)
+
+* 软件下载  
+<http://yydl.duowan.com/4/setup/YYSetup-5.0.0.8-zh-CN.exe>
+
+### 桌面共享：
+[mikogo](http://www.mikogo.net.cn/)
+
+* 软件下载  
+<http://www.mikogo.net.cn/download/>
 note: please use <http://codepad.org/> to run/test these C programs!
