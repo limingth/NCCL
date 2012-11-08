@@ -44,7 +44,7 @@
 * Lesson 12    Find how many 9 in number 1 to 100 1到100有多少个9
 * Lesson 13    Sorry, your car is restricted today 对不起，你的车今天限行
 * Lesson 14    Is there a way out? 判断地图上某点是否有出路
-* Lesson 15    Count how many bit 1 in a number 统计一个数二进制表示中1的个数
+* Lesson 15    Count how many bit 1 in a number 统计一个数二进制中bit 1的个数
 * Lesson 16    Bit-Field 位域操作
 * Lesson 17    How to strcpy 字符串拷贝
 * Lesson 18    Find how many words in an artitle 统计一个文本中的单词个数
