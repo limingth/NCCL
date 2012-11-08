@@ -2,9 +2,9 @@
 
 网络学习可以通过PC主机，也可以通过 iPhone 或者 Android 手机进行。
 
-语音播放采用 YY 语音，编程演示采用 Mikogo 共享桌面。
+语音播放采用 YY 语音，编程演示采用 Mikogo 共享桌面。目前这2个软件，都支持 iPhone 和 Android 手机的客户端安装。
 
-(因为目前YY语音只支持Windows，因此还不能通过Linux主机来学习)
+(因为目前YY语音只支持Windows安装，因此还不能通过Linux主机来学习。)
 
 ### 语音播放：
 [YY语音](http://www.yy.com/)
