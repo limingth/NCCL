@@ -15,19 +15,19 @@
 
 全书内容大纲如下：
 
-* [Unit 1](NCCL/blob/master/Unit-1/README.md) ： C Foundmental  
+* [Unit 1](NCCL/blob/master/Unit-1/README.md) ： C Foundmentals  
 覆盖基本C语法结构--变量，表达式，语句，数组，结构体，位操作，指针等
 
-* Unit 2 ： C Essential   
+* Unit 2 ： C Essentials   
 覆盖常用算法和数据结构--递归，链表，队列，栈，二叉树，排序查找，压缩算法，库函数等
 
-* Unit 3 ： C Classical
+* Unit 3 ： C Classicals  
 覆盖经典计算机问题的解法--汉诺塔，迷宫，八皇后，表达式求值等
 
 * Unit 4 ： C Compiler  
 用C语言实现一个类C语言的编译器，最后能够编译生成 ARM 开发板上的二进制驱动程序。
 
-(作者注: 目前仅完成 Unit 1 部分，希望能够有更多优秀老师参与编写。)
+(作者注: 目前仅完成 Unit 1 部分，希望能够有更多优秀的老师参与编写，请和我联系。)
 
 ## Unit One
 * Lesson 1    What is a simplest C program? 最简单的C程序
