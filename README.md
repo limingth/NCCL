@@ -1,7 +1,7 @@
 新概念C语言
 =============================
 
-* NCCL - New Concept C Language  
+## NCCL - New Concept C Language  
 
 这是一本适合C语言零基础，但对编程有强烈兴趣的学员阅读学习的书。
 
