@@ -27,7 +27,7 @@
 * Unit 4 ： C Compiler  
 用C语言实现一个类C语言的编译器，最后能够编译生成 ARM 开发板上的二进制驱动程序。
 
-(作者注: 目前仅完成 Unit 1 部分)
+(作者注: 目前仅完成 Unit 1 部分，希望能够有更多优秀老师参与编写。)
 
 ## Unit One
 * Lesson 1    What is a simplest C program? 最简单的C程序
