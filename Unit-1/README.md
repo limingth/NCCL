@@ -172,7 +172,7 @@ Unit 1 是《新概念C语言》系列课程的第一部分，共有24个Lesson�
 
 # Advanced Lessons
 
-## Lesson 15 Count how many bit 1 in a number 统计一个数bit 1的个数
+## Lesson 15 Count how many bit 1 in a number 统计一个数二进制表示中1的个数
 ### 基本概念讲解
 * 位操作
 	- 移位 >>

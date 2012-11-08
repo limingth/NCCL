@@ -38,19 +38,19 @@
 * Lesson 6    Print 9*9 multiplication table 乘法表
 * Lesson 7    Find a max prime number within 100 求100以内的最大素数
 * Lesson 8    Convert a number to a string 整型转字符串
-* Lesson 9    Josephus 约瑟夫问题
+* Lesson 9    Josephus ring 约瑟夫环
 * Lesson 10    Calculate the distance between 2 point 求两个坐标点之间的距离
 * Lesson 11    Does your machine use little-endian? 判断机器存储是否小尾端
 * Lesson 12    Find how many 9 in number 1 to 100 1到100有多少个9
 * Lesson 13    Sorry, your car is restricted today 对不起，你的车今天限行
 * Lesson 14    Is there a way out? 判断地图上某点是否有出路
-* Lesson 15    Count how many bit 1 in a number 统计一个数二进制中bit 1的个数
+* Lesson 15    Count how many bit 1 in a number 统计一个数二进制表示中1的个数
 * Lesson 16    Bit-Field 位域操作
 * Lesson 17    How to strcpy 字符串拷贝
 * Lesson 18    Find how many words in an artitle 统计一个文本中的单词个数
 * Lesson 19    Shell command parser 命令解释器
 * Lesson 20    RECTANGULAR and POLAR直角坐标和极坐标互换
-* Lesson 21    Is this name a symbol? 标识符判别
+* Lesson 21    Is this number a float? 浮点数判别
 * Lesson 22    Guess what number in my hand 猜数游戏
 * Lesson 23    Five-Chess game 五子棋
 * Lesson 24    Build a simple Search Engenine 简单搜索引擎
