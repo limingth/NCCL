@@ -71,6 +71,12 @@
 
 * <http://www.mikogo.net.cn/download/>
 
+### 实时会议：
+[GoMeetNow](http://cn.gomeetnow.com/)
+
+学员端无需安装，只需浏览器中打开课程地址即可。
+
+
 ## 编码环境
 
 对于在windows上学习的学员，可以通过以下网络远端编译器来运行和测试程序。
