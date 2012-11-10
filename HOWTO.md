@@ -74,7 +74,11 @@
 ### 实时会议：
 [GoMeetNow](http://cn.gomeetnow.com/)
 
-学员端无需安装，只需浏览器中打开课程地址即可。
+GoMeetNow 的优点在于学员端无需安装，只需浏览器中打开课程地址即可，但有40分钟的免费试用时间。
+
+[TeamViewer](http://www.teamviewer.com/zhcn/download/linux.aspx)
+
+TeamViewer 的优点在于音频和桌面共享的效果好，而且支持不限时间的免费试用。
 
 
 ## 编码环境
