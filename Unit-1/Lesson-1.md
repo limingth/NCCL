@@ -30,4 +30,17 @@
 	- 全局变量 global
 * 注释 comment /* */, //
 * 更多数据类型 char, float 
+
+### 参考资料
+* C语言的 BNF 范式
+	- <http://www.cs.man.ac.uk/~pjj/bnf/c_syntax.bnf>
+
+* BNF 范式
+	- <http://zh.wikipedia.org/wiki/巴科斯范式>
+
+* glibc 库
+	- <http://zh.wikipedia.org/wiki/Glibc>
+	- <http://ftp.gnu.org/gnu/glibc>
 	
+* gcc 编译器
+	－ <http://ftp.gnu.org/gnu/gcc/>
