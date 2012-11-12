@@ -20,3 +20,12 @@
 * 循环语句 for
 * 自动变量 i
 * 赋值运算符 +=
+
+### 扩展参考
+	
+	#ifdef DBG_MSG 
+	#define DEBUG_PRINTF(format,args...) \ 
+	do { fprintf(stderr,"%s(%d):" format, __FUNCTION__, __LINE__,##args);}while(0) 
+	#else 
+	#define DEBUG_PRINTF(format,args...) 
+	#endif
