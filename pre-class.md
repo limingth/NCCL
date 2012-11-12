@@ -16,10 +16,11 @@
 
 ## 环境搭建 (15 mins)
 * 授课平台
-	- <TeamViewer> 安装，测试
+	- 安装，测试
+<TeamViewer>
 
-* 编程环境 
-	- <ideone.com> 注册，发布
+* 编程环境 <ideone.com> 
+	- 注册，发布
 
 * 代码管理 
 	- <github.com> 注册，提交
