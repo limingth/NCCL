@@ -17,20 +17,22 @@
 ## 环境搭建 (15 mins)
 * 授课平台
 	- 安装，测试
-<TeamViewer>
-* 编程环境 <ideone.com> 
+	- [TeamViewer](http://www.teamviewer.com/zhCN/index.aspx)
+* 编程环境 
 	- 注册，发布
+	- [ideone](http://ideone.com)
 * 代码管理 
-	- <github.com> 注册，提交
+	- 注册，提交
+	- [github](http://github.com)
 * 微博
-	- <weibo.com> 注册，关注
-
+	- 注册，关注
+	- [weibo](http://weibo.com)
 * 社交
-	- <LinkedIn.com> 注册，连接
-
+	- 注册，连接
+	- [LinkedIn](http://LinkedIn.com)
 * 邮件列表
-	- qqlist 订阅，通知
-	- [新概念C语言在线学习班-邮件列表](http://list.qq.com/cgi-bin/qf_invite?id=b68932ed4e953f875c5881b28c5fe117556db52cc97ca23d)
+	- 订阅，通知
+	- [QQList](http://list.qq.com/cgi-bin/qf_invite?id=b68932ed4e953f875c5881b28c5fe117556db52cc97ca23d)
 
 
 ## 任务布置 (5 mins)
