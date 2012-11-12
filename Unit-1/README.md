@@ -28,6 +28,7 @@ Unit 1 是《新概念C语言》系列课程的第一部分，共有24个Lesson�
 * 操作系统 OS
 	- 加载器 Loader
 
+
 ## Lesson 2 [Let's say hello to world](Lesson-2.md) 打印输出
 ### 基本概念讲解
 * 程序和进程 Program & Process
@@ -36,6 +37,9 @@ Unit 1 是《新概念C语言》系列课程的第一部分，共有24个Lesson�
 	- 链接脚本 Link Script
 * 系统调用 System Call
 	- 虚拟地址空间 Vitual Memory Address
+* 预处理过程 Pre-Compile
+	- 头文件和库 header file & lib
+
 
 ## Lesson 3 [Count how many fingers do you have?](Lesson-3.md) 循环打印
 ### 基本概念讲解
