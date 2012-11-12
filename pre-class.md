@@ -16,23 +16,23 @@
 
 ## 环境搭建 (15 mins)
 * 授课平台
-	- 安装，测试
 	- [TeamViewer](http://www.teamviewer.com/zhCN/index.aspx)
-* 编程环境 
-	- 注册，发布
+	- 安装，注册，测试桌面共享和语音通话
+* 编程环境 	
 	- [ideone](http://ideone.com)
-* 代码管理 
-	- 注册，提交
+	- 注册，测试代码，发布链接
+* 代码管理 	
 	- [github](http://github.com)
-* 微博
-	- 注册，关注
+	- 注册，创建代码仓库，提交代码
+* 微博	
 	- [weibo](http://weibo.com)
-* 社交
-	- 注册，连接
+	- 注册，关注，互相关注
+* 社交	
 	- [LinkedIn](http://LinkedIn.com)
-* 邮件列表
-	- 订阅，通知
+	- 注册，邀请连接，确认
+* 邮件列表	
 	- [QQList](http://list.qq.com/cgi-bin/qf_invite?id=b68932ed4e953f875c5881b28c5fe117556db52cc97ca23d)
+	- 订阅，确认，接收通知
 
 
 ## 任务布置 (5 mins)
