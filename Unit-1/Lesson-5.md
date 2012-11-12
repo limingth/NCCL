@@ -22,6 +22,13 @@
 * 赋值运算符 +=
 
 ### 扩展参考
+
+
+	#ifdef DEBUG
+	#define PRINTD printf
+	#else
+	#define PRINTD(format, args...) ((void)0)
+	#endif
 	
 	#ifdef DBG_MSG 
 	#define DEBUG_PRINTF(format,args...) \ 
