@@ -15,18 +15,28 @@
 * 组长和组员的角色，可以学习2周后互换一次
 
 ## 环境搭建 (15 mins)
-* TeamViewer 安装，测试
+* 授课平台
+	- <TeamViewer> 安装，测试
 
-* 编程环境 ideone.com
+* 编程环境 
+	- <ideone.com> 注册，发布
 
-* 代码管理 github.com
+* 代码管理 
+	- <github.com> 注册，提交
 
-* 提交以上3个帐号
+* 微博
+	- <weibo.com> 注册，关注
+
+* 社交
+	- <LinkedIn.com> 注册，连接
+
+* 邮件列表
+	- qqlist 订阅，通知
+	- [新概念C语言在线学习班-邮件列表](http://list.qq.com/cgi-bin/qf_invite?id=b68932ed4e953f875c5881b28c5fe117556db52cc97ca23d)
+
 
 ## 任务布置 (5 mins)
 * 学习参考书目
 * QQ群交流公约
-* 微博账号
-* LinkedIn  
 
 预计需要1个小时完成以上工作。
