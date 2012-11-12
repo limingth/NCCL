@@ -68,7 +68,7 @@ Unit 1 是《新概念C语言》系列课程的第一部分，共有24个Lesson�
 	- C 语言的发展变迁 Old Style C/C89/C99/GNU C	
 * 预处理过程
 	- 条件编译
-	
+	- DEBUG 调试宏
 	
 ## Lesson 6 [Print 9*9 multiplication table](Lesson-6.md) 乘法表
 ### 基本概念讲解
