@@ -18,13 +18,10 @@
 * 授课平台
 	- 安装，测试
 <TeamViewer>
-
 * 编程环境 <ideone.com> 
 	- 注册，发布
-
 * 代码管理 
 	- <github.com> 注册，提交
-
 * 微博
 	- <weibo.com> 注册，关注
 
