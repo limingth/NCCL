@@ -29,3 +29,5 @@
 	#else 
 	#define DEBUG_PRINTF(format,args...) 
 	#endif
+
+[LinkedIn 上的讨论](http://www.linkedin.com/groupItem?view=&srchtype=discussedNews&gid=87910&item=182474373&type=member&trk=eml-anet_dig-b-pop_ttl-hdp&ut=3tEjHOeHiH0lw1)
