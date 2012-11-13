@@ -17,35 +17,36 @@
 ## 环境测试 (15 mins)
 * 授课平台
 	- TeamViewer
-		> 安装，注册，测试桌面共享和语音通话
+	- 安装，注册，测试桌面共享和语音通话
 * 编程环境 	
 	- ideone
 	- 注册，测试代码，发布链接
 * 代码管理 	
 	- github
 	- 注册，创建代码仓库，提交代码
-* 邮件列表	
-	- QQList
-	- 订阅，确认，接收通知
+* 班级交流
+	- QQ群和QQList注册
+	- 申请加入(订阅)，确认，接收班级通知
 		
 以上安装使用说明详见 [构建在线学习环境](https://github.com/limingth/NCCL/blob/gh-pages/INSTALL.md)
 
 * 微博	
 	- [weibo](http://weibo.com)
 	- 注册，关注，互相关注
+	- 欢迎关注李明老师新浪微博 <http://weibo.com/limingth>
 * 社交	
 	- [LinkedIn](http://LinkedIn.com)
 	- 注册，邀请连接，确认
+	- 请和李明老师建立LinkedIn连接 <http://cn.linkedin.com/in/limingth>
 
 
-
-## 任务布置 (5 mins)
+## 学前任务 (5 mins)
 * 学习参考书目
-* QQ群 (群号：186779103)
-	- 在这个群里，我们实名制，大家把群名片中的昵称改成自己的真实姓名加城市 例如 李明-北京
-	- 群论坛里面，有一条申请加入邮件列表的链接，邮件列表是我们每天互相交流的重要工具
-
-* 交流公约
+	- [Linux C编程一站式学习](http://learn.akae.cn/media/index.html)
+	- [程序员的自我修养](http://ishare.iask.sina.com.cn/f/10540809.html)
+	- [Unix编程艺术](http://ishare.iask.sina.com.cn/f/10468232.html?retcode=0)
+	
+* 班级成员交流公约
 	- 第一条，班机成员每人每星期在群里至少公开提出1个自己目前比较想了解和搞懂的问题
 	- 第二条，每人每星期试着去解决至少1个别人提出的问题，并主动和提问者交流。
 	- 第三条，以上2条都做不到者，自动退出本群。QQ群管理员负责维护本公约的执行落实。
