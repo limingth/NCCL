@@ -53,13 +53,12 @@ TeamViewer 的优点在于音频和桌面共享的效果好，而且支持不限
 #### github 网站
 [github](http://github.com/)
 
-* Git for Windows 工具
-[msysgit](http://msysgit.github.com/)
-
+* Git for Windows 工具  
+[msysgit](http://msysgit.github.com/)  
 安装文件：<http://msysgit.googlecode.com/files/Git-1.8.0-preview20121022.exe>
 
-* uBuntu 下的 git 命令安装
-	- sudo apt-get install git
+* uBuntu 下的 git 命令安装  
+安装方法：sudo apt-get install git
 	
 
 ### Git 基本命令介绍
