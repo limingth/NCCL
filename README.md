@@ -1,18 +1,33 @@
 新概念C语言
 =============================
 
-* NCCL - New Concept C Language  
+## NCCL - New Concept C Language  
 
-计划学习《新概念第2册》的写法，一共分为 4个 Unit，每个 Unit 包含24个 Lesson，一共 96 个 Lesson。
-其中每个Lesson对应一段可编译执行的典型代码，解决一个有趣味的计算机问题。
+这是一本适合C语言零基础，但对C编程有强烈兴趣，想探求其奥秘和精髓的学员阅读学习的书。
 
-[Unit 1](NCCL/blob/master/Unit-1/README.md) ： 覆盖基本C语法结构--变量，表达式，语句，数组，结构体，位操作，指针等 (每个demo程序100行以内)
+起名为《新概念C语言》是希望借鉴《新概念英语》教材的写法，不着重强调语法和词汇(知识点)，而是以范文和场景(应用)来构建课程(Lesson)。
 
-Unit 2 ： 覆盖常用算法和数据结构--递归，状态机，链表，队列，栈，二叉树，排序查找，压缩算法，库函数等 (100-500行)
+全书分为 4个 Unit，每个 Unit 包含 24 个 Lesson，一共 96 个 Lesson。
 
-Unit 3 ： 覆盖经典计算机问题的解法--汉诺塔，迷宫，八皇后，表达式求值等 (500-2000行以内)
+其中每个 Lesson 对应一段可编译执行的典型代码，解决一个有趣的计算机问题，例如约瑟夫环。
 
-Unit 4 ： 用C语言实现一个类C语言的编译器，把全部代码拆解为各个独立的模块，最后整合在一起。 (合计1万行以内)
+这些代码范例的编写，作者将力求做到句法经典，内涵丰富，适合初学者模仿和扩展。
+
+全书内容大纲如下：
+
+* [Unit 1](NCCL/blob/master/Unit-1/README.md) ： C Foundmentals  
+覆盖基本C语法结构--变量，表达式，语句，数组，结构体，位操作，指针等
+
+* Unit 2 ： C Essentials   
+覆盖常用算法和数据结构--递归，链表，队列，栈，二叉树，排序查找，压缩算法，库函数等
+
+* Unit 3 ： C Classicals  
+覆盖经典计算机问题的解法--汉诺塔，迷宫，八皇后，表达式求值等
+
+* Unit 4 ： C Compiler  
+用C语言实现一个类C语言的编译器，最后能够编译生成 ARM 开发板上的二进制驱动程序。
+
+(作者注: 目前仅完成 Unit 1 部分，希望能够有更多优秀的老师参与编写，请和我联系。)
 
 ## Unit One
 * Lesson 1    What is a simplest C program? 最简单的C程序
@@ -23,7 +38,7 @@ Unit 4 ： 用C语言实现一个类C语言的编译器，把全部代码拆解�
 * Lesson 6    Print 9*9 multiplication table 乘法表
 * Lesson 7    Find a max prime number within 100 求100以内的最大素数
 * Lesson 8    Convert a number to a string 整型转字符串
-* Lesson 9    Josephus 约瑟夫问题
+* Lesson 9    Josephus ring 约瑟夫环
 * Lesson 10    Calculate the distance between 2 point 求两个坐标点之间的距离
 * Lesson 11    Does your machine use little-endian? 判断机器存储是否小尾端
 * Lesson 12    Find how many 9 in number 1 to 100 1到100有多少个9
@@ -35,7 +50,7 @@ Unit 4 ： 用C语言实现一个类C语言的编译器，把全部代码拆解�
 * Lesson 18    Find how many words in an artitle 统计一个文本中的单词个数
 * Lesson 19    Shell command parser 命令解释器
 * Lesson 20    RECTANGULAR and POLAR直角坐标和极坐标互换
-* Lesson 21    Is this name a symbol? 标识符判别
+* Lesson 21    Is this number a float? 浮点数判别
 * Lesson 22    Guess what number in my hand 猜数游戏
 * Lesson 23    Five-Chess game 五子棋
 * Lesson 24    Build a simple Search Engenine 简单搜索引擎

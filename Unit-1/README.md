@@ -31,6 +31,7 @@ Unit 1 是《新概念C语言》系列课程的第一部分，共有24个Lesson�
 * 操作系统 OS
 	- 加载器 Loader
 
+
 ## Lesson 2 [Let's say hello to world](Lesson-2.md) 打印输出
 ### 基本概念讲解
 * 程序和进程 Program & Process
@@ -39,6 +40,9 @@ Unit 1 是《新概念C语言》系列课程的第一部分，共有24个Lesson�
 	- 链接脚本 Link Script
 * 系统调用 System Call
 	- 虚拟地址空间 Vitual Memory Address
+* 预处理过程 Pre-Compile
+	- 头文件和库 header file & lib
+
 
 ## Lesson 3 [Count how many fingers do you have?](Lesson-3.md) 循环打印
 ### 基本概念讲解
@@ -67,7 +71,7 @@ Unit 1 是《新概念C语言》系列课程的第一部分，共有24个Lesson�
 	- C 语言的发展变迁 Old Style C/C89/C99/GNU C	
 * 预处理过程
 	- 条件编译
-	
+	- DEBUG 调试宏
 	
 ## Lesson 6 [Print 9*9 multiplication table](Lesson-6.md) 乘法表
 ### 基本概念讲解
@@ -175,7 +179,7 @@ Unit 1 是《新概念C语言》系列课程的第一部分，共有24个Lesson�
 
 # Advanced Lessons
 
-## Lesson 15 Count how many bit 1 in a number 统计一个数bit 1的个数
+## Lesson 15 Count how many bit 1 in a number 统计一个数二进制表示中1的个数
 ### 基本概念讲解
 * 位操作
 	- 移位 >>
