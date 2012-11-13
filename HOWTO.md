@@ -44,57 +44,6 @@
 学习过程中，组长和组员的角色可以互换一次，但必须经过两人共同认可同意方可调换。
 
 
-## QQ交流群《班级成员公约》
-
-第一条，班机成员每人每星期在群里至少公开提出1个自己目前比较想了解和搞懂的问题
-
-第二条，每人每星期试着去解决至少1个别人提出的问题，并主动和提问者交流。
-
-第三条，以上2条都做不到者，自动退出本群。QQ群管理员负责维护本公约的执行落实。
-
-
-## 环境安装
-
-网络学习可以通过PC主机，也可以通过 iPhone 或者 Android 手机进行。
-
-语音播放采用 YY 语音，编程演示采用 Mikogo 共享桌面。目前这2个软件，都支持 iPhone 和 Android 手机的客户端安装。
-
-(因为目前YY语音只支持Windows安装，因此还不能通过Linux主机来学习。)
-
-### 语音播放：
-[YY语音](http://www.yy.com/)
-
-* <http://yydl.duowan.com/4/setup/YYSetup-5.0.0.8-zh-CN.exe>
-
-### 桌面共享：
-[mikogo](http://www.mikogo.net.cn/)
-
-* <http://www.mikogo.net.cn/download/>
-
-### 实时会议：
-[GoMeetNow](http://cn.gomeetnow.com/)
-
-GoMeetNow 的优点在于学员端无需安装，只需浏览器中打开课程地址即可，但有40分钟的免费试用时间。
-
-[TeamViewer](http://www.teamviewer.com/zhcn/download/linux.aspx)
-
-TeamViewer 的优点在于音频和桌面共享的效果好，而且支持不限时间的免费试用，但最多允许25人同时在线参加。
-
-
-## 编码环境
-
-对于在windows上学习的学员，可以通过以下网络远端编译器来运行和测试程序。
-
-### ideone
-* <http://ideone.com> 
-
-### codepad
-* <http://codepad.org> 
-
-对于安装了Linux的学员，可以通过 vi(gedit) + gcc + makefile 来学习；
-### uBuntu 下的手工安装
-* sudo apt-get install vim
-* sudo apt-get install gcc
-* sudo apt-get install make
-* sudo apt-get install libc6-dev 
+## 构建在线学习环境
+<https://github.com/limingth/NCCL/blob/gh-pages/INSTALL.md>
 
