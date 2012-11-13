@@ -78,7 +78,7 @@ GoMeetNow 的优点在于学员端无需安装，只需浏览器中打开课程�
 
 [TeamViewer](http://www.teamviewer.com/zhcn/download/linux.aspx)
 
-TeamViewer 的优点在于音频和桌面共享的效果好，而且支持不限时间的免费试用。
+TeamViewer 的优点在于音频和桌面共享的效果好，而且支持不限时间的免费试用，但最多允许25人同时在线参加。
 
 
 ## 编码环境
