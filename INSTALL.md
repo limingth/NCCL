@@ -17,18 +17,15 @@
 
 ### GoMeetNow 桌面共享
 * [GoMeetNow](http://cn.gomeetnow.com/)  
-安装文件： <http://cn.image.gomeetnow.com/GoMeetNow.zip>
-
+安装文件： <http://cn.image.gomeetnow.com/GoMeetNow.zip>  
 GoMeetNow 的优点在于学员端无需安装，只需浏览器中打开课程地址即可，但有40分钟的免费试用时间。
 
 ### 其他工具
 * [TeamViewer](http://www.teamviewer.com/zhcn/download/linux.aspx)  
-安装文件：<http://www.teamviewer.com/download/version_8x/TeamViewer_Setup_zhcn.exe>  
-
+安装文件：<http://www.teamviewer.com/download/version_8x/TeamViewer_Setup_zhcn.exe>   
 TeamViewer 的优点在于音频和桌面共享的效果好，而且支持不限时间的免费试用，但最多允许25人同时在线参加。
 
 * [mikogo](http://www.mikogo.net.cn/)  
-
 下载页面：<http://www.mikogo.net.cn/download/>
 
 ## 编码环境
