@@ -22,12 +22,12 @@
 GoMeetNow 的优点在于学员端无需安装，只需浏览器中打开课程地址即可，但有40分钟的免费试用时间。
 
 ### 其他工具
-* TeamViewer
+* TeamViewer  
 [TeamViewer](http://www.teamviewer.com/zhcn/download/linux.aspx)
 安装文件：<http://www.teamviewer.com/download/version_8x/TeamViewer_Setup_zhcn.exe>
 TeamViewer 的优点在于音频和桌面共享的效果好，而且支持不限时间的免费试用，但最多允许25人同时在线参加。
 
-* mikogo
+* mikogo  
 [mikogo](http://www.mikogo.net.cn/)
 下载页面：<http://www.mikogo.net.cn/download/>
 
@@ -42,9 +42,9 @@ TeamViewer 的优点在于音频和桌面共享的效果好，而且支持不限
 * <http://codepad.org> 
 
 ### uBuntu
-对于安装了Linux的学员，可以通过 vi(gedit) + gcc + makefile 来学习；
+* 对于安装了Linux的学员，可以通过 vi(gedit) + gcc + makefile 来学习；
 
-### uBuntu 下的手工安装
+#### uBuntu 下的手工安装
 * sudo apt-get install vim
 * sudo apt-get install gcc
 * sudo apt-get install make
@@ -53,15 +53,16 @@ TeamViewer 的优点在于音频和桌面共享的效果好，而且支持不限
 ## 代码管理
 
 ### GitHub 远端仓库
+#### github 网站
 [github](http://github.com/)
 
-* Windows 下载和安装
+* Git for Windows 工具
 [msysgit](http://msysgit.github.com/)
 
 安装文件：<http://msysgit.googlecode.com/files/Git-1.8.0-preview20121022.exe>
 
-* uBuntu 安装
-- sudo apt-get install git
+* uBuntu 下的 git 命令安装
+	- sudo apt-get install git
 	
 
 ### Git 基本命令介绍
