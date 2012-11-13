@@ -33,15 +33,16 @@ TeamViewer 的优点在于音频和桌面共享的效果好，而且支持不限
 对于没有安装过开发环境的学员，可以通过以下网络远端编译器来运行和测试程序；
 
 ### ideone
-* <http://ideone.com> 
+* <http://ideone.com>  
+ideone 的优点是支持代码编辑框中的Tab输入（缩进），并且支持用户的数据输入。推荐使用。
 
 ### codepad
 * <http://codepad.org> 
+codepad 的优点在于界面简单，使用方便，不足在于不支持数据输入，也不支持编辑框中的Tab缩进。
 
 对于安装过Linux的学员，可以通过 vi(gedit) + gcc + makefile 来学习；
 
-### uBuntu
-#### uBuntu 下的手工安装
+### uBuntu 下的手工安装
 * sudo apt-get install vim
 * sudo apt-get install gcc
 * sudo apt-get install make
