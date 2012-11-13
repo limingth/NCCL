@@ -9,7 +9,7 @@
 
 (因为目前YY语音只支持Windows安装，因此还不能通过Linux主机来学习。)
 
-## 软件安装
+## 授课平台
 
 ### YY 语音会议
 * [YY语音](http://www.yy.com/)  
@@ -71,3 +71,6 @@ codepad 的优点在于界面简单，使用方便，不足在于不支持数据
 * git checkout 
 
 
+## 邮件列表
+*[qqlist](http://list.qq.com/cgi-bin/qf_invite?id=b68932ed4e953f875c5881b28c5fe117556db52cc97ca23d)  
+请使用自己的常用邮箱，有关《新概念C语言》课程的参考资料，作业布置，都会通过邮件列表进行，最好是每天都能检查一下邮箱。

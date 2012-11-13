@@ -24,7 +24,10 @@
 * 代码管理 	
 	- github
 	- 注册，创建代码仓库，提交代码
-	
+* 邮件列表	
+	- QQList
+	- 订阅，确认，接收通知
+		
 以上安装使用说明详见 [构建在线学习环境](https://github.com/limingth/NCCL/blob/gh-pages/INSTALL.md)
 
 * 微博	
@@ -33,9 +36,7 @@
 * 社交	
 	- [LinkedIn](http://LinkedIn.com)
 	- 注册，邀请连接，确认
-* 邮件列表	
-	- [QQList](http://list.qq.com/cgi-bin/qf_invite?id=b68932ed4e953f875c5881b28c5fe117556db52cc97ca23d)
-	- 订阅，确认，接收通知
+
 
 
 ## 任务布置 (5 mins)
