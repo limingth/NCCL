@@ -30,7 +30,7 @@ TeamViewer 的优点在于音频和桌面共享的效果好，而且支持不限
 
 ## 编码环境
 
-对于在windows上学习的学员，可以通过以下网络远端编译器来运行和测试程序。
+对于没有安装过开发环境的学员，可以通过以下网络远端编译器来运行和测试程序；
 
 ### ideone
 * <http://ideone.com> 
@@ -38,9 +38,9 @@ TeamViewer 的优点在于音频和桌面共享的效果好，而且支持不限
 ### codepad
 * <http://codepad.org> 
 
-### uBuntu
-* 对于安装了Linux的学员，可以通过 vi(gedit) + gcc + makefile 来学习；
+对于安装过Linux的学员，可以通过 vi(gedit) + gcc + makefile 来学习；
 
+### uBuntu
 #### uBuntu 下的手工安装
 * sudo apt-get install vim
 * sudo apt-get install gcc
@@ -50,14 +50,13 @@ TeamViewer 的优点在于音频和桌面共享的效果好，而且支持不限
 ## 代码管理
 
 ### GitHub 远端仓库
-#### github 网站
-[github](http://github.com/)
+* [github](http://github.com/)
 
-* Git for Windows 工具  
-[msysgit](http://msysgit.github.com/)  
+### Git for Windows 工具  
+* [msysgit](http://msysgit.github.com/)  
 安装文件：<http://msysgit.googlecode.com/files/Git-1.8.0-preview20121022.exe>
 
-* uBuntu 下的 git 命令安装  
+### uBuntu 下的 git 命令安装  
 安装方法：sudo apt-get install git
 	
 
