@@ -49,13 +49,13 @@ Unit 1 是《新概念C语言》系列课程的第一部分，共有24个Lesson�
 	- 程序入口 Entry
 	- 链接脚本决定了程序的执行地址 
 * 程序的编译过程 Program compiling procedure
-	- 预处理 Preprocessing 
+	- 预处理 Preprocessing  
 		cpp (.c -> .i)
-	- 编译 Compilation
+	- 编译 Compilation  
 		cc1 (.i -> .s)
-	- 汇编 Assembly 
+	- 汇编 Assembly  
 		as (.s -> .o)
-	- 链接 Linking
+	- 链接 Linking  
 		collect2 (.o -> .elf)
 * 虚拟地址 Vitual Memory Address
 	- 进程独立的地址空间 
