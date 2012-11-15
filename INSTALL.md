@@ -72,12 +72,14 @@ codepad 的优点在于界面简单，使用方便，不足在于不支持数据
 * git merge
 * git checkout 
 
+
 ### Git & Github 
-* Set up Git
+* Set up Git  
 <https://help.github.com/articles/set-up-git>
 
-* Create a repo
+* Create a repo  
 <https://help.github.com/articles/create-a-repo>
+
 
 ## 班级交流
 * [qqlist邮件列表](http://list.qq.com/cgi-bin/qf_invite?id=b68932ed4e953f875c5881b28c5fe117556db52cc97ca23d)  
@@ -85,5 +87,5 @@ codepad 的优点在于界面简单，使用方便，不足在于不支持数据
 请使用自己的常用邮箱，有关《新概念C语言》课程的参考资料，作业布置，都会通过邮件列表进行，最好是每天都能检查一下邮箱。
 
 * QQ群 (群号：186779103  名称：新概念C语言在线学习)  
-在这个群里，我们实名制，大家把群名片中的昵称改成自己的真实姓名加城市 例如 李明-北京  
+在这个群里，我们采用实名制交流，大家把群名片中的昵称改成自己的真实姓名加城市 例如 李明-北京  
 
