@@ -29,10 +29,7 @@ Unit 1 是《新概念C语言》系列课程的第一部分，共有24个Lesson�
 	- 汇编器 Assembler	
 * 操作系统 OS
 	- 加载器 Loader
-	- 加载地址和执行地址 Load_Addr & Exec_Addr
-* 程序的结构 Program Structure
-	- 代码段 .text 
-	- 数据段 .data	
+	- 加载地址和执行地址 Load_Addr & Exec_Addr	
 * 程序的执行 Program Execution
 	- 进程的概念 Process 
 	- 执行流程 Execution Sequence
@@ -57,6 +54,9 @@ Unit 1 是《新概念C语言》系列课程的第一部分，共有24个Lesson�
 		as (.s -> .o)
 	- 链接 Linking  
 		collect2 (.o -> .elf)
+* 程序的结构 Program Structure
+	- 代码段 .text 
+	- 数据段 .data		
 * 虚拟地址 Vitual Memory Address
 	- 进程独立的地址空间 
 	- 内存管理单元 MMU 
