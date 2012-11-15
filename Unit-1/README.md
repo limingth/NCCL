@@ -22,9 +22,9 @@ Unit 1 是《新概念C语言》系列课程的第一部分，共有24个Lesson�
 ## Lesson 1 [What is a simplest C program?](Lesson-1.md) 最简单的C程序
 ### 基本概念讲解
 * C 语言 Language
-	- 高级语言 
+	- 高级语言 High-level Programming Language
 	- 汇编语言 Assembly Language
-	- 机器指令 Instruction
+	- 机器指令 Instructions
 * 编译器 Compiler
 	- 汇编器 Assembler	
 * 操作系统 OS
