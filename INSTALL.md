@@ -72,6 +72,12 @@ codepad 的优点在于界面简单，使用方便，不足在于不支持数据
 * git merge
 * git checkout 
 
+### Git & Github 
+* Set up Git
+<https://help.github.com/articles/set-up-git>
+
+* Create a repo
+<https://help.github.com/articles/create-a-repo>
 
 ## 班级交流
 * [qqlist邮件列表](http://list.qq.com/cgi-bin/qf_invite?id=b68932ed4e953f875c5881b28c5fe117556db52cc97ca23d)  
