@@ -45,7 +45,7 @@
 	
 		printf("hello, NCCL!\n");
 		
-		counter =  1;
+		counter = 1;
 		while (counter <= 10)
 		{
 			printf("counter = %d\n", counter);
