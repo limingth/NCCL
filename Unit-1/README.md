@@ -21,25 +21,45 @@ Unit 1 是《新概念C语言》系列课程的第一部分，共有24个Lesson�
 
 ## Lesson 1 [What is a simplest C program?](Lesson-1.md) 最简单的C程序
 ### 基本概念讲解
-* C 程序 Language
-	- 库函数 Library
+* C 语言 Language
+	- 高级语言 
+	- 汇编语言 Assembly Language
+	- 机器指令 Instruction
 * 编译器 Compiler
-	- 链接器 Linker
+	- 汇编器 Assembler	
 * 操作系统 OS
 	- 加载器 Loader
+	- 加载地址和执行地址 Load_Addr & Exec_Addr
+* 程序的结构 Program Structure
+	- 代码段 .text 
+	- 数据段 .data	
+* 程序的执行 Program Execution
+	- 进程的概念 Process 
+	- 执行流程 Execution Sequence
 
 
 ## Lesson 2 [Let's say hello to world](Lesson-2.md) 打印输出
 ### 基本概念讲解
-* 程序和进程 Program & Process
-	- 程序的执行流程 Execution Sequence
-* 程序的结构 Program Structure
+* 库函数 Library
+	- libc & glibc
+	- 系统调用 System Call
+	- 库封装了系统调用
+* 链接器 Linker
 	- 链接脚本 Link Script
-* 系统调用 System Call
-	- 虚拟地址空间 Vitual Memory Address
-* 预处理过程 Pre-Compile
-	- 头文件和库 header file & lib
-
+	- 程序入口 Entry
+	- 链接脚本决定了程序的执行地址 
+* 程序的编译过程 Program compiling procedure
+	- 预处理 Preprocessing 
+		cpp (.c -> .i)
+	- 编译 Compilation
+		cc1 (.i -> .s)
+	- 汇编 Assembly 
+		as (.s -> .o)
+	- 链接 Linking
+		collect2 (.o -> .elf)
+* 虚拟地址 Vitual Memory Address
+	- 进程独立的地址空间 
+	- 内存管理单元 MMU 
 
 ## Lesson 3 [Count how many fingers do you have?](Lesson-3.md) 循环打印
 ### 基本概念讲解
