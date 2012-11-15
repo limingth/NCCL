@@ -60,5 +60,6 @@
 	- <http://zh.wikipedia.org/wiki/Glibc>
 	- <http://ftp.gnu.org/gnu/glibc>
 * gcc 编译器
-	－ <http://ftp.gnu.org/gnu/gcc/>
+	- <http://ftp.gnu.org/gnu/gcc/>
+	
 
