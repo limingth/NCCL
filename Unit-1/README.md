@@ -65,8 +65,10 @@ Unit 1 是《新概念C语言》系列课程的第一部分，共有24个Lesson�
 ### 基本概念讲解
 * while 循环 和 do-while 用法
 	- 比较和跳转指令 Compare and Jump Instruction
+	- do-while 比 while 有时更有用
 * 变量的初始化 Variable Initialization
 	- 变量的存储布局 Data & BSS Section
+	- 变量的取名规范 Naming
 * 相对跳转 Relative Jump 
 	- 位置无关代码 PIC (Position Independent Code)
 
