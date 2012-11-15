@@ -50,10 +50,13 @@ codepad 的优点在于界面简单，使用方便，不足在于不支持数据
 ## 代码管理
 
 ### GitHub 远端仓库
-* [github](http://github.com/)
+* github
+<http://github.com/>
 
 ### Git for Windows 工具  
-* [msysgit](http://msysgit.github.com/)  
+* msysgit
+<http://msysgit.github.com/>
+
 安装文件：<http://msysgit.googlecode.com/files/Git-1.8.0-preview20121022.exe>
 
 ### uBuntu 下的 git 命令安装  
