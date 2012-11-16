@@ -1,47 +1,62 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
+
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>新概念C语言 by limingth</title>
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script src="javascripts/respond.js"></script>
-    <!--[if lt IE 9]>
-      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <!--[if lt IE 8]>
-    <link rel="stylesheet" href="stylesheets/ie.css">
-    <![endif]-->
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="新概念C语言 : New Concept C Language" />
 
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>新概念C语言</title>
   </head>
+
   <body>
-      <div id="header">
-        <nav>
-          <li class="fork"><a href=""></a></li>
-          <li class="downloads"><a href=""></a></li>
-        </nav>
-      </div><!-- end header -->
 
-    <div class="wrapper">
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/limingth/NCCL">View on GitHub</a>
 
-      <section>
-        <div id="title">
-          <h1>新概念C语言</h1>
-          <p>New Concept C Language</p>
-        </div>   
-<p>本书共分为 4个 Unit，每个 Unit 包含24个 Lesson，一共 96 个 Lesson。
-其中每个Lesson对应一段可编译执行的典型代码，解决一个有趣味的计算机问题。</p>
+          <h1 id="project_title">新概念C语言</h1>
+          <h2 id="project_tagline">New Concept C Language</h2>
 
-<p>Unit 1 ： 覆盖基本C语法结构--变量，表达式，语句，数组，结构体，位操作，指针等</p>
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/limingth/NCCL/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/limingth/NCCL/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
 
-<p>Unit 2 ： 覆盖常用算法和数据结构--递归，链表，队列，栈，二叉树，排序查找，压缩算法，库函数等</p>
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>新概念C语言</h1>
 
-<p>Unit 3 ： 覆盖经典计算机问题的解法--汉诺塔，迷宫，八皇后，表达式求值等</p>
+<h2>NCCL - New Concept C Language</h2>
 
-<p>Unit 4 ： 用C语言实现一个类C语言的编译器，把全部代码拆解为各个独立的模块，最后整合在一起。</p>
+<p>这是一本适合C语言零基础，但对C编程有强烈兴趣，想探求其奥秘和精髓的学员阅读学习的书。</p>
+
+<p>起名为《新概念C语言》是希望借鉴《新概念英语》教材的写法，不着重强调语法和词汇(知识点)，而是以范文和场景(应用)来构建课程(Lesson)。</p>
+
+<p>全书分为 4个 Unit，每个 Unit 包含 24 个 Lesson，一共 96 个 Lesson。</p>
+
+<p>其中每个 Lesson 对应一段可编译执行的典型代码，解决一个有趣的计算机问题，例如约瑟夫环。</p>
+
+<p>这些代码范例的编写，作者将力求做到句法经典，内涵丰富，适合初学者模仿和扩展。</p>
+
+<p>全书内容大纲如下：</p>
+
+<ul>
+<li><p><a href="NCCL/blob/master/Unit-1/README.md">Unit 1</a> ： C Foundmentals<br>
+覆盖基本C语法结构--变量，表达式，语句，数组，结构体，位操作，指针等</p></li>
+<li><p>Unit 2 ： C Essentials<br>
+覆盖常用算法和数据结构--递归，链表，队列，栈，二叉树，排序查找，压缩算法，库函数等</p></li>
+<li><p>Unit 3 ： C Classicals<br>
+覆盖经典计算机问题的解法--汉诺塔，迷宫，八皇后，表达式求值等</p></li>
+<li><p>Unit 4 ： C Compiler<br>
+用C语言实现一个类C语言的编译器，最后能够编译生成 ARM 开发板上的二进制驱动程序。</p></li>
+</ul><p>(作者注: 目前仅完成 Unit 1 部分，希望能够有更多优秀的老师参与编写，请和我联系。)</p>
 
 <h2>Unit One</h2>
 
@@ -54,7 +69,7 @@
 <li>Lesson 6    Print 9*9 multiplication table 乘法表</li>
 <li>Lesson 7    Find a max prime number within 100 求100以内的最大素数</li>
 <li>Lesson 8    Convert a number to a string 整型转字符串</li>
-<li>Lesson 9    Josephus 约瑟夫问题</li>
+<li>Lesson 9    Josephus ring 约瑟夫环</li>
 <li>Lesson 10    Calculate the distance between 2 point 求两个坐标点之间的距离</li>
 <li>Lesson 11    Does your machine use little-endian? 判断机器存储是否小尾端</li>
 <li>Lesson 12    Find how many 9 in number 1 to 100 1到100有多少个9</li>
@@ -66,17 +81,20 @@
 <li>Lesson 18    Find how many words in an artitle 统计一个文本中的单词个数</li>
 <li>Lesson 19    Shell command parser 命令解释器</li>
 <li>Lesson 20    RECTANGULAR and POLAR直角坐标和极坐标互换</li>
-<li>Lesson 21    Is this name a symbol? 标识符判别</li>
+<li>Lesson 21    Is this number a float? 浮点数判别</li>
 <li>Lesson 22    Guess what number in my hand 猜数游戏</li>
 <li>Lesson 23    Five-Chess game 五子棋</li>
 <li>Lesson 24    Build a simple Search Engenine 简单搜索引擎</li>
 </ul><h2>Unit Two</h2>
 
 <ul>
-<li>Lesson 25    Fibonacci Sequence 斐波那契数列</li>
-<li>Lesson 26    Is it a float number 浮点数判别</li>
-<li>Lesson 27    Josephus ring 约瑟夫环循环链表</li>
-<li>Lesson 28    My printf 我的printf实现</li>
+<li>Lesson 25    正在规划中</li>
+<li>Lesson 26<br>
+</li>
+<li>Lesson 27<br>
+</li>
+<li>Lesson 28<br>
+</li>
 <li>Lesson 29 </li>
 <li>Lesson 30 </li>
 <li>Lesson 31 </li>
@@ -100,11 +118,16 @@
 </ul><h2>Unit Three</h2>
 
 <ul>
-<li>Lesson 49    Delete the comments in the C program C程序去注释问题</li>
-<li>Lesson 50    Tower of Hanoi 汉诺塔问题 </li>
-<li>Lesson 51    Expression Value 表达式求值问题</li>
-<li>Lesson 52    Maze 迷宫问题</li>
-<li>Lesson 53    8-Queen 八皇后问题</li>
+<li>Lesson 49<br>
+</li>
+<li>Lesson 50<br>
+</li>
+<li>Lesson 51<br>
+</li>
+<li>Lesson 52<br>
+</li>
+<li>Lesson 53<br>
+</li>
 <li>Lesson 54 </li>
 <li>Lesson 55 </li>
 <li>Lesson 56 </li>
@@ -153,15 +176,17 @@
 <li>Lesson 96 </li>
 </ul>
       </section>
-
-        <span class="credits left">Project maintained by <a href="https://github.com/limingth">limingth</a></span>
-          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="http://twitter.com/#!/michigangraham">mattgraham</a></span>
-
-<p>note: please use <a href="http://codepad.org/">http://codepad.org/</a> to run/test these C programs!</p>
-
     </div>
-  
-    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">新概念C语言 maintained by <a href="https://github.com/limingth">limingth</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
     
+
   </body>
 </html>
