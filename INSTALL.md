@@ -146,25 +146,22 @@ codepad 的优点在于界面简单，使用方便，不足在于不支持数据
 	cat *.pub
 	
 	6. notepad *.pub
-	ctrl + a
-	ctrl + c
+	ctrl + a 全选
+	ctrl + c 复制
 	
-	切换到浏览器窗口
-	
+	切换到浏览器窗口	
 	7. 右上角有你的名字，旁边有3个图标。点击第2个图标，Account Settting
-	左侧顺数第7个选项 SSH Keys ，点击进入
-	
-	Add SSH Key
+	左侧顺数第7个选项 SSH Keys ，点击进入 Add SSH Key
 	
 	填写 title: git bash
-	填写 key:  ctrl + v (刚才的 pub 文件内容)
+	填写 key:  ctrl + v 粘贴 (就是刚才的 .pub 文件内容)
 	
-	密码： github 的密码
+	密码： github 网站的密码
 	
 	回到 Git Bash 窗口
 	8. ctrl+c 结束 notepad
 	
-	重新 ssh -T git@github.com ，此时应该成功。
+	9. 重新 ssh -T git@github.com ，此时应该成功。
 	
 
 #### 添加自己写的 hello.c 文件进入 myNCCL 项目中
