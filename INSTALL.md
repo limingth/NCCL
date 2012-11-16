@@ -83,7 +83,7 @@ codepad 的优点在于界面简单，使用方便，不足在于不支持数据
 * Set up Git  
 <https://help.github.com/articles/set-up-git>
 
-* Generating SSH Keys
+* Generating SSH Keys  
 <https://help.github.com/articles/generating-ssh-keys>
 
 * Create a repo  
