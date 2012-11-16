@@ -1,0 +1,51 @@
+
+/* This is a very simple css style file for LASO book modified by limingth */
+
+/*------------------------------------------------------------------------------
+     Global Documentation Styles
+------------------------------------------------------------------------------*/
+html {
+  height:100%;
+}
+
+body {
+  font: 15px helvetica,arial,freesans,clean,sans-serif;
+  line-height: 2.4em;
+  background-color: #fff;
+  color: #393939;  
+  margin-left: 200px;
+  margin-right: 200px;
+  padding: 0px;
+  height: 100%;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: 700; 
+}
+
+h2 {
+  font-size: 32px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #cccccc;
+}
+
+h3 {
+  font-size: 24px;  
+}
+
+h4 {
+  font-size: 21px;
+}
+
+h5 {
+  font-size: 18px;
+}
+
+h6 {
+  font-size: 16px;
+}
+
+
+
+

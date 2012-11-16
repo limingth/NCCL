@@ -161,7 +161,7 @@ img {
 pre, code {
   width: 100%;
   color: #222;
-  background-color: #fff;
+  background-color: #E0EEEE;
 
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
   font-size: 14px;
@@ -258,7 +258,7 @@ form {
 }
 
 img {
-  width: 100%;
+#  width: 100%;
   max-width: 100%;
 }
 
@@ -272,7 +272,7 @@ Full-Width Styles
 
 .inner {
   position: relative;
-  max-width: 640px;
+  max-width: 700px;
   padding: 20px 10px;
   margin: 0 auto;
 }
@@ -322,12 +322,14 @@ Full-Width Styles
 }
 
 #downloads {
+  color: #fff;
   position: absolute;
   width: 210px;
   z-index: 10;
-  bottom: -40px;
+  bottom: -80px;
   right: 0;
   height: 70px;
+  text-shadow: #111 0px 0px 10px;
   background: url('../images/icon_download.png') no-repeat 0% 90%;
 }
 
