@@ -38,11 +38,11 @@ TeamViewer 的优点在于音频和桌面共享的效果好，而且支持不限
 对于没有安装过开发环境的学员，可以通过以下网络远端编译器来运行和测试程序；
 
 ### ideone
-* <http://ideone.com>  
+* 网址 <http://ideone.com>  
 ideone 的优点是支持代码编辑框中的Tab输入（缩进），并且支持用户的数据输入。推荐使用。
 
 ### codepad
-* <http://codepad.org> 
+* 网址 <http://codepad.org> 
 codepad 的优点在于界面简单，使用方便，不足在于不支持数据输入，也不支持编辑框中的Tab缩进。
 
 对于安装过Linux的学员，可以通过 vi(gedit) + gcc + makefile 来学习；
@@ -57,15 +57,14 @@ codepad 的优点在于界面简单，使用方便，不足在于不支持数据
 
 ### GitHub 远端仓库
 * github  
-	- <http://github.com/>
+	- 网址 <http://github.com/>
 	- 准备工作: 登陆 github.com 注册一个自己的 ID （使用常用邮箱），密码和邮箱的密码无关。
 
 ### Git for Windows 工具  
 * msysgit  
-	- <http://msysgit.github.com/>
+	- 网址 <http://msysgit.github.com/>
 	- 准备工作: 下载 msysgit ，并安装，能够启动 Git Bash，运行 git 命令
-
-安装文件：<http://msysgit.googlecode.com/files/Git-1.8.0-preview20121022.exe>
+	- 安装文件: <http://msysgit.googlecode.com/files/Git-1.8.0-preview20121022.exe>
 
 ### uBuntu 下的 git 命令安装  
 安装方法：sudo apt-get install git
@@ -83,26 +82,26 @@ codepad 的优点在于界面简单，使用方便，不足在于不支持数据
 
 ### Git & Github 
 * Set up Git  
-<https://help.github.com/articles/set-up-git>
+网址 <https://help.github.com/articles/set-up-git>
 
 * Generating SSH Keys  
-<https://help.github.com/articles/generating-ssh-keys>
+网址 <https://help.github.com/articles/generating-ssh-keys>
 
 * Create a repo  
-<https://help.github.com/articles/create-a-repo>
+网址 <https://help.github.com/articles/create-a-repo>
 
 * Now you can push your code to github and enjoy it!
 
 
 #### 视频学习推荐
 * Git Init  
-<http://happycasts.net/episodes/4>
+网址 <http://happycasts.net/episodes/4>
 
 * Github Init  
-<http://happycasts.net/episodes/7>
+网址 <http://happycasts.net/episodes/7>
 
 * Github Pages  
-<http://happycasts.net/episodes/6>
+网址 <http://happycasts.net/episodes/6>
 
 ## 班级交流
 * [qqlist邮件列表](http://list.qq.com/cgi-bin/qf_invite?id=b68932ed4e953f875c5881b28c5fe117556db52cc97ca23d)  
@@ -170,16 +169,20 @@ codepad 的优点在于界面简单，使用方便，不足在于不支持数据
 
 #### 添加自己写的 hello.c 文件进入 myNCCL 项目中
 	1. cd ~
-	1.1 git config  --global user.name xxx
-	1.2 git config  --global user.email  xxx@xxx.com
-	1.3 git config  --global push.default simple
+
+	2.1 git config  --global user.name xxx
+	2.2 git config  --global user.email  xxx@xxx.com
+	2.3 git config  --global push.default simple
 	
-	2. mkdir github
-	3. cd github
+	3.1 mkdir github
+	3.2 cd github
+
 	4. git clone git@github.com:limingth/myNCCL.git
 	5. git add hello.c
+
 	6. git commit -a -m "just add hello.c"
 	7. git push
 		
 	此时可以修改一下 hello.c ，然后重复 6，7 两步即可
-	9. 如果要添加大量代码，可以用 git add .
+	8. 如果要添加大量代码，可以用 git add .
+	9. 如果要删除某个文件，可以用 git rm a.c
