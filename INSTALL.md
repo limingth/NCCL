@@ -80,6 +80,11 @@ codepad 的优点在于界面简单，使用方便，不足在于不支持数据
 * Create a repo  
 <https://help.github.com/articles/create-a-repo>
 
+#### 视频学习推荐
+* Git Init
+<http://happycasts.net/episodes/4>
+
+* Github pages
 
 ## 班级交流
 * [qqlist邮件列表](http://list.qq.com/cgi-bin/qf_invite?id=b68932ed4e953f875c5881b28c5fe117556db52cc97ca23d)  
