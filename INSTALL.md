@@ -110,3 +110,75 @@ codepad 的优点在于界面简单，使用方便，不足在于不支持数据
 * QQ群 (群号：186779103  名称：新概念C语言在线学习)  
 在这个群里，我们采用实名制交流，大家把群名片中的昵称改成自己的真实姓名加城市 例如 李明-北京  
 
+
+### Git & GitHub 操作说明
+
+#### 浏览器窗口
+	
+	1. 使用你自己的账号，登陆 GitHub.com 
+	
+	2. 登陆后，右上角有你的名字，旁边有3个图标。
+	
+	3. 点击第1个图标，Create a New Repo
+	
+	4. Repository name 填写 myNCCL
+	Description (optional) 填写 this is my NCCL exercise
+	
+	5. 选中 Initialize this repository with a README 
+	
+	6. 点击 Create Repository
+	
+	7. 然后就可以看到 myNCCL 的项目和一个 Readme 文件
+	
+	
+#### Git Bash 窗口
+	
+	1. 运行 ssh -T git@github.com 看是否有 hi，yourname ，如果有则成功。
+	
+	2. cd ~
+	
+	3. cd .ssh
+	
+	4. ssh-keygen -t rsa -C "your_email@youremail.com"
+	
+	5. ls
+	cat *.pub
+	
+	6. notepad *.pub
+	ctrl + a
+	ctrl + c
+	
+	切换到浏览器窗口
+	
+	7. 右上角有你的名字，旁边有3个图标。点击第2个图标，Account Settting
+	左侧顺数第7个选项 SSH Keys ，点击进入
+	
+	Add SSH Key
+	
+	填写 title: git bash
+	填写 key:  ctrl + v (刚才的 pub 文件内容)
+	
+	密码： github 的密码
+	
+	回到 Git Bash 窗口
+	8. ctrl+c 结束 notepad
+	
+	重新 ssh -T git@github.com ，此时应该成功。
+	
+
+#### 添加自己写的 hello.c 文件进入 myNCCL 项目中
+	1. cd ~
+	1.1 git config  --global user.name xxx
+	1.2 git config  --global user.email  xxx@xxx.com
+	
+	2. mkdir github
+	3. cd github
+	4. git clone git@github.com:limingth/myNCCL.git
+	5. git add hello.c
+	6. git commit -a -m "just add hello.c"
+	7. git push
+	8. git config push.default current
+	
+	
+	此时可以修改一下 hello.c ，然后重复 6，7 两步即可
+	9. 如果要添加大量代码，可以用 git add .
