@@ -35,7 +35,7 @@ title: 新概念C语言 NCCL - Lesson 0
 	- 局部变量 local
 	- 全局变量 global
 * 运算符 operator
-	- 双目运算符 ’+,-,*,/‘
+	- 双目运算符 +,-,*,/
 	- 赋值运算符 =
 * 注释 comment 
 	- 不能嵌套 /* */

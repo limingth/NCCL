@@ -77,14 +77,24 @@ codepad 的优点在于界面简单，使用方便，不足在于不支持数据
 * Set up Git  
 <https://help.github.com/articles/set-up-git>
 
+* Generating SSH Keys
+<https://help.github.com/articles/generating-ssh-keys>
+
 * Create a repo  
 <https://help.github.com/articles/create-a-repo>
+
+* Now you can push your code to github and enjoy it!
+
 
 #### 视频学习推荐
 * Git Init
 <http://happycasts.net/episodes/4>
 
+* github-init
+<http://happycasts.net/episodes/7>
+
 * Github pages
+<http://happycasts.net/episodes/6>
 
 ## 班级交流
 * [qqlist邮件列表](http://list.qq.com/cgi-bin/qf_invite?id=b68932ed4e953f875c5881b28c5fe117556db52cc97ca23d)  
