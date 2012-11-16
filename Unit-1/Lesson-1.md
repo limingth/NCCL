@@ -1,3 +1,9 @@
+---
+layout: post
+title: 新概念C语言 NCCL - Lesson 0
+---
+
+
 ## Lesson 1 What is a simplest C program? (最简单的C程序)
 	int main(void)
 	{
@@ -38,18 +44,20 @@
 	- 字符 char
 	- 短整型 short
 	- 浮点 float 
-	- 双精度浮点 double
-	
+	- 双精度浮点 double 
+
 ### 课堂讨论
-* main 函数名是 C 语言的关键字吗？
-* 注释可以写在某一行代码的里面吗？
-* 全局变量和局部变量取名可以重名吗？
-* 所有代码可以写在一行里面吗？
-* 把源程序中的空格去掉可以吗？ 
-	
+* main 函数名是 C 语言的关键字吗?  
+
+* 注释可以写在某一行代码的里面吗?  
+* 全局变量和局部变量取名可以重名吗?   
+
+* 所有代码可以写在一行里面吗?  
+* 把源程序中的空格去掉可以吗?  
+
 ### 课后练习
-* 修改代码，使得编译不通过，并举出常见的错误提示和出错原因，越多越好。
-	
+* 修改代码，使得编译不通过，并举出常见的错误提示和出错原因，越多越好。 
+
 ### 参考资料
 * C语言的 BNF 范式
 	- <http://www.cs.man.ac.uk/~pjj/bnf/c_syntax.bnf>
@@ -60,6 +68,5 @@
 	- <http://zh.wikipedia.org/wiki/Glibc>
 	- <http://ftp.gnu.org/gnu/glibc>
 * gcc 编译器
-	- <http://ftp.gnu.org/gnu/gcc/>
-	
+	－ <http://ftp.gnu.org/gnu/gcc/>
 

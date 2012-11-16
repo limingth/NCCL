@@ -1,8 +1,11 @@
-﻿NCCL - New Concept C Language
-=============================
+﻿---
+layout: post
+title: 新概念C语言
+---
 
+# NCCL - New Concept C Language
 
-# Unit One
+## Unit One
 Unit 1 是《新概念C语言》系列课程的第一部分，共有24个Lesson，包含以下4个阶段的学习内容：
 
 1. Beginning Lessons (Lesson 1-7)  
@@ -22,14 +25,17 @@ Unit 1 是《新概念C语言》系列课程的第一部分，共有24个Lesson�
 ## Lesson 1 [What is a simplest C program?](Lesson-1.md) 最简单的C程序
 ### 基本概念讲解
 * C 语言 Language
-	- 高级语言 High-level Programming Language
+	- 高级语言 
 	- 汇编语言 Assembly Language
-	- 机器指令 Instructions
+	- 机器指令 Instruction
 * 编译器 Compiler
 	- 汇编器 Assembler	
 * 操作系统 OS
 	- 加载器 Loader
-	- 加载地址和执行地址 Load_Addr & Exec_Addr	
+	- 加载地址和执行地址 Load_Addr & Exec_Addr
+* 程序的结构 Program Structure
+	- 代码段 .text 
+	- 数据段 .data	
 * 程序的执行 Program Execution
 	- 进程的概念 Process 
 	- 执行流程 Execution Sequence
@@ -46,17 +52,14 @@ Unit 1 是《新概念C语言》系列课程的第一部分，共有24个Lesson�
 	- 程序入口 Entry
 	- 链接脚本决定了程序的执行地址 
 * 程序的编译过程 Program compiling procedure
-	- 预处理 Preprocessing  
+	- 预处理 Preprocessing 
 		cpp (.c -> .i)
-	- 编译 Compilation  
+	- 编译 Compilation
 		cc1 (.i -> .s)
-	- 汇编 Assembly  
+	- 汇编 Assembly 
 		as (.s -> .o)
-	- 链接 Linking  
+	- 链接 Linking
 		collect2 (.o -> .elf)
-* 程序的结构 Program Structure
-	- 代码段 .text 
-	- 数据段 .data		
 * 虚拟地址 Vitual Memory Address
 	- 进程独立的地址空间 
 	- 内存管理单元 MMU 
@@ -65,10 +68,8 @@ Unit 1 是《新概念C语言》系列课程的第一部分，共有24个Lesson�
 ### 基本概念讲解
 * while 循环 和 do-while 用法
 	- 比较和跳转指令 Compare and Jump Instruction
-	- do-while 比 while 有时更有用
 * 变量的初始化 Variable Initialization
 	- 变量的存储布局 Data & BSS Section
-	- 变量的取名规范 Naming
 * 相对跳转 Relative Jump 
 	- 位置无关代码 PIC (Position Independent Code)
 
