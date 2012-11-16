@@ -170,15 +170,18 @@ codepad 的优点在于界面简单，使用方便，不足在于不支持数据
 
 	2.1 git config  --global user.name xxx
 	2.2 git config  --global user.email  xxx@xxx.com
-	2.3 git config  --global push.default simple
+	2.3 (这一步不是必须要做的，如果有问题可以做) git config  --global push.default simple
 	
 	3.1 mkdir github
 	3.2 cd github
 
 	4. git clone git@github.com:limingth/myNCCL.git
-	5. git add hello.c
+	
+	5. cd myNCCL
+	5.1 edit hello.c
 
-	6. git commit -a -m "just add hello.c"
+	6. git add hello.c
+	7. git commit -a -m "just add hello.c"
 	7. git push
 		
 	此时可以修改一下 hello.c ，然后重复 6，7 两步即可
