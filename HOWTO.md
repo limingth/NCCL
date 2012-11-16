@@ -51,6 +51,5 @@ title: 构建在线学习环境
 
 
 ## 构建在线学习环境
-
-<https://github.com/limingth/NCCL/blob/gh-pages/INSTALL.md>
+构建环境 <https://github.com/limingth/NCCL/blob/gh-pages/INSTALL.md>
 
