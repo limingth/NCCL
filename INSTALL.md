@@ -56,12 +56,14 @@ codepad 的优点在于界面简单，使用方便，不足在于不支持数据
 ## 代码管理
 
 ### GitHub 远端仓库
-* github
-<http://github.com/>
+* github  
+	- <http://github.com/>
+	- 准备工作: 登陆 github.com 注册一个自己的 ID （使用常用邮箱），密码和邮箱的密码无关。
 
 ### Git for Windows 工具  
-* msysgit
-<http://msysgit.github.com/>
+* msysgit  
+	- <http://msysgit.github.com/>
+	- 准备工作: 下载 msysgit ，并安装，能够启动 Git Bash，运行 git 命令
 
 安装文件：<http://msysgit.googlecode.com/files/Git-1.8.0-preview20121022.exe>
 
