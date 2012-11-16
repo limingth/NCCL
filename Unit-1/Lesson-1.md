@@ -1,3 +1,9 @@
+---
+layout: post
+title: 新概念C语言 NCCL - Lesson 0
+---
+
+
 ## Lesson 1 What is a simplest C program? (最简单的C程序)
 	int main(void)
 	{
