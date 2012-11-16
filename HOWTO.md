@@ -8,11 +8,9 @@ title: 构建在线学习环境
 
 ## 教学大纲
 
-* 总体规划说明： 
-<https://github.com/limingth/NCCL>
+总体规划说明： <https://github.com/limingth/NCCL>
 
-* 本次课程大纲： 
-<https://github.com/limingth/NCCL/blob/gh-pages/Unit-1/README.md>
+本次课程大纲： <https://github.com/limingth/NCCL/blob/gh-pages/Unit-1/README.md>
 
 ## 开课时间安排
 
