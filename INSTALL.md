@@ -87,13 +87,13 @@ codepad 的优点在于界面简单，使用方便，不足在于不支持数据
 
 
 #### 视频学习推荐
-* Git Init
+* Git Init  
 <http://happycasts.net/episodes/4>
 
-* github-init
+* Github Init  
 <http://happycasts.net/episodes/7>
 
-* Github pages
+* Github Pages  
 <http://happycasts.net/episodes/6>
 
 ## 班级交流
