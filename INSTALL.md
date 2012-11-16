@@ -23,6 +23,7 @@ title: 构建在线学习环境
 ### GoMeetNow 桌面共享
 * [GoMeetNow](http://cn.gomeetnow.com/)  
 安装文件： <https://github.com/limingth/NCCL/blob/master/GoMeetNow.zip>  
+如有问题，请自己注册下载 <http://cn.gomeetnow.com/aspx/UserObject/HostMeeting.aspx>  
 GoMeetNow 的优点在于学员端无需安装，只需浏览器中打开课程地址即可，但有40分钟的免费试用时间。
 
 ### 其他工具
