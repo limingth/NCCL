@@ -34,7 +34,6 @@ Unit 1 是《新概念C语言》系列课程的第一部分，共有24个Lesson�
 	- 进程的概念 Process 
 	- 执行流程 Execution Sequence
 
-
 ## Lesson 2 [Let's say hello to world](Lesson-2.md) 打印输出
 ### 基本概念讲解
 * 库函数 Library
@@ -88,10 +87,14 @@ Unit 1 是《新概念C语言》系列课程的第一部分，共有24个Lesson�
 	- 两种循环用法比较
 * 自动变量 auto variable
 	- C 语言的发展变迁 Old Style C/C89/C99/GNU C	
-* 预处理过程
+* 预处理过程 Pre-compile 
 	- 条件编译
-	- DEBUG 调试宏
-	
+	- # 和 ## 的用法
+* DEBUG 调试宏
+	- \_\_func\_\_, \_\_FUNCTION\_\_
+	- \_\_LINE\_\_ 	
+	- args... 和 ##args 的用法
+		
 ## Lesson 6 [Print 9*9 multiplication table](Lesson-6.md) 乘法表
 ### 基本概念讲解
 * 循环嵌套
@@ -100,7 +103,6 @@ Unit 1 是《新概念C语言》系列课程的第一部分，共有24个Lesson�
 	- 编译时和运行时错误
 * 函数栈 Function Stack
 	- 栈帧 Stack Frame
-	
 		
 ## Lesson 7 [Find a max prime number within 100](Lesson-7.md) 求100以内的最大素数
 ### 基本概念讲解
@@ -156,9 +158,7 @@ Unit 1 是《新概念C语言》系列课程的第一部分，共有24个Lesson�
 	- 对齐和填充 Alignment & Padding
 * 数据的存储表示 Complements
 	- 原码，反码和补码
-* 预处理符 Pre-compile Symbol
-	- # 的用法
-	- ## 的用法
+
 
 ## Lesson 12 Find how many 9 in number 1 to 100 1到100有多少个9
 ### 基本概念讲解
@@ -178,12 +178,10 @@ Unit 1 是《新概念C语言》系列课程的第一部分，共有24个Lesson�
 	- 枚举类型的初始化
 * 增量式开发 Incremental Development
 	- 步步为营而不是一蹴而就
-* 预定义宏的用法
-	- \_\_LINE\_\_ 
+* 预定义宏的用法	
 	- \_\_DATE\_\_ 
 	- \_\_TIME\_\_
-	- \_\_func\_\_
-
+	
 
 ## Lesson 14 Is there a way out? 判断地图上某点是否有出路
 ### 基本概念讲解
