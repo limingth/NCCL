@@ -131,17 +131,11 @@ Unit 1 是《新概念C语言》系列课程的第一部分，共有24个Lesson�
 	- 字符编码 ASCII 码表
 * 字符串逆序 String Reverse 
 	- 函数式宏定义 Function-like Macro
-* 递归 Recursive 
-	- 循环和递归 
-* 变量的生存期和作用域
-	- static 用法
 	
 ## Lesson 10 [Josephus ring](Lesson-10.md) 约瑟夫环
 ### 基本概念讲解
-* 一维数组 Array	
-	- 字符数组的初始化
-* 动态内存分配 Memory Allocate	
-	- heap & stack
+* 整型数组 Array	
+	- 数组的初始化
 * 数据结构和算法 DS & AL
 	- 数据驱动编程 Data-Driven
 	- 数据压倒一切，编程的核心是数据结构，而不是算法
@@ -217,12 +211,13 @@ Unit 1 是《新概念C语言》系列课程的第一部分，共有24个Lesson�
 ### 基本概念讲解
 * 指针
 	- 计算机存储体系
+* 动态内存分配 Memory Allocate	
+	- heap & stack	
 * assert 宏
 	- 三元表达式
 * 寻址和访存
 	- 内存对齐
 	- 防止编译器优化 volatile
-
 
 ## Lesson 18 Find how many words in an artitle 统计一个文本中的单词个数
 ### 基本概念讲解
@@ -230,9 +225,12 @@ Unit 1 是《新概念C语言》系列课程的第一部分，共有24个Lesson�
 	- 和二维数组的比较
 * 动态内存分配
 	- malloc & free
+* 递归 Recursive 
+	- 循环和递归 	
+* 变量的生存期和作用域
+	- static 用法
 * 状态机思想的简单应用
 	- state machine
-
 
 ## Lesson 19 Shell command parser 命令解释器
 ### 基本概念讲解
@@ -242,7 +240,6 @@ Unit 1 是《新概念C语言》系列课程的第一部分，共有24个Lesson�
 	- 字符指针数组 vs 指针的指针
 * 进程的环境变量
 	- 进程栈空间布局
-
 
 ## Lesson 20 Rectangular and Polar 直角坐标和极坐标互换
 ### 基本概念讲解

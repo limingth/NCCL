@@ -1,4 +1,4 @@
-## Lesson 8 Find how many 9 in number 1 to 100 1到100有多少个9
+﻿## Lesson 8 Find how many 9 in number 1 to 100 1到100有多少个9
 	/*
 	 * main.c - find how many DIGIT from A to B
 	 *
@@ -51,5 +51,14 @@
 	
 ### 知识点
 * 函数 Function
-*
-*
+* 形参和实参
+* 函数返回值
+* 逻辑分解
+* 注释的写法
+
+### 课堂讨论
+* 示例中的 0, 100 为何要用 begin, end 来定义，直接写在 for 循环中可以吗？
+* find 中的 do-while 改成 while 可以吗？
+
+### 课后练习
+* 
