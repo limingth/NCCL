@@ -1,50 +1,41 @@
-## Lesson 11 Convert a number to a string 整型转字符串
+## Lesson 11 Calculate the distance between 2 point 求两个坐标点之间的距离
 	#include <stdio.h>
+	#include <math.h>
 
-	int main(void)
-	{	
-		int num;
-		int i = 0;
-		int len = 0;
-		char buf[100];
+	struct point
+	{
+		int x;
+		int y;
+	};
+
+	typedef struct point point_t;
+
+	double calc_distance(point_t p1, point_t p2)
+	{
+		int dx = p1.x - p2.x;
+		int dy = p1.y - p2.y;
 		
-		printf("Please input a number: ");
-		scanf("%d", &num);
-		
-		do 
-		{
-			buf[i++] = num % 10 + '0';
-			num /= 10;		
-		} while (num);
-		buf[i] = '\0';
-		
-		len = i;
-		for (i = 0; i < len/2; i++)
-		{
-			char tmp;
-			tmp = buf[i];
-			buf[i] = buf[len-i-1];
-			buf[len-i-1] = tmp;
-		}
-		
-		printf("number string = %s\n", buf);
-		
-		return 0;	
+		return sqrt(dx * dx + dy * dy);
 	}
 
-### 知识点
-* 数组 array
-* 函数式的宏定义
-* 进制表示 oct, dec, hex
-* 三元表达式 a > b ? a : b
-* 字符串逆序 reverse()
-* 字符串库函数 itoa 
+	int main(int argc, char * argv[])
+	{
+		double length;
+		
+		point_t p1;
+		point_t p2 = {200, 100};
+		
+		p1.x = 100;
+		p1.y = 200;
+		
+		length = calc_distance(p1, p2);
+		
+		printf("length = %f\n", length);
+
+		return 0;
+	}
+
+### 语法知识点
+* 结构体 struct
+* 结构体传参数
 	
-### 课堂讨论
-* do-while 的循环可以用 while 循环替换吗？ 为什么？
-* 如果要将输入数字，按照16进制，或者2进制转换成字符串，如何修改？
-* 为了交换两个字节的内容，示例中引入了一个 tmp 变量，这个是必须的吗？
-
-
-### 课后练习
-* 

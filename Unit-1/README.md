@@ -9,10 +9,10 @@ Unit 1 是《新概念C语言》系列课程的第一部分，共有24个Lesson�
     以变量为核心，运用循环语句和条件分支，讲解C程序的基本结构。
 
 2. Intermediate Lessons (Lesson 8-14)  
-    以数组为核心，分析常用数据结构（字符串，结构体，联合），讲解C程序的函数设计。
+    以数组为核心，分析常用数据结构(字符串，结构体，联合)，讲解C程序的函数设计。
   
 3. Advanced Lessons (Lesson 15-21)  
-    以指针为核心，结合数组，位操作和函数指针，讲解C程序的状态机编程思想。
+    以指针为核心，结合二维数组，位操作和函数指针，讲解C程序的状态机编程思想。
 
 4. Homework Projects (Lesson 22-24)  
     以任务为核心，通过趣味题，综合使用学习过的知识和技能，实现项目需求功能。
@@ -115,7 +115,28 @@ Unit 1 是《新概念C语言》系列课程的第一部分，共有24个Lesson�
 	- 算法的时间复杂度分析 O(n) 
 
 # Intermediate Lessons
-## Lesson 8 [Josephus ring](Lesson-8.md) 约瑟夫环
+## Lesson 8 [Find how many 9 in number 1 to 100](Lesson-8.md) 1到100有多少个9
+### 基本概念讲解
+* 函数 Function
+	- 函数的入口和出口
+* 分解和分层 stratify 
+	- 小即是美
+* 过程抽象和接口设计 Procedure Abstract
+	- 可复用的代码 Reuse
+	- 接口小巧、简洁和正交
+		
+## Lesson 9 [Convert a number to a string](Lesson-9.md) 整型转字符串
+### 基本概念讲解
+* 字符数组 String and Character Array
+	- 字符编码 ASCII 码表
+* 字符串逆序 String Reverse 
+	- 函数式宏定义 Function-like Macro
+* 递归 Recursive 
+	- 循环和递归 
+* 变量的生存期和作用域
+	- static 用法
+	
+## Lesson 10 [Josephus ring](Lesson-10.md) 约瑟夫环
 ### 基本概念讲解
 * 一维数组 Array	
 	- 字符数组的初始化
@@ -127,7 +148,7 @@ Unit 1 是《新概念C语言》系列课程的第一部分，共有24个Lesson�
 * 链表思想 Link List
 	- 算法优化 Optimization
 
-## Lesson 9 [Calculate the distance between 2 point](Lesson-9.md) 求两个坐标点之间的距离
+## Lesson 11 [Calculate the distance between 2 point](Lesson-11.md) 求两个坐标点之间的距离
 ### 基本概念讲解
 * 结构体 Struct
 	- 结构体初始化
@@ -136,27 +157,6 @@ Unit 1 是《新概念C语言》系列课程的第一部分，共有24个Lesson�
 	- 结构体参数的传值调用
 * 类型声明 typedef 
 	- 预处理和编译时 Pre-compile & Compiling time
-	
-## Lesson 10 [Find how many 9 in number 1 to 100](Lesson-10.md) 1到100有多少个9
-### 基本概念讲解
-* 函数 Function
-	- 函数的入口和出口
-* 分解和分层 stratify 
-	- 小即是美
-* 过程抽象和接口设计 Procedure Abstract
-	- 可复用的代码 Reuse
-	- 接口小巧、简洁和正交
-	
-## Lesson 11 [Convert a number to a string](Lesson-11.md) 整型转字符串
-### 基本概念讲解
-* 字符数组 String and Character Array
-	- 字符编码 ASCII 码表
-* 字符串逆序 String Reverse 
-	- 函数式宏定义 Function-like Macro
-* 递归 Recursive 
-	- 循环和递归 
-* 变量的生存期和作用域
-	- static 用法
 	
 ## Lesson 12 [Does your machine use little-endian?](Lesson-12.md) 判断机器存储是否小尾端
 ### 基本概念讲解

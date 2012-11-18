@@ -1,56 +1,59 @@
-## Lesson 10 Find how many 9 in number 1 to 100 1到100有多少个9
-	/*
-	 * main.c - find how many DIGIT from A to B
-	 *
-	 * Copyright (C) AKAE - li ming <limingth@sina.com>
-	 *
-	 * 
-	 */
+## Lesson 10 Josephus ring 约瑟夫环
 	#include <stdio.h>
 
-	/*
-	 * find - calculate how many digit in num
-	 * @num:	the number we want to find
-	 * @digit:	the digit we search in num
-	 *
-	 * Return value:  how many digit in this num
-	 *
-	 */
-	int find(int num, int digit)
-	{
-		int counter = 0;	/* the result of how many digit in num */
+	#define ALL_NUM    	100
+	#define COUNT_NUM	3
+	#define OUT_NUM		3
 
-		do {
-			/* get the last digit of num */
-			if (num % 10 == digit)
-				counter++;
-
-			/* get rid of the last digit */
-			num = num / 10;
-		} while (num != 0);
-
-		return counter;
-	}
+	/* people id array such as (1,2,3,4,5,6) */
+	int people[ALL_NUM];
 
 	int main(void)
 	{
-		int begin = 0;		/* the begin number */
-		int end = 100;		/* the end number */
-		int i = 0;
-		int sum = 0;		/* the result of sumary */
+		int left;	/* left people number */
+		int pos;	/* which pos */
+		int step;	/* which step */
+		int i;
 
-		/* calculate how many 9 in 1 to 100 */
-		for (i = begin; i <= end; i++) {
-			sum += find(i, 9);
+		int counter = 0;
+
+		left = ALL_NUM;
+		pos = 0;
+		step = 0;
+
+		/* init id as 1,2,3,4,5,6 */
+		for (i = 0; i < ALL_NUM; i++)
+			people[i] = i + 1;
+
+		/* if there is still people in queue */
+		while (left > 0)
+		{
+			/* pos++?  step++?   left--? */
+			if (people[pos] > 0)
+				step++;
+
+			if (step == OUT_NUM && people[pos] != 0)
+			{
+				printf("%d out \n", people[pos]);
+				people[pos] = 0;
+				left--;
+			}
+
+			//pos = ++pos % ALL_NUM;
+			pos++;
+			if (pos == ALL_NUM)
+				pos = 0;
+
+			//step = step % COUNT_NUM;
+			if (step == COUNT_NUM)
+				step = 0;
+
 		}
-
-		printf("sum = %d \n", sum);
 
 		return 0;
 	}
-	
-### 知识点
-* 函数 Function
-*
-*
+
+### 语法知识点
+* 函数设计 function
+* 逻辑分解
 
