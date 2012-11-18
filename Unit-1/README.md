@@ -116,7 +116,7 @@ Unit 1 是《新概念C语言》系列课程的第一部分，共有24个Lesson�
 
 # Intermediate Lessons
 
-## Lesson 8 Convert a number to a string 整型转字符串
+## Lesson 8 [Convert a number to a string](Lesson-8.md) 整型转字符串
 ### 基本概念讲解
 * 字符数组 String and Character Array
 	- 字符编码 ASCII 码表
@@ -127,7 +127,7 @@ Unit 1 是《新概念C语言》系列课程的第一部分，共有24个Lesson�
 * 变量的生存期和作用域
 	- static 用法
 
-## Lesson 9 Josephus ring 约瑟夫环
+## Lesson 9 [Josephus ring](Lesson-9.md) 约瑟夫环
 ### 基本概念讲解
 * 一维数组 Array	
 	- 字符数组的初始化
@@ -139,7 +139,7 @@ Unit 1 是《新概念C语言》系列课程的第一部分，共有24个Lesson�
 * 链表思想 Link List
 	- 算法优化 Optimization
 
-## Lesson 10 Calculate the distance between 2 point 求两个坐标点之间的距离
+## Lesson 10 [Calculate the distance between 2 point](Lesson-10.md) 求两个坐标点之间的距离
 ### 基本概念讲解
 * 结构体 Struct
 	- 结构体初始化
@@ -150,7 +150,7 @@ Unit 1 是《新概念C语言》系列课程的第一部分，共有24个Lesson�
 	- 预处理和编译时 Pre-compile & Compiling time
 
 	
-## Lesson 11 Does your machine use little-endian? 判断机器存储是否小尾端
+## Lesson 11 [Does your machine use little-endian?](Lesson-11.md) 判断机器存储是否小尾端
 ### 基本概念讲解
 * 联合 Union
 	- 存储分配
@@ -160,7 +160,7 @@ Unit 1 是《新概念C语言》系列课程的第一部分，共有24个Lesson�
 	- 原码，反码和补码
 
 
-## Lesson 12 Find how many 9 in number 1 to 100 1到100有多少个9
+## Lesson 12 [Find how many 9 in number 1 to 100](Lesson-12.md) 1到100有多少个9
 ### 基本概念讲解
 * 函数 Function
 	- 函数的入口和出口
@@ -171,7 +171,7 @@ Unit 1 是《新概念C语言》系列课程的第一部分，共有24个Lesson�
 	- 接口小巧、简洁和正交
 
 
-## Lesson 13 Sorry, your car is restricted today 对不起，你的车今天限行
+## Lesson 13 [Sorry, your car is restricted today](Lesson-13.md) 对不起，你的车今天限行
 ### 基本概念讲解
 * 分支语句 Switch
 * 枚举用法 enum
@@ -183,7 +183,7 @@ Unit 1 是《新概念C语言》系列课程的第一部分，共有24个Lesson�
 	- \_\_TIME\_\_
 	
 
-## Lesson 14 Is there a way out? 判断地图上某点是否有出路
+## Lesson 14 [Is there a way out?](Lesson-14.md) 判断地图上某点是否有出路
 ### 基本概念讲解
 * 二维数组
 	- 循环和分支
