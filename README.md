@@ -37,11 +37,11 @@
 * Lesson 5    Summarize all numbers from 1 to 100 从1加到100求和
 * Lesson 6    Print 9*9 multiplication table 乘法表
 * Lesson 7    Find a max prime number within 100 求100以内的最大素数
-* Lesson 8    Convert a number to a string 整型转字符串
-* Lesson 9    Josephus ring 约瑟夫环
-* Lesson 10    Calculate the distance between 2 point 求两个坐标点之间的距离
-* Lesson 11    Does your machine use little-endian? 判断机器存储是否小尾端
-* Lesson 12    Find how many 9 in number 1 to 100 1到100有多少个9
+* Lesson 8    Josephus ring 约瑟夫环
+* Lesson 9    Calculate the distance between 2 point 求两个坐标点之间的距离
+* Lesson 10    Find how many 9 in number 1 to 100 1到100有多少个9
+* Lesson 11    Convert a number to a string 整型转字符串
+* Lesson 12    Does your machine use little-endian? 判断机器存储是否小尾端
 * Lesson 13    Sorry, your car is restricted today 对不起，你的车今天限行
 * Lesson 14    Is there a way out? 判断地图上某点是否有出路
 * Lesson 15    Count how many bit 1 in a number 统计一个数二进制表示中1的个数
