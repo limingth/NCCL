@@ -59,7 +59,9 @@
 * glibc 库
 	- <http://zh.wikipedia.org/wiki/Glibc>
 	- <http://ftp.gnu.org/gnu/glibc>
+	- <http://www.oschina.net/code/explore/glibc-2.9>
 * gcc 编译器
 	- <http://ftp.gnu.org/gnu/gcc/>
+	- <http://www.oschina.net/code/explore/gcc-4.5.2>
 	
 
