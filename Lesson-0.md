@@ -22,6 +22,7 @@ title: 新概念C语言 NCCL - Lesson 0
 	- 在 Welcome 的欢迎 Discussion 下面，冒泡报到，申请编号的 Comment 格式为
   		Hello, NCCL group member. I am No.1201xx. --your name
 	- 如果编号申请争取获得批准，则会有一个老师的 like 评价，表示确认通过。
+	- 编号成功后，请牢记这个编号，将会是你在 NCCL Group 里面的唯一ID，退学不退号。
 
 ## 学员分组 (10 mins)
 * 2人一组，组长负责对外代表小组在班里发言，组员可以在组内发言提交问题给组长
