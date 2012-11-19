@@ -16,10 +16,11 @@ title: 新概念C语言 NCCL - Lesson 0
 	- 未来学习目标
 	
 ## 学员编号 (10 mins)
+* 注册报到流程
 	- 提前在 LinkedIn.com 上面注册自己的账号，邮箱地址最好是报名表中登记的地址。
 	- 申请加入 NCCL - New Concept C Language 讨论组，并成为成员，才能在论坛发言。
 	- 在 Welcome 的欢迎 Discussion 下面，冒泡报到，申请编号的 Comment 格式为
-	hello, NCCL group member. I am No.1201xx. --your name
+  		Hello, NCCL group member. I am No.1201xx. --your name
 	- 如果编号申请争取获得批准，则会有一个老师的 like 评价，表示确认通过。
 
 ## 学员分组 (10 mins)
