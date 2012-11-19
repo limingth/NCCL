@@ -197,7 +197,7 @@ Unit 1 是《新概念C语言》系列课程的第一部分，共有24个Lesson�
 	- 先求运行，再求正确，最后求快
 	
 
-## Lesson 16 Bit-Field 位域操作
+## Lesson 16 [Bit-Field](Lesson-16.md) 位域操作
 ### 基本概念讲解
 * 位域
 	－通过位域实现位操作
@@ -207,7 +207,7 @@ Unit 1 是《新概念C语言》系列课程的第一部分，共有24个Lesson�
 	- 驱动内核模块编写
 
 	
-## Lesson 17 How to strcpy 字符串拷贝
+## Lesson 17 [How to strcpy](Lesson-17.md) 字符串拷贝
 ### 基本概念讲解
 * 指针
 	- 计算机存储体系
