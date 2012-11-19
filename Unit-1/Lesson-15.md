@@ -28,7 +28,7 @@
 	}
 
 
-### 算法优化
+### 第2种算法--消去最左侧的1
 	#include <stdio.h>
 
 	int count_bit_1(int n)
@@ -54,7 +54,7 @@
 		return 0;
 	}
 
-### 第三种算法--二进制数内的加法
+### 第3种算法--二进制数内的加法
 	#include <stdio.h>
 
 	//types and constants used in the functions below
@@ -110,14 +110,14 @@
 	- 要求：输入大写的字符转为小写，输入小写的字符转为大写；
 * 用位运算实现对一个无符号整型的二进制打印，八进制打印，十六进制打印；
 	- 要求：  
-		int print_bin(int a);
-		int print_oct(int a);
-		int print_hex(int a);
+		int print_bin(int a);  
+		int print_oct(int a);  
+		int print_hex(int a);  
 
-		a = 31
-		二进制打印 000000000000.. 01 11 11
-		八进制打印 000... 0 3 7
-		十六进制打印 00 00 00 1F	
+		a = 31  
+		二进制打印 000000000000.. 01 11 11  
+		八进制打印 000... 0 3 7  
+		十六进制打印 00 00 00 1F  	
 
 * 用位运算实现随机生成无重复的26个字母，要求不允许使用数组
 	- 提示：随机数用 random() 函数，用一个整型数的bit0-bit25来记录已经产生的字母  
