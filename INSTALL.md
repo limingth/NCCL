@@ -20,16 +20,21 @@ title: 构建在线学习环境
 * [YY语音](http://www.yy.com/)  
 安装文件： <http://yydl.duowan.com/4/setup/YYSetup-5.0.0.8-zh-CN.exe>
 
-### GoMeetNow 桌面共享
-* [GoMeetNow](http://cn.gomeetnow.com/)  
-安装文件： <https://github.com/limingth/NCCL/blob/master/GoMeetNow.zip>  
-如有问题，请自己注册下载 <http://cn.gomeetnow.com/aspx/UserObject/HostMeeting.aspx>  
-GoMeetNow 的优点在于学员端无需安装，只需浏览器中打开课程地址即可，但有40分钟的免费试用时间。
+### WebEx 桌面共享
+* [WebEx](http://www.webex.com.cn/)
+安装： 在线进行，通过浏览器安装
+TeamViewer 的优点在于有14天的免费试用，而且占用带宽大约是几十K，桌面分享的延迟大约是100毫秒，效果非常好。
 
 ### 其他工具
 * [TeamViewer](http://www.teamviewer.com/zhcn/download/linux.aspx)  
 安装文件：<http://www.teamviewer.com/download/version_8x/TeamViewer_Setup_zhcn.exe>   
 TeamViewer 的优点在于音频和桌面共享的效果好，而且支持不限时间的免费试用，但最多允许25人同时在线参加。
+
+### GoMeetNow 桌面共享
+* [GoMeetNow](http://cn.gomeetnow.com/)  
+安装文件： <https://github.com/limingth/NCCL/blob/master/GoMeetNow.zip>  
+如有问题，请自己注册下载 <http://cn.gomeetnow.com/aspx/UserObject/HostMeeting.aspx>  
+GoMeetNow 的优点在于学员端无需安装，只需浏览器中打开课程地址即可，但有40分钟的免费试用时间。
 
 * [mikogo](http://www.mikogo.net.cn/)  
 下载页面：<http://www.mikogo.net.cn/download/>
