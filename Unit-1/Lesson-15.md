@@ -4,14 +4,14 @@
 	int count_bit_1(int n)
 	{
 		unsigned int i;
-		int result = 0;
+		int counter = 0;
 		
 		for(i = 0; i < sizeof(int) * 8; i++)
 		{
 			if((n >> i) & 0x01)
-				result++;
+				counter++;
 		}
-		return result;
+		return counter;
 	}
 
 	int main(int argc, char *argv[])
@@ -20,12 +20,13 @@
 		
 		printf("please input a number:");
 		scanf("%d", &num);
-		printf("number in hex is 0x%x\n", num);
+		printf("number in hex is 0x%x\n", n);
 		
 		printf("%d bit '1' in %d\n", count_bit_1(num), num);
 		
 		return 0;
 	}
+
 
 ### 算法优化
 	#include <stdio.h>
@@ -105,6 +106,21 @@
 * 请写出可以进行位操作的 set_bit, get_big 接口
 	- set_bit(int num, int pos, int v);
 	- get_bit(int num, int pos);
-	
-	
+* 用位运算实现字符的大小写转换 （两种方法：异或，测试后修改）
+	- 要求：输入大写的字符转为小写，输入小写的字符转为大写；
+* 用位运算实现对一个无符号整型的二进制打印，八进制打印，十六进制打印；
+
+	要求：
+	int print_bin(int a);
+	int print_oct(int a);
+	int print_hex(int a);
+
+	a = 31
+	二进制打印 000000000000.. 01 11 11
+	八进制打印 000... 0 3 7
+	十六进制打印 00 00 00 1F	
+
+* 用位运算实现随机生成无重复的26个字母，要求不允许使用数组
+	- 提示：随机数用 random() 函数，用一个整型数的bit0-bit25来记录已经产生的字母  
+	- 在此算法的基础上，用位运算实现随机生成无重复的10个数字(0-9)，要求不允许使用数组	
 	
