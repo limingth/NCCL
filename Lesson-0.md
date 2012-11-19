@@ -70,4 +70,4 @@ title: 新概念C语言 NCCL - Lesson 0
 	- QQ群管理员李明老师负责维护本公约的执行落实。
 * 学习方法
 	- [最好的学习方法就是教别人](http://www.izhong.com/yiyou/article/2012090308283948779895)
-	- [不同学习方法的掌握率](http://blog.163.com/laoshigao@yeah/blog/static/97270358201001073813209/)
+	- [不同学习方法的掌握率](http://blog.163.com/laoshigao@yeah/blog/static/97270358201001073813209/) 
