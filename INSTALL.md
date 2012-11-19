@@ -21,7 +21,7 @@ title: 构建在线学习环境
 安装文件： <http://yydl.duowan.com/4/setup/YYSetup-5.0.0.8-zh-CN.exe>
 
 ### WebEx 桌面共享
-* [WebEx](http://www.webex.com.cn/)
+* [WebEx](http://www.webex.com.cn/)  
 安装： 在线进行，通过浏览器安装
 TeamViewer 的优点在于有14天的免费试用，而且占用带宽大约是几十K，桌面分享的延迟大约是100毫秒，效果非常好。
 
