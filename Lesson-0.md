@@ -23,7 +23,8 @@ title: 新概念C语言 NCCL - Lesson 0
   		”Hello, NCCL group member. I am No.1201xx. --your name“
 	- 如果编号申请获得批准，则会有一个李明老师的 like 评价，表示确认编号可以通过。
 	- 编号成功后，请牢记这个编号，将会是你在 NCCL Group 里面的唯一ID，退学不退号。
-	- 最后修改 QQ 群的群名片，格式为 1201xx-姓名-城市 的格式，便于群内交流。
+	- 最后修改 QQ 群的群名片，格式为 1201xx-姓名-城市 的格式，便于群内交流。  
+	  如果名字太长，放不下，可以用城市的简称，或者拼音2个字母缩写。
 	- 在 NCCL Group Member 中，加入其它同学的 connection，并主动 follow 一下对方，以示友好。
 
 ## 学员分组 (10 mins)
