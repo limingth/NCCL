@@ -8,7 +8,7 @@ title: 构建在线学习环境
 
 网络课堂在线学习可以通过PC主机，也可以通过 iPhone 或者 Android 手机进行。
 
-其中主讲老师的语音播放采用 YY 语音会议，编程演示采用 GoMeetNow 桌面共享。
+其中主讲老师的语音播放采用 YY 语音会议，编程演示采用 Teamviewer/WebEx 桌面共享。
 
 目前这2个软件，都支持 iPhone 和 Android 手机的客户端安装。
 
