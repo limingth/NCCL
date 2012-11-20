@@ -154,7 +154,7 @@ codepad 的优点在于界面简单，使用方便，不足在于不支持数据
 	ctrl + a 全选
 	ctrl + c 复制
 	
-	切换到浏览器窗口	
+	切换到浏览器 Github 页面窗口	
 	7. 右上角有你的名字，旁边有3个图标。点击第2个图标，Account Settting
 	左侧顺数第7个选项 SSH Keys ，点击进入 Add SSH Key
 	
