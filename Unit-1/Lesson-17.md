@@ -1,77 +1,72 @@
-## Lesson 17 How to strcpy 字符串拷贝
+## Lesson 17 Find how many words in an artitle 统计单词个数
 	#include <stdio.h>
-	#include <assert.h>
+	#include <stdlib.h>
+	#include <string.h>
 
-	#if 1
-	char * my_strcpy(char * dst, const char * src)
+	int get_input_type(char c)
 	{
-		assert(dst != NULL && src != NULL);
+		if (c >= 'a' && c <= 'z' || c >= 'A' && c <= 'Z')
+			return 1;
 
-		char * ret = dst;
+		if (c >= '0' && c <= '9')
+			return 2;
 
-		while ((*dst++ = *src++) != '\0');
-
-		return ret;
-	}
-	#else
-	char * my_strcpy(char * dst, const char * src)
-	{
-		char * ret = dst;
-
-		while((*dst++ = *src++) != '\0');
-
-		return ret;
-	}
-	#endif
-
-	int main(int argc, char *argv[])
-	{
-		char d[32];
-		char s[32] = "Hello World";
-
-		printf("s = %s\n", s);
-
-	//	my_strcpy(d, s);
-		printf("d = %s\n", my_strcpy(d, s));
-		
 		return 0;
 	}
 
-### 算法优化
-	#include <stdio.h>
-
-	char * my_strcpy(char * dst, const char * src)
+	int main(void)
 	{
-		assert(dst != NULL && src != NULL);
+		char pre[] = "4213657";
+		char in[] = "1234567";
+		char str[] = "Don't ask what your country can do for you, but ask what you can do for your country.\n";
 
-		char *s = (char *)src;
-		int delt = dst - src;
+		int i = 0;
+		int pos = 0;
 
-		while ((s[delt] = *s++) != '\0');
+		int state = 0;	// init state
+		int input = 0;	// 0: space		1: alpha
 
-		return dst;
+		printf("hello, search word from string:\n");
+		printf("<%s> \n", str);
+
+		while (1)
+		{
+			char c;
+			char wordbuf[32];
+
+			c = str[pos++];
+			if (c == '\0')
+				break;
+
+			input = get_input_type(c);
+			//printf("state = %d ", state);
+
+			if (state == 0 && input == 1)
+			{
+				state = 1;
+				//printf("word begin with <%c>\n", c);
+				i = 0;
+				wordbuf[i++] = c;
+			} else if (state == 1 && input == 0)
+					{
+						wordbuf[i] = '\0';
+						printf("find a word = <%s>\n", wordbuf);
+				
+						state = 0;
+					} else if (state == 1 && input == 1)
+						wordbuf[i++] = c;
+		}
+
+		return 0;
 	}
 
-### 语法知识点
-* 指针
-	- 字符指针
-* 字符指针 vs 字符数组
-
-
+### 知识点
+* 指向指针的指针
+* char * strtok_r(char * s, const char * delim, char **saveptr);
+* 可重入和不可重入函数
+	
 ### 课堂讨论
-* 当拷贝函数参数 dst 和 src 内容重叠时应该怎么办呢？
-* char s[32] = "Hello World";  修改为 char * s = "Hello World";  有何区别？
-* 怎样写出一个标准规范的strcpy函数？
-	- 编程风格
-	- 出错处理；
-	- 算法复杂度分析（用于提高性能）。
+*
 	
 ### 课后练习
-* 请用指针实现对一个数组的调整，要求奇数在左边，偶数在右边。 要求： 尽可能不占用额外的存储空间。	
-
-### 参考资料
-* 库函数实现 
-	- <http://www.oschina.net/code/explore/glibc-2.9/string/strcpy.c>
-	- <http://www.oschina.net/code/explore/glibc-2.9/string/memcpy.c>
-* GNU 的实现
-	- <http://blog.csdn.net/wind19/article/details/7539027>
+* 	

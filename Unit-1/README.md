@@ -151,6 +151,8 @@ Unit 1 是《新概念C语言》系列课程的第一部分，共有24个Lesson�
 	- 结构体参数的传值调用
 * 类型声明 typedef 
 	- 预处理和编译时 Pre-compile & Compiling time
+* C99 中结构体的扩展用法
+	- 驱动内核模块编写	
 	
 ## Lesson 12 [Does your machine use little-endian?](Lesson-12.md) 判断机器存储是否小尾端
 ### 基本概念讲解
@@ -195,19 +197,11 @@ Unit 1 是《新概念C语言》系列课程的第一部分，共有24个Lesson�
 * 算法效率
 	- 过早优化是万恶之源
 	- 先求运行，再求正确，最后求快
-	
-
-## Lesson 16 [Bit-Field](Lesson-16.md) 位域操作
-### 基本概念讲解
-* 位域
-	－通过位域实现位操作
-* 结构体的位域操作
+* 位域操作
+	- 通过位域实现位操作
 	- 嵌入式编程中的寄存器配置
-* GCC 和 C99 在结构体中的扩展用法
-	- 驱动内核模块编写
 
-	
-## Lesson 17 [How to strcpy](Lesson-17.md) 字符串拷贝
+## Lesson 16 [How to strcpy](Lesson-16.md) 字符串拷贝
 ### 基本概念讲解
 * 指针
 	- 计算机存储体系
@@ -218,8 +212,8 @@ Unit 1 是《新概念C语言》系列课程的第一部分，共有24个Lesson�
 * 寻址和访存
 	- 内存对齐
 	- 防止编译器优化 volatile
-
-## Lesson 18 Find how many words in an artitle 统计一个文本中的单词个数
+	
+## Lesson 17 [Find how many words in an artitle](Lesson-17.md) 统计单词个数
 ### 基本概念讲解
 * 指针数组
 	- 和二维数组的比较
@@ -232,7 +226,13 @@ Unit 1 是《新概念C语言》系列课程的第一部分，共有24个Lesson�
 * 状态机思想的简单应用
 	- state machine
 
-## Lesson 19 Shell command parser 命令解释器
+## Lesson 18 My printf](Lesson-18.md) 实现 printf
+### 基本概念讲解
+* 字符指针数组
+* 可变长度参数的函数实现
+* 栈帧的应用
+
+## Lesson 19 [Shell command parser](Lesson-19.md) 命令解释器
 ### 基本概念讲解
 * 函数指针
 	- 回调函数 Call-Back Function
@@ -241,7 +241,7 @@ Unit 1 是《新概念C语言》系列课程的第一部分，共有24个Lesson�
 * 进程的环境变量
 	- 进程栈空间布局
 
-## Lesson 20 Rectangular and Polar 直角坐标和极坐标互换
+## Lesson 20 [Rectangular and Polar](Lesson-20.md) 直角坐标和极坐标互换
 ### 基本概念讲解
 * 函数指针数组
 * 复杂类型声明
@@ -250,9 +250,9 @@ Unit 1 是《新概念C语言》系列课程的第一部分，共有24个Lesson�
 	- 函数指针结构体
 * 面向对象的编程
 	- 如何用C实现OOP
+	- 程序设计的基本原则: 低耦合, 高内聚 (Low Coupling, High Cohesion) 
 
-
-## Lesson 21 Is this number a float? 浮点数判别
+## Lesson 21 [Is this number a float?](Lesson-21.md) 浮点数判别
 ### 基本概念讲解
 * 多维数组 
 	- 多维整型数组
