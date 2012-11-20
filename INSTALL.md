@@ -139,7 +139,7 @@ codepad 的优点在于界面简单，使用方便，不足在于不支持数据
 	
 #### Git Bash 窗口
 	
-	1. 运行 ssh -T git@github.com 看是否有 hi，yourname ，如果有则成功。
+	1. 运行 ssh -T git@github.com 看是否有 hi，yourname ，如果有则成功。如果没有则执行2-9。
 	
 	2. cd ~
 	
