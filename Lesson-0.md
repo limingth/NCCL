@@ -72,3 +72,5 @@ title: 新概念C语言 NCCL - Lesson 0
 * 学习方法
 	- [最好的学习方法就是教别人](http://www.izhong.com/yiyou/article/2012090308283948779895)
 	- [不同学习方法的掌握率](http://blog.163.com/laoshigao@yeah/blog/static/97270358201001073813209/) 
+	- [怎样花两年时间去面试一个人](http://mindhacks.cn/2011/11/04/how-to-interview-a-person-for-two-years/)
+
