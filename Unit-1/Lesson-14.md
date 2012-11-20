@@ -1,5 +1,7 @@
 ## Lesson 14 Is there a way out? 判断地图上某点是否有出路
 	#include <stdio.h>
+	#include <time.h>
+	#include <stdlib.h> 
 
 	/* define chessboard size */
 	#define ROW  10
@@ -63,7 +65,7 @@
 
 	int check(int x, int y)
 	{
-		int i = 0, j = 0;
+		int i = 0;
 		int counter = 1;	
 		int nx, ny;		// next x y
 
@@ -107,15 +109,15 @@
 
 		printf("please input a point position: ");
 		scanf("%d %d", &x, &y);
-			
+		printf("point(%d, %d)\n", x, y);
+		
 		ways = check(x, y);
 		printf("Total is %d way out!\n", ways);
 		
 		return 0;
 	}
 
-
-### 语法知识点
+### 知识点
 * 二维数组 a[][]
 * 随机函数 rand()
 

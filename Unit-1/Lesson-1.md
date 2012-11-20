@@ -51,6 +51,11 @@
 * 修改代码，使得编译不通过，并举出常见的错误提示和出错原因，越多越好。
 	
 ### 参考资料
+* B语言--C语言的前身
+	- B语言 <http://zh.wikipedia.org/wiki/B%E8%AF%AD%E8%A8%80>
+	- THE PROGRAMMING LANGUAGE B <http://cm.bell-labs.com/cm/cs/who/dmr/bintro.html>
+	- A TUTORIAL INTRODUCTION TO THE LANGUAGE B <http://cm.bell-labs.com/cm/cs/who/dmr/btut.html>
+	- Users' Reference to B <http://cm.bell-labs.com/cm/cs/who/dmr/kbman.html>
 * C语言的 BNF 范式
 	- <http://www.cs.man.ac.uk/~pjj/bnf/c_syntax.bnf>
 * BNF 范式
