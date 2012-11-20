@@ -1,3 +1,5 @@
+
+
 ## Lesson 1 What is a simplest C program? (最简单的C程序)
 	int main(void)
 	{
@@ -56,8 +58,11 @@
 	- THE PROGRAMMING LANGUAGE B <http://cm.bell-labs.com/cm/cs/who/dmr/bintro.html>
 	- A TUTORIAL INTRODUCTION TO THE LANGUAGE B <http://cm.bell-labs.com/cm/cs/who/dmr/btut.html>
 	- Users' Reference to B <http://cm.bell-labs.com/cm/cs/who/dmr/kbman.html>
-* C语言的 BNF 范式
-	- <http://www.cs.man.ac.uk/~pjj/bnf/c_syntax.bnf>
+* C语言
+	* C语言 <http://zh.wikipedia.org/wiki/C语言> 	
+	* C语言之父 Dennis Ritchie <http://zh.wikipedia.org/wiki/丹尼斯·里奇>
+	* C语言 BNF 范式 <http://www.cs.man.ac.uk/~pjj/bnf/c_syntax.bnf>
+	* C程序设计语言 <http://ishare.iask.sina.com.cn/f/6138524.html?from=isnom>
 * BNF 范式
 	- <http://www.cs.man.ac.uk/~pjj/bnf/bnf.html>
 	- <http://zh.wikipedia.org/wiki/巴科斯范式>
