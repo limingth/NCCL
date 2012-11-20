@@ -3,13 +3,11 @@ layout: post
 title: 新概念C语言 NCCL - Lesson 0
 ---
 
-
 # 课前准备
 
 * 以下活动均采用 YY 语音交流
 
 ## 自我介绍 (30 mins)
-
 * 自我介绍要点 (1 min/person)
 	- 姓名，年龄，所在城市，学习/工作背景
 	- 目前C语言掌握情况
@@ -58,8 +56,9 @@ title: 新概念C语言 NCCL - Lesson 0
 
 
 ## 学前任务 (5 mins)
-* 学习参考书目
+* 学习参考书目	
 	- [Linux C编程一站式学习](http://learn.akae.cn/media/index.html)
+	- [C程序设计语言](http://ishare.iask.sina.com.cn/f/6138524.html?from=isnom)
 	- [程序员的自我修养](http://ishare.iask.sina.com.cn/f/10540809.html)
 	- [Unix编程艺术](http://ishare.iask.sina.com.cn/f/10468232.html?retcode=0)
 * 班级成员交流公约
