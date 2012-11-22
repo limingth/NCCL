@@ -116,7 +116,7 @@
 出处：glibc 库函数实现 
 * <http://www.oschina.net/code/explore/glibc-2.9/string/strcpy.c>
 * <http://www.oschina.net/code/explore/glibc-2.9/string/memcpy.c> 
-* 实现分析 <http://blog.csdn.net/wind19/article/details/7539027>
+
 
 ### 尚未看懂的优化实现 - 内核3.6.7代码实现	
 * <http://lxr.linux.no/linux+v3.6.7/arch/arm/lib/copy_template.S>
@@ -131,7 +131,10 @@
 
 ### 课堂讨论
 * 当拷贝函数参数 dst 和 src 内容重叠时应该怎么办呢？
+	- 参考阅读 <http://blog.csdn.net/hzgdiyer/article/details/6163767>
 * 考虑到内存数据总线是32位，每4字节进行读写内存时候的效率最高，程序应该怎么改？
+	- 参考阅读 <http://blog.csdn.net/wind19/article/details/7539027>
+	- <http://blog.sina.com.cn/s/blog_6ba6e53b010145bz.html>
 * char s[32] = "Hello World";  修改为 char * s = "Hello World";  有何区别？
 * 怎样写出一个标准规范的strcpy函数？
 	- 编程风格
