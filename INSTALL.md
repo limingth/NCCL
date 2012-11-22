@@ -140,7 +140,8 @@ codepad 的优点在于界面简单，使用方便，不足在于不支持数据
 	3. cd .ssh
 	
 	4. ssh-keygen -t rsa -C "your_email@youremail.com"
-	
+		此处如果需要输入，全部用回车 Enter
+
 	5. ls
 	cat *.pub
 	
