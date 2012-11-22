@@ -37,7 +37,7 @@
 		return 0;
 	}
 
-### 算法优化
+### 算法优化-减少对 dst 指针变量的存取次数
 	#include <stdio.h>
 
 	char * my_strcpy(char * dst, const char * src)
@@ -51,6 +51,19 @@
 
 		return dst;
 	}
+
+### 算法优化2-内联函数和内嵌汇编
+	extern inline void * memcpy(void * dest,const void * src, int n)
+	{
+		__asm__("cld\n\t"
+		        "rep\n\t"
+		        "movsb"
+		        ::"c" (n),"S" (src),"D" (dest)
+		        :"cx","si","di");
+		return dest;
+	}
+	
+出处: <http://lxr.linux.no/linux-old+v0.01/include/string.h>
 
 ### 知识点
 * 指针
@@ -71,10 +84,13 @@
 * 请用指针实现对一个数组的调整，要求奇数在左边，偶数在右边。 要求： 尽可能不占用额外的存储空间。	
 
 ### 参考资料
-* 库函数实现 
+* glibc 库函数实现 
 	- <http://www.oschina.net/code/explore/glibc-2.9/string/strcpy.c>
-	- <http://www.oschina.net/code/explore/glibc-2.9/string/memcpy.c>
-* GNU 的实现
-	- <http://blog.csdn.net/wind19/article/details/7539027>
-	
+	- <http://www.oschina.net/code/explore/glibc-2.9/string/memcpy.c> 
+	- 实现分析 <http://blog.csdn.net/wind19/article/details/7539027>
+* 内核3.6.7代码实现	
+	- <http://lxr.linux.no/linux+v3.6.7/arch/arm/lib/copy_template.S>
+	- <http://lxr.linux.no/linux+v3.6.7/arch/arm/lib/memcpy.S>
+
+
 	
