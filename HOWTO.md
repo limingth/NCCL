@@ -10,7 +10,7 @@ title: 构建在线学习环境
 
 总体规划说明： <https://github.com/limingth/NCCL>
 
-本次课程大纲： <https://github.com/limingth/NCCL/blob/gh-pages/Unit-1/README.md>
+本次课程大纲： <https://github.com/limingth/NCCL/blob/master/Unit-1/README.md>
 
 ## 开课时间安排
 
@@ -18,9 +18,10 @@ title: 构建在线学习环境
 
 每次课程2个学时，上2个Lesson，一共12次课，共4周时间上完 Unit-1 的24个Lesson。
 
-11月23号周五晚9点正式上课，老师会提前半小时进入在线课堂等候大家进入。
+11月23号晚9点正式上课，老师会提前半小时进入在线课堂等候大家进入。
 
-另外，我们提前1天在11月22日晚9点进行开班典礼，内容为学员互相认识和分组，以及测试学习在线课堂软件使用。
+11月22日晚9点进行开班典礼，内容为学员互相认识和分组，以及测试学习在线课堂软件使用。
+<https://github.com/limingth/NCCL/blob/gh-pages/Lesson-0.md>
 
 
 ## 费用和流程
@@ -50,5 +51,5 @@ title: 构建在线学习环境
 
 
 ## 构建在线学习环境
-构建环境 <https://github.com/limingth/NCCL/blob/gh-pages/INSTALL.md>
+构建环境请参照 <https://github.com/limingth/NCCL/blob/gh-pages/INSTALL.md>
 
