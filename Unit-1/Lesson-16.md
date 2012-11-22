@@ -136,6 +136,7 @@
 	- 参考阅读 <http://blog.csdn.net/wind19/article/details/7539027>
 	- <http://blog.sina.com.cn/s/blog_6ba6e53b010145bz.html>
 * char s[32] = "Hello World";  修改为 char * s = "Hello World";  有何区别？
+	- 思路提示: 从两者的存储分配，读写权限，初始化实现，执行时效率进行分析
 * 怎样写出一个标准规范的strcpy函数？
 	- 编程风格
 	- 出错处理
