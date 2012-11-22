@@ -37,7 +37,7 @@
 		return 0;
 	}
 
-### 算法优化-减少对 dst 指针变量的存取次数
+### 算法优化1-减少对 dst 指针变量的存取次数
 	#include <stdio.h>
 
 	char * my_strcpy(char * dst, const char * src)
@@ -54,7 +54,7 @@
 
 出处: 林锐《高质量程序设计指南》<http://www.360doc.com/content/11/0426/13/6845720_112422873.shtml>
 
-### 算法优化2-内联函数和内嵌汇编
+### 算法优化2 - 内联函数和内嵌汇编
 	extern inline void * memcpy(void * dest,const void * src, int n)
 	{
 		__asm__("cld\n\t"
@@ -65,7 +65,63 @@
 		return dest;
 	}
 	
-出处: <http://lxr.linux.no/linux-old+v0.01/include/string.h>
+出处: Linux 0.0.1 源码 <http://lxr.linux.no/linux-old+v0.01/include/string.h>
+
+### 算法优化3 - 基于 PAGE/WORD/BYTE 对齐拷贝
+	#include <string.h>
+	#include <memcopy.h>
+	#include <pagecopy.h>
+	
+	#undef memcpy
+	
+	void *
+	memcpy (dstpp, srcpp, len)
+	     void *dstpp;
+	     const void *srcpp;
+	     size_t len;
+	{
+	  unsigned long int dstp = (long int) dstpp;
+	  unsigned long int srcp = (long int) srcpp;
+	
+	  /** Copy from the beginning to the end.  */
+	
+	  /** If there not too few bytes to copy, use word copy.  */
+	  if (len >= OP_T_THRES)
+	    {
+	      /** Copy just a few bytes to make DSTP aligned.  */
+	      len -= (-dstp) % OPSIZ;
+	      BYTE_COPY_FWD (dstp, srcp, (-dstp) % OPSIZ);
+	
+	      /** Copy whole pages from SRCP to DSTP by virtual address manipulation,
+		 as much as possible.  */
+	
+	      PAGE_COPY_FWD_MAYBE (dstp, srcp, len, len);
+	
+	      /** Copy from SRCP to DSTP taking advantage of the known alignment of
+		 DSTP.  Number of bytes remaining is put in the third argument,
+		 i.e. in LEN.  This number may vary from machine to machine.  */
+	
+	      WORD_COPY_FWD (dstp, srcp, len, len);
+	
+	      /** Fall out and copy the tail.  */
+	    }
+	
+	  /** There are just a few bytes to copy.  Use byte memory operations.  */
+	  BYTE_COPY_FWD (dstp, srcp, len);
+	
+	  return dstpp;
+	}
+	libc_hidden_builtin_def (memcpy)
+
+出处：glibc 库函数实现 
+	- <http://www.oschina.net/code/explore/glibc-2.9/string/strcpy.c>
+	- <http://www.oschina.net/code/explore/glibc-2.9/string/memcpy.c> 
+	- 实现分析 <http://blog.csdn.net/wind19/article/details/7539027>
+
+### 尚未看懂的优化实现 - 内核3.6.7代码实现	
+	- <http://lxr.linux.no/linux+v3.6.7/arch/arm/lib/copy_template.S>
+	- <http://lxr.linux.no/linux+v3.6.7/arch/arm/lib/memcpy.S>
+
 
 ### 知识点
 * 指针
@@ -84,15 +140,6 @@
 	
 ### 课后练习
 * 请用指针实现对一个数组的调整，要求奇数在左边，偶数在右边。 要求： 尽可能不占用额外的存储空间。	
-
-### 参考资料
-* glibc 库函数实现 
-	- <http://www.oschina.net/code/explore/glibc-2.9/string/strcpy.c>
-	- <http://www.oschina.net/code/explore/glibc-2.9/string/memcpy.c> 
-	- 实现分析 <http://blog.csdn.net/wind19/article/details/7539027>
-* 内核3.6.7代码实现	
-	- <http://lxr.linux.no/linux+v3.6.7/arch/arm/lib/copy_template.S>
-	- <http://lxr.linux.no/linux+v3.6.7/arch/arm/lib/memcpy.S>
 
 
 # 新浪微博大讨论
