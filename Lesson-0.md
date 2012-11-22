@@ -1,12 +1,4 @@
----
-layout: post
-title: 新概念C语言 NCCL - Lesson 0
----
-
-
-# 课前准备
-
-* 以下活动均采用 YY 语音交流
+# 新概念C语言 NCCL - Lesson 0 Get Ready 课前准备
 
 ## 自我介绍 (30 mins)
 
