@@ -37,7 +37,7 @@
 		return 0;
 	}
 
-### 算法优化1-减少对 dst 指针变量的存取次数
+### 算法优化1 - 减少对 dst 指针变量的存取次数
 	#include <stdio.h>
 
 	char * my_strcpy(char * dst, const char * src)
