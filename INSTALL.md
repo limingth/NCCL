@@ -1,9 +1,3 @@
----
-layout: post
-title: 构建在线学习环境
----
-
-
 # 构建在线学习环境
 
 网络课堂在线学习可以通过PC主机，也可以通过 iPhone 或者 Android 手机进行。
@@ -191,3 +185,6 @@ codepad 的优点在于界面简单，使用方便，不足在于不支持数据
 	此时可以修改一下 hello.c ，然后重复 6，7 两步即可
 	8. 如果要添加大量代码，可以用 git add .
 	9. 如果要删除某个文件，可以用 git rm a.c
+
+## Lesson 0 Get Ready 课前准备
+<https://github.com/limingth/NCCL/blob/gh-pages/Lesson-0.md>
