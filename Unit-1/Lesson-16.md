@@ -97,16 +97,16 @@
 
 # 新浪微博大讨论
 ## @Tan_yb
-：对@亚嵌李明老师 说：老师我发现一个问题：内核和glibc的memcpy比我们自已写的性能高这么多。
+对@亚嵌李明老师 说：老师我发现一个问题：内核和glibc的memcpy比我们自已写的性能高这么多。
 
 Tan_yb：参考http://t.cn/zjyVHFq 进行了优化http://t.cn/zjyVHFG memcpy执行效率果然快了很多，我发现定义的结构体size达到64个字节就应该是效率执行的最大化。 
 
 ## @亚嵌李明老师
-：glibc 里面对内存的读写考虑了对齐问题，一般是以字WORD对齐进行整块拷贝，效率应该能够提高4倍左右。另外也考虑了以页为单位进行整页拷贝。 详见 http://t.cn/zjyyuF5 http://t.cn/zjyyuFt 
+glibc 里面对内存的读写考虑了对齐问题，一般是以字WORD对齐进行整块拷贝，效率应该能够提高4倍左右。另外也考虑了以页为单位进行整页拷贝。 详见 http://t.cn/zjyyuF5 http://t.cn/zjyyuFt 
 
 
 ## @Stanley文威
-: memcpy可是软件优化和CPU架构相结合的典型例子。WORD对齐，cacheline对齐，预取等等都在里面，我记得我有好几个同事优化memcpy优化了好久。属于计算机里的微雕艺术。//@翁恺BA5AG: 呵呵，昨天求计的C课正好讲到这个，要强迫他们养成凡事尽量使用现成代码的习惯 
+memcpy可是软件优化和CPU架构相结合的典型例子。WORD对齐，cacheline对齐，预取等等都在里面，我记得我有好几个同事优化memcpy优化了好久。属于计算机里的微雕艺术。//@翁恺BA5AG: 呵呵，昨天求计的C课正好讲到这个，要强迫他们养成凡事尽量使用现成代码的习惯 
 
 关于体系架构和软件优化，还有个故事。以前某天某公司的某个加速库就要发布了，大家发现性能降了20%，大家都抓狂了。这种加速库被优化了n年，各个边边角角被优化了好几遍，20%的性能下降简直是不可想像的，于是大家郁闷的加班找原因。
 
@@ -116,7 +116,7 @@ Tan_yb：参考http://t.cn/zjyVHFq 进行了优化http://t.cn/zjyVHFG memcpy执�
 
 
 ## @宋宝华Barry
-：memcpy非常讲究,要充分考虑指令集,cacheline,word对齐等.可看arch/arm/lib/memcpy.S和copy_template.S//@翁恺BA5AG: //@Stanley文威: memcpy可是软件优化和CPU架构相结合的典型例子。WORD对齐，cacheline对齐，预取等等都在里面，我记得我有好几个同事优化memcpy优化了好久。属于计算机里的微雕艺术。 (11月21日 22:07)
+memcpy非常讲究,要充分考虑指令集,cacheline,word对齐等.可看arch/arm/lib/memcpy.S和copy_template.S//@翁恺BA5AG: //@Stanley文威: memcpy可是软件优化和CPU架构相结合的典型例子。WORD对齐，cacheline对齐，预取等等都在里面，我记得我有好几个同事优化memcpy优化了好久。属于计算机里的微雕艺术。 (11月21日 22:07)
 
 宋宝华Barry：回复@Tan_yb: 方法错. memcpy没人拿C语言搞的，都是根据每个arch写汇编。你用C，就依赖于toolchain是否能转化为正确指令集。//@Tan_yb：参考http://t.cn/zjyVHFq 进行了优化http://t.cn/zjyVHFG memcpy执行效率果然快了很多，我发现定义的结构体size达到64个字节就应该是效率执行的最大化
 
@@ -124,21 +124,21 @@ Tan_yb：参考http://t.cn/zjyVHFq 进行了优化http://t.cn/zjyVHFG memcpy执�
 
 
 ## @CSK_
-: x86上的memcpy库函数会使用SSE指令加速，arm上的会用NEON指令加速。内核态甚至会用DMA加速，同时cache miss也小//@翁恺BA5AG: 不同的CPU实现肯定不同，x86的和ARM不会一样 //@宋宝华Barry:memcpy非常讲究,要充分考虑指令集,cacheline,word对齐等.可看arch/arm/lib/memcpy.S和copy_template.S
+x86上的memcpy库函数会使用SSE指令加速，arm上的会用NEON指令加速。内核态甚至会用DMA加速，同时cache miss也小//@翁恺BA5AG: 不同的CPU实现肯定不同，x86的和ARM不会一样 //@宋宝华Barry:memcpy非常讲究,要充分考虑指令集,cacheline,word对齐等.可看arch/arm/lib/memcpy.S和copy_template.S
 
 ## @蔡华林CHL
-：回复@亚嵌李明老师:可以找找cache miss和false sharing相关的文章看看，当你的程序有大量循环时一不小心就会遇上，可以通过vtune之类工具发现。现在cpu是很快，显得内存访问的latency越来越无法忍受了，貌似是几乎上百纳秒级别，一次内存装载到cache的时间够执行很多语句了
+回复@亚嵌李明老师:可以找找cache miss和false sharing相关的文章看看，当你的程序有大量循环时一不小心就会遇上，可以通过vtune之类工具发现。现在cpu是很快，显得内存访问的latency越来越无法忍受了，貌似是几乎上百纳秒级别，一次内存装载到cache的时间够执行很多语句了
 
 但是一般人写程序不会注意到这个问题吧，前段时间想改进hash join，每次算好哈希入口去访问都会引起一次cache miss，性能就只有遍历的1/10，于是想显式发预取指令，这样得弄个窗口处理当前项时预取下一项，由于之前设计问题缓存会增加额外的memcpy和组装开销，抵消掉大部分预取带来的好处…
 
 我以前还专门被叫去研究过这个函数，在某些特殊情况下能做到自己写的更快，因为可以被inline掉，前提是对齐之类要注意，改写成word的赋值语句，还有些情况下应该使用gcc内置的builtin的memcpy或者vc的intrinsic，这样编译器也能帮省掉函数调用开销
 
 ## @ChongHead
-: X86的glibc memcpy大致有4k行汇编代码，性能差别不是一点点的，牛人作者在上海 //@CSK_: x86上的memcpy库函数会使用SSE指令加速，arm上的会用NEON指令加速。内核态甚至会用DMA加速，同时cache miss也小//@翁恺BA5AG: 不同的CPU实现肯定不同，x86的和ARM不会一样 //@宋宝华Barry:memcpy
+X86的glibc memcpy大致有4k行汇编代码，性能差别不是一点点的，牛人作者在上海 //@CSK_: x86上的memcpy库函数会使用SSE指令加速，arm上的会用NEON指令加速。内核态甚至会用DMA加速，同时cache miss也小//@翁恺BA5AG: 不同的CPU实现肯定不同，x86的和ARM不会一样 //@宋宝华Barry:memcpy
 
 ## @曦图吴昊
-：我们以前做这种优化都是根据CPU的cycle设计算法的 //@CSK_:x86上的memcpy库函数会使用SSE指令加速，arm上的会用NEON指令加速。内核态甚至会用DMA加速，同时cache miss也小 //@翁恺BA5AG: 不同的CPU实现肯定不同，x86的和ARM不会一样
+我们以前做这种优化都是根据CPU的cycle设计算法的 //@CSK_:x86上的memcpy库函数会使用SSE指令加速，arm上的会用NEON指令加速。内核态甚至会用DMA加速，同时cache miss也小 //@翁恺BA5AG: 不同的CPU实现肯定不同，x86的和ARM不会一样
 
 ## @孙志岗Sunner
-: 从memcpy到filecopy的优化，足够学到好大一箩筐了//@Stanley文威: memcpy可是软件优化和CPU架构相结合的典型例子。WORD对齐，cacheline对齐，预取等等都在里面，我记得我有好几个同事优化memcpy优化了好久。属于计算机里的微雕艺术。//@翁恺BA5AG: 要强迫他们养成凡事尽量使用现成代码的习惯
-	
+从memcpy到filecopy的优化，足够学到好大一箩筐了//@Stanley文威: memcpy可是软件优化和CPU架构相结合的典型例子。WORD对齐，cacheline对齐，预取等等都在里面，我记得我有好几个同事优化memcpy优化了好久。属于计算机里的微雕艺术。//@翁恺BA5AG: 要强迫他们养成凡事尽量使用现成代码的习惯
+
