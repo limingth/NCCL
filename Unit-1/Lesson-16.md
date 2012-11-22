@@ -114,13 +114,13 @@
 	libc_hidden_builtin_def (memcpy)
 
 出处：glibc 库函数实现 
-	- <http://www.oschina.net/code/explore/glibc-2.9/string/strcpy.c>
-	- <http://www.oschina.net/code/explore/glibc-2.9/string/memcpy.c> 
-	- 实现分析 <http://blog.csdn.net/wind19/article/details/7539027>
+* <http://www.oschina.net/code/explore/glibc-2.9/string/strcpy.c>
+* <http://www.oschina.net/code/explore/glibc-2.9/string/memcpy.c> 
+* 实现分析 <http://blog.csdn.net/wind19/article/details/7539027>
 
 ### 尚未看懂的优化实现 - 内核3.6.7代码实现	
-	- <http://lxr.linux.no/linux+v3.6.7/arch/arm/lib/copy_template.S>
-	- <http://lxr.linux.no/linux+v3.6.7/arch/arm/lib/memcpy.S>
+* <http://lxr.linux.no/linux+v3.6.7/arch/arm/lib/copy_template.S>
+* <http://lxr.linux.no/linux+v3.6.7/arch/arm/lib/memcpy.S>
 
 
 ### 知识点
