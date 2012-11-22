@@ -1,4 +1,5 @@
-# 新概念C语言 NCCL - Lesson 0 Get Ready 课前准备
+
+# Lesson 0     Get Ready 课前准备
 
 ## 自我介绍 (30 mins)
 
