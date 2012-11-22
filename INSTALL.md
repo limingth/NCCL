@@ -138,7 +138,8 @@ codepad 的优点在于界面简单，使用方便，不足在于不支持数据
 	2. cd ~
 	
 	3. cd .ssh
-	
+		注意 cd 是命令，cd 后面需要加至少1个空格作为间隔符
+
 	4. ssh-keygen -t rsa -C "your_email@youremail.com"
 		此处如果需要输入，全部用回车 Enter
 
