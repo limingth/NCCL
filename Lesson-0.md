@@ -14,6 +14,7 @@
 	    注意： LinkedIn 注册邮箱如果不是报名邮箱，则不能自动成为成员，需要批准之后才能发言。
 	- 在 Welcome 的欢迎 Discussion 下面跟帖，自觉冒泡报到，申请编号的 Comment 格式为  
   		”Hello, NCCL group member. I am No.1201xx. --your name“
+	  [点击进入申请编号](http://www.linkedin.com/groups/Welcome-NCCL-group-4715078.S.185251633?qid=dce08638-0f74-4014-b9ad-ecab2ec33c5c&trk=group_most_popular-0-b-ttl&goback=%2Egsm_4715078_1_*2_*2_*2_lna_PENDING_*2%2Egmp_4715078%2Egde_4715078_member_185251633%2Egmp_4715078%2Egde_4715078_member_188465347%2Egmp_4715078>)
 	- 如果编号申请获得批准，则会有一个李明老师的 like 评价，表示确认编号可以通过。
 	- 编号成功后，请牢记这个编号，将会是你在 NCCL Group 里面的唯一ID，退学不退号。
 	- 最后修改 QQ 群的群名片，格式为 1201xx-姓名-城市 的格式，便于群内交流。  
