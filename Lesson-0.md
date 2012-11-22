@@ -7,7 +7,7 @@
 	- 目前C语言掌握情况
 	- 未来学习目标
 	
-## 学员编号 (10 mins)
+## 学员编号 (5 mins)
 * 注册报到流程
 	- 提前在 LinkedIn.com 上面注册自己的账号，邮箱地址最好是报名表中登记的地址。
 	- 申请加入 NCCL - New Concept C Language 讨论组，并批准成为 member，才能在论坛里发言。  
