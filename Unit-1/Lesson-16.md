@@ -52,6 +52,8 @@
 		return dst;
 	}
 
+出处: 林锐《高质量程序设计指南》<http://www.360doc.com/content/11/0426/13/6845720_112422873.shtml>
+
 ### 算法优化2-内联函数和内嵌汇编
 	extern inline void * memcpy(void * dest,const void * src, int n)
 	{
