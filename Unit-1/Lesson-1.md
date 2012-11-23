@@ -1,5 +1,4 @@
 
-
 ## Lesson 1 What is a simplest C program? (最简单的C程序)
 	int main(void)
 	{
@@ -77,3 +76,88 @@
 ### 名人警句
 * Dennis Ritchie
 	- Many of the improvements I introduced when developing C simply “looked like a good thing to do”. 
+
+### C语言 BNF 范式分析
+	
+	int main(void)
+	{
+		return 0;
+	}
+	
+	类型声明 函数声明
+	int 	main(void)
+	 
+	复合语句: { 语句 }
+	{ return 0; }
+	
+	-------------> translation_unit 编译单元
+	
+	translation_unit	: external_decl
+	
+	external_decl		: function_definition
+	
+	function_definition	: 
+				| decl_specs declarator		compound_stat
+				|		declarator 	compound_stat
+	
+	decl_specs		: type_spec
+	
+	type_spec		: 'void' | 'char' | 'short' | 'int' | 'long' | 'float'
+	
+	-------------> void	类型声明
+	
+	declarator		: direct_declarator
+	
+	direct_declarator	: id
+				| '(' declarator ')'
+				| direct_declarator '[' const_exp ']'
+				| direct_declarator '['		']'
+				| direct_declarator '(' param_type_list ')'
+				| direct_declarator '(' id_list ')'
+				| direct_declarator '('		')'
+	
+	-------------> main( param_type_list )	函数声明
+	
+	param_type_list		: param_list
+				| param_list ',' '...'
+				;
+	param_list		: param_decl
+				| param_list ',' param_decl
+	
+	param_decl		: decl_specs declarator
+				| decl_specs abstract_declarator
+				| decl_specs
+				;
+	
+	decl_specs		: storage_class_spec decl_specs
+				| storage_class_spec
+				| type_spec decl_specs
+				| type_spec
+				| type_qualifier decl_specs
+				| type_qualifier
+				;
+	
+	--------------> void 参数类型列表
+	
+	compound_stat		: '{' decl_list stat_list '}'
+	
+	--------------> { return 0; }	复合语句
+	
+	stat_list		: stat
+				| stat_list stat
+	
+	stat			: labeled_stat
+				| exp_stat
+				| compound_stat
+				| selection_stat
+				| iteration_stat
+				| jump_stat
+	
+	jump_stat		: 'goto' id ';'
+				| 'continue' ';'
+				| 'break' ';'
+				| 'return' exp ';'
+				| 'return'	';'
+				;
+	
+	--------------> return 0;  语句
