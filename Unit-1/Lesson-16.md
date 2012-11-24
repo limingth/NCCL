@@ -116,6 +116,8 @@
 出处：glibc 库函数实现 
 * <http://www.oschina.net/code/explore/glibc-2.9/string/strcpy.c>
 * <http://www.oschina.net/code/explore/glibc-2.9/string/memcpy.c> 
+* 汇编实现--基本思路是实现好1,2,4,8…字节的硬代码，根据实际字节数做跳转，循环前根据cache line状态做prefetch  
+<http://www.oschina.net/code/explore/glibc-2.9/sysdeps/x86_64/memcpy.S>
 
 
 ### 尚未看懂的优化实现 - 内核3.6.7代码实现	
