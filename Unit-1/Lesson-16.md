@@ -186,6 +186,8 @@ x86上的memcpy库函数会使用SSE指令加速，arm上的会用NEON指令加�
 
 我以前还专门被叫去研究过这个函数，在某些特殊情况下能做到自己写的更快，因为可以被inline掉，前提是对齐之类要注意，改写成word的赋值语句，还有些情况下应该使用gcc内置的builtin的memcpy或者vc的intrinsic，这样编译器也能帮省掉函数调用开销
 
+glibc 2.9有个500多行的memcpy汇编，这里有源码：http://t.cn/zjUwD43，不知道最新的代码有没有改过，我电脑上07年载的已经是这个版本了，基本思路应该就是实现好1,2,4,8…字节的硬代码，根据实际字节数做跳转，循环前根据cache line状态做prefetch 
+
 ## @ChongHead
 X86的glibc memcpy大致有4k行汇编代码，性能差别不是一点点的，牛人作者在上海 //@CSK_: x86上的memcpy库函数会使用SSE指令加速，arm上的会用NEON指令加速。内核态甚至会用DMA加速，同时cache miss也小//@翁恺BA5AG: 不同的CPU实现肯定不同，x86的和ARM不会一样 //@宋宝华Barry:memcpy
 
