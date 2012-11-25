@@ -46,3 +46,8 @@
 * 用户输入5个数，计算它们的平均数，并打印。
 * 用户输入5个数，将其中最大的数找出来，并打印。
 * 已知11月1日是星期四，请打印出11月份的月历。
+
+
+### 名人警句
+* Edsger W. Dijkstra  (结构程序设计之父) 
+	- “If debugging is the process of removing bugs, then programming must be the process of putting them in.”
