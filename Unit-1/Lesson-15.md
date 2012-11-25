@@ -224,4 +224,4 @@
 
 ### 名人名言
 * Donald Ervin Knuth 
-	- Premature optimization is the root of all evil. 
+	- Premature optimization is the root of all evil. (过早优化是万恶之源)
