@@ -155,6 +155,6 @@
 	- <http://www.oschina.net/code/explore/gcc-4.5.2>
 	
 ### 名人名言
-* Dennis Ritchie
+* Dennis Ritchie  (C语言之父)
 	- Many of the improvements I introduced when developing C simply “looked like a good thing to do”. 
 
