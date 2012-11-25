@@ -86,6 +86,7 @@
 	- 记录下这个文件的链接地址URL，然后发给同组的伙伴，两人互相检查一下，确认无误。
 * 发布作业链接到 linkedin 
 	- 完成互相的检查工作后，由组长负责在 LinkedIn 上跟帖回复你们2个人的作业链接地址就可以。
+	- 第一次作业提交 discussion [点击进入](http://www.linkedin.com/groups/NCCL-Submission-Lesson-1-Lesson-4715078.S.189048300?qid=9daa6d95-ee64-427a-920b-956d4195101e&goback=%2Eanp_4715078_1353769874896_1%2Egmp_4715078)
 * 跟帖提交格式
 	- 120101 Li Jie  
 		homework 1 submission url - http://...   
