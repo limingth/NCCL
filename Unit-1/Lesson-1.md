@@ -135,7 +135,7 @@
 	
 ### 参考资料
 * B语言--C语言的前身
-	- B语言 <http://zh.wikipedia.org/wiki/B%E8%AF%AD%E8%A8%80>
+	- B语言 <http://zh.wikipedia.org/wiki/B语言>
 	- THE PROGRAMMING LANGUAGE B <http://cm.bell-labs.com/cm/cs/who/dmr/bintro.html>
 	- A TUTORIAL INTRODUCTION TO THE LANGUAGE B <http://cm.bell-labs.com/cm/cs/who/dmr/btut.html>
 	- Users' Reference to B <http://cm.bell-labs.com/cm/cs/who/dmr/kbman.html>
