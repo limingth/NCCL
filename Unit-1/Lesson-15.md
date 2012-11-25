@@ -124,7 +124,6 @@
 * 与第1个算法相比，第2个算法有什么优点？
 * 第3个算法的时间复杂度是多少？ 它背后的思想是什么？
 
-
 ### 课后练习
 * 请写出可以进行位操作的 set_bit, get_big 接口
 	- set_bit(int num, int pos, int v);
@@ -222,3 +221,7 @@
 ### 课后练习
 * 用位域操作实现随机生成无重复的10个数字，要求不允许使用数组
 	- 提示：随机数用 random() 函数，用一个整型数的bit0-bit9来记录已经产生的数字		
+
+### 名人名言
+* Donald Ervin Knuth 
+	- Premature optimization is the root of all evil. 
