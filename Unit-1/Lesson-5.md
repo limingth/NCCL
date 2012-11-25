@@ -48,6 +48,6 @@
 * 已知11月1日是星期四，请打印出11月份的月历。
 
 
-### 名人警句
+### 名人名言
 * Edsger W. Dijkstra  (结构程序设计之父) 
 	- “If debugging is the process of removing bugs, then programming must be the process of putting them in.”
