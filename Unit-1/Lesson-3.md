@@ -77,3 +77,6 @@
 * 使用 do-while 结构，实现上面2个要求。
 * __打印一个数字的个位，十位，百位... 直到最高位。__
 
+### 名人名言
+* Ken Thompson  (Unix 之父)
+	- When in doubt, use brute force. 
