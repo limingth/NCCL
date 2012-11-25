@@ -41,3 +41,8 @@
 
 ### 课后练习
 * 5*5 的棋盘，用户输入两个位置坐标，判断这两个位置之间有多少个子？
+
+### 名人名言
+* Donald Ervin Knuth (现代计算机科学的鼻祖, 经典巨著《计算机程序设计的艺术》的作者)
+	- “There’s always more to learn, and there are always better ways to do what you’ve done before.”
+
