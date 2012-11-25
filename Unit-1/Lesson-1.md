@@ -156,5 +156,5 @@
 	
 ### 名人名言
 * Dennis Ritchie  (C语言之父)
-	- Many of the improvements I introduced when developing C simply “looked like a good thing to do”. 
+	- “Many of the improvements I introduced when developing C simply looked like a good thing to do”. 
 
