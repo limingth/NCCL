@@ -75,3 +75,22 @@
 	- [不同学习方法的掌握率](http://blog.163.com/laoshigao@yeah/blog/static/97270358201001073813209/) 
 	- [怎样花两年时间去面试一个人](http://mindhacks.cn/2011/11/04/how-to-interview-a-person-for-two-years/)
 
+## 作业提交
+* 建立 myNCCL 项目
+	- 在 github 上建立 myNCCL 项目，具体方法见环境搭建 INSTALL.md 
+* 编写作业要求的代码
+	- 加入一个文件，命名为 homework-1.c ，对应 lesson-1 （如果有多个代码，都粘贴到这个文件中）
+* 提交代码到 github
+	- 把作业中要求编写的代码都粘贴到这个文件中，然后提交这个文件，push 到 github 上
+* 同组互相检查 
+	- 记录下这个文件的链接地址URL，然后发给同组的伙伴，两人互相检查一下，确认无误。
+* 发布作业链接到 linkedin 
+	- 完成互相的检查工作后，由组长负责在 LinkedIn 上跟帖回复你们2个人的作业链接地址就可以。
+* 跟帖提交格式
+	- 120101 Li Jie
+		homework 1 submission url - http://... 
+		howmwork 2 submission url - http://...
+	- 120113 Cai zhaofeng
+		homework 1 submission url - http://... 
+		howmwork 2 submission url - http://...
+
