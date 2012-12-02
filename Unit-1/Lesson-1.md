@@ -17,7 +17,7 @@
 		return 0;
 	}
 	
-	类型声明 函数声明
+	类型声明 声明符
 	 int     main(void)
 	 
 	复合语句: { 语句 }
@@ -77,32 +77,30 @@
 	
 	--------------> void 参数类型列表
 	
-	compound_stat		: '{' decl_list stat_list '}'
-	
+	compound_stat		: '{' decl_list stat_list '}'	{ 声明表 语句表 }
+	复合语句		
 	
 	--------------> { return 0; }	复合语句
 	
-	stat_list		: stat
-				| stat_list stat
+	stat_list		: stat		语句
+	语句表			| stat_list stat	语句表 语句
 	
-	stat			: labeled_stat
-				| exp_stat
-				| compound_stat
-				| selection_stat
-				| iteration_stat
-				| jump_stat
+	stat			: labeled_stat		带标号语句
+	语句			| exp_stat		表达式语句
+				| compound_stat		复合语句
+				| selection_stat	选择语句
+				| iteration_stat	循环语句
+				| jump_stat		跳转语句
 	
-	jump_stat		: 'goto' id ';'
-				| 'continue' ';'
-				| 'break' ';'
-				| 'return' exp ';'
-				| 'return'	';'
+	jump_stat		: 'goto' id ';'		goto 标识符;
+	跳转语句		| 'continue' ';'	continue;	
+				| 'break' ';'		break;
+				| 'return' exp ';'	return 表达式;
+				| 'return'	';'	return
 				;
 	
-	--------------> return 0;  语句 stat
+	--------------> return 0;  跳转语句
 	
-	--------------> return 0  表达式 exp（没有分号）
-
 ### 扩展
 
 	/* this is a simplest c program */
