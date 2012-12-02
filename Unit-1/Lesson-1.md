@@ -23,54 +23,62 @@
 	复合语句: { 语句 }
 	{ return 0; }
 	
-	-------------> translation_unit 编译单元
+	-------------> translation_unit 翻译单元
 	
 	translation_unit	: external_decl
+	翻译单元		  外部声明
 	
 	external_decl		: function_definition
+	外部声明		  函数定义
 	
 	function_definition	: decl_specs  declarator  compound_stat
+	函数定义		  声明说明符  声明符      复合语句
 				
 	decl_specs		: type_spec
+	声明说明符		  类型说明符
 	
 	type_spec		: 'void' | 'char' | 'short' | 'int' | 'long' | 'float'
+	类型说明符		  
 	
 	-------------> void	类型声明
 	
 	declarator		: direct_declarator
+	声明符			  直接声明符
 	
-	direct_declarator	: id
-				| '(' declarator ')'
-				| direct_declarator '[' const_exp ']'
-				| direct_declarator '['		']'
-				| direct_declarator '(' param_type_list ')'
-				| direct_declarator '(' id_list ')'
-				| direct_declarator '('		')'
+	direct_declarator	: id		标识符
+	直接声明符		| '(' declarator ')'		' 声明符 '
+				| direct_declarator '[' const_exp ']'		直接声明符 [常量表达式]
+				| direct_declarator '['		']'		直接声明符 []
+				| direct_declarator '(' param_type_list ')'	直接声明符 (形式参数类型表)
+				| direct_declarator '(' id_list ')'		直接声明符 (标识符表)
+				| direct_declarator '('		')'		直接声明符 ()
 	
-	-------------> main( param_type_list )	函数声明
+	-------------> main( param_type_list )	函数声明符
 	
-	param_type_list		: param_list
-				| param_list ',' '...'
+	param_type_list		: param_list		形式参数表
+	形式参数类型表		| param_list ',' '...'	形式参数表, ...
 				;
-	param_list		: param_decl
-				| param_list ',' param_decl
+				
+	param_list		: param_decl		形式参数声明
+	形式参数表		| param_list ',' param_decl	形式参数表, 形式参数声明
 	
-	param_decl		: decl_specs declarator
-				| decl_specs abstract_declarator
-				| decl_specs
+	param_decl		: decl_specs declarator		声明说明符 声明符	
+	形式参数声明		| decl_specs abstract_declarator 声明说明符 抽象声明符
+				| decl_specs 			声明说明符
 				;
 	
-	decl_specs		: storage_class_spec decl_specs
-				| storage_class_spec
-				| type_spec decl_specs
-				| type_spec
-				| type_qualifier decl_specs
-				| type_qualifier
+	decl_specs		: storage_class_spec decl_specs	存储类说明符 声明说明符
+	声明说明符		| storage_class_spec		存储类说明符
+				| type_spec decl_specs		类型说明符 
+				| type_spec			类型说明符
+				| type_qualifier decl_specs	类型限定符 声明说明符 
+				| type_qualifier		类型限定符	
 				;
 	
 	--------------> void 参数类型列表
 	
 	compound_stat		: '{' decl_list stat_list '}'
+	
 	
 	--------------> { return 0; }	复合语句
 	
