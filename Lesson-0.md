@@ -61,10 +61,10 @@
 
 ## 学前任务 (5 mins)
 * 学习参考书目
+	- [C程序设计语言(第2版-新版)](http://ishare.iask.sina.com.cn/f/20938526.html?from=dl)
 	- [Linux C编程一站式学习](http://learn.akae.cn/media/index.html)
 	- [程序员的自我修养](http://ishare.iask.sina.com.cn/f/10540809.html)
 	- [Unix编程艺术](http://ishare.iask.sina.com.cn/f/10468232.html?retcode=0)
-	- [C程序设计语言(第2版-新版)](http://ishare.iask.sina.com.cn/f/20938526.html?from=dl)
 * 班级成员交流公约
 	- 第一条，班级成员每人每星期在群里至少公开提出1个自己目前想搞懂的问题。
 	- 第二条，每人每星期试着去解决至少1个别人提出的问题，并主动和提问者交流。
