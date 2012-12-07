@@ -39,7 +39,7 @@
 	struct a {
 		int b;
 		int c;
-	}
+	};
 
 	struct a a1 = {
 		.b = 1,
@@ -47,11 +47,11 @@
 	};
 
 	struct a a1 = {
-		b:1,
-		c:2
-	}
+		b : 1,
+		c : 2
+	};
 
-	struct a a1 = { 1, 2};
+	struct a a1 = {1, 2};
 
 ### 经典范例
 	/* linux/drivers/char/raw.c */
