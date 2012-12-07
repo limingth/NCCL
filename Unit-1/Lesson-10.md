@@ -67,3 +67,8 @@
 * 增加一个变量，用来统计在算法执行过程中比较的次数。
 * 实现在课堂讨论中想到的优化算法。
 * 已知2012年1月1日是星期日，请打印出全年的月历。要求用到函数，数组和循环。
+
+### 名人名言
+* Rob Pike (最伟大的C语言大师之一，参与开发了Go语言，和 Ken Thompson 一起设计了UTF-8编码格式，现Google的首席工程师。)
+	- Data dominates. If you’ve chosen the right data structures and organized things well, the algorithms will almost always be self-evident. Data structures, not algorithms, are central to programming.
+	- 数据压倒一切。如果已经选择了正确的数据结构并且把一切都组织得井井有条，正确的算法也就不言自明。编程的核心是数据结构，而不是算法。
