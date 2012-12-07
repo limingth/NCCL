@@ -69,7 +69,7 @@
 * 已知2012年1月1日是星期日，请打印出全年的月历。要求用到函数，数组和循环。
 
 ### 名人名言
-* Rob Pike (最伟大的C语言大师之一，和Ken Thompson一起设计了UTF-8编码格式，参与并开发了Go语言，现Google的首席工程师。)
+* Rob Pike (最伟大的C语言大师之一，和Ken Thompson一起设计了UTF-8编码格式，参与开发了Go语言，现Google首席工程师。)
 	- “Data dominates. If you’ve chosen the right data structures and organized things well, the algorithms will almost always be self-evident. Data structures, not algorithms, are central to programming.”
 	- “数据压倒一切。如果已经选择了正确的数据结构并且把一切都组织得井井有条，正确的算法也就不言自明。编程的核心是数据结构，而不是算法。”
 	- “给我看流程图而不让我看（数据）表，我仍会茫然不解；如果给我看（数据）表，通常就不需要流程图了；数据表足够说明问题了。”
