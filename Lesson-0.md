@@ -65,6 +65,7 @@
 	- [Linux C编程一站式学习](http://learn.akae.cn/media/index.html)
 	- [程序员的自我修养](http://ishare.iask.sina.com.cn/f/10540809.html)
 	- [Unix编程艺术](http://ishare.iask.sina.com.cn/f/10468232.html?retcode=0)
+	- [Notes on C Programming](http://ishare.iask.sina.com.cn/f/8192208.html)
 * 班级成员交流公约
 	- 第一条，班级成员每人每星期在群里至少公开提出1个自己目前想搞懂的问题。
 	- 第二条，每人每星期试着去解决至少1个别人提出的问题，并主动和提问者交流。
