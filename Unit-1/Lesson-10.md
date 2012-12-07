@@ -38,16 +38,18 @@
 				people[pos] = 0;
 				left--;
 			}
-
-			//pos = ++pos % ALL_NUM;
+			
+		#if 1
+			pos = ++pos % ALL_NUM;
+			step = step % COUNT_NUM;
+		#else	
 			pos++;
 			if (pos == ALL_NUM)
 				pos = 0;
-
-			//step = step % COUNT_NUM;
+			
 			if (step == COUNT_NUM)
 				step = 0;
-
+		#endif
 		}
 
 		return 0;
