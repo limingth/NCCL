@@ -65,7 +65,7 @@
 * 用户输入两个数字，按从个位对齐的方式，找出这2个数在相同位置处数字也相同的个数。  
 例如：123 和 5173 这2个数字，位置相同数字也相同的个数是 2
 
-### 名人警句
+### 名人名言
 * Brian W.Kernighan (C Programming Language 一书合作者) 
 	- ”I don't think that I have any special insight, but it has always seemed to me best to do something that you really enjoy doing. If you have a job that is fun, where you are eager to start in the morning and hate to quit in the evening, that's what you want.“
 	- 我不认为自己有任何特别的远见，但是对于我来说做自己喜欢的事情似乎是最好的。如果你有一份有趣的工作，在早上你非常渴望开始做，并且在傍晚的时候你又不愿停下来，那这就是你想要的。
