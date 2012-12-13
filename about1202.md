@@ -20,19 +20,19 @@ Lesson 3: 2012年12月26日，星期三，21:00 - 23:00
 ### 费用
 Unit 1 是《新概念C语言》系列课程的第一部分，共有24个Lesson，包含以下4个层次的学习内容：
 
-  1) Beginning Lessons (Lesson 1-7)
-  其中 Lesson 1&2 免费公开课，其他5个Lesson收费，费用是 49 * 5 = 245
-  
-  2) Intermediate Lessons (Lesson 8-14)
-  其中 Lesson 8&9 免费公开课，其他5个Lesson收费，费用是 59 * 5 = 295
-  
-  3) Advanced Lessons (Lesson 15-21)
-  其中 Lesson 15&16 免费公开课，其他5个Lesson收费，费用是 69 * 5 = 345
-  
-  4) Homework Projects (Lesson 22-24)
-  没有免费公开课，费用是 99 * 3 = 297
+	1) Beginning Lessons (Lesson 1-7)
+	其中 Lesson 1&2 免费公开课，其他5个Lesson收费，费用是 49 * 5 = 245
+	
+	2) Intermediate Lessons (Lesson 8-14)
+	其中 Lesson 8&9 免费公开课，其他5个Lesson收费，费用是 59 * 5 = 295
+	
+	3) Advanced Lessons (Lesson 15-21)
+	其中 Lesson 15&16 免费公开课，其他5个Lesson收费，费用是 69 * 5 = 345
+	
+	4) Homework Projects (Lesson 22-24)
+	没有免费公开课，费用是 99 * 3 = 297
 
-合计 245+295+345+297 = 1182元
+第2期多贝网络课堂学费合计 245+295+345+297 = 1182元
 
 ### 优惠
 如果一次性报名交费有优惠，优惠价格为 1099 元。请联系小布老师 QQ 542453655 咨询。
