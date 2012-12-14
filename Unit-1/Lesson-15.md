@@ -69,7 +69,8 @@
 	//This is a naive implementation, shown for comparison,
 	//and to help in understanding the better functions.
 	//It uses 24 arithmetic operations (shift, add, and).
-	int count_bit_1(unsigned int x) {
+	int count_bit_1(unsigned int x) 
+	{
 		x = (x & m1 ) + ((x >>  1) & m1 ); //put count of each  2 bits into those  2 bits 
 		x = (x & m2 ) + ((x >>  2) & m2 ); //put count of each  4 bits into those  4 bits 
 		x = (x & m4 ) + ((x >>  4) & m4 ); //put count of each  8 bits into those  8 bits 
