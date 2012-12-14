@@ -133,14 +133,14 @@
 	- 要求：输入大写的字符转为小写，输入小写的字符转为大写；
 * 用位运算实现对一个无符号整型的二进制打印，八进制打印，十六进制打印
 	- 要求：  
-		int print_bin(int a);  
-		int print_oct(int a);  
-		int print_hex(int a);  
+	int print_bin(int a);  
+	int print_oct(int a);  
+	int print_hex(int a);  
 
-		a = 31  
-		二进制打印 000000000000.. 01 11 11  
-		八进制打印 000... 0 3 7  
-		十六进制打印 00 00 00 1F  	
+	a = 31  
+	二进制打印 0000 0000 ... 0001 1111  
+	八进制打印 0 0 0 ... 0 3 7  
+	十六进制打印 00 00 00 1F  	
 		
 ## Bit-Field 位域操作
 	#include <stdio.h>
