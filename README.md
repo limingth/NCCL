@@ -15,7 +15,7 @@
 
 全书内容大纲如下：
 
-* [Unit 1](NCCL/blob/master/Unit-1/README.md) ： C Foundmentals  
+* [Unit 1 ： C Foundmentals](https://github.com/limingth/NCCL/blob/master/Unit-1/README.md)  
 覆盖基本C语法结构--变量，表达式，语句，函数，数组，结构体，位操作，指针等，学会使用递归和状态机思想编程。
 
 * Unit 2 ： C Essentials   
@@ -29,7 +29,7 @@
 
 (作者注: 目前仅完成 Unit 1 部分，希望能够有更多优秀的老师参与编写，请和我联系。)
 
-## Unit One
+## [Unit One](https://github.com/limingth/NCCL/blob/master/Unit-1/README.md)  
 * Lesson 1    What is a simplest C program? 最简单的C程序
 * Lesson 2    Let's say hello to world 打印输出
 * Lesson 3    Count how many fingers do you have? 循环打印
