@@ -12,8 +12,6 @@
 	int main(void)
 	{
 		char * str = "Don't ask what your country can do for you, but ask what you can do for your country.";
-	
-		int i = 0;
 		char c;
 	
 		int state = 0;	// init state
