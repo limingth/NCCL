@@ -43,15 +43,6 @@
 		return buf; 
 	}
 	
-	#if 0
-	#include <stdarg.h>
-	#else
-	typedef int * va_list;
-	#define va_start(ap, A)      (ap = (int *)&(A) + 1)
-	#define va_arg(ap, T)        (*(T *)ap++)
-	#define va_end(ap)       ((void)0)
-	#endif
-	
 	static int myputs(const char * s)
 	{
 		while (*s)
@@ -59,9 +50,17 @@
 	
 		return 0;
 	}
-	
-	
-	char buf[100]; 
+			
+	#if 0
+	#include <stdarg.h>
+	#else
+	typedef int * va_list;
+	#define va_start(ap, A)      (ap = (int *)&(A) + 1)
+	#define va_arg(ap, T)        (*(T *)ap++)
+	#define va_end(ap)       ((void)0)
+	#endif	
+
+	static char buf[100]; 
 	
 	int myprintf(const char * format, ...)
 	{
