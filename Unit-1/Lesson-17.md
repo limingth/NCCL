@@ -39,7 +39,7 @@
 			} 
 		}
 		
-		printf("find %d word\n", counter);
+		printf("find %d words.\n", counter);
 		
 		return 0;
 	}
