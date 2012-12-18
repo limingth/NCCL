@@ -2,17 +2,18 @@
 	/*
 	 * state.c - using FSM to find (+/-)float number strings in buf
 	 *
-	 * Copyright (C) 2010	li ming <limingth@akaedu.org>
+	 * Copyright (C) 2010	li ming <limingth@gmail.com>
 	 *
 	 * find number string such as 123, +1, -03.708 in "ab123+1--03.708"
 	 *
 	 */
 	#include <stdio.h>
 
+	//#define DEBUG
 	#ifdef DEBUG
-		#define DPRINT	printf
+		#define DPRINT(fmt, args...)	printf(fmt, ##args)
 	#else
-		#define DPRINT	//
+		#define DPRINT(fmt, args...)	
 	#endif
 
 	/* the string buffer to deal with */
@@ -65,7 +66,7 @@
 	 * -1: end state
 	 *
 	state transition table:
-		input
+	    input
 	S	0  1  2  3  4
 	0	0, 1, 2, 5, -1,
 	1	0, 1, 2, 5, -1,
@@ -85,8 +86,8 @@
 
 	void action_save(void)
 	{
-		numstr[counter][pos] = buf[i];
-		pos++;
+	    numstr[counter][pos] = buf[i];
+	    pos++;
 	}
 
 	void action_zero(void)
@@ -172,11 +173,13 @@
 
 
 ### 语法知识点
+* 二维数组
 * 二维函数指针数组
-* <http://akaedu.github.com/book/ch23s08.html>
+* 状态机编程之“机制和策略的分离”
 	
 ### 课堂讨论
-*
+* new_state 变量是否是必须的，如果去掉程序应该怎么改？
 	
 ### 课后练习
-* 		
+* C语言去注释问题。给定一个C语言的文本文件，内部包含 /*  */ 和 // 的注释，请去掉这些注释。
+
