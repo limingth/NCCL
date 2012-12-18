@@ -3,6 +3,7 @@
 	#include <math.h>
 
 	enum coordinate_type { RECTANGULAR, POLAR };
+
 	struct complex_struct {
 		enum coordinate_type t;
 		double a, b;
@@ -63,26 +64,29 @@
 	#define magnitude(z) magnitude_tbl[z.t](z)
 	#define angle(z) angle_tbl[z.t](z)
 
-	#define PRINT(x)	printf(#x " = %f \n", x);
-
 	int main(void)
 	{
 		struct complex_struct t1 = { RECTANGULAR, 1.5, 1.0 };
 		struct complex_struct t2 = { POLAR, 1.5, 1.0 };
 		
-		PRINT( real_part(t1) );
-		PRINT( real_part(t2) );
-		//printf("real_part(t1) = %f\n", real_part(t1));
-		//printf("real_part(t2) = %f\n", real_part(t2));
+		printf("real_part(t1) = %f\n", real_part(t1));
+		printf("real_part(t2) = %f\n", real_part(t2));
 		
 		return 0;
 	}
 
 ### 语法知识点
 * 函数指针数组
+* 枚举变量和结构体
+* 数学库 (三角函数)
+* 带参数的宏
 	
 ### 课堂讨论
-* 
+* 结构体作为参数在传递过程中，是传值，还是传址？ 
+* 如何修改上述程序可以提高效率？
+* 如果不用上面的方法声明函数指针数组，改用 typedef，应该如何修改？
 	
 ### 课后练习
-* 
+* 通过函数指针数组，可以实现命令解释器的命令自动匹配和执行，请实现这个想法。提示：采用结构体数组来实现。
+
+
