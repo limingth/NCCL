@@ -57,7 +57,3 @@
 * 指针数组 char * argv[10] 和指向指针的指针 char ** argv 有何区别？
 	
 ### 课后练习
-* 
-* 	
-
-<iframe src='http://www.programr.com/embed.php?action=tf&path=limingth/files/Lesson19' width='100%' height='700' frameborder='0'></iframe>
