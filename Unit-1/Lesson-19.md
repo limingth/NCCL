@@ -48,10 +48,16 @@
 
 ### 语法知识点
 * 指针数组
-* main(argc, argv)
+* 指向指针的指针
+* 函数指针
 	
 ### 课堂讨论
-* 
+* gets 和 scanf 在使用中有什么区别？需要注意什么？
+* 函数指针类型，如果用 typedef 怎么声明？
+* 指针数组 char * argv[10] 和指向指针的指针 char ** argv 有何区别？
 	
 ### 课后练习
-* 		
+* 
+* 	
+
+<iframe src='http://www.programr.com/embed.php?action=tf&path=limingth/files/Lesson19' width='100%' height='700' frameborder='0'></iframe>
