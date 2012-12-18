@@ -41,11 +41,11 @@ GoMeetNow 的优点在于学员端无需安装，只需浏览器中打开课程�
 ideone 的优点是支持代码编辑框中的Tab输入（缩进），并且支持用户的数据输入。推荐使用，不足在于加载稍慢。
 
 ### codepad
-* 网址 <http://codepad.org> 
+* 网址 <http://codepad.org>  
 codepad 的优点在于界面简单，使用方便，不足在于不支持数据输入，也不支持编辑框中的Tab缩进。
 
 ### programr
-* 网址 <http://www.programr.com>
+* 网址 <http://www.programr.com>  
 programr 的优点在于支持多种语言，包括C++，python，支持输入和TAB，界面漂亮，而且支持代码嵌入网页。
 
 对于安装过Linux的学员，可以通过 vi(gedit) + gcc + makefile 来学习；
