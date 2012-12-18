@@ -1,4 +1,4 @@
-## Lesson 1 What is a simplest C program? (最简单的C程序)
+## Lesson 1 What is a simplest C program? 最简单的C程序
 	int main(void)
 	{
 		return 0;
