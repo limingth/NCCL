@@ -152,19 +152,19 @@
 	
 ### 参考资料
 * B语言--C语言的前身
-	- B语言 <http://zh.wikipedia.org/wiki/B语言>
+	- B语言 [http://zh.wikipedia.org/wiki/B语言](http://zh.wikipedia.org/wiki/B语言)
 	- THE PROGRAMMING LANGUAGE B <http://cm.bell-labs.com/cm/cs/who/dmr/bintro.html>
 	- A TUTORIAL INTRODUCTION TO THE LANGUAGE B <http://cm.bell-labs.com/cm/cs/who/dmr/btut.html>
 	- Users' Reference to B <http://cm.bell-labs.com/cm/cs/who/dmr/kbman.html>
 * C语言
-	* C语言 <http://zh.wikipedia.org/wiki/C语言> 	
-	* C语言之父 Dennis Ritchie <http://zh.wikipedia.org/wiki/丹尼斯·里奇>
+	* C语言 [http://zh.wikipedia.org/wiki/C语言](http://zh.wikipedia.org/wiki/C语言)
+	* C语言之父 Dennis Ritchie [http://zh.wikipedia.org/wiki/丹尼斯·里奇](http://zh.wikipedia.org/wiki/丹尼斯·里奇)
 	* C语言 BNF 范式 <http://www.cs.man.ac.uk/~pjj/bnf/c_syntax.bnf>	
 
 ### 参考资料
 * BNF 范式
 	- <http://www.cs.man.ac.uk/~pjj/bnf/bnf.html>
-	- <http://zh.wikipedia.org/wiki/巴科斯范式>
+	- [http://zh.wikipedia.org/wiki/巴科斯范式](http://zh.wikipedia.org/wiki/巴科斯范式)
 * glibc 库
 	- <http://zh.wikipedia.org/wiki/Glibc>
 	- <http://ftp.gnu.org/gnu/glibc>
