@@ -1,6 +1,5 @@
-## Lesson 1 What is a simplest C program? 最简单的C程序
+### Lesson 1 What is a simplest C program? 最简单的C程序
 
-### 代码
 	int main(void)
 	{
 		return 0;
@@ -27,6 +26,7 @@
 	
 	-------------> translation_unit 翻译单元
 	
+### C语言 BNF 范式分析
 	translation_unit	: external_decl
 	翻译单元		  外部声明
 	
@@ -43,6 +43,8 @@
 	类型说明符		  
 	
 	-------------> void	类型声明
+
+### C语言 BNF 范式分析
 	
 	declarator		: direct_declarator
 	声明符			  直接声明符
@@ -56,6 +58,8 @@
 				| direct_declarator '('		')'		直接声明符 ()
 	
 	-------------> main( param_type_list )	函数声明符
+
+### C语言 BNF 范式分析
 	
 	param_type_list		: param_list		形式参数表
 	形式参数类型表		| param_list ',' '...'	形式参数表, ...
@@ -79,10 +83,13 @@
 	
 	--------------> void 参数类型列表
 	
+### C语言 BNF 范式分析
 	compound_stat		: '{' decl_list stat_list '}'	{ 声明表 语句表 }
 	复合语句		
 	
 	--------------> { return 0; }	复合语句
+
+### C语言 BNF 范式分析
 	
 	stat_list		: stat		语句
 	语句表			| stat_list stat	语句表 语句
@@ -153,6 +160,8 @@
 	* C语言 <http://zh.wikipedia.org/wiki/C语言> 	
 	* C语言之父 Dennis Ritchie <http://zh.wikipedia.org/wiki/丹尼斯·里奇>
 	* C语言 BNF 范式 <http://www.cs.man.ac.uk/~pjj/bnf/c_syntax.bnf>	
+
+### 参考资料
 * BNF 范式
 	- <http://www.cs.man.ac.uk/~pjj/bnf/bnf.html>
 	- <http://zh.wikipedia.org/wiki/巴科斯范式>
