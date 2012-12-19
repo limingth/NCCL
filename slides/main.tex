@@ -1,0 +1,46 @@
+\documentclass[t]{beamer}  
+\usetheme{Berlin}        
+\usecolortheme{beaver}         
+\setbeamertemplate{navigation symbols}{}
+\title{最简单的C程序}
+\subtitle{learn with me}
+\author{Li Ming}
+\institute{Aka @ Beijing}
+\date{18th July 2012}
+\usepackage{fontspec}
+\usefonttheme{serif}
+\setmainfont[Mapping=tex-text]{WenQuanYi Zen Hei Mono}
+\setromanfont[Mapping=tex-text,BoldFont=WenQuanYi Micro Hei]{AR PL SungtiL GB}
+\setmonofont[Mapping=tex-text]{WenQuanYi Zen Hei Mono}
+
+% enables straight single quote
+\makeatletter
+\let \@sverbatim \@verbatim
+\def \@verbatim {\@sverbatim \verbatimplus}
+{\catcode`'=13 \gdef \verbatimplus{\catcode`'=13 \chardef '=13 }} 
+\makeatother
+
+% enables backticks in verbatim
+\makeatletter
+{\catcode`\`=13
+\xdef\@verbatim{\unexpanded\expandafter{\@verbatim}\chardef\noexpand`=18 }
+}
+\makeatother
+
+
+\begin{document}
+\begin{frame}
+\titlepage
+\begin{itemize}
+\item 	\url{hhttps://github.com/limingth/NCCL/}
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Outline}
+\tableofcontents[currentsection,subsections]
+\end{frame}
+
+
+\input{"talk.tex"}
+\end{document}
