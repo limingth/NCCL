@@ -1,4 +1,4 @@
-## Lesson 2 Let's say hello to world 打印输出
+### Lesson 2 Lets say hello to world 打印输出
 	#include <stdio.h>
 
 	int main(void)
@@ -11,7 +11,7 @@
 * 预处理符 #
 * 头文件 .h
 * 字符串常量 const string
-* 转义字符 \n \r \t \b 
+* 转义字符 n
 
 ### 扩展练习
 	#include <stdio.h>

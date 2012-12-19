@@ -20,7 +20,7 @@ Unit 1 是《新概念C语言》系列课程的第一部分，共有24个Lesson�
 # Beginning Lessons
 
 ## Lesson 1 [What is a simplest C program?](Lesson-1.md) 最简单的C程序
-### 基本概念讲解
+基本概念讲解
 * C 语言 Language
 	- 高级语言 High-level Programming Language
 	- 汇编语言 Assembly Language
@@ -35,7 +35,7 @@ Unit 1 是《新概念C语言》系列课程的第一部分，共有24个Lesson�
 	- 执行流程 Execution Sequence
 
 ## Lesson 2 [Let's say hello to world](Lesson-2.md) 打印输出
-### 基本概念讲解
+基本概念讲解
 * 库函数 Library
 	- libc & glibc
 	- 系统调用 System Call
@@ -61,7 +61,7 @@ Unit 1 是《新概念C语言》系列课程的第一部分，共有24个Lesson�
 	- 内存管理单元 MMU 
 
 ## Lesson 3 [Count how many fingers do you have?](Lesson-3.md) 循环打印
-### 基本概念讲解
+基本概念讲解
 * while 循环 和 do-while 用法
 	- 比较和跳转指令 Compare and Jump Instruction
 	- do-while 比 while 有时更有用
@@ -72,7 +72,7 @@ Unit 1 是《新概念C语言》系列课程的第一部分，共有24个Lesson�
 	- 位置无关代码 PIC (Position Independent Code)
 
 ## Lesson 4 [Judge a number odd or even](Lesson-4.md) 判断奇偶
-### 基本概念讲解
+基本概念讲解
 * 条件分支 Condition 
 	- 表达式求值  Expression Value
 * 编码风格 Coding Style
@@ -82,7 +82,7 @@ Unit 1 是《新概念C语言》系列课程的第一部分，共有24个Lesson�
 	- 程序二进制接口规范 ABI (Application Binary Interface)
 
 ## Lesson 5 [Summarize all numbers from 1 to 100](Lesson-5.md) 从1加到100求和
-### 基本概念讲解
+基本概念讲解
 * for 循环 
 	- 两种循环用法比较
 * 自动变量 auto variable
@@ -96,7 +96,7 @@ Unit 1 是《新概念C语言》系列课程的第一部分，共有24个Lesson�
 	- args... 和 ##args 的用法
 		
 ## Lesson 6 [Print 9*9 multiplication table](Lesson-6.md) 乘法表
-### 基本概念讲解
+基本概念讲解
 * 循环嵌套
 	- 两重循环的典型用法
 * 程序的调试
@@ -105,7 +105,7 @@ Unit 1 是《新概念C语言》系列课程的第一部分，共有24个Lesson�
 	- 栈帧 Stack Frame
 		
 ## Lesson 7 [Find a max prime number within 100](Lesson-7.md) 求100以内的最大素数
-### 基本概念讲解
+基本概念讲解
 * 循环中的条件分支 
 	- break 和 goto 用法	
 * 数学库函数 math library
