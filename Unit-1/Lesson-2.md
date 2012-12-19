@@ -25,6 +25,7 @@
 	
 	int global = 100;
 	
+### 
 	int main(void)
 	{
 		printf("hello, everyone!\n");
@@ -40,7 +41,7 @@
 		return 0;
 	}	
 
-#### 输出结果
+### 输出结果
 	input: 無
 	output:
 	hello, everyone!
