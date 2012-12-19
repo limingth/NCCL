@@ -82,7 +82,6 @@ programr 的优点在于支持多种语言，包括C++，python，支持输入�
 * git merge
 * git checkout 
 
-
 ### Git & Github 
 * Set up Git  
 网址 <https://help.github.com/articles/set-up-git>
@@ -150,7 +149,7 @@ programr 的优点在于支持多种语言，包括C++，python，支持输入�
 	5. ls
 	cat *.pub
 	
-	6. notepad *.pub
+	6. notepad *.pub (如果是Linux下，可以用 gedit *.pub)
 	ctrl + a 全选
 	ctrl + c 复制
 	
