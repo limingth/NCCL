@@ -1,6 +1,5 @@
 ## Lesson 1 What is a simplest C program? 最简单的C程序
-### Code
-
+### 代码
 	int main(void)
 	{
 		return 0;

@@ -1,4 +1,5 @@
-### Lesson 2 Lets say hello to world 打印输出
+## Lesson 2 Lets say hello to world 打印输出
+### 代码
 	#include <stdio.h>
 
 	int main(void)
@@ -11,7 +12,7 @@
 * 预处理符 #
 * 头文件 .h
 * 字符串常量 const string
-* 转义字符 n
+* 转义字符 \\n
 
 ### 扩展练习
 	#include <stdio.h>
@@ -57,6 +58,9 @@
 * 可变长度参数 ...
 * 外部变量 extern 
 * 强制类型转换 (int)
+* 虚拟地址 Vitual Memory Address
+	- 进程独立的地址空间 
+	- 内存管理单元 MMU 
 
 ### 课堂讨论
 * 包含头文件 stdio.h 就是包含我们所说的库函数吗？
@@ -66,7 +70,8 @@
 * 全局变量和局部变量没有初始化值，则打印的结果会怎样？
 	
 ### 课后练习
-* 修改代码，打印连续的3个全局变量和3个局部变量的地址，看看有何规律？
+* 修改代码，打印连续的3个全局变量和3个局部变量的地址，
+看看有何规律？
 * 修改代码，通过强制类型转换，打印一下 &global + 1 的值是多少？
 * 修改代码，看看如果把 global 定义为 char, short, float 类型会有什么不同？
 

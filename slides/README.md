@@ -1,3 +1,9 @@
+# Makefile #
+Now make will do everything, no need of md2pdf.sh
+	make Lesson-1
+	make Lesson-2
+
+
 # md2pdf.sh #
 use shell scripts `md2pdf.sh` to generate Lesson-x.pdf automatically
 

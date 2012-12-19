@@ -20,7 +20,6 @@ Unit 1 是《新概念C语言》系列课程的第一部分，共有24个Lesson�
 # Beginning Lessons
 
 ## Lesson 1 [What is a simplest C program?](Lesson-1.md) 最简单的C程序
-基本概念讲解
 * C 语言 Language
 	- 高级语言 High-level Programming Language
 	- 汇编语言 Assembly Language
@@ -35,7 +34,6 @@ Unit 1 是《新概念C语言》系列课程的第一部分，共有24个Lesson�
 	- 执行流程 Execution Sequence
 
 ## Lesson 2 [Let's say hello to world](Lesson-2.md) 打印输出
-基本概念讲解
 * 库函数 Library
 	- libc & glibc
 	- 系统调用 System Call
@@ -45,23 +43,12 @@ Unit 1 是《新概念C语言》系列课程的第一部分，共有24个Lesson�
 	- 程序入口 Entry
 	- 链接脚本决定了程序的执行地址 
 * 程序的编译过程 Program compiling procedure
-	- 预处理 Preprocessing  
-		cpp (.c -> .i)
-	- 编译 Compilation  
-		cc1 (.i -> .s)
-	- 汇编 Assembly  
-		as (.s -> .o)
-	- 链接 Linking  
-		collect2 (.o -> .elf)
-* 程序的结构 Program Structure
-	- 代码段 .text 
-	- 数据段 .data		
-* 虚拟地址 Vitual Memory Address
-	- 进程独立的地址空间 
-	- 内存管理单元 MMU 
+	- 预处理 Preprocessing  cpp (.c -> .i)		
+	- 编译 Compilation  cc1 (.i -> .s)
+	- 汇编 Assembly  as (.s -> .o)
+	- 链接 Linking  collect2 (.o -> .elf)
 
 ## Lesson 3 [Count how many fingers do you have?](Lesson-3.md) 循环打印
-基本概念讲解
 * while 循环 和 do-while 用法
 	- 比较和跳转指令 Compare and Jump Instruction
 	- do-while 比 while 有时更有用
