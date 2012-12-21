@@ -1,8 +1,15 @@
+# md2pdf.sh #
+use shell scripts `md2pdf.sh` to generate Lesson-x.pdf automatically
+
+	./md2pdf.sh Lesson-1 
+
+then Lesson-1.pdf will be under slides/
+
 # Introduction #
 Very good introduction started from here
  http://jeromyanglim.blogspot.com/2012/07/beamer-pandoc-markdown.html
 
-	pandoc -t beamer -slide-level 3 Lession-1.md -o talk.tex
+	pandoc -t beamer --slide-level 3 Lesson-1.md -o talk.tex
 	xelatex main.tex 
 
 `main.tex` will include talk.tex automatically, main.tex defines the theme
