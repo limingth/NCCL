@@ -11,9 +11,9 @@
 
 	//#define DEBUG
 	#ifdef DEBUG
-		#define DPRINT(fmt, args...)	printf(fmt, ##args)
+	#define DPRINT(fmt, args...)	printf(fmt, ##args)
 	#else
-		#define DPRINT(fmt, args...)	
+	#define DPRINT(fmt, args...)	
 	#endif
 
 	/* the string buffer to deal with */
@@ -57,25 +57,55 @@
 	/*
 	 * FSM state 
 	 *
-	 * 0: (a) start state or restart state without digit 
-	 * 1: (a+/+) get sign +/-
-	 * 2: (+9/9) get digit before point 
-	 * 3: (+9./9.) get point after digit
-	 * 4: (+9.9/9.9) get digit after point
-	 * 5: (+./.) get point directly
+	 * 0: () start state or restart state without digit 
+	 * 1: (+/+)  get sign +/-
+	 * 2: (9/+9) get digit before point 
+	 * 3: (./+.) get point directly
+	 * 4: (9.)   get point after digit
+	 * 5: (.9)   get digit after point
 	 * -1: end state
-	 *
-	state transition table:
-	    input
-	S	0  1  2  3  4
-	0	0, 1, 2, 5, -1,
-	1	0, 1, 2, 5, -1,
-	2	0, 1, 2, 3, -1,
-	3	0, 1, 4, 5, -1,
-	4	0, 1, 4, 5, -1,
-	5	0, 1, 4, 5, -1,
-	 *
 	 */
+
+	/*
+	   States (状态表)
+	   0(a)         1(+)         2(9)      3(.)        4(\0)
+	   S0()       S0(a)        S1(+)        S2(9)     S3(.)       -1
+	   S1(+)      S0(+a)       S1(++)       S2(+9)    S3(+.)      -1
+	   S2(9/+9)   S0(9a)       S1(9+)       S2(99)    S4(9.)      -1
+	   S3(./+.)   S0(.a)       S1(.+)       S5(.9)    S3(..)      -1
+	   S4(9.)     S0(9.a)      S1(9.+)      S5(9.9)   S3(9..)     -1
+	   S5(.9)     S0(.9a)      S1(.9+)      S5(.99)   S3(.9.)     -1
+
+	   Actions (动作表)
+
+		    0(a)         1(+)         2(9)      3(.)        4(\0)
+	S0()       S0(a)        S1(+)        S2(9)     S3(.)       -1
+		   act_null     act_save     act_save  act_save    act_null
+		                               
+	S1(+)      S0(+a)       S1(++)       S2(+9)    S3(+.)      -1
+		   act_unsave   act_unsave   act_save  act_save    act_null                         
+		                act_save
+
+	S2(9/+9)   S0(9a)       S1(9+)       S2(99)    S4(9.)      -1
+		   act_found    act_found    act_save  act_save    act_null  
+		                act_save    
+
+	S3(./+.)   S0(.a)       S1(.+)       S5(.9)    S3(..)      -1
+		   act_unsave   act_unsave   act_save  act_unsave  act_null  
+		                act_save               act_save    
+
+	S4(9.)     S0(9.a)      S1(9.+)      S5(9.9)   S3(9..)     -1
+		   act_found    act_found    act_save  act_found   act_null  
+		                act_save               act_save               
+
+	S5(.9)     S0(.9a)      S1(.9+)      S5(.99)   S3(.9.)     -1
+		   act_found    act_found    act_save  act_found   act_null  
+		                act_save               act_save               
+
+
+
+
+	*/
 	int state;
 
 	/* record how many number string found */
@@ -84,24 +114,18 @@
 	int i = 0;
 	int pos = 0;
 
-	void action_save(void)
+	void act_save(void)
 	{
-	    numstr[counter][pos] = buf[i];
-	    pos++;
+		numstr[counter][pos] = buf[i];
+		pos++;
 	}
 
-	void action_zero(void)
+	void act_unsave(void)
 	{
 		pos = 0;
 	}
 
-	void action_zero_save(void)
-	{
-		action_zero();
-		action_save();
-	}
-
-	void action_found(void)
+	void act_found(void)
 	{
 		numstr[counter][pos] = '\0';
 		printf( "number %d found!  -> %s \n", counter+1, numstr[counter] );
@@ -109,35 +133,41 @@
 		counter++;
 	}
 
-	void action_found_save(void)
+	void act_found_save(void)
 	{
-		action_found();
-		action_save();
+		act_found();
+		act_save();
 	}
 
-	void action_null(void)
+	void act_unsave_save(void)
 	{
+		act_unsave();
+		act_save();
+	}
+
+	void act_null(void)
+	{
+
 	}
 
 	int state_table[6][5] = 
 	{
-		0, 1, 2, 5, -1,
-		0, 1, 2, 5, -1,
 		0, 1, 2, 3, -1,
-		0, 1, 4, 5, -1,
-		0, 1, 4, 5, -1,
-		0, 1, 4, 5, -1,
+		0, 1, 2, 3, -1,
+		0, 1, 2, 4, -1,
+		0, 1, 5, 3, -1,
+		0, 1, 5, 3, -1,
+		0, 1, 5, 3, -1,
 	};
 
 	void (*action[6][5])(void) =
 	{
-		action_null, action_save, action_save, action_save, action_null,
-		action_zero, action_zero_save, action_save, action_save, action_zero,
-		action_found, action_found_save, action_save, action_save, action_found,
-		action_found, action_found_save, action_save, action_found_save, action_found,
-		action_found, action_found_save, action_save, action_found_save, action_found,
-		action_zero, action_zero_save, action_save, action_zero_save, action_zero,
-		//action_found, action_found_save, action_save, action_found_save, action_found,
+		act_null,     act_save,          act_save,  act_save,        act_null,
+		act_unsave,   act_unsave_save,   act_save,  act_save,        act_null,                        
+		act_found,    act_found_save,    act_save,  act_save,        act_null,  
+		act_unsave,   act_unsave_save,    act_save,  act_unsave_save,  act_null,
+		act_found,    act_found_save,    act_save,  act_found_save,  act_null,  
+		act_found,    act_found_save,    act_save,  act_found_save,  act_null,  
 	};
 
 	int main(void)
@@ -170,7 +200,6 @@
 
 		return 0;
 	}
-
 
 ### 语法知识点
 * 二维数组
