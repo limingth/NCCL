@@ -69,10 +69,14 @@ programr 的优点在于支持多种语言，包括C++，python，支持输入�
 	- 准备工作: 下载 msysgit ，并安装，能够启动 Git Bash，运行 git 命令
 	- 安装文件: <http://msysgit.googlecode.com/files/Git-1.8.0-preview20121022.exe>
 
+* MinGW32 环境
+	- msysgit 是基于 MinGW32 的，已经可以使用 mingw-get install 来安装开发环境。
+	- [mingw-get 下载](http://sourceforge.net/projects/mingw/files/Installer/mingw-get/mingw-get-0.5-beta-20120426-1)
+	- 安装 mingw-get install gcc binutils
+	
 ### uBuntu 下的 git 命令安装  
 安装方法：sudo apt-get install git
 	
-
 ### Git 基本命令介绍
 * git clone
 * git add
