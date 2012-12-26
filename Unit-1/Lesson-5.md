@@ -1,4 +1,5 @@
 ## Lesson 5 Summarize all numbers from 1 to 100 从1加到100求和
+### 代码
 	#include <stdio.h>
 
 	int main(void)

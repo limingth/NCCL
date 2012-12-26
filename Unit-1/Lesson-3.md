@@ -1,4 +1,5 @@
 ## Lesson 3 Count how many fingers do you have? 循环打印
+### 代码
 	#include <stdio.h>
 	
 	int main(void)
@@ -80,5 +81,6 @@
 ### 名人名言
 * Ken Thompson  (Unix 之父)
 	- “When in doubt, use brute force. ”
-	- “如果局部变量太多，我倾向于拆分子程序。另一个办法是看代码行是否存在太多缩进，我几乎从来不看代码长度。”
+	- “如果局部变量太多，我倾向于拆分子程序。
+	- 另一个办法是看代码行是否存在太多缩进，我几乎从来不看代码长度。”
 

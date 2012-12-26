@@ -62,7 +62,6 @@ Unit 1 是《新概念C语言》系列课程的第一部分，共有24个Lesson�
 	- 位置无关代码 PIC (Position Independent Code)
 
 ## Lesson 4 [Judge a number odd or even](Lesson-4.md) 判断奇偶
-基本概念讲解
 * 条件分支 Condition 
 	- 表达式求值  Expression Value
 * 编码风格 Coding Style
@@ -72,7 +71,6 @@ Unit 1 是《新概念C语言》系列课程的第一部分，共有24个Lesson�
 	- 程序二进制接口规范 ABI (Application Binary Interface)
 
 ## Lesson 5 [Summarize all numbers from 1 to 100](Lesson-5.md) 从1加到100求和
-基本概念讲解
 * for 循环 
 	- 两种循环用法比较
 * 自动变量 auto variable
@@ -86,7 +84,6 @@ Unit 1 是《新概念C语言》系列课程的第一部分，共有24个Lesson�
 	- args... 和 ##args 的用法
 		
 ## Lesson 6 [Print 9*9 multiplication table](Lesson-6.md) 乘法表
-基本概念讲解
 * 循环嵌套
 	- 两重循环的典型用法
 * 程序的调试
@@ -95,7 +92,6 @@ Unit 1 是《新概念C语言》系列课程的第一部分，共有24个Lesson�
 	- 栈帧 Stack Frame
 		
 ## Lesson 7 [Find a max prime number within 100](Lesson-7.md) 求100以内的最大素数
-基本概念讲解
 * 循环中的条件分支 
 	- break 和 goto 用法	
 * 数学库函数 math library

@@ -16,6 +16,7 @@ md:
 	grep -r Lesson-1.md ../Unit-1/README.md -A 13 > Lesson-1-outline.md
 	grep -r Lesson-2.md ../Unit-1/README.md -A 16 > Lesson-2-outline.md
 	grep -r Lesson-3.md ../Unit-1/README.md -A 9 > Lesson-3-outline.md
+	grep -r Lesson-4.md ../Unit-1/README.md -A 8 > Lesson-4-outline.md
 
 clean:
 	rm *.out *.log *.nav *.toc *.vrb *.aux *.snm 
