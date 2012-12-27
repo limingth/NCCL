@@ -1,0 +1,86 @@
+      <!DOCTYPE html>
+<html>
+  <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# githubog: http://ogp.me/ns/fb/githubog#">
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>NCCL/Unit-1/Lesson-19.md at master · limingth/NCCL</title>
+    <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub" />
+    <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub" />
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="apple-touch-icon-114.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="apple-touch-icon-114.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="apple-touch-icon-144.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="apple-touch-icon-144.png" />
+    <meta name="msapplication-TileImage" content="/windows-tile.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+       
+  <div id="readme" class="blob instapaper_body">
+    <article class="markdown-body entry-content" itemprop="mainContentOfPage"><h2>
+<a name="lesson-19-shell-command-parser-%E5%91%BD%E4%BB%A4%E8%A7%A3%E9%87%8A%E5%99%A8" class="anchor" href="#lesson-19-shell-command-parser-%E5%91%BD%E4%BB%A4%E8%A7%A3%E9%87%8A%E5%99%A8"><span class="mini-icon mini-icon-link"></span></a>Lesson 19 Shell command parser 命令解释器</h2>
+
+<pre><code>#include &lt;stdio.h&gt;
+
+int shell_parse(char * buf, char * argv[])
+{
+    int argc = 0;
+    int state = 0;
+
+    while (*buf)
+    {
+        if (*buf != ' ' &amp;&amp; state == 0)
+        {
+            argv[argc++] = buf;
+            state = 1;
+        }
+
+
+        if (*buf == ' ' &amp;&amp; state == 1)
+        {
+            *buf = '\0';
+            state = 0;
+        }
+
+        buf++;  
+    }
+
+    return argc;
+}
+
+int main(void)
+{
+    char buf[64];
+    int argc = 0;
+    char * argv[10];
+    int i = 0;
+
+    printf("$ ");
+    gets(buf);
+
+    argc = shell_parse(buf, argv);
+    printf("argc = %d\n", argc);
+
+    for (i = 0; i &lt; argc; i++)
+        printf("argv[%d]: &lt;%s&gt;\n", i, argv[i]); 
+
+    return 0;
+}
+</code></pre>
+
+<h3>
+<a name="%E8%AF%AD%E6%B3%95%E7%9F%A5%E8%AF%86%E7%82%B9" class="anchor" href="#%E8%AF%AD%E6%B3%95%E7%9F%A5%E8%AF%86%E7%82%B9"><span class="mini-icon mini-icon-link"></span></a>语法知识点</h3>
+
+<ul>
+<li>指针数组</li>
+<li>指向指针的指针</li>
+<li>函数指针</li>
+</ul><h3>
+<a name="%E8%AF%BE%E5%A0%82%E8%AE%A8%E8%AE%BA" class="anchor" href="#%E8%AF%BE%E5%A0%82%E8%AE%A8%E8%AE%BA"><span class="mini-icon mini-icon-link"></span></a>课堂讨论</h3>
+
+<ul>
+<li>gets 和 scanf 在使用中有什么区别？需要注意什么？</li>
+<li>函数指针类型，如果用 typedef 怎么声明？</li>
+<li>指针数组 char * argv[10] 和指向指针的指针 char ** argv 有何区别？</li>
+</ul><h3>
+<a name="%E8%AF%BE%E5%90%8E%E7%BB%83%E4%B9%A0" class="anchor" href="#%E8%AF%BE%E5%90%8E%E7%BB%83%E4%B9%A0"><span class="mini-icon mini-icon-link"></span></a>课后练习</h3></article>
+  </div>
+
+<iframe src='http://www.programr.com/embed.php?action=tf&path=limingth/files/Lesson19' width='100%' height='700' frameborder='0'></iframe>

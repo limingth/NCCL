@@ -1,9 +1,3 @@
----
-layout: post
-title: 构建在线学习环境
----
-
-
 # 构建在线学习环境
 
 网络课堂在线学习可以通过PC主机，也可以通过 iPhone 或者 Android 手机进行。
@@ -44,11 +38,15 @@ GoMeetNow 的优点在于学员端无需安装，只需浏览器中打开课程�
 
 ### ideone
 * 网址 <http://ideone.com>  
-ideone 的优点是支持代码编辑框中的Tab输入（缩进），并且支持用户的数据输入。推荐使用。
+ideone 的优点是支持代码编辑框中的Tab输入（缩进），并且支持用户的数据输入。推荐使用，不足在于加载稍慢。
 
 ### codepad
-* 网址 <http://codepad.org> 
+* 网址 <http://codepad.org>  
 codepad 的优点在于界面简单，使用方便，不足在于不支持数据输入，也不支持编辑框中的Tab缩进。
+
+### programr
+* 网址 <http://www.programr.com>  
+programr 的优点在于支持多种语言，包括C++，python，支持输入和TAB，界面漂亮，而且支持代码嵌入网页。
 
 对于安装过Linux的学员，可以通过 vi(gedit) + gcc + makefile 来学习；
 
@@ -71,10 +69,14 @@ codepad 的优点在于界面简单，使用方便，不足在于不支持数据
 	- 准备工作: 下载 msysgit ，并安装，能够启动 Git Bash，运行 git 命令
 	- 安装文件: <http://msysgit.googlecode.com/files/Git-1.8.0-preview20121022.exe>
 
+* MinGW32 环境
+	- msysgit 是基于 MinGW32 的，已经可以使用 mingw-get install 来安装开发环境。
+	- [mingw-get 下载](http://sourceforge.net/projects/mingw/files/Installer/mingw-get/mingw-get-0.5-beta-20120426-1)
+	- 安装 mingw-get install gcc binutils
+	
 ### uBuntu 下的 git 命令安装  
 安装方法：sudo apt-get install git
 	
-
 ### Git 基本命令介绍
 * git clone
 * git add
@@ -83,7 +85,6 @@ codepad 的优点在于界面简单，使用方便，不足在于不支持数据
 * git pull
 * git merge
 * git checkout 
-
 
 ### Git & Github 
 * Set up Git  
@@ -139,22 +140,24 @@ codepad 的优点在于界面简单，使用方便，不足在于不支持数据
 	
 #### Git Bash 窗口
 	
-	1. 运行 ssh -T git@github.com 看是否有 hi，yourname ，如果有则成功。
+	1. 运行 ssh -T git@github.com 看是否有 hi，yourname ，如果有则成功。如果没有则执行2-9。
 	
 	2. cd ~
 	
 	3. cd .ssh
-	
+		注意 cd 是命令，cd 后面需要加至少1个空格作为间隔符
+
 	4. ssh-keygen -t rsa -C "your_email@youremail.com"
-	
+		此处如果需要输入，全部用回车 Enter
+
 	5. ls
 	cat *.pub
 	
-	6. notepad *.pub
+	6. notepad *.pub (如果是Linux下，可以用 gedit *.pub)
 	ctrl + a 全选
 	ctrl + c 复制
 	
-	切换到浏览器窗口	
+	切换到浏览器 Github 页面窗口	
 	7. 右上角有你的名字，旁边有3个图标。点击第2个图标，Account Settting
 	左侧顺数第7个选项 SSH Keys ，点击进入 Add SSH Key
 	
@@ -191,3 +194,6 @@ codepad 的优点在于界面简单，使用方便，不足在于不支持数据
 	此时可以修改一下 hello.c ，然后重复 6，7 两步即可
 	8. 如果要添加大量代码，可以用 git add .
 	9. 如果要删除某个文件，可以用 git rm a.c
+
+## Lesson 0 Get Ready 课前准备
+<https://github.com/limingth/NCCL/blob/gh-pages/Lesson-0.md>
