@@ -58,33 +58,34 @@
 		如果4个方向都没有成功，则取下一个点，再按照这4个方向进行判别，直到所有的点的所有的方向都判别完毕。
 
 ### 函数参考设计
-	/* check if someone wins */
-	int find(void)
+	/* display chessboard using printf */
+	void print(int board[ROW][COL])
 	
-	/* check if (x, y) has 5 chesses */
-	int check(int x, int y)
-		
-	/* test (x, y) is valid before put chess */
-	int test(int x, int y)	
-	
-	/* check if (x, y) is empty */
-	int empty(int x, int y)
+	/* get user input */
+	int get(int *x, int *y)
+
+	/* put chess in chessboard(x, y) with who 's chess*/
+	int put(int x, int y, int who)
 
 	/* test (x, y) is valid before put chess */
 	int onboard(int x, int y)
+
+	/* check if (x, y) is empty */
+	int empty(int x, int y)
+
+	/* test (x, y) is valid before put chess, call onboard() and empty() */
+	int test(int x, int y)	
 	
-	/* put chess in chessboard(x, y) with who 's chess*/
-	int put(int x, int y, int who)
+	/* check if (x, y) has 5 chesses */
+	int check(int x, int y)
+	
+	/* check if someone wins */
+	int find(void)
 	
 	/* machine think a good place */
 	int think(int *x, int *y)
 	
-	/* get user input */
-	int get(int *x, int *y)
 	
-	/* display chessboard using printf */
-	void print(int board[ROW][COL])
-
 ### 如何实现机器-机器之间比赛
 1. 所有程序必须严格规定输入输出格式，输入是对方落子的位置 x y （用空格间隔），输出是自己计算的下一步位置 x2 y2 
 2. 所有打印棋盘的 printf 或者 debug 输出语句，可以采用宏定义方式输出到 stderr，也可以通过 ./log 程序进行过滤
