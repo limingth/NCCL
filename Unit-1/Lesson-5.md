@@ -51,8 +51,13 @@
 
 ### 名人名言
 * Edsger W. Dijkstra  (结构程序设计之父) 
-	- “If debugging is the process of removing bugs, then programming must be the process of putting them in.”
-	- “有效的程序员不应该浪费很多时间用于程序调试，他们应该一开始就不要把故障引入。”
+	- “If debugging is the process of removing bugs, 
+then programming must be the process of putting them in.”
+	- “有效的程序员不应该浪费很多时间用于程序调试，
+他们应该一开始就不要把故障引入。”
+
 * 著名的 “Go To Letter”
-	- Dijkstra在信中建议：“Go To语句太容易把程序弄乱，应从一切高级语言中去掉；
-	只用三种基本控制结构就可以写各种程序，这样的程序可以由上而下阅读而不会返回”。
+	- Dijkstra在信中建议：“Go To语句太容易把程序弄乱，
+应从一切高级语言中去掉；
+	只用三种基本控制结构就可以写各种程序，
+这样的程序可以由上而下阅读而不会返回”。

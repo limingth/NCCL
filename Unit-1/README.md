@@ -77,11 +77,11 @@ Unit 1 是《新概念C语言》系列课程的第一部分，共有24个Lesson�
 	- C 语言的发展变迁 Old Style C/C89/C99/GNU C	
 * 预处理过程 Pre-compile 
 	- 条件编译
-	- # 和 ## 的用法
+	- \# 和 \#\# 的用法
 * DEBUG 调试宏
 	- \_\_func\_\_, \_\_FUNCTION\_\_
 	- \_\_LINE\_\_ 	
-	- args... 和 ##args 的用法
+	- args... 和 \#\#args 的用法
 		
 ## Lesson 6 [Print 9*9 multiplication table](Lesson-6.md) 乘法表
 * 循环嵌套
