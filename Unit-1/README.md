@@ -83,9 +83,10 @@ Unit 1 是《新概念C语言》系列课程的第一部分，共有24个Lesson�
 	- \_\_LINE\_\_ 	
 	- args... 和 \#\#args 的用法
 		
-## Lesson 6 [Print 9*9 multiplication table](Lesson-6.md) 乘法表
+## Lesson 6 [Print 9\*9 multiplication table](Lesson-6.md) 乘法表
 * 循环嵌套
 	- 两重循环的典型用法
+	- break 和 continue 
 * 程序的调试
 	- 编译时和运行时错误
 * 函数栈 Function Stack
