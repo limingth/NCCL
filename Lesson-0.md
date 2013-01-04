@@ -1,15 +1,11 @@
-<<<<<<< HEAD
 ---
 layout: post
 title: 新概念C语言 NCCL - Lesson 0
 ---
 
-# 课前准备
+# Lesson 0     Get Ready 课前准备
 
 * 以下活动均采用 YY 语音交流
-=======
-# Lesson 0     Get Ready 课前准备
->>>>>>> 484806a61b2325a149e476b5ccf110dfc8828d61
 
 ## 自我介绍 (30 mins)
 * 自我介绍要点 (1 min/person)
@@ -70,14 +66,9 @@ title: 新概念C语言 NCCL - Lesson 0
 
 
 ## 学前任务 (5 mins)
-<<<<<<< HEAD
-* 学习参考书目	
-=======
 * 学习参考书目
 	- [C程序设计语言(第2版-新版)](http://ishare.iask.sina.com.cn/f/20938526.html?from=dl)
->>>>>>> 484806a61b2325a149e476b5ccf110dfc8828d61
-	- [Linux C编程一站式学习](http://learn.akae.cn/media/index.html)
-	- [C程序设计语言](http://ishare.iask.sina.com.cn/f/6138524.html?from=isnom)
+	- [Linux C编程一站式学习](http://learn.akae.cn/media/index.html)	
 	- [程序员的自我修养](http://ishare.iask.sina.com.cn/f/10540809.html)
 	- [Unix编程艺术](http://ishare.iask.sina.com.cn/f/10468232.html?retcode=0)
 	- [Notes on C Programming](http://ishare.iask.sina.com.cn/f/8192208.html)
