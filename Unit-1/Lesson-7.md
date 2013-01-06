@@ -15,6 +15,7 @@
 			tmp = (int)sqrt(i);
 
 			for (j = 2; j <= tmp; j++)
+###
 			{
 				if (i % j == 0)
 					break;
