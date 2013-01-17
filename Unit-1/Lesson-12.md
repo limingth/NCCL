@@ -21,7 +21,6 @@
 		printf( "sizeof double = %d \n", sizeof(double) );
 
 		u.c[0] = '0';
-
 		printf( "u.c[0] = %c \n", u.c[0] );
 		printi( u.c[0] );
 		printi( u.c[1] );
@@ -30,8 +29,7 @@
 		printi( u.i );
 		printd( u.d );
 		
-		//u.i = 0x11223344;
-		u.i = 0x87654321;
+		u.i = 0x12345678;
 		printf( "u.c[0] = %c \n", u.c[0] );
 		printx( u.c[0] );
 		printx( u.c[1] );
