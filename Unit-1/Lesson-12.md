@@ -1,12 +1,4 @@
 ## Lesson 12 Does your machine use little-endian? 判断机器存储是否小尾端
-	/*
-	 *      main.c - demo helloworld application
-	 *
-	 *	Author: li ming <limingth@akaedu.org>
-	 *	Date:	2007-01-01
-	 *	Version:  1.0
-	 */
-
 	#include <stdio.h>
 
 	union u_tag 
@@ -29,7 +21,6 @@
 		printf( "sizeof double = %d \n", sizeof(double) );
 
 		u.c[0] = '0';
-
 		printf( "u.c[0] = %c \n", u.c[0] );
 		printi( u.c[0] );
 		printi( u.c[1] );
@@ -38,8 +29,7 @@
 		printi( u.i );
 		printd( u.d );
 		
-		//u.i = 0x11223344;
-		u.i = 0x87654321;
+		u.i = 0x12345678;
 		printf( "u.c[0] = %c \n", u.c[0] );
 		printx( u.c[0] );
 		printx( u.c[1] );
@@ -55,6 +45,7 @@
 * 联合 union
 * 字符数组类型 char buf[4]
 * 存储格式 big/little endian	
+* 浮点数格式 (1.00 的存储方式 0x3f800000)
 
 ### 课堂讨论
 * 联合中能够包含结构体吗？ 结构体中能够包含联合吗？
