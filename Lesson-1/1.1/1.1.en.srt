@@ -1,0 +1,83 @@
+1
+00:00:00,281 --> 00:00:09,042
+[主讲老师 - @亚嵌李明老师, AKAEDU] 好，我们在当前目录下先新建一个文件夹,
+
+2
+00:00:09,042 --> 00:00:17,538
+取名叫 myNCCL，代表的是我们自己要写的所有的C程序。
+
+3
+00:00:17,538 --> 00:00:19,862
+接下来我们要打开一个Lesson-1.c 
+
+9
+00:00:23,000 --> 00:00:25,000
+You're going to learn some of the core ideas in computer science.
+
+10
+00:00:25,000 --> 00:00:27,000
+You're going to learn to program in a language called Python,
+
+11
+00:00:27,000 --> 00:00:30,000
+and you're going to build a search engine that by the end of 7 weeks
+
+12
+00:00:30,000 --> 00:00:33,400
+will have all the main components of a search engine like Google in it.
+
+13
+00:00:33,671 --> 00:00:36,804
+Learning about computing is really one of the most powerful things you can do.
+
+14
+00:00:36,804 --> 00:00:40,380
+Computers are these amazing machines that can be programmed to do anything.
+
+15
+00:00:40,380 --> 00:00:43,770
+And once you learn a little bit about programming, you can sort of start to envision
+
+16
+00:00:43,770 --> 00:00:46,510
+the power that you have, the things that you can build with computers.
+
+17
+00:00:46,510 --> 00:00:50,085
+One of the great things about computing is that you don't really need a lot of resources
+
+18
+00:00:50,085 --> 00:00:51,664
+to build something that can change the world.
+
+19
+00:00:51,664 --> 00:00:53,777
+If you learn a little bit, if you have a creative idea,
+
+20
+00:00:53,777 --> 00:00:57,353
+you can build something, you can deploy your application to millions of people
+
+21
+00:00:57,353 --> 00:01:00,372
+on the Internet, and it doesn't really take a lot of resources to do that.
+
+22
+00:01:00,372 --> 00:01:03,042
+It just takes a little creativity and a little bit of knowledge.
+
+23
+00:01:03,042 --> 00:01:05,643
+So David, this is really exciting. I'm looking forward to seeing your class.
+
+24
+00:01:05,643 --> 00:01:09,335
+I'll be making occasional appearances, but I have my own class to teach.
+
+25
+00:01:09,335 --> 00:01:12,632
+But David will teach this wonderful class, and I think we should just dive in.
+
+26
+00:01:12,632 --> 00:01:15,000
+Great! Well, let's get started.

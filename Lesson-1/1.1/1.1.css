@@ -1,0 +1,144 @@
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	font-size: small;
+}
+img {
+	border:none;
+}
+ul,ol {
+   list-style:none;
+}
+a {
+   text-decoration: none;
+   cursor: pointer;
+}
+
+.note {
+   font-size: 50%;
+   color: #CCC;
+}
+
+div#csCenter{
+   margin: 20px auto 0;
+   font-family:Arial, Helvetica, sans-serif;
+   width: 727px;
+}
+#video1 {
+   width: 100%;
+   height: 600px;
+   background: #000 url(images/curain_bkgd.gif) repeat-x top;
+   cursor: pointer;
+}
+#video2 {
+   width: 100%;
+   height: 600px;
+   background-color:#ffffff;
+   padding: 0px;
+   margin: 0px;
+   background-image: none;
+}
+div#vidspacefix {
+   height: 11em;
+
+}
+div#playbutton {
+   margin: 0px auto 0;
+   width: 95%;
+   border: 2px solid #000000;
+   background: #c6c8ca url(images/play_bttn_bkgd.gif) repeat-x top;
+   height: 1.5em;
+   color: #000000;
+   font-size: 300%;
+   padding-top: 0.15em;
+   padding-bottom: 0.15em;
+}
+div#playtext {
+   background: url(images/play_icon.gif) no-repeat 10px;
+   width: 450px;
+   padding-left: 65px;
+   margin-right: auto;
+   margin-left: auto;
+   padding-top: 2px;
+   margin-top: 0.22em;
+}
+div#vidinfo {
+   color: #FFFFFF;
+   text-align:center;
+   margin-top: 3em;
+   font-size: 150%;
+}
+div#downloads 
+{
+   background: #c7c9cb url(images/dl_row_bkgd.gif) repeat-x top;
+   border: 1px solid #B3B3B3;
+   visibility: visible;
+   width: 100%;
+   margin: 5px 0px 0px;
+   float: left;
+   white-space:nowrap;
+}
+div#downloads div#dltitle {
+   width:25%;
+   color: #333;
+   font-size:150%;
+   float: left;
+   padding-left: 10px;
+   padding-top: .4em;
+   margin:0;
+   display:inline;
+}
+#dlfiles {
+   width:70%;
+   float:right;
+   margin:0;
+   padding: 0px;
+   display:inline;
+}
+div#downloads #dlfiles li {
+   font-family:Arial, Helvetica, sans-serif;
+   float:right;
+   font-size: 95%;
+   margin-top: 5px;
+   margin-bottom: 5px;
+}
+div#downloads #dlfiles a {
+   text-decoration: none;
+   display:block;
+   padding:5px 10px 5px 30px;
+   color: #666;
+   width: 10em;
+   margin-right: 0.5em;
+   border: 1px solid #bbb;
+   background: #f8f8f9 url(images/dl_icon_bkgd.gif) repeat-x left top;
+}
+div#downloads #dlfiles a:hover  {
+   color: #000;
+   border: 1px solid #000;
+   background: #fff url(images/dl_icon_bkgd_over.gif) repeat-x left top;
+}
+
+
+/* CSS Document */
+#cs_flashBody
+{
+	background-color: #ffffff;
+	font: .8em/1.3em verdana,arial,helvetica,sans-serif;
+	text-align: center;
+}
+
+#cs_noexpressUpdate
+{
+	margin: 0 auto;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: x-small;
+	color: #003300;
+	text-align: left;
+	background-image: url(1.1_nofp_bg.gif);
+	background-repeat: no-repeat;
+	width: 210px; 
+	height: 200px;	
+	padding: 40px;
+}

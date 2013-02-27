@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<main>
+   <config>
+      <hasPipVideo type="Boolean">0</hasPipVideo>
+      <hasPipOverlay type="Boolean">0</hasPipOverlay>
+      <hasToc type="Boolean">0</hasToc>
+      <hasAudio type="Boolean">1</hasAudio>
+      <mainVidIsFlv type="Boolean">1</mainVidIsFlv>
+      <skinTheme>glass</skinTheme>
+      <autoStart type="Boolean">1</autoStart>
+      <backgroundColor>FFFFFF</backgroundColor>
+      <showLoadingMov type="Boolean">1</showLoadingMov>      
+      <loadingMovPercentToLoad type="Number">10</loadingMovPercentToLoad>
+      <loadingMovMinDuration type="Number">3</loadingMovMinDuration>
+      <controllerColor type="Number">0xC0C0C0</controllerColor>
+      <showAbout type="Boolean">1</showAbout>
+      <aboutBoxText></aboutBoxText>
+      <timeDisplayFormat>MM:SS</timeDisplayFormat>
+      <showDuration type="Boolean">1</showDuration>
+      <showElapsedTime type="Boolean">1</showElapsedTime>
+      <timeDisplayFont>Arial</timeDisplayFont>
+      <timeDisplayFontColor type="Number">0x000000</timeDisplayFontColor>
+      <okLabel>OK</okLabel>
+      <localSecurityWarningTitle>Important</localSecurityWarningTitle>
+      <localSecurityWarning>This action is not allowed by the default Flash Player security settings when the content is played from a hard drive or CD.  Once the content is moved to a web server, it should function as expected, and you should not see this message.
+
+For other distribution methods, or to understand how the Flash Player security settings affect this content, please see the &quot;Flash Player Security&quot; topic in the Camtasia Studio help file.
+
+
+
+ </localSecurityWarning>
+      <includeScoreInEmail type="Boolean">0</includeScoreInEmail>
+      <rememberQuizAnswers type="Number">0</rememberQuizAnswers>
+      <endAction>Stop</endAction>
+      <endActionParam></endActionParam>
+      <stopatend type="Boolean" >0</stopatend>
+      <controlsWidth type="Number">727</controlsWidth>
+      <controlsHeight type="Number">545</controlsHeight>
+      <volume type="Number">100</volume>
+      <hasCaptions type="Boolean">0</hasCaptions>
+      <captionsVisible type="Boolean">0</captionsVisible>
+      <caption>         
+         <font>
+            <type type="String">Arial</type>
+            <size type="Number">15</size>
+            <weight type="Boolean">0</weight>
+            <color type="Number">0xFFFFFF</color>
+            <cpl type="Number">32</cpl>
+         </font>
+         <panel>
+            <background>
+               <color type="Number">0x000000</color>
+               <alpha type="Number">50</alpha>
+            </background>
+            <animation>
+               <speed type="Number">40</speed>
+            </animation>
+         </panel>
+      </caption>
+      <video1>
+         <width type="Number">727</width>
+         <height type="Number">545</height>
+      </video1>
+      <pip>
+         <width type="Number">0</width>
+         <height type="Number">0</height>
+      </pip>
+      <toc>
+         <x type="Number">0</x>
+         <y type="Number">0</y>
+         <width type="Number">0</width>
+         <height type="Number">0</height>
+         <!-- AlternatingRowColors takes precedence over BackgroundColor and RowDepthColors takes precedence over both AlternatingRowColors and BackgroundColor -->
+         <backgroundColor type="Number"></backgroundColor>
+         <!-- accepts a hex value -->
+         <alternatingRowColors>
+            <!-- row alternate color based on the array of color values (row 1 = the value of the first color, row 2 = the value of the second color, row 3 equals the value of the first color, etc. -->
+            <array>
+               <!-- accepts two or more hex colors ( add additional Colors tags if more are needed ) -->
+               <colors type="Number"></colors>
+               <colors type="Number"></colors>
+            </array>
+         </alternatingRowColors>
+         <rowDepthColors>
+            <!-- color is based on the rows depth in the tree hierarchy -->
+            <array>
+               <!-- accepts two or more hex colors colors in the form of 0xFFFFFF ( add additional Colors tags if more are needed ) -->
+               <colors type="Number"></colors>
+               <!-- accepts a hex value -->
+               <colors type="Number"></colors>
+               <!-- accepts a hex value -->
+            </array>
+         </rowDepthColors>
+         <rowRollOverColor type="Number">0xA4A4A4</rowRollOverColor>
+         <!-- color of the row on mouse roll over - ignored if UseRollOver is false -->
+         <rowSelectedColor type="Number">0xC0C0C0</rowSelectedColor>
+         <!-- color of the row when it is the currently active row -->
+         <rowIndentation>10</rowIndentation>
+         <!-- number of pixels each row of a tree is indented -->
+         <borderStyle>solid</borderStyle>
+         <!-- none, inset, outset, solid -->
+         <textColor type="Number">0x000000</textColor>
+         <!-- the font color of tree items -->
+         <fontFamily>_sans</fontFamily>
+         <!-- the name of the font to be used, i.e. Arial, Times New Roman, HelveticaNeueLT Std  -->
+         <fontSize type="Number">12</fontSize>
+         <fontWeight>none</fontWeight>
+         <!-- none, bold -->
+         <textAlign>left</textAlign>
+         <!-- left, right, center -->
+         <textDecoration>none</textDecoration>
+         <!-- none, underline -->
+         <textIndent type="Number">0</textIndent>
+         <textRollOverColor type="Number">0x000000</textRollOverColor>
+         <!-- color of text on mouse roll over - ignored if UseRollOver is false -->
+         <textSelectedColor type="Number">0x000000</textSelectedColor>
+         <!-- color of text when row is selected -->
+         <useRollOver type="Boolean">0</useRollOver>
+         <!-- Use boolean numerical equivalents( 0 = false, 1 = true ) if set to false the rollover colors for the text and row are ignored -->
+         <collapsible type="Boolean">0</collapsible>
+         <!-- if false, the collapsible nature of the tree is disabled -->
+         <expanded type="Boolean">1</expanded>
+      </toc>
+      <quiz>
+         <disableFeedback type="Boolean">0</disableFeedback>
+         <txtQuestionOf>Question @ of @</txtQuestionOf>
+         <txtPrev>Prev</txtPrev>
+         <txtSubmit>Submit</txtSubmit>
+         <txtNext>Next</txtNext>
+         <txtDone>Done</txtDone>
+         <txtPreview>Preview</txtPreview>
+         <txtSend>Send</txtSend>
+         <txtMainMessage>You have reached the end of the questions and this video. Your answers are ready to be sent.</txtMainMessage>
+         <txtEmailContents>E-mail Contents</txtEmailContents>
+         <txtEmailTo>E-mail to </txtEmailTo>
+         <txtAnswersSent>Your answers have been sent.</txtAnswersSent>
+         <txtsummary>You have completed @ of @ questions.</txtsummary>
+         <txtScore>Score = @/@</txtScore>
+         <txtSummaryTitle>Answers Summary</txtSummaryTitle>
+      </quiz>
+   </config>
+   <playlist>
+      <array>
+         <fileset>
+            <video1>
+               <duration type="Number">294.23</duration>
+               <uri>1.1.flv</uri>
+               <frameRate type="Number">15</frameRate>
+               <keyframeRate type="Number">30</keyframeRate>
+               <blendingMode>Normal</blendingMode>
+               <isFlv type="Boolean">1</isFlv>
+            </video1>
+            <pip>
+               <duration type="Number">294.23</duration>
+               <frameRate type="Number">10</frameRate>
+               <keyframeRate type="Number">30</keyframeRate>
+               <uri>1.1_PIP.flv</uri>   
+            </pip>
+            <hasPipVideo type="Boolean">0</hasPipVideo>
+            <hotspotInfo>
+               
+            </hotspotInfo>
+            <quizInfo>
+               
+            </quizInfo>
+            <captionInfo>
+               
+            </captionInfo>
+
+         </fileset>
+      </array>
+
+   </playlist>   
+   <tocInfo>
+      
+   </tocInfo>
+</main>
