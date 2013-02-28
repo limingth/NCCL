@@ -24,9 +24,7 @@ window.addEventListener("load", function(evt) {
     vt = new VT100(80, 24, "term");
     vt.clear();
     vt.refresh();
-    vt.write(
-"\n\n\n" +
-"   欢迎使用hpcasts.com 网页展视系统\n");
+    vt.write("\n\n\n" + "   欢迎使用hpcasts.com 网页展视系统\n");
     document.getElementById("stop").addEventListener("click", stop, false);
     document.getElementById("speed").addEventListener('change', set_speed, false);
     document.getElementById("fontsize").addEventListener('change', set_fontsize, false);
@@ -75,10 +73,10 @@ window.addEventListener("load", function(evt) {
 <br><br>
 
 <div align="center">
-	  
-<legend>lesson1</legend>
+<br><br>  
+<legend>网页script方式浏览</legend>
 <ul id="sample">
-<li><a href="javascript:void()" id="sample_lesson1">第一课、播放</a></li>
+<li><a href="javascript:void()" id="sample_lesson1">Lesson 1 点击播放</a></li>
 </ul>
 </fieldset>
 
