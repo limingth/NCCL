@@ -12,6 +12,9 @@ please use <http://codepad.org/> to run/test these C programs!
 6. 排序查找
 7. 时间日期
 
+* 大作业选题：  Shell 命令解释器 + FS 文件系统
+
+
 ### 2.2 常用数据结构
 1. 单向链表
 2. 循环链表
@@ -21,6 +24,9 @@ please use <http://codepad.org/> to run/test these C programs!
 6. 二叉树 (排序查找)
 7. 散列表 (构造符号表)
 
+* 大作业选题： 词霸查字典程序 或者 OS 任务调度器
+
+
 ### 2.3 常用基本算法
 1. 二分查找法
 2. 快速排序法
@@ -29,6 +35,9 @@ please use <http://codepad.org/> to run/test these C programs!
 5. 动态规划算法
 6. 最短路径算法
 7. 霍夫曼编码算法
+
+
+* 大作业选题： 迷宫地图导航算法
 
 # Unit Two
 ## Lesson 25 
