@@ -13,7 +13,10 @@ please use <http://codepad.org/> to run/test these C programs!
 7. 时间日期
 
 * 大作业选题：  Shell 命令解释器 + FS 文件系统
-
+  - Bash 的一部分功能
+  - 简化版的 ext2 文件系统
+  - 提供支持内部文件读写的 open/read/write/close 接口
+  - scp 外部拷贝命令，file 命令，objcopy 命令，hexdump 命令
 
 ### 2.2 常用数据结构
 1. 单向链表
