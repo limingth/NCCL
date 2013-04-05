@@ -113,6 +113,47 @@
 	}
 	libc_hidden_builtin_def (memcpy)
 
+### 算法优化4 - 基于4字节对齐的拷贝
+	#define UNALIGNED(x,y) (((unsigned long)x & (sizeof (unsigned long)-1)) ^ ((unsigned long)y & (sizeof (unsigned long)-1)))
+	#define STRALIGN(x) (((unsigned long)x&3)?4-((unsigned long)x&3):0)
+	# define MKW(x) (x|x<<8|x<<16|x<<24)
+	# define GFC(x) ((x)&0xff)
+	# define INCSTR(x) do { x >>= 8; } while (0);
+	 
+	char *
+	strcpy (char *s1, const char *s2)
+	{
+	    char           *res = s1;
+	#ifdef WANT_SMALL_STRING_ROUTINES
+	    while ((*s1++ = *s2++));
+	    return (res);
+	#else
+	    int             tmp;
+	    unsigned long   l;
+	 
+	    if (UNALIGNED(s1, s2)) {
+	    while ((*s1++ = *s2++));
+	    return (res);
+	    }
+	    if ((tmp = STRALIGN(s1))) {
+	    while (tmp-- && (*s1++ = *s2++));
+	    if (tmp != -1) return (res);
+	    }
+	 
+	    while (1) {
+	    l = *(const unsigned long *) s2;
+	    if (((l - MKW(0x1ul)) & ~l) & MKW(0x80ul)) {
+	        while ((*s1++ = GFC(l))) INCSTR(l);
+	        return (res);
+	    }
+	    *(unsigned long *) s1 = l;
+	    s2 += sizeof(unsigned long);
+	    s1 += sizeof(unsigned long);
+	    }
+	#endif
+	}
+
+
 出处：glibc 库函数实现 
 * <http://www.oschina.net/code/explore/glibc-2.9/string/strcpy.c>
 * <http://www.oschina.net/code/explore/glibc-2.9/string/memcpy.c> 
@@ -137,6 +178,7 @@
 * 考虑到内存数据总线是32位，每4字节进行读写内存时候的效率最高，程序应该怎么改？
 	- 参考阅读 <http://blog.csdn.net/wind19/article/details/7539027>
 	- <http://blog.sina.com.cn/s/blog_6ba6e53b010145bz.html>
+	- libc代码分析 <http://www.cnblogs.com/egmkang/archive/2010/05/25/1743267.html>
 * char s[32] = "Hello World";  修改为 char * s = "Hello World";  有何区别？
 	- 思路提示: 从两者的存储分配，读写权限，初始化实现，执行时效率进行分析
 * 怎样写出一个标准规范的strcpy函数？
