@@ -254,7 +254,7 @@ Unit 1 是《新概念C语言》系列课程的第一部分，共有24个Lesson�
 	- 状态机编程模型
 	- 状态机的设计
 
-## Lesson 21 [Simple lexical analysis](Lesson-21.md) 词法分析器
+## Lesson 21 [Simple lexical analysis](Lesson-21.md) 词法分析器实现
 ### 基本概念讲解
 * 策略和机制分离
 	- 高内聚低耦合原则
