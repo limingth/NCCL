@@ -137,8 +137,9 @@ Unit 1 是《新概念C语言》系列课程的第一部分，共有24个Lesson�
 * 数组和结构体
 	- 数组名参数的传址调用
 	- 结构体参数的传值调用
-* 类型声明 typedef 
+* 复杂类型声明 typedef 
 	- 预处理和编译时 Pre-compile & Compiling time
+	- typedef 背后编译器的处理过程
 * C99 中结构体的扩展用法
 	- 驱动内核模块编写	
 	
@@ -234,30 +235,34 @@ Unit 1 是《新概念C语言》系列课程的第一部分，共有24个Lesson�
 	- 字符指针数组 vs 指针的指针
 * 进程的环境变量
 	- 进程栈空间布局
-
-## Lesson 20 [Rectangular and Polar](Lesson-20.md) 直角坐标和极坐标互换
-### 基本概念讲解
 * 函数指针数组
-* 复杂类型声明
-	- typedef 背后编译器的处理过程
-* 驱动框架模型
-	- 函数指针结构体
-* 面向对象的编程
-	- 如何用C实现OOP
-	- 程序设计的基本原则: 低耦合, 高内聚 (Low Coupling, High Cohesion) 
+	- 结构体数组
 
-## Lesson 21 [Is this number a float?](Lesson-21.md) 浮点数判别
+## Lesson 20 [Preprocessor](Lesson-20.md) 预处理器实现
 ### 基本概念讲解
+* 问题分解
+	- 去注释问题
+	- 宏定义替换问题
+	- 条件编译问题
+* 程序的输入和输出
+	- 字节流处理
+	- 重定向和管道	
 * 多维数组 
 	- 多维整型数组
 	- 多维函数指针数组
 * FSM 有限状态机
 	- 状态机编程模型
 	- 状态机的设计
+
+## Lesson 21 [Simple lexical analysis](Lesson-21.md) 词法分析器
+### 基本概念讲解
 * 策略和机制分离
 	- 高内聚低耦合原则
 * Unix 编程艺术之表示原则
 	- 把知识叠入数据以求逻辑质朴而健壮。
+* 面向对象的编程
+	- 如何用C实现OOP
+	- 程序设计的基本原则: 低耦合, 高内聚 (Low Coupling, High Cohesion) 
 
 
 # Homework Projects
