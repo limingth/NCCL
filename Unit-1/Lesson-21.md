@@ -9,6 +9,7 @@
 注释flex生成代码
 <http://old.blog.edu.cn/user1/14610/archives/2005/376568.shtml>
 
+input/output/puton 字符串匹配问题
 <http://www.cnblogs.com/zhanglanyun/archive/2012/02/16/2354686.html>
 
 ### 语法知识点
