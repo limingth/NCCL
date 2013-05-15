@@ -1,4 +1,4 @@
-## Lesson 21 Simple lexical analysis 词法分析器实现
+## Lesson 21 Lexical analysis 词法分析器实现
 	
 	#include <stdio.h>
 	#include "yy_nxt.c"

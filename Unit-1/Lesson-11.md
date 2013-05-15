@@ -1,4 +1,4 @@
-## Lesson 11 Calculate the distance between 2 point 求两个坐标点之间的距离
+## Lesson 11 Calculate the distance between 2 points 求两个坐标点之间的距离
 	#include <stdio.h>
 	#include <math.h>
 
