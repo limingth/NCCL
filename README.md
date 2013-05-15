@@ -46,7 +46,7 @@
 * Lesson 14    Is there a way out? 判断地图上某点是否有出路
 * Lesson 15    Count bit 1 in a number 统计一个数二进制表示中1的个数
 * Lesson 16    How to strcpy 字符串拷贝
-* Lesson 17    Find how many words in an artitle 统计单词个数
+* Lesson 17    Count words in an artitle 统计单词个数
 * Lesson 18    My printf 实现 printf
 * Lesson 19    Shell command parser 命令解释器
 * Lesson 20    Preprocessor 预处理器实现

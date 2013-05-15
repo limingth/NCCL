@@ -1,4 +1,4 @@
-## Lesson 17 Find how many words in an artitle 统计单词个数
+## Lesson 17 Count words in an artitle 统计单词个数
 	#include <stdio.h>
 	
 	int get_input_type(char c)

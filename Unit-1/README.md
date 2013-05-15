@@ -130,7 +130,7 @@ Unit 1 是《新概念C语言》系列课程的第一部分，共有24个Lesson�
 * 链表思想 Link List
 	- 算法优化 Optimization
 
-## Lesson 11 [Calculate the distance between 2 point](Lesson-11.md) 求两个坐标点之间的距离
+## Lesson 11 [Calculate the distance between 2 points](Lesson-11.md) 求两个坐标点之间的距离
 ### 基本概念讲解
 * 结构体 Struct
 	- 结构体初始化
@@ -202,7 +202,7 @@ Unit 1 是《新概念C语言》系列课程的第一部分，共有24个Lesson�
 	- 内存对齐
 	- 防止编译器优化 volatile
 	
-## Lesson 17 [Find how many words in an artitle](Lesson-17.md) 统计单词个数
+## Lesson 17 [Count words in an artitle](Lesson-17.md) 统计单词个数
 ### 基本概念讲解
 * 指针数组
 	- 和二维数组的比较
@@ -257,7 +257,7 @@ Unit 1 是《新概念C语言》系列课程的第一部分，共有24个Lesson�
 	- #if/#endif 
 	- 实现代码分析 20.6
 
-## Lesson 21 [Simple lexical analysis](Lesson-21.md) 词法分析器实现
+## Lesson 21 [Lexical analysis](Lesson-21.md) 词法分析器实现
 ### 基本概念讲解
 * flex 词法分析器生成工具
 	- lex.l 文件介绍
