@@ -37,7 +37,7 @@
 * Lesson 5    Summarize all numbers from 1 to 100 从1加到100求和
 * Lesson 6    Print 9*9 multiplication table 乘法表
 * Lesson 7    Find a max prime number within 100 求100以内的最大素数
-* Lesson 8    Find how many 9 in number 1 to 100 1到100有多少个9
+* Lesson 8    Find 9 in number 1 to 100 1到100有多少个9
 * Lesson 9    Convert a number to a string 整型转字符串
 * Lesson 10    Josephus ring 约瑟夫环
 * Lesson 11    Calculate the distance between 2 points 求两个坐标点之间的距离

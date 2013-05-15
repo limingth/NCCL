@@ -1,4 +1,4 @@
-﻿## Lesson 8 Find how many 9 in number 1 to 100 1到100有多少个9
+﻿## Lesson 8 Find 9 in number 1 to 100 1到100有多少个9
 	/*
 	 * main.c - find how many digit 9 from 1 to 100
 	 *
