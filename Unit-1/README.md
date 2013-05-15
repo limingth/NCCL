@@ -273,7 +273,7 @@ Unit 1 是《新概念C语言》系列课程的第一部分，共有24个Lesson�
 	
 **The next 3 lessons are projects you should do it by yourself.**
 
-## Lesson 22 Guess what number in my hand 猜数游戏
+## Lesson 22 [Guess number in my hand](Lesson-22.md) 猜数游戏
 ### 问题描述
 猜数游戏：电脑随机产生4位数，然后用户输入4位数，电脑告诉你是?A?B，请你最后猜出电脑的4位数是多少？	
 (4位数字互不重复，A表示位置和数字都对，B表示位置不对，数字对)
@@ -285,7 +285,7 @@ Unit 1 是《新概念C语言》系列课程的第一部分，共有24个Lesson�
 (实现一个计算机下棋算法，让你的同组成员无法胜出，则算你赢)
 
 
-## Lesson 24 Build a simple Search Engenine 简单搜索引擎
+## Lesson 24 [Build a simple Search Engenine](Lesson-24.md) 简单搜索引擎
 ### 问题描述
 简单搜索引擎：从网页文件中抓取正文文本 (例如 "\<p\>hello, lumit.\</p\>" )，搜索是否存在用户输入的关键字 lumit，并返回相关段落正文。
 同时从网页文件中抓取超链接URL (例如 \<a href="http://www.lumit.org">lumit - let us make it together.\</a\> )，并下载相关网页文件。依此递归。
