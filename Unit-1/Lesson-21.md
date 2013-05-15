@@ -1,4 +1,4 @@
-## Lesson 21 Is this number a float? 浮点数判别
+## Lesson 21 Simple lexical analysis 词法分析器实现
 	
 	#include <stdio.h>
 	#include "yy_nxt.c"
@@ -72,5 +72,6 @@ input/output/puton 字符串匹配问题
 * new_state 变量是否是必须的，如果去掉程序应该怎么改？
 	
 ### 课后练习
-* C语言去注释问题。给定一个C语言的文本文件，内部包含 /*  */ 和 // 的注释，请去掉这些注释。
+* 请根据第一节课介绍的 BNF 范式，对于词法分析器处理的结果，进行语法归约，看看是否满足C语法要求。
+
 
