@@ -106,5 +106,5 @@ title: 新概念C语言 NCCL - Lesson 0
 ## 视频学习进度建议
 * 一个月学完，每晚投入2-3个小时，每周看完7个lesson，并完成每个Lesson的课后练习题。最后一周可以用来做大作业。
 * 每周六晚可以进入《新概念C语言在线学习》YY语音交流频道，交流讨论编程中遇到的技术问题。频道号 94148525
-* 视频播放工具下载 <http://www.boobooke.com/mb.html>
-* 视频文件下载链接 <http://www.boobooke.com/m/T98.html>  
+* 视频文件下载链接 <http://www.boobooke.com/m/T98.html> 
+	- 播放工具下载 <http://www.boobooke.com/mb.html>
