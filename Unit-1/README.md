@@ -1,7 +1,7 @@
 ﻿NCCL - New Concept C Language
 =============================
 
-### 视频学习
+### 视频学习课件
 * 目前Unit 1视频课程已经发布，详见播布客网站 <http://www.boobooke.com/m/S238.html>
 
 * 课程学习方法视频简介 <http://www.boobooke.com/v/bbk5910/>
@@ -13,11 +13,11 @@
 	- sudo apt-get install manpages-dev gcc make libc6-dev
 
 * 对于从来没有安装过 Ubuntu（包括虚拟机） 的初学者，最好的选择是
-	- 推荐直接通过 nitrous.io 网站来学习 Linux C 编程
-	- 可以通过浏览器来获得 Linux 编程环境，无需安装
-	- 最大的好处就是只要能够上网的地方，就能获得C编程的环境，无需带虚拟机或双操作系统到处跑
+	- 直接通过 [nitrous.io](http://www.nitrous.io) 网站来学习 Linux C 编程
+	- 好处就是可以通过浏览器来获得 Linux 编程环境，无需安装Ubuntu操作系统，节省时间
+	- 更有用的是只要能够上网的地方，就能获得C编程的环境，无需带虚拟机或双操作系统到处跑
 
-nitrous 界面如下
+nitrous 浏览器登录界面如下
 
 ![nitrous.io](../images/nitrous.jpg)
  
