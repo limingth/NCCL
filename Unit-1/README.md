@@ -10,10 +10,14 @@
 
 ### 开发环境选择
 * 推荐安装 Ubuntu Linux，并安装以下包
-	- sudo apt-get install manpages-dev gcc makefile libc6-dev
-* 对于从来没有安装过 Ubuntu（包括虚拟机） 的初学者
+	- sudo apt-get install manpages-dev gcc make libc6-dev
+
+* 对于从来没有安装过 Ubuntu（包括虚拟机） 的初学者，最好的选择是
 	- 推荐直接通过 nitrous.io 网站来学习 Linux C 编程
 	- 可以通过浏览器来获得 Linux 编程环境，无需安装
+	- 最大的好处就是只要能够上网的地方，就能获得C编程的环境，无需带虚拟机或双操作系统到处跑
+
+nitrous 界面如下
 
 ![nitrous.io](../images/nitrous.jpg)
  
