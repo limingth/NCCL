@@ -1,12 +1,22 @@
 ﻿NCCL - New Concept C Language
 =============================
 
-目前Unit 1视频课程已经发布，详见播布客网站 <http://www.boobooke.com/m/S238.html>
+### 视频学习
+* 目前Unit 1视频课程已经发布，详见播布客网站 <http://www.boobooke.com/m/S238.html>
 
-课程学习方法视频简介 <http://www.boobooke.com/v/bbk5910/>
+* 课程学习方法视频简介 <http://www.boobooke.com/v/bbk5910/>
 
-在线视频播放器下载  <http://www.boobooke.com/download/MBoo2014.zip>
+* 在线视频播放器下载  <http://www.boobooke.com/download/MBoo2014.zip>
 
+### 开发环境选择
+* 推荐安装 Ubuntu Linux，并安装以下包
+	- sudo apt-get install manpages-dev gcc makefile libc6-dev
+* 对于从来没有安装过 Ubuntu（包括虚拟机） 的初学者
+	- 推荐直接通过 nitrous.io 网站来学习 Linux C 编程
+	- 可以通过浏览器来获得 Linux 编程环境，无需安装
+
+![nitrous.io](../images/nitrous.jpg)
+ 
 
 # Unit One
 Unit 1 是《新概念C语言》系列课程的第一部分，共有24个Lesson，包含以下4个层次的学习内容：
