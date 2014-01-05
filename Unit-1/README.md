@@ -28,6 +28,7 @@ nitrous 浏览器登录界面如下
 
 * [Google Chrome 浏览器](http://www.google.com/intl/zh-CN/chrome/)
 * [Google Hangout 环聊](https://www.google.com/tools/dlpage/hangoutplugin?)
+* [Gmail 帐号](http://gmail.com/)  [注册](https://accounts.google.com/SignUp?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ltmpl=default&hl=zh-CN)
 
 # Unit One
 Unit 1 是《新概念C语言》系列课程的第一部分，共有24个Lesson，包含以下4个层次的学习内容：
