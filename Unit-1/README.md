@@ -20,7 +20,14 @@
 nitrous 浏览器登录界面如下
 
 ![nitrous.io](../images/nitrous.jpg)
- 
+
+### 一对一远程视频辅导
+* 新概念C语言 Unit 2 开始提供一对一编程辅导课程，学习时间2-3个月。
+	- 个性化辅导，根据个人接受程度，灵活安排上课时间
+	- 报名学习请咨询 QQ: 2372614758
+
+* [Google Chrome 浏览器](http://www.google.com/intl/zh-CN/chrome/)
+* [Google Hangout 环聊](https://www.google.com/tools/dlpage/hangoutplugin?)
 
 # Unit One
 Unit 1 是《新概念C语言》系列课程的第一部分，共有24个Lesson，包含以下4个层次的学习内容：
