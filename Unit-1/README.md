@@ -2,7 +2,7 @@
 =============================
 
 ### 视频学习课件
-* 目前Unit 1视频课程已经发布，详见播布客网站 <http://www.boobooke.com/m/S238.html>
+* 目前Unit 1视频课程已经发布，详见播布客网站 <http://www.boobooke.com/m/S238.html> <http://www.boobooke.com/video.html>
 
 * 课程学习方法视频简介 <http://www.boobooke.com/v/bbk5910/>
 
