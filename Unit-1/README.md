@@ -2,23 +2,21 @@
 =============================
 
 ### 视频学习课件
-* 目前Unit 1视频课程已经发布，详见播布客网站 <http://www.boobooke.com/m/S238.html> <http://www.boobooke.com/video.html>
+* 目前 Unit 1 全套42集免费视频课程已经发布，详见播布客网站 <http://www.boobooke.com/video.html>
 
-* 课程学习方法视频简介 <http://www.boobooke.com/v/bbk5910/>
+* 课程学习方法视频简介在线观看 <http://www.boobooke.com/v/bbk5910/>
 
-* 在线视频播放器下载  <http://www.boobooke.com/download/MBoo2014.zip>
+* 客户端视频播放器下载  <http://www.boobooke.com/download/MBoo2014.zip>
 
 ### 一对一远程视频辅导
 * 新概念C语言 Unit 1 和 [Unit 2](../Unit-2/README.md) 开始提供一对一编程辅导课程，学习时间2-3个月。
 	- 个性化辅导，根据个人接受程度，灵活安排上课时间
-	- 报名学习请咨询 QQ: 2372614758
+	- 报名学习请咨询 QQ: 2372614758 （亚嵌李明老师）
 
-* [Google Chrome 浏览器](http://www.google.com/intl/zh-CN/chrome/)
-
-* [Google Hangout 环聊](https://www.google.com/tools/dlpage/hangoutplugin?)
-
-* [Gmail 帐号](http://gmail.com/)  
-	- [注册](https://accounts.google.com/SignUp?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ltmpl=default&hl=zh-CN)
+* 提前安装学习环境
+	- [Google Chrome 浏览器](http://www.google.com/intl/zh-CN/chrome/)
+	- [Google Hangout 环聊](https://www.google.com/tools/dlpage/hangoutplugin?)
+	- [注册 Gmail 帐号](https://accounts.google.com/SignUp?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ltmpl=default&hl=zh-CN)
 
 
 ### 开发环境选择
