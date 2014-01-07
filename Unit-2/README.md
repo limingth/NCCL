@@ -1,7 +1,13 @@
 NCCL - New Concept C Language
 =============================
 
-[Unit 1 课程链接](https://github.com/limingth/NCCL/edit/master/Unit-1/README.md)
+[新概念 C 语言 Unit 1 课程链接](https://github.com/limingth/NCCL/blob/master/Unit-1/README.md)
+
+* Unit 1 的全部免费视频课程共 42 集已经可以下载，请点击上面的链接进入学习
+
+## Unit 2 课程规划 
+
+* 本阶段学习没有视频课程，只接受基于互联网的一对一在线辅导编程。如需要学习，请联系 QQ：2372614758 （亚嵌李明老师）
 
 ### 2.1 库函数
 1. 文件读写
