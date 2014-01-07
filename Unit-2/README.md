@@ -1,7 +1,7 @@
 NCCL - New Concept C Language
 =============================
 
-please use <http://codepad.org/> to run/test these C programs!
+[Unit 1 课程链接](https://github.com/limingth/NCCL/edit/master/Unit-1/README.md)
 
 ### 2.1 库函数
 1. 文件读写
