@@ -19,7 +19,8 @@ NCCL - New Concept C Language
 6. 排序查找
 7. 时间日期
 
-* 大作业选题：  Shell 命令解释器 + FS 文件系统
+#### 项目选题：  
+* Shell 命令解释器 + FS 文件系统
   - Bash 的一部分功能
   - 简化版的 ext2 文件系统
   - 提供支持内部文件读写的 open/read/write/close 接口
@@ -34,7 +35,8 @@ NCCL - New Concept C Language
 6. 二叉树 (排序查找)
 7. 散列表 (构造符号表)
 
-* 大作业选题： 词霸查字典程序 或者 OS 任务调度器
+#### 项目选题： 
+* 词霸查字典程序 或者 OS 任务调度器
 
 
 ### 2.3 常用基本算法
@@ -47,7 +49,8 @@ NCCL - New Concept C Language
 7. 霍夫曼编码算法
 
 
-* 大作业选题： 迷宫地图导航算法
+#### 项目选题 
+* 迷宫地图导航算法
 
 # Unit Two
 ## Lesson 25 
