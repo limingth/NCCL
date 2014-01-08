@@ -18,7 +18,7 @@
 * [Unit 1 ： C Foundmentals](https://github.com/limingth/NCCL/blob/master/Unit-1/README.md)  
 覆盖基本C语法结构--变量，表达式，语句，函数，数组，结构体，位操作，指针等，学会使用递归和状态机思想编程。
 
-* [Unit 2 ： C Essentials](https://github.com/limingth/NCCL/blob/master/Unit-2/README.md)
+* [Unit 2 ： C Essentials](https://github.com/limingth/NCCL/blob/master/Unit-2/README.md)  
 覆盖常用算法和数据结构--链表，队列，栈，二叉树，排序查找，压缩算法，库函数等
 
 * Unit 3 ： C Classicals  
