@@ -25,10 +25,9 @@ NCCL - New Concept C Language
   - [排序查找](Lesson-30.md)
 * Lesson 31 - ls -l命令实现
   - [时间日期](Lesson-31.md)
-
-#### [项目选题](Lesson-8.md)  
-* Shell 命令解释器 + FS 文件系统
-  - Bash 的一部分功能
+* Lesson 32 - Bash 项目
+  - [Shell 命令解释器 + FS 文件系统](Lesson-32.md)  
+  - Bash 基本功能，文件查看功能
   - 提供支持内部文件读写的 open/read/write/close 接口
   - scp 外部拷贝命令，file 命令，objcopy 命令，hexdump 命令
   - 简化版的 ext2 文件系统
@@ -39,27 +38,27 @@ NCCL - New Concept C Language
 * [sed和正则表达式](http://learn.akae.cn/media/ch32s03.html)
 * [Ext2文件系统](http://learn.akae.cn/media/ch29s02.html)
 
-### 2.2 常用数据结构
-1. 单向链表
-2. 循环链表
-3. 栈
-4. 队列
-5. 树 (语法分析树)
-6. 二叉树 (排序查找)
-7. 散列表 (构造符号表)
+### Section 2 常用数据结构
+* 单向链表
+* 循环链表
+* 栈
+* 队列
+* 树 (语法分析树)
+* 二叉树 (排序查找)
+* 散列表 (构造符号表)
 
 #### 项目选题： 
 * 词霸查字典程序 或者 OS 任务调度器
 
 
-### 2.3 常用基本算法
-1. 二分查找法
-2. 快速排序法
-3. 回溯法
-4. 字符串匹配KMP算法
-5. 动态规划算法
-6. 最短路径算法
-7. 霍夫曼编码算法
+### Section 3 常用基本算法
+* 二分查找法
+* 快速排序法
+* 回溯法
+* 字符串匹配KMP算法
+* 动态规划算法
+* 最短路径算法
+* 霍夫曼编码算法
 
 
 #### 项目选题 
