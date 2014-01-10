@@ -2,31 +2,42 @@ NCCL - New Concept C Language
 =============================
 
 * Unit 1 的全部免费视频课程共 42 集已经可以下载，请点击下面的链接进入学习
-
-[新概念 C 语言 Unit 1 课程链接](https://github.com/limingth/NCCL/blob/master/Unit-1/README.md)
+    - [新概念 C 语言 Unit 1 课程链接](https://github.com/limingth/NCCL/blob/master/Unit-1/README.md)
 
 ## Unit 2 课程规划 
 
 * 本阶段学习没有视频课程，只接受基于互联网的一对一在线辅导编程。
   - 如需要学习，请联系 QQ：2372614758 （亚嵌李明老师）或者申请加入QQ群 279027455
 
-### 2.1 库函数
-1. [文件读写](Lesson-1.md)
-2. [输入输出](Lesson-2.md)
-3. [字符串处理](Lesson-3.md)
-4. [内存管理](Lesson-4.md)
-5. [数学库](Lesson-5.md)
-6. [排序查找](Lesson-6.md)
-7. [时间日期](Lesson-7.md)
+### Section 1 库函数
+
+* Lesson 25 - cp命令实现
+  - [文件读写](Lesson-25.md)
+* Lesson 26 - ELF文件头分析器实现
+  - [输入输出](Lesson-26.md)
+* Lesson 27 - sed流处理器实现和正则表达式
+  - [字符串处理](Lesson-27.md)
+* Lesson 28 - 数学计算器实现
+  - [数学库](Lesson-28.md)
+* Lesson 29 - fs文件系统实现和ramdisk内存盘技术
+  - [内存管理](Lesson-29.md)
+* Lesson 30 - sort命令实现
+  - [排序查找](Lesson-30.md)
+* Lesson 31 - ls -l命令实现
+  - [时间日期](Lesson-31.md)
 
 #### [项目选题](Lesson-8.md)  
 * Shell 命令解释器 + FS 文件系统
   - Bash 的一部分功能
-  - 简化版的 ext2 文件系统
   - 提供支持内部文件读写的 open/read/write/close 接口
   - scp 外部拷贝命令，file 命令，objcopy 命令，hexdump 命令
+  - 简化版的 ext2 文件系统
 
-[参考教材](http://ishare.iask.sina.com.cn/download/explain.php?fileid=2302709)
+#### 参考教材
+* [C Programming Language Edition 2](http://ishare.iask.sina.com.cn/download/explain.php?fileid=2302709)
+* [ELF文件格式](http://learn.akae.cn/media/ch18s05.html)
+* [sed和正则表达式](http://learn.akae.cn/media/ch32s03.html)
+* [Ext2文件系统](http://learn.akae.cn/media/ch29s02.html)
 
 ### 2.2 常用数据结构
 1. 单向链表
