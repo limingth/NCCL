@@ -47,23 +47,23 @@ NCCL - New Concept C Language
   - 栈
 * Lesson 36 - 舞伴问题
   - 队列
-* Lesson 37 - 
-  - 树 (语法分析树)
-* Lesson 38 - 
-  - 二叉树 (排序查找)
-* Lesson 39 - 
-  - 散列表 (构造符号表)
+* Lesson 37 - 语法分析树
+  - 树
+* Lesson 38 - 排序查找
+  - 二叉树
+* Lesson 39 - 构造符号表
+  - 散列表 
 
 #### 项目选题
-* Lesson 40 - 
-  - 词霸查字典程序
+* Lesson 40 - MyDictionary项目
+  - 查字典程序
 
 ### Section 3 常用基本算法
-* Lesson 41 - 
+* Lesson 41 - BSearch 实现
   - 二分查找法
-* Lesson 42 - 
+* Lesson 42 - QSort 实现
   - 快速排序法
-* Lesson 43 - 
+* Lesson 43 - 迷宫问题
   - 回溯法
 * Lesson 44 - 
   - 字符串匹配KMP算法
