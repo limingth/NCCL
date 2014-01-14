@@ -1,8 +1,8 @@
-
 ## Lesson 25 - mycp (cp命令实现)
 
 ### 课程任务
-完成 Linux 下的 cp 命令，实现文件的复制功能。
+* 完成 Linux 下的 cp 命令，实现文件的复制功能。
+* 实现 cat 命令，查看复制后的文件内容。
 
 #### cp 命令格式
 
@@ -12,6 +12,13 @@
 	SYNOPSIS
 	     cp source_file target_file
 
+#### cat 命令格式
+	
+	NAME
+	     cat -- concatenate and print files
+	
+	SYNOPSIS
+	     cat filename
 
 ### 预备知识
 
