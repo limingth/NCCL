@@ -2,7 +2,6 @@
 
 ### 课程任务
 * 完成对 ELF 格式文件头(ELF Header)的读取，实现 readelf -a 的功能。
-* 在完成上述功能的基础上，能够区分 .o .so .elf 这3种文件属性，实现 file 命令的部分功能。
 
 		$ readelf -a max.o 
 		ELF Header:
@@ -26,8 +25,15 @@
 		  Number of section headers:         8
 		  Section header string table index: 5
 		  
-		  
-
+* 在完成上述功能的基础上，能够区分 .o .so .elf 这3种文件属性，实现 file 命令的部分功能。
+		
+		$ gcc -c hello.c -o hello.o                                                                                                        
+		$ file hello.o                                                                                                                     
+		hello.o: ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped                                                                                         
+		$ gcc hello.c -o a.out                                                                                                             
+		$ file a.out                                                                                                                       
+		a.out: ELF 64-bit LSB executable, x86-64, version 1 (SYSV), dynamically linked (uses shared libs), for GNU/Linux 2.6.24, BuildID[sha1]=0x3ca657ea2ec278a610a8e8aff0d
+		51f9da24e977b, not stripped                                                                                                           
 ### 预备知识
 
 * [ELF文件简介](http://learn.akae.cn/media/ch18s05.html)
