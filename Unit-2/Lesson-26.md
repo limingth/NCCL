@@ -1,30 +1,32 @@
-
 ## Lesson 26 - ELF Header Parser (ELF文件头分析器实现)
 
 ### 课程任务
-完成对 ELF 格式文件头(ELF Header)的读取，实现 readelf -a 的功能。
+* 完成对 ELF 格式文件头(ELF Header)的读取，实现 readelf -a 的功能。
+* 在完成上述功能的基础上，能够区分 .o .so .elf 这3种文件属性，实现 file 命令的部分功能。
 
-	$ readelf -a max.o 
-	ELF Header:
-	  Magic:   7f 45 4c 46 01 01 01 00 00 00 00 00 00 00 00 00 
-	  Class:                             ELF32
-	  Data:                              2's complement, little endian
-	  Version:                           1 (current)
-	  OS/ABI:                            UNIX - System V
-	  ABI Version:                       0
-	  Type:                              REL (Relocatable file)
-	  Machine:                           Intel 80386
-	  Version:                           0x1
-	  Entry point address:               0x0
-	  Start of program headers:          0 (bytes into file)
-	  Start of section headers:          200 (bytes into file)
-	  Flags:                             0x0
-	  Size of this header:               52 (bytes)
-	  Size of program headers:           0 (bytes)
-	  Number of program headers:         0
-	  Size of section headers:           40 (bytes)
-	  Number of section headers:         8
-	  Section header string table index: 5
+		$ readelf -a max.o 
+		ELF Header:
+		  Magic:   7f 45 4c 46 01 01 01 00 00 00 00 00 00 00 00 00 
+		  Class:                             ELF32
+		  Data:                              2's complement, little endian
+		  Version:                           1 (current)
+		  OS/ABI:                            UNIX - System V
+		  ABI Version:                       0
+		  Type:                              REL (Relocatable file)
+		  Machine:                           Intel 80386
+		  Version:                           0x1
+		  Entry point address:               0x0
+		  Start of program headers:          0 (bytes into file)
+		  Start of section headers:          200 (bytes into file)
+		  Flags:                             0x0
+		  Size of this header:               52 (bytes)
+		  Size of program headers:           0 (bytes)
+		  Number of program headers:         0
+		  Size of section headers:           40 (bytes)
+		  Number of section headers:         8
+		  Section header string table index: 5
+		  
+		  
 
 ### 预备知识
 
