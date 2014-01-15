@@ -77,7 +77,7 @@
 		extern FILE *__stdoutp;
 		extern FILE *__stderrp;
 
-* 两个常用的宏定义
+* 两个常用的宏定义 (stdio.h stddef.h)
 
 		#define EOF     (-1)
 		#define NULL	((void *)0)
