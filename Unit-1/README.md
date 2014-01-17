@@ -8,6 +8,17 @@
 
 * 客户端视频播放器下载  <http://www.boobooke.com/download/MBoo2014.zip>
 
+* Mac 上运行播布客软件，可以采用 WINE 的解决方案。
+	- <http://linfan.info/blog/2012/03/01/wine-mac/>
+
+* 具体步骤如下
+	- 到 [http://brew.sh](http://brew.sh) 下载安装 brew ，也可以直接运行下面的命令
+	- ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
+	- brew doctor 将检查到的 warning 问题排除
+	- brew install wine --devel
+	- https://xquartz.macosforge.org/landing/  下载 XQuartz-2.7.5.dmg 并安装Mac OS下的 X Window System 
+	- http://linfan.info/blog/2012/02/25/homebrew-installation-and-usage/
+
 ### 一对一远程视频辅导
 * 新概念C语言 Unit 1 和 [Unit 2](../Unit-2/README.md) 开始提供一对一编程辅导课程，学习时间2-3个月。
 	- 个性化辅导，根据个人接受程度，灵活安排上课时间
