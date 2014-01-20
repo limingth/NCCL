@@ -21,14 +21,7 @@
 	     cat filename
 
 ### 预备知识
-
 * [文件的基本概念](http://learn.akae.cn/media/ch25s02.html)
-
-* [C标准函数库](http://zh.wikipedia.org/zh-cn/C%E6%A8%99%E6%BA%96%E5%87%BD%E5%BC%8F%E5%BA%AB)
-
-* [Standard C 语言标准函数库速查](http://ganquan.info/standard-c/)
-
-* [The C Library Reference Guide](http://www.acm.uiuc.edu/webmonkeys/book/c_guide/)
 
 ### 重要知识点
 
