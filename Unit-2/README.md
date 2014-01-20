@@ -3,6 +3,7 @@ NCCL - New Concept C Language
 
 * Unit 1 的全部免费视频课程共 42 集已经可以下载，请点击下面的链接进入学习
     - [新概念 C 语言 Unit 1 课程链接](https://github.com/limingth/NCCL/blob/master/Unit-1/README.md)
+    - [Unit 1 代码链接](https://github.com/limingth/NCCL.codes)
 
 ## Unit 2 课程规划 
 
@@ -34,8 +35,9 @@ NCCL - New Concept C Language
 
 #### 参考教材
 * [C Programming Language Edition 2](http://ishare.iask.sina.com.cn/download/explain.php?fileid=2302709)
-* [ELF文件格式](http://learn.akae.cn/media/ch18s05.html)
-* [sed和正则表达式](http://learn.akae.cn/media/ch32s03.html)
+* [C标准函数库](http://zh.wikipedia.org/zh-cn/C%E6%A8%99%E6%BA%96%E5%87%BD%E5%BC%8F%E5%BA%AB)
+* [Standard C 语言标准函数库速查](http://ganquan.info/standard-c/)
+* [The C Library Reference Guide](http://www.acm.uiuc.edu/webmonkeys/book/c_guide/)
 * [Ext2文件系统](http://learn.akae.cn/media/ch29s02.html)
 
 ### Section 2 常用数据结构
