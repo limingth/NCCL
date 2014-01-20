@@ -41,6 +41,8 @@
 
 * [elf文件格式分析](http://blog.csdn.net/wu5795175/article/details/7657580)
 
+* [elf文件格式详解](http://blog.chinaunix.net/attachment/attach/26/40/46/9726404697228d82cda2af11366fa7722d3a4f1a58.pdf)
+
 * [格式化I/O函数](http://learn.akae.cn/media/ch25s02.html#id2832755)
 
 ### 重要知识点
