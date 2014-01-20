@@ -37,10 +37,11 @@
 ### 预备知识
 * [ELF文件简介](http://learn.akae.cn/media/ch18s05.html)
 
+* [UNIX/LINUX 平台可执行文件格式分析](http://www.ibm.com/developerworks/cn/linux/l-excutff/)
+
 * [elf文件格式分析](http://blog.csdn.net/wu5795175/article/details/7657580)
 
 * [格式化I/O函数](http://learn.akae.cn/media/ch25s02.html#id2832755)
-
 
 ### 重要知识点
 
