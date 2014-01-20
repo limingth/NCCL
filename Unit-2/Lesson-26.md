@@ -35,12 +35,12 @@
 		a.out: ELF 64-bit LSB executable, x86-64, version 1 (SYSV), dynamically linked (uses shared libs), for GNU/Linux 2.6.24, BuildID[sha1]=0x3ca657ea2ec278a610a8e8aff0d
 		51f9da24e977b, not stripped                                                                                                           
 ### 预备知识
-
 * [ELF文件简介](http://learn.akae.cn/media/ch18s05.html)
 
 * [elf文件格式分析](http://blog.csdn.net/wu5795175/article/details/7657580)
 
 * [格式化I/O函数](http://learn.akae.cn/media/ch25s02.html#id2832755)
+
 
 ### 重要知识点
 
