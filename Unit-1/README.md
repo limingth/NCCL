@@ -1,23 +1,12 @@
 ﻿NCCL - New Concept C Language
 =============================
 
-### 视频学习课件
-* 目前 Unit 1 全套42集免费视频课程已经发布，详见播布客网站 <http://www.boobooke.com/video.html>
-
+### 《新概念C语言》Unit 1 视频学习课件
+* 全套42集免费视频课程已经发布，详见播布客网站 <http://www.boobooke.com/video.html>
+	- 客户端视频播放器下载  <http://www.boobooke.com/download/MBoo2014.zip>
+	- C程序代码下载链接 <https://github.com/limingth/NCCL.codes>
+	
 * 课程学习方法视频简介在线观看 <http://www.boobooke.com/v/bbk5910/>
-
-* 客户端视频播放器下载  <http://www.boobooke.com/download/MBoo2014.zip>
-
-* Mac 上运行播布客软件，可以采用 WINE 的解决方案。
-	- <http://linfan.info/blog/2012/03/01/wine-mac/>
-
-* 具体步骤如下
-	- 到 [http://brew.sh](http://brew.sh) 下载安装 brew ，也可以直接运行下面的命令
-	- ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
-	- brew doctor 将检查到的 warning 问题排除
-	- brew install wine --devel
-	- https://xquartz.macosforge.org/landing/  下载 XQuartz-2.7.5.dmg 并安装Mac OS下的 X Window System 
-	- http://linfan.info/blog/2012/02/25/homebrew-installation-and-usage/
 
 ### 一对一远程视频辅导
 * 新概念C语言 Unit 1 和 [Unit 2](../Unit-2/README.md) 开始提供一对一编程辅导课程，学习时间2-3个月。
@@ -39,9 +28,22 @@
 	- 好处就是可以通过浏览器来获得 Linux 编程环境，无需安装Ubuntu操作系统，节省时间
 	- 更有用的是只要能够上网的地方，就能获得C编程的环境，无需带虚拟机或双操作系统到处跑
 
-nitrous 浏览器登录界面如下
+* nitrous 浏览器登录界面如下
 
 ![nitrous.io](../images/nitrous.jpg)
+
+### Mac 苹果笔记本环境安装
+* Mac 上运行播布客软件，可以采用 WINE 的解决方案。
+	- <http://linfan.info/blog/2012/03/01/wine-mac/>
+
+* 具体步骤如下
+	- 到 [http://brew.sh](http://brew.sh) 下载安装 brew ，也可以直接运行下面的命令
+	- ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
+	- brew doctor 将检查到的 warning 问题排除
+	- brew install wine --devel
+	- https://xquartz.macosforge.org/landing/  下载 XQuartz-2.7.5.dmg 并安装Mac OS下的 X Window System 
+	- http://linfan.info/blog/2012/02/25/homebrew-installation-and-usage/
+
 
 # Unit One
 Unit 1 是《新概念C语言》系列课程的第一部分，共有24个Lesson，包含以下4个层次的学习内容：
