@@ -27,9 +27,10 @@
 * [sed和正则表达式](http://learn.akae.cn/media/ch32s03.html)
 
 ### 重要知识点
-* 字符串的查找
-* 字符串的替换
-* 字符串的拼接
+* 字符串的分割 strtok
+	- s/unix/linux
+* 字符串的查找 strstr
+* 字符串的拼接 strcat
 
 #### 常用 API
 	
