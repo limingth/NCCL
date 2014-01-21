@@ -1,5 +1,4 @@
 
-
 ### 最简单的 C 程序
     
     int main(void)
@@ -18,16 +17,8 @@
     
     type_spec       : 'void' | 'int' 
     
-    declarator      : direct_declarator
+    declarator      : id '(' type_spec ')' 
     
-    direct_declarator   : id        
-    		| direct_declarator '(' param_type_list ')' 
+    compound_stat   : '{' stat '}' 
     
-    param_type_list     :  type_spec         
-    
-    compound_stat       : '{' stat '}'   { 语句表 }
-    
-    stat            : 'return' exp ';'
-    
-    exp			: id
-    			| const
+    stat            : 'return' number ';'
