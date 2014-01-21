@@ -25,6 +25,7 @@
 
 ### 参考资料
 * [sed和正则表达式](http://learn.akae.cn/media/ch32s03.html)
+* [字符串库函数范例代码](http://www.tutorialspoint.com/c_standard_library/string_h.htm)
 
 ### 重要知识点
 * 字符串的分割 strtok
