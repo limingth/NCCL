@@ -2,7 +2,7 @@
 ## Lesson 28 - math calculator (数学计算器实现)
 
 ### 课程任务
-* 实现在 Bash 提示符下面的数学函数计算功能，要求调用不少于 3 种数学函数。
+实现在 Bash 提示符下面的数学函数计算功能，要求调用不少于 3 种数学函数。
 
 	double sqrt(double x); 开平方
 	double pow(double x, double y); 计算以x为底数的y次幂 
