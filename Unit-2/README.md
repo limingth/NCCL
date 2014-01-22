@@ -11,6 +11,7 @@ NCCL - New Concept C Language
   - 如需要学习，请联系 QQ：2372614758 （亚嵌李明老师）或者申请加入QQ群 279027455
 
 ### Section 1 库函数
+基本概念介绍：[C标准函数库](http://zh.wikipedia.org/zh-cn/C%E6%A8%99%E6%BA%96%E5%87%BD%E5%BC%8F%E5%BA%AB) 
 
 * Lesson 25 - mycp (cp命令实现)
   - [文件读写](Lesson-25.md)
@@ -35,7 +36,6 @@ NCCL - New Concept C Language
 
 #### 参考教材
 * [C Programming Language Edition 2](http://ishare.iask.sina.com.cn/download/explain.php?fileid=2302709)
-* [C标准函数库](http://zh.wikipedia.org/zh-cn/C%E6%A8%99%E6%BA%96%E5%87%BD%E5%BC%8F%E5%BA%AB)
 * [Standard C 语言标准函数库速查](http://ganquan.info/standard-c/)
 * [The C Library Reference Guide](http://www.acm.uiuc.edu/webmonkeys/book/c_guide/)
 * [Ext2文件系统](http://learn.akae.cn/media/ch29s02.html)
