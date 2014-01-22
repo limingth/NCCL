@@ -18,23 +18,23 @@
 
 * `man 2 stat`
 
-    struct stat { /* when _DARWIN_FEATURE_64_BIT_INODE is NOT defined */
-         dev_t    st_dev;    /* device inode resides on */
-         ino_t    st_ino;    /* inode's number */
-         mode_t   st_mode;   /* inode protection mode */
-         nlink_t  st_nlink;  /* number of hard links to the file */
-         uid_t    st_uid;    /* user-id of owner */
-         gid_t    st_gid;    /* group-id of owner */
-         dev_t    st_rdev;   /* device type, for special file inode */
-         struct timespec st_atimespec;  /* time of last access */
-         struct timespec st_mtimespec;  /* time of last data modification */
-         struct timespec st_ctimespec;  /* time of last file status change */
-         off_t    st_size;   /* file size, in bytes */
-         quad_t   st_blocks; /* blocks allocated for file */
-         u_long   st_blksize;/* optimal file sys I/O ops blocksize */
-         u_long   st_flags;  /* user defined flags for file */
-         u_long   st_gen;    /* file generation number */
-     };
+		struct stat { /* when _DARWIN_FEATURE_64_BIT_INODE is NOT defined */
+		     dev_t    st_dev;    /* device inode resides on */
+		     ino_t    st_ino;    /* inode's number */
+		     mode_t   st_mode;   /* inode protection mode */
+		     nlink_t  st_nlink;  /* number of hard links to the file */
+		     uid_t    st_uid;    /* user-id of owner */
+		     gid_t    st_gid;    /* group-id of owner */
+		     dev_t    st_rdev;   /* device type, for special file inode */
+		     struct timespec st_atimespec;  /* time of last access */
+		     struct timespec st_mtimespec;  /* time of last data modification */
+		     struct timespec st_ctimespec;  /* time of last file status change */
+		     off_t    st_size;   /* file size, in bytes */
+		     quad_t   st_blocks; /* blocks allocated for file */
+		     u_long   st_blksize;/* optimal file sys I/O ops blocksize */
+		     u_long   st_flags;  /* user defined flags for file */
+		     u_long   st_gen;    /* file generation number */
+		 };
 
 #### 常用 API
 
@@ -56,15 +56,17 @@
 
 * 时间函数
 
-	asctime(); 将时间和日期以字符串格式表示
-	clock(); 确定处理器时间
-	ctime(); 把日期和时间转换为字符串
-	difftime(); 计算两个时刻之间的时间差
-	gmtime(); 把日期和时间转换为(GMT)时间
-	localtime(); 取得当地目前时间和日期
-	mktime(); 将时间结构数据转换成经过的秒数
-	strftime(); 将时间格式化
-	time(); 取得目前的时间
+		time(); 取得目前的时间
+
+		asctime(); 将时间和日期以字符串格式表示
+		clock(); 确定处理器时间
+		ctime(); 把日期和时间转换为字符串
+		difftime(); 计算两个时刻之间的时间差
+		gmtime(); 把日期和时间转换为(GMT)时间
+		localtime(); 取得当地目前时间和日期
+		mktime(); 将时间结构数据转换成经过的秒数
+		strftime(); 将时间格式化
+
 
 
 
