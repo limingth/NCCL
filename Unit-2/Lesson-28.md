@@ -24,6 +24,7 @@
 ### 重要知识点
 * 数学函数接口 sin, sqrt, pow, modf，fmod 等
 * 字符串和数值类型的转换 atoi, atof, strtol, strtof 等
+* 掌握 Makefile 的写法，注意通用性，提高编程效率
 
 #### 常用 API
 
@@ -57,6 +58,7 @@
 		double tanh(double x); 计算双曲正切
 
 * 指数与对数
+
 		double exp(double x); 求取自然数e的幂
 		double sqrt(double x); 开平方
 		double log(double x); 以e为底的对数
@@ -65,13 +67,16 @@
 		float powf(float x, float y); 与pow一致，输入与输出皆为浮点数
 
 * 取整
+
 		double ceil(double); 取上整
 		double floor(double); 取下整
 
 * 标准化浮点数
-	double frexp(double f, int *p); 标准化浮点数, f = x * 2^p, 已知f求x, p ( x介于[0.5, 1] ) 
-	double ldexp(double x, int p); 与frexp相反, 已知x, p求f
+
+		double frexp(double f, int *p); 标准化浮点数, f = x * 2^p, 已知f求x, p ( x介于[0.5, 1] ) 
+		double ldexp(double x, int p); 与frexp相反, 已知x, p求f
 
 * 取整与取余
+
 		double modf(double, double*); 将参数的整数部分通过指针回传, 返回小数部分 
 		double fmod(double, double); 返回两参数相除的余数
