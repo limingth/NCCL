@@ -61,7 +61,7 @@ sort -n 效果
 	15 blue
 	17 yello
 	30 green 
-	
+
 ### 重要知识点
 * 学习 qsort 函数，弄懂快速排序的原理
 * 加强对函数指针知识点的巩固和应用
@@ -69,6 +69,7 @@ sort -n 效果
 
 ### 参考资料
 * sort命令用法 http://roclinux.cn/?p=1350
+* qsort 函数的几种用法 http://www.cnblogs.com/pang123hui/archive/2011/01/28/1947003.html
 
 
 
