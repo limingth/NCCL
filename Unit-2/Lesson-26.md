@@ -32,8 +32,8 @@
 		hello.o: ELF 64-bit LSB relocatable, x86-64, version 1 (SYSV), not stripped                                                                                         
 		$ gcc hello.c -o a.out                                                                                                             
 		$ file a.out                                                                                                                       
-		a.out: ELF 64-bit LSB executable, x86-64, version 1 (SYSV), dynamically linked (uses shared libs), for GNU/Linux 2.6.24, BuildID[sha1]=0x3ca657ea2ec278a610a8e8aff0d
-		51f9da24e977b, not stripped                                                                                                           
+		a.out: ELF 64-bit LSB executable, x86-64, version 1 (SYSV), dynamically linked (uses shared libs), for GNU/Linux 2.6.24, BuildID[sha1], not stripped    
+
 ### 预备知识
 * [ELF文件简介](http://learn.akae.cn/media/ch18s05.html)
 
@@ -91,6 +91,35 @@
 		} Elf32_Ehdr;
 
 * [readelf.c 源文件参考](http://www.oschina.net/code/explore/freebsd/contrib/file/readelf.c)
+
+* 提示代码
+
+		struct type_string
+		{
+		        int type;
+		        char *string;
+		} s[] =
+		{
+		        { 0, "Unknow" },
+		        { 2, "EXEC" },
+		        { 1, "REL" },
+		        { -1, "Other Format" },
+		};
+
+		// ELF Header size
+		#define HSIZE   (int)sizeof(Elf32_Ehdr)
+
+		char buf[HSIZE];
+        int n;
+
+        n = fread(buf, HSIZE, 1, fp);
+ 
+		Elf32_Ehdr * p;
+		p = (Elf32_Ehdr *)buf;
+
+		printf("type = %d\n", p->e_type);
+		printf("Type: %s\n", s[get_type_index(p->e_type)].string);
+
 
 ### 课后阅读
 * [《unix编程艺术》策略同机制分离，接口同引擎分离](http://www.cnblogs.com/chgaowei/archive/2011/07/26/2117644.html)

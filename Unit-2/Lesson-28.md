@@ -3,13 +3,23 @@
 
 ### 课程任务
 实现在 Bash 提示符下面的数学函数计算功能，要求调用不少于 3 种数学函数。
-
+	
 	double sqrt(double x); 开平方
 	double pow(double x, double y); 计算以x为底数的y次幂 
 	double sin(double x); 正弦
 
+* 运行示例
+
+		limingth@gmail ~/Github/NCCL.codes/Lesson-32$ ./bashclone 
+		NCCL# math sin 1
+		result = 0.841471
+		NCCL# math sqrt 81
+		result = 9.000000
+		NCCL# 
+
 ### 参考资料
 * http://ganquan.info/standard-c/
+* http://wiki.ubuntu.org.cn/%E8%B7%9F%E6%88%91%E4%B8%80%E8%B5%B7%E5%86%99Makefile:%E4%BD%BF%E7%94%A8%E5%87%BD%E6%95%B0
 
 ### 重要知识点
 * 数学函数接口
