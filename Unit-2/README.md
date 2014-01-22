@@ -25,7 +25,7 @@ NCCL - New Concept C Language
   - [内存管理](Lesson-29.md)
 * Lesson 30 - sort (sort命令实现)
   - [排序查找](Lesson-30.md)
-* Lesson 31 - ll (ll命令实现)
+* Lesson 31 - ll (ls -l命令实现)
   - [时间日期](Lesson-31.md)
 
 #### 项目选题
