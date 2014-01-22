@@ -9,12 +9,12 @@
 * 空格/f 下翻页
 * b 上翻页。 
 
-提示：可以从文件中读到的每一行动态分配行缓冲区，将缓冲区内存指针写入到一个行指针数组中，通过用户操作显示不同的区域内容。
 
 ### 参考资料
 * http://zh.wikipedia.org/wiki/More_(命令)
 * Linux 终端概念 http://blog.csdn.net/jifengszf/article/details/4228183
 * 自己编写more命令 http://www.cnblogs.com/zhangchaoyang/articles/2293910.html
+
 
 ### 重要知识点
 * 学习内存动态分配函数 malloc 
@@ -29,4 +29,12 @@
 		free(); 释放原先配置的内存
 		malloc(); 配置内存空间
 		realloc(); 重新分配主存
+
+### 编程提示：
+* more 命令源码  http://git.busybox.net/busybox/tree/util-linux/more.c?h=1_13_stable
+
+* 关键流程
+	* 从文件中每读一行，动态分配行缓冲区，
+	* 将缓冲区内存指针写入到一个行指针数组中，
+	* 通过用户键盘操作调整显示区域，并更新区域显示内容。
 

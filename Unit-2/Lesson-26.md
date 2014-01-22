@@ -69,7 +69,9 @@
 		ungetc(); 将指定字符写回文件流中
 		perror(); 打印出错误原因信息字符串
 
-### readelf 命令源码实现
+### 编程提示
+
+#### readelf 命令源码实现
 
 * [readelf.h 头文件参考](http://www.oschina.net/code/explore/freebsd/contrib/file/readelf.h)
 
@@ -92,7 +94,7 @@
 
 * [readelf.c 源文件参考](http://www.oschina.net/code/explore/freebsd/contrib/file/readelf.c)
 
-* 提示代码
+#### 关键代码
 
 		struct type_string
 		{
