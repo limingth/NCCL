@@ -91,3 +91,6 @@
 		} Elf32_Ehdr;
 
 * [readelf.c 源文件参考](http://www.oschina.net/code/explore/freebsd/contrib/file/readelf.c)
+
+### 课后阅读
+* [《unix编程艺术》策略同机制分离，接口同引擎分离](http://www.cnblogs.com/chgaowei/archive/2011/07/26/2117644.html)
