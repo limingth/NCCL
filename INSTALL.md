@@ -1,6 +1,5 @@
-
 ### 一对一远程视频辅导
-* 新概念C语言 Unit 1 和 [Unit 2](../Unit-2/README.md) 开始提供一对一编程辅导课程，学习时间2-3个月。
+* 新概念C语言 [Unit 1](https://github.com/limingth/NCCL/blob/master/Unit-1/README.md) 和 [Unit 2](https://github.com/limingth/NCCL/blob/master/Unit-2/README.md) 开始提供一对一编程辅导课程，学习时间2-3个月。
 	- 个性化辅导，根据个人接受程度，灵活安排上课时间
 	- 报名学习请咨询 QQ: 2372614758 （亚嵌李明老师）
 
