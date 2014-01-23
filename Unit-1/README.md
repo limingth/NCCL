@@ -28,6 +28,9 @@
 	- 好处就是可以通过浏览器来获得 Linux 编程环境，无需安装Ubuntu操作系统，节省时间
 	- 更有用的是只要能够上网的地方，就能获得C编程的环境，无需带虚拟机或双操作系统到处跑
 
+* 如果希望能够在 Windows 上使用 Gcc 开发工具，可以安装 MinGW，参考安装流程
+	- http://blog.csdn.net/firefoxbug/article/details/6724876
+
 * nitrous 浏览器登录界面如下
 
 ![nitrous.io](../images/nitrous.jpg)
