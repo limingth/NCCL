@@ -6,7 +6,7 @@
 	- 客户端视频播放器下载  <http://www.boobooke.com/download/MBoo2014.zip>
 	- C程序代码下载链接 <https://github.com/limingth/NCCL.codes>
 	
-* 课程学习方法视频简介在线观看 <http://www.boobooke.com/v/bbk5910/>
+* 《新概念C语言课程概述(第1集)》在线观看 <http://www.boobooke.com/v/bbk5910/>
 
 ### 一对一远程视频辅导
 * 新概念C语言 Unit 1 和 [Unit 2](../Unit-2/README.md) 开始提供一对一编程辅导课程，学习时间2-3个月。
