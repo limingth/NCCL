@@ -2,8 +2,8 @@ NCCL - New Concept C Language
 =============================
 
 * Unit 1 的全部免费视频课程共 42 集已经可以下载，请点击下面的链接进入学习
-    - [新概念 C 语言 Unit 1 课程链接](https://github.com/limingth/NCCL/blob/master/Unit-1/README.md)
-    - [Unit 1 代码链接](https://github.com/limingth/NCCL.codes)
+    - 新概念 C 语言 Unit 1 [课程链接](https://github.com/limingth/NCCL/blob/master/Unit-1/README.md)
+    - [代码链接](https://github.com/limingth/NCCL.codes)
 
 ## Unit 2 课程规划 
 
