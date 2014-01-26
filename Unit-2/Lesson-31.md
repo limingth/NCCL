@@ -20,6 +20,10 @@
 
 ### 参考资料
 
+* [linux stat函数讲解](http://www.cnblogs.com/hnrainll/archive/2011/05/11/2043361.html)
+* [stat() example](http://www.minek.com/files/unix_examples/statfile.html)
+* [Time Functions Example](http://www.gnu.org/software/libc/manual/html_node/Time-Functions-Example.html)
+
 * `man 2 stat`
 
 		struct stat { /* when _DARWIN_FEATURE_64_BIT_INODE is NOT defined */
@@ -40,9 +44,6 @@
 		     u_long   st_gen;    /* file generation number */
 		 };
 
-* [linux stat函数讲解](http://www.cnblogs.com/hnrainll/archive/2011/05/11/2043361.html)
-* [stat() example](http://www.minek.com/files/unix_examples/statfile.html)
-* [Time Functions Example](http://www.gnu.org/software/libc/manual/html_node/Time-Functions-Example.html)
 
 #### 常用 API
 
