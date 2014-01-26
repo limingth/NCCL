@@ -9,7 +9,7 @@
 
 * [GNU bash实现机制与源代码简析](http://www.cnblogs.com/napoleon_liu/archive/2011/04/01/2001886.html)
 
-### Bash 项目设计
+### BashClone 项目设计
 
 * 整个项目新建一个目录 bashclone
 
@@ -32,7 +32,7 @@
 * make test
   - 单独测试每个命令
 
-* ./mybash 执行程序
+### ./bashclone 执行程序
         
 	limingth@gmail ~/Github/NCCL.codes/Lesson-32$ ./bashclone 
 	demo argc & argv 
