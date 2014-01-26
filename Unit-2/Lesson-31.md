@@ -41,6 +41,9 @@
 		     u_long   st_gen;    /* file generation number */
 		 };
 
+* [stat() example](http://www.minek.com/files/unix_examples/statfile.html)
+* [Time Functions Example](http://www.gnu.org/software/libc/manual/html_node/Time-Functions-Example.html)
+
 #### 常用 API
 
 * 重要数据结构 /usr/include/time.h
@@ -62,15 +65,15 @@
 * 时间函数
 
 		time(); 取得目前的时间
-
-		asctime(); 将时间和日期以字符串格式表示
-		clock(); 确定处理器时间
 		ctime(); 把日期和时间转换为字符串
+		localtime(); 取得当地目前时间和日期
+		strftime(); 将时间格式化
+		asctime(); 将时间和日期以字符串格式表示
+
+		clock(); 确定处理器时间
 		difftime(); 计算两个时刻之间的时间差
 		gmtime(); 把日期和时间转换为(GMT)时间
-		localtime(); 取得当地目前时间和日期
 		mktime(); 将时间结构数据转换成经过的秒数
-		strftime(); 将时间格式化
 
 
 
