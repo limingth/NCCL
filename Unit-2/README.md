@@ -36,6 +36,7 @@ NCCL - New Concept C Language
 #### 参考教材
 * [C Programming Language Edition 2](http://ishare.iask.sina.com.cn/download/explain.php?fileid=2302709)
 * [Standard C 语言标准函数库速查](http://ganquan.info/standard-c/)
+* [The C Standard Library Reference](http://www.tutorialspoint.com/c_standard_library/)
 * [The C Library Reference Guide](http://www.acm.uiuc.edu/webmonkeys/book/c_guide/)
 * [Ext2文件系统](http://learn.akae.cn/media/ch29s02.html)
 
@@ -47,13 +48,13 @@ NCCL - New Concept C Language
 * Lesson 35 - 后缀表达式求值问题
   - [栈](Lesson-35.md)
 * Lesson 36 - 舞伴问题
-  - 队列
+  - [队列](Lesson-36.md)
 * Lesson 37 - Parse Tree 语法分析树
   - [树](Lesson-37.md)
 * Lesson 38 - 表达式求值
   - [二叉树](Lesson-38.md)
 * Lesson 39 - 构造符号表
-  - 散列表 
+  - [散列表](Lesson-39.md) 
 
 #### 项目选题
 * Lesson 40 - MyDictionary项目
