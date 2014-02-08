@@ -44,7 +44,7 @@ NCCL - New Concept C Language
 * Lesson 33 - Array 动态数组实现
   - [单向链表](Lesson-33.md)
 * Lesson 34 - Josephus Ring 约瑟夫环问题
-  - [循环链表](Lesson-34.md)
+  - [环形链表](Lesson-34.md)
 * Lesson 35 - 后缀表达式求值问题
   - [栈](Lesson-35.md)
 * Lesson 36 - 舞伴问题
