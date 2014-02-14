@@ -17,23 +17,68 @@
 * a.index("b") -> array_index()
 * a.reverse!  -> array_reverse()
 
+### Ruby Array 学习实践
+登录下面的Ruby在线编程网站 <http://www.compileonline.com/execute_ruby_online.php>
+
+#### 输入代码
+
+	#!/usr/local/bin/ruby -w
+
+	puts "Hello World!";
+
+	samples = ['a', 'c', 'd'];
+	puts samples.first 
+	puts samples.last
+	puts samples.length
+
+	samples.insert(1, 'b')
+	print samples
+	puts
+
+	samples.insert(5, 'f')
+	print samples
+	puts
+
+	puts samples.index('f')
+
+	puts samples.at(3)
+
+	samples.delete_at(3)
+	print samples
+
+#### 观察结果
+
+	Executing the program....
+	$ruby main.rb
+	Hello World!
+	a
+	d
+	3
+	["a", "b", "c", "d"]
+	["a", "b", "c", "d", nil, "f"]
+	5
+	d
+	["a", "b", "c", nil, "f"]
+
 ### API 设计
 
 	struct node;
 	typedef struct node * link;
+	typedef link Array;
+	typedef link Item;
 
-	link array_new(void);			// return the link list head
-	link array_first(link head);	// get the first node of link list
-	link array_last(link head);		// get the last node of link list
-	int array_length(link head);	// count the size of link list elements
-	void array_insert(int index, link head);	// Inserts the given values before the element with the given index. -1 is the last element.
-	void array_delete_at(int index, link head);	// Deletes the element at the specified index, returning that element, or nil if the index is out of range.
-	void array_clear(link head); 	// Removes all elements from link head.
+	Array array_new(void);		// return the Array name 
+	Item array_first(Array name);	// get the first Item of Array 
+	Item array_last(Array name);	// get the last Item of Array
+	int array_length(Array name);	// count the size of Array elements
+	void array_insert(Array name, int index, char data);	// Inserts the given values before the element with the given index. -1 is the last element.
+	void array_delete_at(int index, Array name);	// Deletes the element at the specified index, returning that element, or nil if the index is out of range.
+	void array_clear(Array name); 	// Removes all elements from Array name.
 	int array_index(char data);	// Returns the index of the first object in ary such that the object is == to obj.
-	link array_reverse(link head);	// Returns a new array containing self‘s elements in reverse order.	
+	Array array_reverse(Array name);	// Returns a new array containing self‘s elements in reverse order.	
 
-	link array_sort(link head, int (*compar)(link n1, link n2));	// Sort the array by function pointed to compar
-
+	Array array_sort(Array name, int (*compar)(Item n1, Item n2));	// Sort the array by function pointed to compar
 
 ### 重要知识点
 * 链表的生成，插入，删除，查找，逆序等操作
+* 链表的冒泡排序
