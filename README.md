@@ -16,18 +16,18 @@
 全书内容大纲如下：
 
 * [Unit 1 ： C Foundmentals](https://github.com/limingth/NCCL/blob/master/Unit-1/README.md)  
-覆盖基本C语法结构--变量，表达式，语句，函数，数组，结构体，位操作，指针等，学会使用递归和状态机思想编程。
+覆盖基本的C语法结构--包括变量，表达式，语句，函数，数组，结构体，位操作，指针等，学会使用状态机思想编程。
 
 * [Unit 2 ： C Essentials](https://github.com/limingth/NCCL/blob/master/Unit-2/README.md)  
-覆盖常用算法和数据结构--链表，队列，栈，二叉树，排序查找，压缩算法，库函数等
+覆盖常用的库函数、数据结构和算法--包括单向/循环链表，栈，队列，二叉树，堆和散列表等，掌握常用的排序查找算法和问题求解算法，学会使用递归思想编程，能够解决迷宫问题、表达式求值问题、最短路径问题等。
 
 * Unit 3 ： C Classicals  
-覆盖经典计算机问题的解法--汉诺塔，迷宫，八皇后，表达式求值等
+覆盖经典的计算机问题解法--包括在各个计算机细分领域中经典的入门问题，例如压缩算法，网络协议栈，语法分析器等。
 
 * Unit 4 ： C Compiler  
 用C语言实现一个类C语言的编译器，最后能够编译生成 ARM 开发板上的二进制驱动程序。
 
-(作者注: 目前仅完成 Unit 1 部分，希望能够有更多优秀的老师参与编写，请和我联系。)
+(作者注: 目前 Unit 3/4 仍在规划中，希望能够有更多优秀的老师参与编写，请和我联系。)
 
 ## [Unit One](https://github.com/limingth/NCCL/blob/master/Unit-1/README.md)  
 * Lesson 1    What is a simplest C program? 最简单的C程序

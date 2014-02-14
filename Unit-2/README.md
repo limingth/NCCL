@@ -41,18 +41,18 @@ NCCL - New Concept C Language
 * [Ext2文件系统](http://learn.akae.cn/media/ch29s02.html)
 
 ### Section 2 常用数据结构
-* Lesson 33 - Array 动态数组实现
+* Lesson 33 - 动态数组实现
   - [单向链表](Lesson-33.md)
-* Lesson 34 - Josephus Ring 约瑟夫环问题
-  - [环形链表](Lesson-34.md)
+* Lesson 34 - 约瑟夫环问题
+  - [循环链表](Lesson-34.md)
 * Lesson 35 - 后缀表达式求值问题
   - [栈](Lesson-35.md)
-* Lesson 36 - 舞伴问题
+* Lesson 36 - 广度优先解决迷宫问题
   - [队列](Lesson-36.md)
-* Lesson 37 - Parse Tree 语法分析树
-  - [树](Lesson-37.md)
-* Lesson 38 - 表达式求值
+* Lesson 37 - 排序二叉树
   - [二叉树](Lesson-38.md)
+* Lesson 38 - 堆排序问题
+  - [堆](Lesson-37.md)
 * Lesson 39 - 构造符号表
   - [散列表](Lesson-39.md) 
 
