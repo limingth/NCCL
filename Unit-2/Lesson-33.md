@@ -45,6 +45,23 @@
 
 	samples.delete_at(3)
 	print samples
+	puts
+
+	samples.delete_at(3)
+	print samples
+	puts
+
+	samples.reverse!
+	print samples
+	puts
+
+	samples.sort!
+	print samples
+	puts
+
+	samples.clear
+	print samples
+	puts
 
 #### 观察结果
 
@@ -59,6 +76,10 @@
 	5
 	d
 	["a", "b", "c", nil, "f"]
+	["a", "b", "c", "f"]
+	["f", "c", "b", "a"]
+	["a", "b", "c", "f"]
+	[]
 
 ### API 设计
 
