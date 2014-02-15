@@ -45,7 +45,7 @@ NCCL - New Concept C Language
   - [单向链表](Lesson-33.md)
 * Lesson 34 - 约瑟夫环问题
   - [循环链表](Lesson-34.md)
-* Lesson 35 - 后缀表达式求值问题
+* Lesson 35 - 表达式求值问题
   - [栈](Lesson-35.md)
 * Lesson 36 - 广度优先解决迷宫问题
   - [队列](Lesson-36.md)

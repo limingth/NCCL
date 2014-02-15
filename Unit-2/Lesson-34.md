@@ -1,8 +1,8 @@
 
-## Lesson 34 - Josephus Ring 约瑟夫环问题
+## Lesson 34 - 约瑟夫环问题
 
 ### 课程任务
-通过循环链表 circular list 这种特殊的数据结构（简称 clist），实现 Lesson 10 要求的约瑟夫环问题。
+通过循环链表 circular list 这种特殊的数据结构（简称 clist），实现 Lesson 10 要求的约瑟夫环(Josephus Ring)问题。
 
 ### 重要知识点
 * 循环链表的生成，插入，删除等操作

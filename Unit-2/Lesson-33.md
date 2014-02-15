@@ -1,10 +1,10 @@
 
-
-## Lesson 33 - Array 动态数组实现
+## Lesson 33 - 动态数组实现
 
 ### 课程任务
-模拟高级语言中动态数组的特性，例如 [Ruby Array](http://ruby-doc.org/core-2.0/Array.html)，用链表实现动态数组所需要的相关接口。
+模拟高级语言中动态数组 Array 的特性，例如 [Ruby Array](http://ruby-doc.org/core-2.0/Array.html)，用链表实现动态数组所需要的相关接口。
 
+### 提高要求
 使用以上实现的动态数组接口，模拟 qsort 函数通过函数指针 compar 作为传入参数，完成动态数组的冒泡插入排序。
 
 * Array.new -> array_new()
