@@ -1,4 +1,3 @@
-
 ## Lesson 35 - 表达式求值问题
 
 ### 课程任务
@@ -36,5 +35,6 @@
 * 后缀表示法
 
 ### 参考资料
+* 栈的数据结构表示 <http://learn.akae.cn/media/ch12s02.html>
 * 后缀表达式总结 <http://blog.csdn.net/xiazdong/article/details/7272693>
 * 前缀，中缀，后缀表达式学习笔记(1) <http://www.cnblogs.com/MichaelYin/archive/2012/05/02/2479248.html>
