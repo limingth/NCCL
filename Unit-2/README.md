@@ -49,7 +49,7 @@ NCCL - New Concept C Language
   - [栈](Lesson-35.md)
 * Lesson 36 - 广度优先解决迷宫问题
   - [队列](Lesson-36.md)
-* Lesson 37 - 排序二叉树
+* Lesson 37 - 词频统计器
   - [二叉树](Lesson-38.md)
 * Lesson 38 - 堆排序问题
   - [堆](Lesson-37.md)
@@ -58,7 +58,7 @@ NCCL - New Concept C Language
 
 #### 项目选题
 * Lesson 40 - MyDictionary项目
-  - 查字典程序
+  - [查字典程序](Lesson-40.md)
 
 ### Section 3 常用基本算法
 * Lesson 41 - BSearch 实现
