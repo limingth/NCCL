@@ -41,5 +41,3 @@
 			int (*compar)(const void *, const void *));
 
 ### 参考资料
-* 把二分查找算法写正确需要注意的地方 <http://www.cppblog.com/converse/archive/2014/01/28/96893.html>
-* 
