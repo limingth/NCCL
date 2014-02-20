@@ -17,11 +17,13 @@
 
 	该词有两个解释，一个是“a. 阿比西尼亚的”；另一个是“n. 阿比西尼亚人;依索比亚人”。
 
+* 词库文件下载 [dict.txt](https://dl.dropboxusercontent.com/u/63667688/dict.txt)
 
 项目要求
 ========
 
-# 1. 单词查询
+### 1. 单词查询
+
 	要求编写程序将词库文件读取到内存中，接受用户输入的单词，在字典中查找单词，并且将解释输出到屏幕上。
 	用户可以反复输入，直到用户输入“exit”字典程序退出。
 
@@ -33,14 +35,14 @@
 		
 *用户输入单词的前n个字母，可以作为模糊查询，提示用户匹配的单词。*
 
-# 2. 支持用户自添加新词/删除单词
+### 2. 支持用户自添加新词/删除单词
 	用户添加的新词存放在指定文件中。如果待查单词在词库中找不到，则使用用户提供的词库。用户的词库使用文本形式保存，便于用户修改。
 
 	程序执行格式如下所示。
 	./mydict --add/del -f mydict.txt
 	--add/del 表示进入删除或者添加模式，-f为固定参数，用来指定用户词库文件名.
 
-# 3. 查询单词的词频统计
+### 3. 查询单词的词频统计
 	用户查询过程中，记录查询单词和查询次数，便于用户进行单词词频的统计。
 
 	程序执行格式如下所示。
@@ -48,27 +50,29 @@
 
 	按照查询次数从多到少依次列出用户曾经查询过的单词和查询次数。
 	
-*可以在此基础上，实现一个简单的生词记忆程序，帮助用户背记经常查询的生词*
+* 可以在此基础上，实现一个简单的生词记忆程序，帮助用户背记经常查询的生词*
 
-# 4. 网页翻译
+### 4. 网页翻译
 	用户指定一个web页面的链接，程序对网页上面的正文内容进行翻译，并输出到一个文本文件中。
 
 	程序执行格式如下所示。
 	./mydict --translate http://www.google.com.hk/intl/en/about/
 	./mydict --translate http://www.kernel.org -o result.html
 
+
 技术参考
 ========
-	ncurses 库 - 实现 Linux 终端上的图形界面编程
-		参考资料： google  "NCURSES Programming HOWTO中文版"
-		安装： sudo apt-get install ncurses-dev
-		使用： gcc your_program.c -lncurses
+
+###	ncurses 库 - 实现 Linux 终端上的图形界面编程
+	参考资料： google  "NCURSES Programming HOWTO中文版"
+	安装： sudo apt-get install ncurses-dev
+	使用： gcc your_program.c -lncurses
 		
-	wget 命令 - 网页抓取工具
-		参考资料： man wget
+###	wget 命令 - 网页抓取工具
+	参考资料： man wget
 		
-	system 调用 - 实现C程序中调用 shell 命令
-		参考资料： man system
+###	system 调用 - 实现C程序中调用 shell 命令
+	参考资料： man system
 		
 考察知识点
 ==========	
