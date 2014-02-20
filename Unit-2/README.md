@@ -62,21 +62,21 @@ NCCL - New Concept C Language
 
 ### Section 3 常用基本算法
 * Lesson 41 - BSearch 实现
-  - 二分查找法
+  - [二分查找法](Lesson-41.md)
 * Lesson 42 - QSort 实现
-  - 快速排序法
+  - [快速排序法](Lesson-42.md)
 * Lesson 43 - 深度优先解决迷宫问题
-  - 回溯法
-* Lesson 44 - 
-  - 字符串匹配KMP算法
+  - [回溯法](Lesson-43.md)
+* Lesson 44 - KMP 算法实现
+  - [字符串匹配KMP算法](Lesson-44.md)
 * Lesson 45 - 
-  - 动态规划算法
+  - [动态规划算法](Lesson-45.md)
 * Lesson 46 - 
-  - 最短路径算法
+  - [最短路径算法](Lesson-46.md)
 * Lesson 47 - 
-  - 霍夫曼编码算法
+  - [霍夫曼编码算法](Lesson-47.md)
 
 #### 项目选题
 * Lesson 48 - 
-  - 地图导航算法
+  - [地图导航算法](Lesson-48.md)
 

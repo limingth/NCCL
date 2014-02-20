@@ -14,5 +14,5 @@
 * 散列表 <http://zh.wikipedia.org/wiki/哈希表>
 * 散列表（哈希表）工作原理 <http://blog.csdn.net/ilibaba/article/details/3960142>
 * 散列表(Hash Table)全解析 <http://blog.csdn.net/linj_m/article/details/15503241>
-* 语法制导翻译 <web.xidian.edu.cn/ctian/files/20130527_041137.ppt‎>
-* 《数据抽象和问题求解：C++语言描述》<http://books.google.com.hk/books?id=LniK4hrQagUC&pg=PP13&lpg=PP13&dq=%E6%95%B0%E6%8D%AE%E6%8A%BD%E8%B1%A1%E5%92%8C%E9%97%AE%E9%A2%98%E6%B1%82%E8%A7%A3&source=bl&ots=N1Mx3DwnL0&sig=4C-zNvCjDmvsFQ6dnZ0iRZb5B94&hl=zh-CN&sa=X&ei=MkIFU-KvAoeiigev24CwDw&ved=0CGYQ6AEwCA#v=onepage&q=%E6%95%B0%E6%8D%AE%E6%8A%BD%E8%B1%A1%E5%92%8C%E9%97%AE%E9%A2%98%E6%B1%82%E8%A7%A3&f=false>
+* 语法制导翻译 <http://web.xidian.edu.cn/ctian/files/20130527_041137.ppt>
+* [《数据抽象和问题求解：C++语言描述》](http://books.google.com.hk/books?id=LniK4hrQagUC&pg=PP13&lpg=PP13&dq=%E6%95%B0%E6%8D%AE%E6%8A%BD%E8%B1%A1%E5%92%8C%E9%97%AE%E9%A2%98%E6%B1%82%E8%A7%A3&source=bl&ots=N1Mx3DwnL0&sig=4C-zNvCjDmvsFQ6dnZ0iRZb5B94&hl=zh-CN&sa=X&ei=MkIFU-KvAoeiigev24CwDw&ved=0CGYQ6AEwCA#v=onepage&q=%E6%95%B0%E6%8D%AE%E6%8A%BD%E8%B1%A1%E5%92%8C%E9%97%AE%E9%A2%98%E6%B1%82%E8%A7%A3&f=false)
