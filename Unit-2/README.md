@@ -65,7 +65,7 @@ NCCL - New Concept C Language
   - 二分查找法
 * Lesson 42 - QSort 实现
   - 快速排序法
-* Lesson 43 - 迷宫问题
+* Lesson 43 - 深度优先解决迷宫问题
   - 回溯法
 * Lesson 44 - 
   - 字符串匹配KMP算法
