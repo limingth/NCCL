@@ -50,9 +50,9 @@ NCCL - New Concept C Language
 * Lesson 36 - 广度优先解决迷宫问题
   - [队列](Lesson-36.md)
 * Lesson 37 - 词频统计器
-  - [二叉树](Lesson-38.md)
+  - [二叉树](Lesson-37.md)
 * Lesson 38 - 堆排序问题
-  - [堆](Lesson-37.md)
+  - [堆](Lesson-38.md)
 * Lesson 39 - 构造符号表
   - [散列表](Lesson-39.md) 
 
