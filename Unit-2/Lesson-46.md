@@ -1,6 +1,7 @@
 
 ## Lesson 46 - Dijkstra 算法
 
+### 课程任务
 对下面的有向图，求出从A出发到任一其他点的最短路径。
 
 ![vector-graph](../images/vector-graph.jpg)
