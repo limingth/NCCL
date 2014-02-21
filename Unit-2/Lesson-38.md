@@ -15,20 +15,20 @@
 ![heap-array](../images/heap-array.png)
 
 #### 堆排序算法
-* 数组的起始状态（随机排列）
+* 数组的起始状态（随机排列）  
 ![heap-random](../images/heap-random.png)
 
-* 最大堆调整（Max_Heapify），将堆的末端子节点作调整，使得子节点永远小于父节点
+* 最大堆调整（Max_Heapify），将堆的末端子节点作调整，使得子节点永远小于父节点  
 ![heap-0-max-heapify](../images/heap-0-max-heapify.png)
 
-* 建立最大堆树（Build_Max_Heap）：将堆所有数据重新排序
+* 建立最大堆树（Build_Max_Heap）：将堆所有数据重新排序  
 ![heap-1-build-max](../images/heap-1-build-max.png)
 
-* 交换根节点（最大值）和数组最后那个位置的元素，然后对 size-1 重新进行“建立最大堆树”
+* 交换根节点（最大值）和数组最后那个位置的元素，然后对 size-1 重新进行“建立最大堆树”  
 ![heap-2-swap-max-to-last](../images/heap-2-swap-max-to-last.png)
 ![heap-3-swap-max-to-next](../images/heap-3-swap-max-to-next.png)
 
-* 重复以上动作，直到堆中只有一个节点
+* 重复以上动作，直到堆中只有一个节点  
 ![heap-4-swap-to-first](../images/heap-4-swap-to-first.png)
 
 
