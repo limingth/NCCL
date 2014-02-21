@@ -28,7 +28,7 @@ NCCL - New Concept C Language
   - [时间日期](Lesson-31.md)
 
 #### 项目选题
-* Lesson 32 - Bash Clone (Bash项目)
+* Lesson 32 - MyBash 项目
   - [Bash命令解释器](Lesson-32.md)  
   - Bash 基本功能，文件查看功能
   - mycp，file，sed, math, more, sort，ll命令
@@ -57,7 +57,7 @@ NCCL - New Concept C Language
   - [散列表](Lesson-39.md) 
 
 #### 项目选题
-* Lesson 40 - MyDictionary项目
+* Lesson 40 - MyDictionary 项目
   - [查字典程序](Lesson-40.md)
 
 ### Section 3 常用基本算法
@@ -73,10 +73,10 @@ NCCL - New Concept C Language
   - [动态规划算法](Lesson-45.md)
 * Lesson 46 - Dijkstra 算法
   - [最短路径算法](Lesson-46.md)
-* Lesson 47 - 
+* Lesson 47 - Huffman Coding 算法
   - [霍夫曼编码算法](Lesson-47.md)
 
 #### 项目选题
-* Lesson 48 - 
-  - [地图导航算法](Lesson-48.md)
+* Lesson 48 - MyGPS 项目
+  - [地图导航项目](Lesson-48.md)
 
