@@ -64,7 +64,7 @@ NCCL - New Concept C Language
 * Lesson 41 - BSearch 实现
   - [二分查找法](Lesson-41.md)
 * Lesson 42 - QSort 实现
-  - [快速排序法](Lesson-42.md)
+  - [分治法](Lesson-42.md)
 * Lesson 43 - 深度优先解决迷宫问题
   - [回溯法](Lesson-43.md)
 * Lesson 44 - KMP 算法实现
