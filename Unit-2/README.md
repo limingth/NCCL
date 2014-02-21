@@ -69,9 +69,9 @@ NCCL - New Concept C Language
   - [回溯法](Lesson-43.md)
 * Lesson 44 - KMP 算法实现
   - [字符串匹配KMP算法](Lesson-44.md)
-* Lesson 45 - 
+* Lesson 45 - 最长公共子序列(LCS)问题
   - [动态规划算法](Lesson-45.md)
-* Lesson 46 - 
+* Lesson 46 - Dijkstra 算法
   - [最短路径算法](Lesson-46.md)
 * Lesson 47 - 
   - [霍夫曼编码算法](Lesson-47.md)
