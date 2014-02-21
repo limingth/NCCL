@@ -32,4 +32,4 @@
 
 ### 参考资料
 * 把二分查找算法写正确需要注意的地方 <http://www.cppblog.com/converse/archive/2014/01/28/96893.html>
-* 
+* 二分查找(Binary Search)需要注意的问题，以及在数据库内核中的实现 <http://hedengcheng.com/?p=595>
