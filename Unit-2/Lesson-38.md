@@ -23,9 +23,9 @@
 * **单一末端子节点的最大堆调整（Max_Heapify）**   
 ![heap-0-max-heapify](../images/heap-0-max-heapify.png)
 
-将堆的任一子节点A作调整，使得以A为根节点的树，所有子节点永远小于父节点。（需要用到递归，较小的子节点会逐级下降） 
+如下图所示，将堆的任一子节点 A（4）作调整，使得以A为根节点的树，所有子节点永远小于父节点。这个调整需要用到递归，较小的子节点会（4）逐级下降。
 
-__算法需要确保在对 A 做调整时，A的左子树和右子树都分别已经是最大堆了。这是由子节点做调整的先后顺序决定的。__
+*算法需要确保在对 A（4） 做调整时，A 的左子树 14 和右子树 7 都分别已经是最大堆了。这是由子节点做调整的先后顺序决定的。*
 
 ![heap-max-heapify](../images/heap-max-heapify.png)
 
@@ -38,7 +38,7 @@ __算法需要确保在对 A 做调整时，A的左子树和右子树都分别�
 ![heap-2-swap-max-to-last](../images/heap-2-swap-max-to-last.png)
 ![heap-3-swap-max-to-next](../images/heap-3-swap-max-to-next.png)
 
-* 重复以上动作，直到堆中只有一个节点，算法结束 
+* 重复以上动作，直到堆中只有一个节点，算法结束  
 ![heap-4-swap-to-first](../images/heap-4-swap-to-first.png)
 
 
