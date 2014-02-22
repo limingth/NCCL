@@ -20,10 +20,12 @@
 * 数组的起始状态（随机排列）  
 ![heap-random](../images/heap-random.png)
 
-* **单一末端子节点的最大堆调整（Max_Heapify）**，将堆的某个**末端子节点**作调整，使得子节点永远小于父节点（需要用到递归，逐级向上）
+* **单一末端子节点的最大堆调整（Max_Heapify）**
+	- 将堆的某个**末端子节点**作调整，使得子节点永远小于父节点。（需要用到递归，逐级向上）  
 ![heap-0-max-heapify](../images/heap-0-max-heapify.png)
 
-* 建立最大堆树（Build_Max_Heap）：将堆所有子节点数据进行最大堆调整（Max_Heapify），重新排序后建立最大堆树。（这样根节点就是最大值）  
+* **建立最大堆树（Build_Max_Heap）**
+	- 将堆所有子节点数据进行最大堆调整（Max_Heapify），重新排序后建立最大堆树。（这样根节点就是最大值）   
 ![heap-1-build-max](../images/heap-1-build-max.png)
 
 * 交换根节点（最大值）和数组最后那个位置的元素，然后对 size-1 的树重新进行“建立最大堆树”  
