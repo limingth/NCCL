@@ -56,30 +56,31 @@
 * Lesson 24    Build a simple Search Engenine 简单搜索引擎
 
 ## Unit Two
-* Lesson 25    正在规划中
-* Lesson 26
-* Lesson 27
-* Lesson 28
-* Lesson 29 
-* Lesson 30 
-* Lesson 31 
-* Lesson 32 
-* Lesson 33 
-* Lesson 34 
-* Lesson 35 
-* Lesson 36 
-* Lesson 37 
-* Lesson 38 
-* Lesson 39 
-* Lesson 40 
-* Lesson 41 
-* Lesson 42 
-* Lesson 43 
-* Lesson 44 
-* Lesson 45 
-* Lesson 46 
-* Lesson 47 
-* Lesson 48 
+* Lesson 25 - mycp (cp命令实现)
+* Lesson 26 - ELF Header Parser (ELF文件头分析器实现)
+* Lesson 27 - sed simple (简单流处理器实现和正则表达式)
+* Lesson 28 - math calculator (数学计算器实现)
+* Lesson 29 - more command (more命令实现)
+* Lesson 30 - sort (sort命令实现)
+* Lesson 31 - ll (ls -l命令实现)
+* Lesson 32 - MyBash 项目
+* Lesson 33 - 动态数组实现
+* Lesson 34 - 约瑟夫环问题
+* Lesson 35 - 表达式求值问题
+* Lesson 36 - 广度优先解决迷宫问题
+* Lesson 37 - 词频统计器
+* Lesson 38 - 堆排序问题
+* Lesson 39 - 构造符号表
+* Lesson 40 - MyDictionary 项目
+* Lesson 41 - BSearch 实现
+* Lesson 42 - QSort 实现
+* Lesson 43 - 深度优先解决迷宫问题
+* Lesson 44 - KMP 算法实现
+* Lesson 45 - 最长公共子序列(LCS)问题
+* Lesson 46 - Dijkstra 算法
+* Lesson 47 - Huffman Coding 算法
+* Lesson 48 - MyGPS 项目
+
 
 ## Unit Three
 * Lesson 49   

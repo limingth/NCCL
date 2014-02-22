@@ -1,13 +1,15 @@
 NCCL - New Concept C Language
 =============================
 
-* Unit 1 的全部免费视频课程共 42 集已经可以下载，请点击下面的链接进入学习
-    - 新概念 C 语言 Unit 1 [课程链接](https://github.com/limingth/NCCL/blob/master/Unit-1/README.md)  [代码链接](https://github.com/limingth/NCCL.codes)
+Unit 1 的全部免费视频课程共 42 集已经可以下载，请点击下面的链接进入学习
+
+新概念 C 语言 Unit 1 [课程链接](https://github.com/limingth/NCCL/blob/master/Unit-1/README.md)  [代码链接](https://github.com/limingth/NCCL.codes)
 
 ## Unit 2 课程规划 
 
-* 本阶段学习没有视频课程，只接受基于互联网的一对一在线辅导编程。
-  - 如需要学习，请联系 QQ：2372614758 （亚嵌李明老师）或者申请加入QQ群 279027455
+本阶段学习没有视频课程，只接受基于互联网的一对一在线辅导编程。
+
+如需要学习，请联系 QQ：2372614758 （亚嵌李明老师）或者申请加入QQ群 279027455
 
 ### Section 1 库函数
 基本概念介绍：[C标准函数库](http://zh.wikipedia.org/zh-cn/C%E6%A8%99%E6%BA%96%E5%87%BD%E5%BC%8F%E5%BA%AB) 
@@ -34,11 +36,11 @@ NCCL - New Concept C Language
   - mycp，file，sed, math, more, sort，ll命令
 
 #### 参考教材
-* [C Programming Language Edition 2](http://ishare.iask.sina.com.cn/download/explain.php?fileid=2302709)
-* [Standard C 语言标准函数库速查](http://ganquan.info/standard-c/)
-* [The C Standard Library Reference](http://www.tutorialspoint.com/c_standard_library/)
-* [The C Library Reference Guide](http://www.acm.uiuc.edu/webmonkeys/book/c_guide/)
-* [Ext2文件系统](http://learn.akae.cn/media/ch29s02.html)
+[C Programming Language Edition 2](http://ishare.iask.sina.com.cn/download/explain.php?fileid=2302709)  
+[Standard C 语言标准函数库速查](http://ganquan.info/standard-c/)  
+[The C Standard Library Reference](http://www.tutorialspoint.com/c_standard_library/)  
+[The C Library Reference Guide](http://www.acm.uiuc.edu/webmonkeys/book/c_guide/)  
+[Ext2文件系统](http://learn.akae.cn/media/ch29s02.html)  
 
 ### Section 2 常用数据结构
 * Lesson 33 - 动态数组实现
