@@ -33,7 +33,7 @@
 * 如果希望能够在 Windows 上使用 Gcc 开发工具，可以安装 MinGW，参考安装流程
 	- http://blog.csdn.net/firefoxbug/article/details/6724876
 
-* 如果需要安装 VC6.0 ，可以到这里下载 <http://see.xidian.edu.cn/>
+* 如果需要安装 VC6.0 ，可以到这里下载 <http://see.xidian.edu.cn/cpp/html/1117.html>
 
 * nitrous 浏览器登录界面如下
 
