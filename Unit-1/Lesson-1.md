@@ -151,6 +151,7 @@
 * C语言
 	* C语言 [http://zh.wikipedia.org/wiki/C语言](http://zh.wikipedia.org/wiki/C语言)
 	* C语言之父 Dennis Ritchie [http://zh.wikipedia.org/wiki/丹尼斯·里奇](http://zh.wikipedia.org/wiki/丹尼斯·里奇)
+	* [The Development of the C Language](http://cm.bell-labs.com/who/dmr/chist.html)
 	* C语言 BNF 范式 <http://www.cs.man.ac.uk/~pjj/bnf/c_syntax.bnf>	
 
 ### 参考资料
