@@ -2,9 +2,12 @@
 =============================
 
 ### 《新概念C语言》Unit 1 视频学习课件
-* 全套42集免费视频课程已经发布，详见播布客网站 <http://www.boobooke.com/video.html>
-	- 客户端视频[播放器下载](http://www.boobooke.com/download/MBoo2014.zip)
-	- 范例C程序[代码下载](https://github.com/limingth/NCCL.codes)
+* 全套42集免费视频课程已经发布，通过百度云盘可以下载，也可以在线观看视频（手机安装百度云也可以在线观看）。
+	- 视频下载地址 <http://pan.baidu.com/s/1jGjxusA>
+	- 视频中所有用到的范例C程序[代码下载](https://github.com/limingth/NCCL.codes)
+	
+* 推荐使用播布客网站视频播放器本地观看视频，更清晰更流畅。 <http://www.boobooke.com/video.html>
+	- 播布客[视频播放器下载](http://www.boobooke.com/download/MBoo2014.zip)
 	
 * 《新概念C语言课程概述》(第0集) 在线观看 <http://www.boobooke.com/v/bbk5910/>
 
