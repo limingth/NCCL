@@ -20,9 +20,10 @@
 	- 报名学习请咨询 QQ: 2372614758 （亚嵌李明老师）
 
 * 提前安装学习环境
-	- [Google Chrome 浏览器](http://www.google.com/intl/zh-CN/chrome/)
-	- [Google Hangout 环聊](https://www.google.com/tools/dlpage/hangoutplugin?)
+	- [下载安装 Google Chrome 浏览器](http://www.google.com/intl/zh-CN/chrome/)
 	- [注册 Gmail 帐号](https://accounts.google.com/SignUp?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ltmpl=default&hl=zh-CN)
+	- [美国地区的学员请安装 Google Hangout 环聊](https://www.google.com/tools/dlpage/hangoutplugin?)
+	- [国内地区不能翻墙的学员请下载注册 Skype 帐号](http://www.skype.com/zh-Hans/download-skype/skype-for-computer/)
 
 
 ### 开发环境选择
