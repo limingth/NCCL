@@ -12,6 +12,7 @@
 * 《新概念C语言课程概述》(第0集) 在线观看 <http://www.boobooke.com/v/bbk5910/>
 
 * 《C程序设计语言（第2版-新版）》多贝网络公开课在线观看 <http://www.duobei.com/course/5334465437>
+	- 参考用书《K&R》[下载链接](https://www.dropbox.com/s/qer3va6rtq8o1dj/C%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E8%AF%AD%E8%A8%80%EF%BC%88%E7%AC%AC2%E7%89%88%C2%B7%E6%96%B0%E7%89%88%EF%BC%89.pdf)
 
 ### 一对一远程视频辅导
 * 新概念C语言 Unit 1 和 [Unit 2](../Unit-2/README.md) 开始提供一对一编程辅导课程，学习时间2-3个月。
