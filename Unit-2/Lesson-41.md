@@ -1,8 +1,7 @@
-
 ## Lesson 41 - BSearch 实现
 
 ### 课程任务
-在 [《C程序设计语言》](https://www.dropbox.com/s/qer3va6rtq8o1dj/C%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E8%AF%AD%E8%A8%80%EF%BC%88%E7%AC%AC2%E7%89%88%C2%B7%E6%96%B0%E7%89%88%EF%BC%89.pdf)书中，介绍了一个折半查找函数 binsearch()，如下所示：
+在 [《C程序设计语言》](https://www.dropbox.com/s/qer3va6rtq8o1dj/C%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E8%AF%AD%E8%A8%80%EF%BC%88%E7%AC%AC2%E7%89%88%C2%B7%E6%96%B0%E7%89%88%EF%BC%89.pdf)书第3.3小节中，介绍了一个折半查找函数 binsearch()，如下所示：
 
 	/* binsearch: find x in v[0] <= v[1] <= ... <= v[n-1] */  
 	int binsearch(int x, int v[], int n)
@@ -13,7 +12,7 @@
 	        while (low <= high) {
 	                mid = (low+high)/2; 
 	                if (x < v[mid])
-	                        high = mid + 1; 
+	                        high = mid - 1; 
 	                else if (x > v[mid])
 	                        low = mid + 1;
 	                else /* found match */
