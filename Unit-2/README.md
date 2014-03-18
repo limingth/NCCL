@@ -35,13 +35,6 @@ Unit 1 的全部免费视频课程共 42 集已经可以下载，请点击下面
   - Bash 基本功能，文件查看功能
   - mycp，file，sed, math, more, sort，ll命令
 
-#### 参考教材
-[C Programming Language Edition 2](http://ishare.iask.sina.com.cn/download/explain.php?fileid=2302709)  
-[Standard C 语言标准函数库速查](http://ganquan.info/standard-c/)  
-[The C Standard Library Reference](http://www.tutorialspoint.com/c_standard_library/)  
-[The C Library Reference Guide](http://www.acm.uiuc.edu/webmonkeys/book/c_guide/)  
-[Ext2文件系统](http://learn.akae.cn/media/ch29s02.html)  
-
 ### Section 2 常用数据结构
 * Lesson 33 - 动态数组实现
   - [单向链表](Lesson-33.md)
@@ -81,4 +74,11 @@ Unit 1 的全部免费视频课程共 42 集已经可以下载，请点击下面
 #### 项目选题
 * Lesson 48 - MyGPS 项目
   - [地图导航项目](Lesson-48.md)
+
+### 参考教材
+- [C Programming Language Edition 2](http://ishare.iask.sina.com.cn/download/explain.php?fileid=2302709)  
+- [Standard C 语言标准函数库速查](http://ganquan.info/standard-c/)  
+- [The C Standard Library Reference](http://www.tutorialspoint.com/c_standard_library/)  
+- [The C Library Reference Guide](http://www.acm.uiuc.edu/webmonkeys/book/c_guide/)  
+- [Ext2文件系统](http://learn.akae.cn/media/ch29s02.html)  
 
