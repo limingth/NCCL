@@ -1,4 +1,4 @@
-## Lesson 1 What is a simplest C program? 最简单的C程序
+## Lesson 1 What is the simplest C program? 最简单的C程序
 ### 代码
 	int main(void)
 	{
@@ -104,7 +104,7 @@
 	
 ### 扩展
 
-	/* this is a simplest c program */
+	/* this is the simplest c program */
 
 	int global = 1;
 

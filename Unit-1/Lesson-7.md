@@ -1,4 +1,4 @@
-## Lesson 7 Find a max prime number within 100 求100以内的最大素数
+## Lesson 7 Find the max prime number within 100 求100以内的最大素数
 ### 代码
 	#include <stdio.h>
 	#include <math.h>

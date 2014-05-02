@@ -30,13 +30,13 @@
 (作者注: 目前 Unit 3/4 仍在规划中，希望能够有更多优秀的老师参与编写，请和我联系。)
 
 ## [Unit One](https://github.com/limingth/NCCL/blob/master/Unit-1/README.md)  
-* Lesson 1 - What is a simplest C program? 最简单的C程序
+* Lesson 1 - What is the simplest C program? 最简单的C程序
 * Lesson 2 - Let's say hello to world 打印输出
 * Lesson 3 - Count how many fingers do you have? 循环打印
 * Lesson 4 - Judge a number odd or even 判断奇偶
 * Lesson 5 - Summarize all numbers from 1 to 100 从1加到100求和
 * Lesson 6 - Print 9*9 multiplication table 乘法表
-* Lesson 7 - Find a max prime number within 100 求100以内的最大素数
+* Lesson 7 - Find the max prime number within 100 求100以内的最大素数
 * Lesson 8 - Find 9 in number 1 to 100 1到100有多少个9
 * Lesson 9 - Convert a number to a string 整型转字符串
 * Lesson 10 - Josephus ring 约瑟夫环

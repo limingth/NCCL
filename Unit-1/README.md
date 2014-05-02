@@ -74,7 +74,7 @@ Unit 1 是《新概念C语言》系列课程的第一部分，共有24个Lesson�
 
 # Beginning Lessons
 
-## Lesson 1 [What is a simplest C program?](Lesson-1.md) 最简单的C程序
+## Lesson 1 [What is the simplest C program?](Lesson-1.md) 最简单的C程序
 * C 语言 Language
 	- 高级语言 High-level Programming Language
 	- 汇编语言 Assembly Language
@@ -147,7 +147,7 @@ Unit 1 是《新概念C语言》系列课程的第一部分，共有24个Lesson�
 * 函数栈 Function Stack
 	- 栈帧 Stack Frame
 		
-## Lesson 7 [Find a max prime number within 100](Lesson-7.md) 求100以内的最大素数
+## Lesson 7 [Find the max prime number within 100](Lesson-7.md) 求100以内的最大素数
 * 循环中的条件分支 
 	- break 和 goto 用法	
 * 数学库函数 math library
