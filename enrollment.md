@@ -1,14 +1,14 @@
 ## 关于在线授课
 
 ### 学习内容
-《新概念C语言》[Unit 1](https://github.com/limingth/NCCL/blob/master/Unit-1/README.md) 和 [Unit 2](https://github.com/limingth/NCCL/blob/master/Unit-2/README.md)
+* 《新概念C语言》[Unit 1](https://github.com/limingth/NCCL/blob/master/Unit-1/README.md) 和 [Unit 2](https://github.com/limingth/NCCL/blob/master/Unit-2/README.md)
 
 ### 学习时间
 * 3个月，其中 Unit 1 （1个月），Unit 2（2个月）
-* 每天确保晚上投入2-3个小时，周末投入4-6个小时
+* 每天至少确保晚上投入2-3个小时，周末投入4-6个小时
 
 ### 学习方式
-* Unit 1：视频教程42集，随时预约在线答疑
+* Unit 1：视频教程42集，随时可以预约在线答疑
 * Unit 2：一对一授课，每周2次，1次理论，1次答疑
 * 全部授课在线进行，采用 Skype/QQ + 桌面共享方式
 
