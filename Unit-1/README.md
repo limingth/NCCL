@@ -3,11 +3,12 @@
 
 ### 《新概念C语言》Unit 1 视频学习课件
 * 全套42集免费视频课程已经发布，通过百度云盘可以下载，也可以在线观看视频（手机安装百度云也可以在线观看）。
-	- 视频下载地址 <http://pan.baidu.com/s/1jGjxusA>
+	- 视频下载地址 <http://c.biancheng.net/cpp/u/shipin_liming/>
 	- 视频中所有用到的范例C程序[代码下载](https://github.com/limingth/NCCL.codes)
 	
 * 推荐使用播布客网站视频播放器本地观看视频，更清晰更流畅。 <http://www.boobooke.com/video.html>
-	- 播布客[视频播放器下载](http://www.boobooke.com/download/MBoo2014.zip)
+	- 播布客[视频播放器下载](http://www.boobooke.com/download/MBoo2015.zip)
+	- [播布客视频压缩包百度云盘下载](http://pan.baidu.com/s/1sjp10dv)
 	
 * 《新概念C语言课程概述》(第0集) 在线观看 <http://www.boobooke.com/v/bbk5910/>
 
@@ -17,7 +18,7 @@
 ### 一对一远程视频辅导
 * 新概念C语言 Unit 1 和 [Unit 2](../Unit-2/README.md) 开始提供一对一编程辅导课程，学习时间2-3个月。
 	- 个性化辅导，根据个人接受程度，灵活安排上课时间
-	- 报名学习请咨询 QQ: 2372614758 （亚嵌李明老师）
+	- 报名学习请咨询 QQ: 2372614758 （毛豆网李明老师）
 
 * 提前安装学习环境
 	- [下载安装 Google Chrome 浏览器](http://www.google.com/intl/zh-CN/chrome/)
