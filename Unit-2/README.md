@@ -3,17 +3,16 @@ NCCL - New Concept C Language
 
 Unit 1 的全部免费视频课程共 42 集已经可以下载，请点击下面的链接进入学习
 
-新概念 C 语言 Unit 1 相关资源： [<课程链接>](https://github.com/limingth/NCCL/blob/master/Unit-1/README.md)  [<代码链接>](https://github.com/limingth/NCCL.codes)  [<在线观看视频链接>](http://pan.baidu.com/s/1jGjxusA) （手机上观看视频需要安装百度云盘）
+新概念 C 语言 Unit 1 相关资源： [<课程链接>](https://github.com/limingth/NCCL/blob/master/Unit-1/README.md)  [<代码链接>](https://github.com/limingth/NCCL.codes)  [<在线观看视频链接>](http://c.biancheng.net/cpp/u/shipin_liming/) （手机上观看视频需要安装百度云盘）
 
 ## Unit 2 课程规划 
 
 本阶段学习没有视频课程，只接受基于互联网的一对一在线辅导编程。
 
-如需要学习，请直接联系咨询 QQ：2372614758 （亚嵌李明老师）或者申请加入QQ群 279027455
+如需要学习，请直接联系咨询 QQ：2372614758 （毛豆网李明老师）或者申请加入QQ群 279027455
 
 ### Section 1 库函数
 基本概念介绍：[C标准函数库](http://zh.wikipedia.org/zh-cn/C%E6%A8%99%E6%BA%96%E5%87%BD%E5%BC%8F%E5%BA%AB) 
-
 * Lesson 25 - mycp (cp命令实现)
   - [文件读写](Lesson-25.md)
 * Lesson 26 - ELF Header Parser (ELF文件头分析器实现)
@@ -76,9 +75,9 @@ Unit 1 的全部免费视频课程共 42 集已经可以下载，请点击下面
   - [地图导航项目](Lesson-48.md)
 
 ### 参考教材
-- [C Programming Language Edition 2](http://ishare.iask.sina.com.cn/download/explain.php?fileid=2302709)  
+- [C Programming Language Edition 2](http://ishare.iask.sina.com.cn/download/explain.php?fileid=2302709)
 - [Standard C 语言标准函数库速查](http://ganquan.info/standard-c/)  
 - [The C Standard Library Reference](http://www.tutorialspoint.com/c_standard_library/)  
 - [The C Library Reference Guide](http://www.acm.uiuc.edu/webmonkeys/book/c_guide/)  
-- [Ext2文件系统](http://learn.akae.cn/media/ch29s02.html)  
+- [Linux C 一站式编程](http://docs.linuxtone.org/ebooks/C&CPP/c/)  
 
