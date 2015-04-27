@@ -2,13 +2,17 @@
 =============================
 
 ### 《新概念C语言》Unit 1 视频学习课件
-* 全套42集免费视频课程已经发布，通过百度云盘可以下载，也可以在线观看视频（手机安装百度云也可以在线观看）。
-	- 视频下载地址 <http://c.biancheng.net/cpp/u/shipin_liming/>
-	- 视频中所有用到的范例C程序[代码下载](https://github.com/limingth/NCCL.codes)
+* 全套42集免费视频课程已经发布在百度云
+  * 下载地址 <http://pan.baidu.com/s/1eQ7yNuE>
+  * 通过百度云盘可以下载，也可以在线观看视频（手机安装百度云也可以在线观看）
+  * 视频中所有用到的范例C程序[代码下载](https://github.com/limingth/NCCL.codes)
+
+* 《C语言中文网》也提供了视频下载链接
+    - 视频下载地址 <http://c.biancheng.net/cpp/u/shipin_liming/>
 	
-* 推荐使用播布客网站视频播放器本地观看视频，更清晰更流畅。 <http://www.boobooke.com/video.html>
-	- 播布客[视频播放器下载](http://www.boobooke.com/download/MBoo2015.zip)
-	- [播布客视频压缩包百度云盘下载](http://pan.baidu.com/s/1sjp10dv)
+* 使用播布客网站视频播放器本地观看视频，更清晰更流畅。 <http://www.boobooke.com/video.html>
+  - 播布客[视频播放器下载](http://www.boobooke.com/download/MBoo2015.zip)
+  - [播布客视频压缩包百度云盘下载](http://pan.baidu.com/s/1sjp10dv)
 	
 * 《新概念C语言课程概述》(第0集) 在线观看 <http://www.boobooke.com/v/bbk5910/>
 
