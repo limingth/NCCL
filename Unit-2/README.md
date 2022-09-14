@@ -79,5 +79,6 @@ Unit 1 的全部免费视频课程共 42 集已经可以下载，请点击下面
 - [Standard C 语言标准函数库速查](http://ganquan.info/standard-c/)  
 - [The C Standard Library Reference](http://www.tutorialspoint.com/c_standard_library/)  
 - [The C Library Reference Guide](http://www.acm.uiuc.edu/webmonkeys/book/c_guide/)  
-- [Linux C 一站式编程](http://docs.linuxtone.org/ebooks/C&CPP/c/)  
+- [Linux C 一站式编程](http://docs.linuxtone.org/ebooks/C&CPP/c/) 
+- [C语言标准库函数](https://www.scaler.com/topics/c/library-functions-in-c/)  
 
