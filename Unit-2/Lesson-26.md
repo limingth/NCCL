@@ -22,8 +22,8 @@
 		  Size of program headers:           0 (bytes)
 		  Number of program headers:         0
 		  Size of section headers:           40 (bytes)
-		  Number of section headers:         8
-		  Section header string table index: 5
+		  Number of section headers:         8(bytes)
+		  Section header string table index: 5(bytes)
 		  
 * 在完成上述功能的基础上，能够区分 .o .so .elf 这3种文件属性，实现 file 命令的部分功能。
 		
